@@ -1,0 +1,724 @@
+{
+	"info": {
+		"_postman_id": "ce6fe27f-9f8a-450f-aa96-87a032b49841",
+		"name": "Business Operation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "30190062-ce6fe27f-9f8a-450f-aa96-87a032b49841"
+	},
+	"item": [
+		{
+			"name": "Business",
+			"item": [
+				{
+					"name": "Create Appoinment",
+					"item": [
+						{
+							"name": "View Appoinment",
+							"id": "ff8aeece-3d2e-492a-96bd-dcebd74d1d22",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/epa",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"epa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Appoinment",
+							"id": "d30a85ef-278b-47fe-82f2-85e3dfb4800d",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/epa",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"epa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Appoinment",
+							"id": "ea5352d0-c0c9-4ad7-b001-9cfa9644cbe6",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/epa",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"epa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Appointments",
+							"id": "79da8cd3-c8f1-4d19-a3fc-9cfe96b22f7e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token_lamed}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"user\": \"64a8d9b6f12d3126f6a50b5c\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"14/08/2023\",\r\n    \"timeService\": \"09:28:00\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_local}}{{v_api}}/apu",
+									"host": [
+										"{{url_local}}{{v_api}}"
+									],
+									"path": [
+										"apu"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "173b4e18-8a3f-47bb-a731-57f264f1058c"
+				}
+			],
+			"id": "794e28b7-7630-417f-b436-abb9f1481c2e"
+		},
+		{
+			"name": "Collaborator",
+			"item": [
+				{
+					"name": "Appoinment",
+					"item": [
+						{
+							"name": "View Appoinment",
+							"id": "cdb41c9d-076e-4738-b56d-6ecda5c221e5",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/epa",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"epa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Appoinment",
+							"id": "d09f6d36-fc14-480b-b786-344d8e087c36",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/epa",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"epa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Appoinment",
+							"id": "5a619219-7839-4cdf-adad-fc696e674293",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/epa",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"epa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Consulta de Citas Dia Colaborador",
+							"id": "ad1a9ed0-0756-436b-a2d1-f8385278b766",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token_lamed}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"collaborator\" : \"64c499092f24c1efb51031bc\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"13/08/2023\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_local}}{{v_api}}/apu/capd",
+									"host": [
+										"{{url_local}}{{v_api}}"
+									],
+									"path": [
+										"apu",
+										"capd"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Consulta de Citas Dia X ID",
+							"id": "e113fd9a-181f-46c4-9774-4c6e96a00696",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token_lamed}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"idAppointment\": \"64d847ef4db32789651fc294\",\r\n    \"userID\": \"64a8d9b6f12d3126f6a50b5c\",\r\n    \"collaborator\" : \"64c499092f24c1efb51031bc\",\r\n    \"observationColla\": \"Prueba de Observacion del Colaborador para Finalizar el Servicio\",\r\n    \"Initialization\": false,\r\n    \"Termination\": true,\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"14/08/2023\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_local}}{{v_api}}/apu/inser",
+									"host": [
+										"{{url_local}}{{v_api}}"
+									],
+									"path": [
+										"apu",
+										"inser"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Consulta de Citas Semana Colaborador",
+							"id": "2c7cef2f-17c7-4846-9de3-2a831a6d1711",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token_lamed}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"collaborator\" : \"64c499092f24c1efb51031bc\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"12/08/2023\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_local}}{{v_api}}/apu/capm",
+									"host": [
+										"{{url_local}}{{v_api}}"
+									],
+									"path": [
+										"apu",
+										"capm"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "b56f9f7c-93eb-4696-9eef-506ae011b5ea"
+				}
+			],
+			"id": "26c77b59-947a-4741-84ca-31c7f8d02228"
+		},
+		{
+			"name": "Manager",
+			"item": [
+				{
+					"name": "Appoinment",
+					"item": [
+						{
+							"name": "Consulta de Citas Dia",
+							"id": "95828276-a702-4880-87e3-2567799a0aba",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token_lamed}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"12/08/2023\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_local}}{{v_api}}/apu/mapd",
+									"host": [
+										"{{url_local}}{{v_api}}"
+									],
+									"path": [
+										"apu",
+										"mapd"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Consulta de Citas Semana",
+							"id": "522004a6-e35e-48c1-9051-0ab27a7a8743",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token_lamed}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"12/08/2023\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_local}}{{v_api}}/apu/apm",
+									"host": [
+										"{{url_local}}{{v_api}}"
+									],
+									"path": [
+										"apu",
+										"apm"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Appointments Copy",
+							"id": "cd8a11fc-a4f8-4dad-84be-fa0b5de86ac4",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token_lamed}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"user\": \"64a8d9b6f12d3126f6a50b5c\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"14/08/2023\",\r\n    \"timeService\": \"09:28:00\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_local}}{{v_api}}/apu",
+									"host": [
+										"{{url_local}}{{v_api}}"
+									],
+									"path": [
+										"apu"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "a622bc51-cb76-4028-aa38-80e71bdb7f11"
+				},
+				{
+					"name": "Business Manager",
+					"id": "983868da-bc27-4915-b2cd-9fbbba634cf8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzE0MjhhMGQxNGM1OTM2OGRiYmUyNDMiLCJyb2xlIjoiNjJkOWE5NThjYzdjMDAxZDRhZjRiZGVlIiwiYnVzIjoxMjM0NTY3ODkyLCJpYXQiOjE2Nzc1NTczMTksImV4cCI6MTY4MDE0OTMxOX0.hlqaMRxRC7_A9a1Q77Z7-Vtje6TKSjO8gHZi151NXIA",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:3000/api/bm",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"bm"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Business Manager",
+					"id": "4d93badb-eaf7-427a-b02e-3f2ba82141ab",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"manager\" : \"62d72dd306ea6012055e403c\",\r\n    \"document\": \"52757050\",\r\n    \"role\": \"62d9a958cc7c001d4af4bdee\",\r\n    \"typeCollaborator\":[\"62d9a07d69c8bd50e68f7b96\"],\r\n    \"nit\":\"1234567892\",\r\n    \"businessName\":\"Centro de Estetica 1\",\r\n    \"business\":\"6301b4f0006c848620d63933\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/bm",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"bm"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "2d8ab866-f2bf-419e-ac6c-003421d81f19"
+		},
+		{
+			"name": "Owner",
+			"item": [
+				{
+					"name": "Create Appoinment",
+					"item": [
+						{
+							"name": "View Appoinment",
+							"id": "6bf90c87-c229-43f0-8211-e4a062c949f7",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/epa",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"epa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Appoinment",
+							"id": "061c062a-66b2-4238-bbeb-5fcf138a18cc",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/epa",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"epa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Appoinment",
+							"id": "9c52acb5-e91d-4e1c-a389-ba430967f068",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/epa",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"epa"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "04b0d641-9f11-44de-b5aa-e52b76b57278"
+				}
+			],
+			"id": "05eb961d-7746-4f7e-986d-0e106de2550f"
+		}
+	]
+}

@@ -1,0 +1,1365 @@
+{
+	"info": {
+		"_postman_id": "15436751-6d0b-457f-b095-3f7b3fc960d7",
+		"name": "Kalos Operations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "30190062-15436751-6d0b-457f-b095-3f7b3fc960d7"
+	},
+	"item": [
+		{
+			"name": "Create Business",
+			"item": [
+				{
+					"name": "View Business",
+					"id": "ecb5edb0-28e7-48bf-b01e-c45ef52b605e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/api/bus",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"bus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Business",
+					"id": "a33e49fb-74cd-4f0f-8cfc-bf9d7889c4ef",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token_lamed}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"businessName\": \"Centro LAMED\",\r\n  \"nit\": 901715265,\r\n  \"numberCell\": \"3142540356\",\r\n  \"CellDescription\": \"Recepcion\",\r\n  \"email\": \"lameddev@gmail.com\",\r\n  \"phoneNumber\": \"6017499351\",\r\n  \"phoneDescription\": \"Recepcion\",\r\n  \"coordinates\": [4.602993671063257,-74.20185032633],\r\n  \"address\": \"Calle 96 # 69 - 67\",\r\n  \"city\": \"Bogota\",\r\n  \"cityCode\": \"BOG\",\r\n  \"country\": \"Colombia\",\r\n  \"countryCode\": \"CO\",\r\n  \"state\": \"DC\",\r\n  \"services\": [\"64ab9174923ff67b725791b7\",\"64ab9448063c636a40004160\"],\r\n  \"typeServices\":[\"64ab92e0063c636a40004149\",\"64ab92f3063c636a4000414d\",\"64ab949d063c636a4000416c\"],\r\n  \"img\": \"\",\r\n  \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n  \"daysServices\": [{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    }],\r\n  \"user\": \"64a8d9b6f12d3126f6a50b5c\",\r\n  \"emailUser\": \"lameddev@gmail.com\",\r\n  \"document\": \"80139076\",\r\n  \"profile\":\"64abbcdc5190388112342e8d\",\r\n  \"typeCollaborator\":\"64afa0596e8b9ff0f19a6dde\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url_local}}{{v_api}}/bus",
+							"host": [
+								"{{url_local}}{{v_api}}"
+							],
+							"path": [
+								"bus"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "b6b9ffbb-d4b2-401a-8ab5-bac31e422360"
+		},
+		{
+			"name": "Create Appoinment",
+			"item": [
+				{
+					"name": "View Appoinment",
+					"id": "4c4ed64b-67a2-4f87-9264-8a016f8f4d39",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/epa",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"epa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Appointments",
+					"id": "071ce94c-0654-4dd0-b6f1-be6de45ed709",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user\": \"64a8d9b6f12d3126f6a50b5c\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"14/08/2023\",\r\n    \"timeService\": \"09:28:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url_local}}{{v_api}}/apu",
+							"host": [
+								"{{url_local}}{{v_api}}"
+							],
+							"path": [
+								"apu"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "20d61c12-8aba-41e6-bedc-72f00d7c3c91"
+		},
+		{
+			"name": "Service Management",
+			"item": [
+				{
+					"name": "Collaborator",
+					"item": [
+						{
+							"name": "View Appoinment",
+							"id": "bf689ee5-a6e5-4b85-ab45-cf98783df795",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"staff\": \"63142f6666fc0d4b562231cf\",\r\n    \"dateini\": \"08/01/2023\",\r\n    \"datefin\": \"07/01/2023\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/cb/vca",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"cb",
+										"vca"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "StartService",
+							"id": "f6baffa2-459c-45fa-867d-33887e5e56a8",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"staff\": \"63142f6666fc0d4b562231cf\",\r\n    \"appointment\": \"63b25a00fe1b52ce46259322\",\r\n    \"appointmentDate\": \"63b25a00fe1b52ce46259325\",\r\n    \"dateini\": \"02/01/2023\",\r\n    \"datefin\": \"07/01/2023\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/cb/ssca",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"cb",
+										"ssca"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "73f4224b-9bb9-4750-a375-ce4538178b9e"
+				}
+			],
+			"id": "c04fd8c6-22c3-4eb0-a557-1ae1929c86f2"
+		},
+		{
+			"name": "Create Services",
+			"item": [
+				{
+					"name": "View Services",
+					"id": "c53f97b4-eff4-47da-923e-440797d72309",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/tsv",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"tsv"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Services",
+					"id": "4d10cd7a-006b-4a2a-a5c3-9144bcb0d53b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NGFhNTllODlhOGExOThjYWVjNzM3NWUiLCJyb2xlIjoiTEFNRURfUk9MRSIsImlhdCI6MTY4ODk0NjUwMCwiZXhwIjoxNjkxNTM4NTAwfQ.qLDreCyj6T1q6h2LjECFynPhPcNhWm3rHn0ROY3mKSk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Spa de Uñas\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/v1/sv",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"sv"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "961880b9-2866-4564-97f8-0325140a341a"
+		},
+		{
+			"name": "Create Type Services",
+			"item": [
+				{
+					"name": "View Type Services",
+					"id": "6bde6852-22ec-40a4-81a4-e49d95835ab6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/tsv",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"tsv"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Type Services",
+					"id": "2f3a2d08-cacb-40a1-8240-8b7bfb38bad2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NGFhNTllODlhOGExOThjYWVjNzM3NWUiLCJyb2xlIjoiTEFNRURfUk9MRSIsImlhdCI6MTY4ODk0NjUwMCwiZXhwIjoxNjkxNTM4NTAwfQ.qLDreCyj6T1q6h2LjECFynPhPcNhWm3rHn0ROY3mKSk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"serviceName\": \"64ab9debd82418177a723847\",\r\n    \"typeService\": \"Uñas Crilicas\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/v1/tsv",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"tsv"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "a367f140-08d0-433b-bdf2-945055c7bee8"
+		},
+		{
+			"name": "Create Type Collaborator",
+			"item": [
+				{
+					"name": "View Type Collaborator",
+					"id": "a44135b7-3a98-41ad-9633-26327f4a5529",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/tc",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"tc"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Type Collaborator",
+					"id": "95364077-515f-4f0f-9e92-89f1f7f05412",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token_lamed}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Servicios Generales\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/v1/tc",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"tc"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "65946ae2-2a17-4c8b-ac27-76a9b88a2915"
+		},
+		{
+			"name": "Create Local Services",
+			"item": [
+				{
+					"name": "Type Services",
+					"id": "6cc75f96-a50c-4625-9afe-3f2f7dc64fae",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/tsv",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"tsv"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Type Collaborator",
+					"id": "9c846d7d-cebc-4dac-a87e-e576d73fa5c9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"serviceName\": \"62d9bafeda6218589233bd32\",\r\n    \"typeService\": \"Uñas Acrilicas\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/tsv",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"tsv"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "68e50082-9bb0-439f-9268-a2a104f28ed8"
+		},
+		{
+			"name": "Create Profile",
+			"item": [
+				{
+					"name": "View Profile",
+					"id": "20de648f-2e8a-4321-8eca-d86a3eb5fc60",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/tr",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"tr"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Profile",
+					"id": "6eec2f98-40f1-46b9-b3af-fe959d2c600c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token_lamed}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"LamedDev\",\r\n    \"code\": \"LAMED_ROLE\",\r\n    \"category\": \"5\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url_local}}{{v_api}}/pf",
+							"host": [
+								"{{url_local}}{{v_api}}"
+							],
+							"path": [
+								"pf"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "eeb3c693-efca-4b66-b16b-a31741edb771"
+		},
+		{
+			"name": "Service Parameter",
+			"item": [
+				{
+					"name": "View Service Parameter",
+					"id": "178e0dfe-ccab-43e5-8f98-f7c7b7f51361",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token_lamed}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nit\": \"6301b4f0006c848620d63933\",\r\n    \"business\": \"6301b4f0006c848620d63933\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url_local}}{{v_api}}/sp",
+							"host": [
+								"{{url_local}}{{v_api}}"
+							],
+							"path": [
+								"sp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Service Parameter",
+					"id": "dc556d2e-63f4-4959-ae24-4cdb77c54f18",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token_lamed}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business\": \"64b0e7f7dfb5742dacb9f717\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92f3063c636a4000414d\",\r\n    \"staffType\": \"64b2ddb51bcd863da11fa144\",\r\n    \"serviceTime\": \"10\",\r\n    \"biocleaning\": \"2\",\r\n    \"servicePrice\": \"12000\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url_local}}{{v_api}}/sp",
+							"host": [
+								"{{url_local}}{{v_api}}"
+							],
+							"path": [
+								"sp"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "30b6ffb9-80be-4ae4-a022-4d329dd080cf"
+		},
+		{
+			"name": "Staff",
+			"item": [
+				{
+					"name": "Create Staff Type",
+					"item": [
+						{
+							"name": "Staff Type",
+							"id": "749fa024-8da2-4d1f-8f62-008b4d1ec0ac",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token_lamed}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/v1/st",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"v1",
+										"st"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Staff Type",
+							"id": "6c39e56a-dad4-435f-af8b-78d71a88a586",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token_lamed}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\" : \"SuperAdmin\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/v1/st",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"v1",
+										"st"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "d209d812-3719-4973-9ab5-57dda3628f0a"
+				},
+				{
+					"name": "See Business Staff",
+					"item": [
+						{
+							"name": "Staff Type",
+							"id": "407cdd87-dfec-44b8-8193-981203678503",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nitBusiness\": \"1234567892\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/usf",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"usf"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Staff",
+							"id": "4ac2917f-866b-4fad-9dc5-5666d4c69e05",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nit\": \"64b0e7f7dfb5742dacb9f717\",\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"profile\": \"64abbc985190388112342e84\",\r\n    \"staffType\" : [\"64b2ddb51bcd863da11fa144\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    }],\r\n    \"staffService\":[\r\n        { \r\n            \"typeService\": \"64ab92e0063c636a40004149\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n    ],\r\n    \"level\":\"1\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/usf/63142f6666fc0d4b562231cf",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"usf",
+										"63142f6666fc0d4b562231cf"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Staff",
+							"id": "2c44d00f-fe1f-47c6-b772-b7f882a5424f",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token_lamed}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nit\": \"901715265\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"email\": \"lameddev@gmail.com\",\r\n    \"document\": \"80139076\",\r\n    \"profile\": \"64abbcdc5190388112342e8d\",\r\n    \"typeCollaborator\": \"64afa0596e8b9ff0f19a6dde\",\r\n    \"staffType\" : [\"64c20c05312bb1f27f68c9c9\"],\r\n    \"service\":[\r\n        { \r\n            \"servicesParameter\": \"64ab92e0063c636a40004149\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"servicesParameter\": \"64ab934c063c636a40004151\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"servicesParameter\": \"64ab94a7063c636a40004170\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"servicesParameter\": \"64ab9579063c636a40004183\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"servicesParameter\": \"64ab9af1d82418177a7237e6\",\r\n            \"percentage\": \"0.60\"\r\n        }\r\n    ],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_local}}{{v_api}}/sf",
+									"host": [
+										"{{url_local}}{{v_api}}"
+									],
+									"path": [
+										"sf"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "5b6d1c2c-296d-4906-b75b-b5f31bc43a7b"
+				}
+			],
+			"id": "ed324f5e-6600-43c3-a846-b844fed601a6"
+		},
+		{
+			"name": "Owner Create",
+			"item": [
+				{
+					"name": "Crear Owner",
+					"id": "fa26834f-3df0-4471-bfd2-6a33e376178a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token_lamed}}",
+								"type": "text"
+							},
+							{
+								"key": "x-token",
+								"value": "{{token_ow}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "x-token",
+								"value": "{{token_ma}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "x-token",
+								"value": "{{token_cll}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "x-token",
+								"value": "{{token_us}}",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"owner\": \"64ae34601c6b48858680c592\",\r\n    \"document\": \"80139075\",\r\n    \"profile\":\"64abbcc15190388112342e8a\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url_local}}{{v_api}}/wnr",
+							"host": [
+								"{{url_local}}{{v_api}}"
+							],
+							"path": [
+								"wnr"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "View Owner",
+					"id": "cea3b007-217b-4e8a-a670-debd63a6b4ae",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJyb2xlIjoiTE1EX1JPTEUiLCJpYXQiOjE2Nzc1NTcyNzMsImV4cCI6MTY4MDE0OTI3M30.IHI3xNO_aN0T6MJOV_5GSk-1WQfBUN9C2URqAnrCh-E",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/wnr",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"wnr"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "da16a6fe-b936-47ab-913b-11c941aeba13"
+		},
+		{
+			"name": "Global Operations",
+			"item": [
+				{
+					"name": "Holidays",
+					"item": [
+						{
+							"name": "View Holidays",
+							"id": "d019ac1d-fa23-4c26-b4ab-c23f05b34cda",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzE0MjhhMGQxNGM1OTM2OGRiYmUyNDMiLCJyb2xlIjoiNjJkOWE5NThjYzdjMDAxZDRhZjRiZGVlIiwiYnVzIjoxMjM0NTY3ODkyLCJpYXQiOjE2ODcwNTQ0NjMsImV4cCI6MTY4OTY0NjQ2M30.uElIct_8w5koNT2z6XqA-yFOOFxJLpV7XTg0INd9sfU",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/hds",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"hds"
+									],
+									"query": [
+										{
+											"key": "x-token",
+											"value": null,
+											"type": "text",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Holidays",
+							"id": "5e51acdb-46d1-46d3-81fe-5925c40625cd",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"date\": \"25/12/2022\",\r\n    \"day\":25,\r\n    \"month\":12,\r\n    \"year\":2022,\r\n    \"nameDay\":\t\"Navidad\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/hds",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"hds"
+									],
+									"query": [
+										{
+											"key": "x-token",
+											"value": null,
+											"type": "text",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "ca2f74d1-23bc-4208-9b4f-685476fbffcb"
+				}
+			],
+			"id": "62357562-85bd-4a9d-a447-dc6ca7950963"
+		},
+		{
+			"name": "Collaborator Login",
+			"item": [
+				{
+					"name": "Collaborator Create",
+					"item": [
+						{
+							"name": "Create User",
+							"id": "4116af5d-b87f-40f9-9640-de7c03d07690",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Lamed\",\r\n    \"lastName\": \"Saenz\",\r\n    \"movil\": \"3142540351\",\r\n    \"email\": \"lameddev@gmail.com\",\r\n    \"pass\": \"123456\",\r\n    \"terms\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/v1/usr",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"v1",
+										"usr"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "89050831-c2ca-4215-9737-3c362b9bc569"
+				},
+				{
+					"name": "Collaborator Update",
+					"item": [
+						{
+							"name": "Update User",
+							"id": "c8d48205-e70f-4379-b341-7d4e42496a0d",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjllNTI0Y2Q3YjljODVlMTdhNWIzNDYiLCJpYXQiOjE2NTQ5MTYxNDIsImV4cCI6MTY1NDk1OTM0Mn0.YuIxlrqV1jrcpsX_l4k-ucyJONueo4cQrjNzCLxK_FI",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nomusu\": \"Gerson Lamed\",\r\n    \"apeusu\": \"Saenz\",\r\n    \"celusu\": \"3142540356\",\r\n    \"emailusu\": \"lam@lam.com\",\r\n    \"pass\": \"123456\",\r\n    \"terminosusu\": true,\r\n    \"rolusu\": \"USER_ROLE\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/api/usr",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"usr"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Password User",
+							"id": "0cd2ed46-821b-4acf-96e1-7e9ef64019b5",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjllNTI0Y2Q3YjljODVlMTdhNWIzNDYiLCJpYXQiOjE2NTQ5MTYxNDIsImV4cCI6MTY1NDk1OTM0Mn0.YuIxlrqV1jrcpsX_l4k-ucyJONueo4cQrjNzCLxK_FI",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userID\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"passOld\": 123456,\r\n    \"pass\": 123456,\r\n    \"validationPass\": 123456\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_local}}{{v_api}}/usr",
+									"host": [
+										"{{url_local}}{{v_api}}"
+									],
+									"path": [
+										"usr"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "4dc1a303-e3d4-4be1-b843-0fbe5a041c5e"
+				},
+				{
+					"name": "Collaborator Read",
+					"item": [
+						{
+							"name": "View User",
+							"id": "24579e48-a992-4c93-84bb-09e1b3b8a991",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Manager\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_local}}{{v_api}}/usr",
+									"host": [
+										"{{url_local}}{{v_api}}"
+									],
+									"path": [
+										"usr"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "9e82a4bb-9090-4966-be3a-9a555a917b2a"
+				},
+				{
+					"name": "Collaborator Delete",
+					"item": [],
+					"id": "ac75c36f-9fd5-4f1b-82bd-8a2950e22271"
+				},
+				{
+					"name": "Collaborator Validation",
+					"item": [
+						{
+							"name": "Validate Email User",
+							"id": "731bdd2a-be2d-46f9-ae41-2e5a7d364c3e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_dev}}{{v_api}}/emailverification/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE",
+									"host": [
+										"{{url_dev}}{{v_api}}"
+									],
+									"path": [
+										"emailverification",
+										"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "4d88dfd6-7a3d-4150-a222-f6fe7b39c2a4"
+				}
+			],
+			"id": "34de08ef-2b7f-49ed-a420-41adcce39c8b"
+		}
+	]
+}

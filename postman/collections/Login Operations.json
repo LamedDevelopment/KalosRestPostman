@@ -1,0 +1,210 @@
+{
+	"info": {
+		"_postman_id": "65fac41c-7d38-4e3d-aa8a-b9acecabc82f",
+		"name": "Login Operations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "30190062-65fac41c-7d38-4e3d-aa8a-b9acecabc82f"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "login_user",
+					"id": "d294f415-70bb-4d9c-95d9-512aaa140957",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"elizabethvoxlot@gmail.com\",\r\n    \"pass\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_dev}}{{api}}/login",
+							"host": [
+								"{{kalos_dev}}{{api}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "d352d6a0-571a-427a-9327-9c0d48ec1e7b"
+		},
+		{
+			"name": "Collaborator",
+			"item": [
+				{
+					"name": "login_colaborador",
+					"id": "657015cf-c1de-48cc-88f1-59e68e62ad0d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"elizabethvoxlot@gmail.com\",\r\n    \"pass\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/login/bx",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"login",
+								"bx"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Password Collaborator",
+					"id": "8da13a80-e437-47a5-bc4e-dd23bccc36e4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token_cll}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"passOld\": \"12345\",\r\n    \"pass\": \"123456\",\r\n    \"validationPass\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url_local}}{{v_api}}/sf/chcopass",
+							"host": [
+								"{{url_local}}{{v_api}}"
+							],
+							"path": [
+								"sf",
+								"chcopass"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "a4e20ecf-0114-4ce5-a432-15e8b88c53de"
+		},
+		{
+			"name": "Validar Token",
+			"id": "cd17dcd0-9aac-49d6-b0f5-0915b545e48e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "{{user_dev}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{kalos_dev}}{{api}}/login/token",
+					"host": [
+						"{{kalos_dev}}{{api}}"
+					],
+					"path": [
+						"login",
+						"token"
+					],
+					"query": [
+						{
+							"key": "x-token",
+							"value": "{{token_lamed}}",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Close Sesion",
+			"id": "b5af6dd9-9707-48fb-b103-bd15d67c9835",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "{{token_lamed}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_dev}}{{v_api}}/login/close",
+					"host": [
+						"{{url_dev}}{{v_api}}"
+					],
+					"path": [
+						"login",
+						"close"
+					],
+					"query": [
+						{
+							"key": "x-token",
+							"value": "{{token_lamed}}",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

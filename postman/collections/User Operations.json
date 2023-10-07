@@ -1,0 +1,478 @@
+{
+	"info": {
+		"_postman_id": "0e73a204-db7a-4b4f-8916-70f6e7c4daca",
+		"name": "User Operations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "30190062-0e73a204-db7a-4b4f-8916-70f6e7c4daca"
+	},
+	"item": [
+		{
+			"name": "Appoinment",
+			"item": [
+				{
+					"name": "View Appoinment",
+					"id": "361d3558-4d96-430b-b3ef-6b94f4a0d6a0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"01/06/2023\",\r\n    \"datefin\": \"18/06/2023\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/epa/",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"epa",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Appoinment",
+					"id": "d6056e33-9df4-426e-8ceb-4a729bcfcba8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/epa",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"epa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Appoinment",
+					"id": "1afd8195-a6a9-42ad-932a-f8b9f7d99681",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/epa",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"epa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Appointments",
+					"id": "61a4b6b2-00c3-4465-9df7-557826a37a17",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token_lamed}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user\": \"64a8d9b6f12d3126f6a50b5c\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"23/08/2023\",\r\n    \"timeService\": \"08:30:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url_local}}{{v_api}}/apu",
+							"host": [
+								"{{url_local}}{{v_api}}"
+							],
+							"path": [
+								"apu"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consulta de Citas Dia",
+					"id": "524d0448-dd55-45e7-a3cd-602a3c192de1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token_us}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"UserId\":\"64a8d9b6f12d3126f6a50b5c\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url_local}}{{v_api}}/apu/uapd",
+							"host": [
+								"{{url_local}}{{v_api}}"
+							],
+							"path": [
+								"apu",
+								"uapd"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consulta de Citas Dia X ID",
+					"id": "de750c7b-2157-4edd-9849-3e81d75ad732",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token_lamed}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idAppointment\": \"64d847ef4db32789651fc294\",\r\n    \"userID\": \"64a8d9b6f12d3126f6a50b5c\",\r\n    \"collaborator\" : \"64c499092f24c1efb51031bc\",\r\n    \"observationColla\": \"Prueba de Observacion del Colaborador para Finalizar el Servicio\",\r\n    \"Initialization\": false,\r\n    \"Termination\": true,\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"14/08/2023\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url_local}}{{v_api}}/apu/uinser",
+							"host": [
+								"{{url_local}}{{v_api}}"
+							],
+							"path": [
+								"apu",
+								"uinser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consulta de Citas Semana",
+					"id": "f870faef-5aa5-4a3c-9418-e67821517367",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token_lamed}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url_local}}{{v_api}}/apu/wuap",
+							"host": [
+								"{{url_local}}{{v_api}}"
+							],
+							"path": [
+								"apu",
+								"wuap"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "62cd3a6c-bccb-4d8b-8837-7cf42911a22d"
+		},
+		{
+			"name": "Login Services",
+			"item": [
+				{
+					"name": "User Create",
+					"item": [
+						{
+							"name": "Create User",
+							"id": "54c61134-893b-4a57-977e-f200b102f119",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Lamed\",\r\n    \"lastName\": \"Saenz\",\r\n    \"movil\": \"3142540351\",\r\n    \"email\": \"lameddev@gmail.com\",\r\n    \"pass\": \"123456\",\r\n    \"terms\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_dev}}{{v_api}}/usr",
+									"host": [
+										"{{url_dev}}{{v_api}}"
+									],
+									"path": [
+										"usr"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "34318b4d-c9ec-41d1-bac0-e4d7697acf2a"
+				},
+				{
+					"name": "User Update",
+					"item": [
+						{
+							"name": "Update User",
+							"id": "35dc4e2e-6875-4754-a88f-986d941a6d71",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjllNTI0Y2Q3YjljODVlMTdhNWIzNDYiLCJpYXQiOjE2NTQ5MTYxNDIsImV4cCI6MTY1NDk1OTM0Mn0.YuIxlrqV1jrcpsX_l4k-ucyJONueo4cQrjNzCLxK_FI",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nomusu\": \"Lamed\",\r\n    \"apeusu\": \"Saenz\",\r\n    \"celusu\": \"3142540356\",\r\n    \"emailUsu\": \"lameddev@gmail.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_dev}}{{v_api}}/usr/64a8d9b6f12d3126f6a50b5c",
+									"host": [
+										"{{url_dev}}{{v_api}}"
+									],
+									"path": [
+										"usr",
+										"64a8d9b6f12d3126f6a50b5c"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Password User",
+							"id": "d6d3a215-f567-4bd8-8564-f7e4353c4481",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{token_us_lc}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"passOld\": \"12345\",\r\n    \"pass\": \"12345\",\r\n    \"validationPass\": \"12345\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_local}}{{v_api}}/usr/chuspass",
+									"host": [
+										"{{url_local}}{{v_api}}"
+									],
+									"path": [
+										"usr",
+										"chuspass"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "916fc89a-8535-42a0-a28b-3ba1b3b65e37"
+				},
+				{
+					"name": "User Read",
+					"item": [
+						{
+							"name": "View User",
+							"id": "8bbaeaf4-d7d4-4863-aa93-452f1e398f92",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Manager\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_local}}{{v_api}}/usr",
+									"host": [
+										"{{url_local}}{{v_api}}"
+									],
+									"path": [
+										"usr"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "65b73956-04d5-47d8-81c0-bb8b32f095d2"
+				},
+				{
+					"name": "User Delete",
+					"item": [],
+					"id": "f7dab279-247e-4780-ad33-648f5f2bbc0a"
+				},
+				{
+					"name": "User Validation",
+					"item": [
+						{
+							"name": "Validate Email User",
+							"id": "e818f06d-75ce-4e1e-bc35-bc5a987064cb",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url_dev}}{{v_api}}/emailverification/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE",
+									"host": [
+										"{{url_dev}}{{v_api}}"
+									],
+									"path": [
+										"emailverification",
+										"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "28bb6169-f859-4f82-b037-063dc947d6a2"
+				}
+			],
+			"id": "46aeb98e-0303-4b39-8240-c762d7a6581a"
+		}
+	]
+}
