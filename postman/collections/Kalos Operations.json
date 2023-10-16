@@ -29,13 +29,11 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "localhost:3000/api/bus",
+							"raw": "{{kalos_local}}{{user_dev}}/bus",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{user_dev}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
 								"bus"
 							]
 						}
@@ -67,9 +65,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{url_local}}{{v_api}}/bus",
+							"raw": "{{kalos_local}}{{user_dev}}/bus",
 							"host": [
-								"{{url_local}}{{v_api}}"
+								"{{kalos_local}}{{user_dev}}"
 							],
 							"path": [
 								"bus"
@@ -109,13 +107,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/epa",
+							"raw": "{{kalos_local}}{{user_dev}}/epa",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{user_dev}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
 								"epa"
 							]
 						}
@@ -147,9 +143,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{url_local}}{{v_api}}/apu",
+							"raw": "{{kalos_local}}{{user_dev}}/apu",
 							"host": [
-								"{{url_local}}{{v_api}}"
+								"{{kalos_local}}{{user_dev}}"
 							],
 							"path": [
 								"apu"
@@ -192,13 +188,11 @@
 									}
 								},
 								"url": {
-									"raw": "localhost:3000/api/cb/vca",
+									"raw": "{{kalos_local}}{{user_dev}}/cb/vca",
 									"host": [
-										"localhost"
+										"{{kalos_local}}{{user_dev}}"
 									],
-									"port": "3000",
 									"path": [
-										"api",
 										"cb",
 										"vca"
 									]
@@ -231,13 +225,11 @@
 									}
 								},
 								"url": {
-									"raw": "localhost:3000/api/cb/ssca",
+									"raw": "{{kalos_local}}{{user_dev}}/cb/ssca",
 									"host": [
-										"localhost"
+										"{{kalos_local}}{{user_dev}}"
 									],
-									"port": "3000",
 									"path": [
-										"api",
 										"cb",
 										"ssca"
 									]
@@ -279,13 +271,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/tsv",
+							"raw": "{{kalos_local}}{{user_dev}}/tsv",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{user_dev}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
 								"tsv"
 							]
 						}
@@ -317,13 +307,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/v1/sv",
+							"raw": "{{kalos_local}}{{user_dev}}/v1/sv",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{user_dev}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
 								"v1",
 								"sv"
 							]
@@ -362,13 +350,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/tsv",
+							"raw": "{{kalos_local}}{{user_dev}}/tsv",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{user_dev}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
 								"tsv"
 							]
 						}
@@ -400,14 +386,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/v1/tsv",
+							"raw": "{{kalos_local}}{{user_dev}}/tsv",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{user_dev}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
-								"v1",
 								"tsv"
 							]
 						}
@@ -445,13 +428,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/tc",
+							"raw": "{{kalos_local}}{{user_dev}}/tc",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{user_dev}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
 								"tc"
 							]
 						}
@@ -483,14 +464,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/v1/tc",
+							"raw": "{{kalos_local}}{{user_dev}}/tc",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{user_dev}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
-								"v1",
 								"tc"
 							]
 						}
@@ -528,13 +506,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/tsv",
+							"raw": "{{kalos_local}}{{user_dev}}/tsv",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{user_dev}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
 								"tsv"
 							]
 						}
@@ -566,13 +542,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/tsv",
+							"raw": "{{kalos_local}}{{user_dev}}/tsv",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{user_dev}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
 								"tsv"
 							]
 						}
@@ -610,13 +584,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/tr",
+							"raw": "{{kalos_local}}{{user_dev}}/tr",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{user_dev}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
 								"tr"
 							]
 						}
@@ -648,12 +620,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{url_local}}{{v_api}}/pf",
+							"raw": "{{kalos_local}}{{user_dev}}/pfs",
 							"host": [
-								"{{url_local}}{{v_api}}"
+								"{{kalos_local}}{{user_dev}}"
 							],
 							"path": [
-								"pf"
+								"pfs"
 							]
 						}
 					},
@@ -690,9 +662,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{url_local}}{{v_api}}/sp",
+							"raw": "{{kalos_local}}{{user_dev}}/sp",
 							"host": [
-								"{{url_local}}{{v_api}}"
+								"{{kalos_local}}{{user_dev}}"
 							],
 							"path": [
 								"sp"
@@ -726,9 +698,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{url_local}}{{v_api}}/sp",
+							"raw": "{{kalos_local}}{{user_dev}}/sp",
 							"host": [
-								"{{url_local}}{{v_api}}"
+								"{{kalos_local}}{{user_dev}}"
 							],
 							"path": [
 								"sp"
@@ -771,14 +743,11 @@
 									}
 								},
 								"url": {
-									"raw": "localhost:3000/api/v1/st",
+									"raw": "{{kalos_local}}{{user_dev}}/st",
 									"host": [
-										"localhost"
+										"{{kalos_local}}{{user_dev}}"
 									],
-									"port": "3000",
 									"path": [
-										"api",
-										"v1",
 										"st"
 									]
 								}
@@ -810,14 +779,11 @@
 									}
 								},
 								"url": {
-									"raw": "localhost:3000/api/v1/st",
+									"raw": "{{kalos_local}}{{user_dev}}/st",
 									"host": [
-										"localhost"
+										"{{kalos_local}}{{user_dev}}"
 									],
-									"port": "3000",
 									"path": [
-										"api",
-										"v1",
 										"st"
 									]
 								}
@@ -855,13 +821,11 @@
 									}
 								},
 								"url": {
-									"raw": "localhost:3000/api/usf",
+									"raw": "{{kalos_local}}{{user_dev}}/usf",
 									"host": [
-										"localhost"
+										"{{kalos_local}}{{user_dev}}"
 									],
-									"port": "3000",
 									"path": [
-										"api",
 										"usf"
 									]
 								}
@@ -893,13 +857,11 @@
 									}
 								},
 								"url": {
-									"raw": "localhost:3000/api/usf/63142f6666fc0d4b562231cf",
+									"raw": "{{kalos_local}}{{user_dev}}/usf/63142f6666fc0d4b562231cf",
 									"host": [
-										"localhost"
+										"{{kalos_local}}{{user_dev}}"
 									],
-									"port": "3000",
 									"path": [
-										"api",
 										"usf",
 										"63142f6666fc0d4b562231cf"
 									]
@@ -932,9 +894,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{url_local}}{{v_api}}/sf",
+									"raw": "{{kalos_local}}{{user_dev}}/sf",
 									"host": [
-										"{{url_local}}{{v_api}}"
+										"{{kalos_local}}{{user_dev}}"
 									],
 									"path": [
 										"sf"
@@ -1001,9 +963,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{url_local}}{{v_api}}/wnr",
+							"raw": "{{kalos_local}}{{user_dev}}/wnr",
 							"host": [
-								"{{url_local}}{{v_api}}"
+								"{{kalos_local}}{{user_dev}}"
 							],
 							"path": [
 								"wnr"
@@ -1037,13 +999,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/wnr",
+							"raw": "{{kalos_local}}{{user_dev}}/wnr",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{user_dev}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
 								"wnr"
 							]
 						}
@@ -1084,13 +1044,11 @@
 									}
 								},
 								"url": {
-									"raw": "localhost:3000/api/hds",
+									"raw": "{{kalos_local}}{{user_dev}}/hds",
 									"host": [
-										"localhost"
+										"{{kalos_local}}{{user_dev}}"
 									],
-									"port": "3000",
 									"path": [
-										"api",
 										"hds"
 									],
 									"query": [
@@ -1130,13 +1088,11 @@
 									}
 								},
 								"url": {
-									"raw": "localhost:3000/api/hds",
+									"raw": "{{kalos_local}}{{user_dev}}/hds",
 									"host": [
-										"localhost"
+										"{{kalos_local}}{{user_dev}}"
 									],
-									"port": "3000",
 									"path": [
-										"api",
 										"hds"
 									],
 									"query": [
@@ -1182,15 +1138,11 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/v1/usr",
-									"protocol": "http",
+									"raw": "{{kalos_local}}{{user_dev}}/usr",
 									"host": [
-										"localhost"
+										"{{kalos_local}}{{user_dev}}"
 									],
-									"port": "3000",
 									"path": [
-										"api",
-										"v1",
 										"usr"
 									]
 								}
@@ -1228,13 +1180,11 @@
 									}
 								},
 								"url": {
-									"raw": "localhost:3000/api/usr",
+									"raw": "{{kalos_local}}{{user_dev}}/usr",
 									"host": [
-										"localhost"
+										"{{kalos_local}}{{user_dev}}"
 									],
-									"port": "3000",
 									"path": [
-										"api",
 										"usr"
 									]
 								}
@@ -1266,9 +1216,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{url_local}}{{v_api}}/usr",
+									"raw": "{{kalos_local}}{{user_dev}}/usr",
 									"host": [
-										"{{url_local}}{{v_api}}"
+										"{{kalos_local}}{{user_dev}}"
 									],
 									"path": [
 										"usr"
@@ -1302,9 +1252,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{url_local}}{{v_api}}/usr",
+									"raw": "{{kalos_local}}{{user_dev}}/usr",
 									"host": [
-										"{{url_local}}{{v_api}}"
+										"{{kalos_local}}{{user_dev}}"
 									],
 									"path": [
 										"usr"
@@ -1343,9 +1293,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{url_dev}}{{v_api}}/emailverification/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE",
+									"raw": "{{kalos_local}}{{user_dev}}/emailverification/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE",
 									"host": [
-										"{{url_dev}}{{v_api}}"
+										"{{kalos_local}}{{user_dev}}"
 									],
 									"path": [
 										"emailverification",

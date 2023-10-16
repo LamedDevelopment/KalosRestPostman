@@ -101,9 +101,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{url_local}}{{v_api}}/sf/chcopass",
+							"raw": "{{kalos_local}}{{user_dev}}/sf/chcopass",
 							"host": [
-								"{{url_local}}{{v_api}}"
+								"{{kalos_local}}{{user_dev}}"
 							],
 							"path": [
 								"sf",
@@ -141,9 +141,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{kalos_dev}}{{api}}/login/token",
+					"raw": "{{kalos_local}}{{api}}/login/token",
 					"host": [
-						"{{kalos_dev}}{{api}}"
+						"{{kalos_local}}{{api}}"
 					],
 					"path": [
 						"login",
@@ -186,9 +186,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{url_dev}}{{v_api}}/login/close",
+					"raw": "{{kalos_local}}{{user_dev}}/login/close",
 					"host": [
-						"{{url_dev}}{{v_api}}"
+						"{{kalos_local}}{{user_dev}}"
 					],
 					"path": [
 						"login",

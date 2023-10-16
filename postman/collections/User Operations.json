@@ -299,9 +299,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{url_dev}}{{v_api}}/usr",
+									"raw": "{{kalos_local}}{{user_dev}}/usr",
 									"host": [
-										"{{url_dev}}{{v_api}}"
+										"{{kalos_local}}{{user_dev}}"
 									],
 									"path": [
 										"usr"
@@ -341,9 +341,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{url_dev}}{{v_api}}/usr/64a8d9b6f12d3126f6a50b5c",
+									"raw": "{{kalos_local}}{{user_dev}}/usr/64a8d9b6f12d3126f6a50b5c",
 									"host": [
-										"{{url_dev}}{{v_api}}"
+										"{{kalos_local}}{{user_dev}}"
 									],
 									"path": [
 										"usr",
@@ -378,9 +378,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{url_local}}{{v_api}}/usr/chuspass",
+									"raw": "{{kalos_local}}{{user_dev}}/usr/chuspass",
 									"host": [
-										"{{url_local}}{{v_api}}"
+										"{{kalos_local}}{{user_dev}}"
 									],
 									"path": [
 										"usr",
@@ -456,9 +456,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{url_dev}}{{v_api}}/emailverification/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE",
+									"raw": "{{kalos_local}}{{user_dev}}/emailverification/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE",
 									"host": [
-										"{{url_dev}}{{v_api}}"
+										"{{kalos_local}}{{user_dev}}"
 									],
 									"path": [
 										"emailverification",
