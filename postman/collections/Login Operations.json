@@ -28,9 +28,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_dev}}{{api}}/login",
+							"raw": "{{kalos_local}}{{api}}/login",
 							"host": [
-								"{{kalos_dev}}{{api}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"login"

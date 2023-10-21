@@ -29,9 +29,9 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/bus",
+							"raw": "{{kalos_local}}{{api}}/bus",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"bus"
@@ -65,9 +65,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/bus",
+							"raw": "{{kalos_local}}{{api}}/bus",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"bus"
@@ -107,9 +107,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/epa",
+							"raw": "{{kalos_local}}{{api}}/epa",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"epa"
@@ -143,9 +143,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/apu",
+							"raw": "{{kalos_local}}{{api}}/apu",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"apu"
@@ -188,9 +188,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/cb/vca",
+									"raw": "{{kalos_local}}{{api}}/cb/vca",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"cb",
@@ -225,9 +225,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/cb/ssca",
+									"raw": "{{kalos_local}}{{api}}/cb/ssca",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"cb",
@@ -271,9 +271,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/tsv",
+							"raw": "{{kalos_local}}{{api}}/tsv",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"tsv"
@@ -307,9 +307,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/v1/sv",
+							"raw": "{{kalos_local}}{{api}}/v1/sv",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"v1",
@@ -350,9 +350,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/tsv",
+							"raw": "{{kalos_local}}{{api}}/tsv",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"tsv"
@@ -386,9 +386,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/tsv",
+							"raw": "{{kalos_local}}{{api}}/tsv",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"tsv"
@@ -428,9 +428,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/tc",
+							"raw": "{{kalos_local}}{{api}}/tc",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"tc"
@@ -464,9 +464,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/tc",
+							"raw": "{{kalos_local}}{{api}}/tc",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"tc"
@@ -506,9 +506,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/tsv",
+							"raw": "{{kalos_local}}{{api}}/tsv",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"tsv"
@@ -542,9 +542,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/tsv",
+							"raw": "{{kalos_local}}{{api}}/tsv",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"tsv"
@@ -584,9 +584,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/tr",
+							"raw": "{{kalos_local}}{{api}}/tr",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"tr"
@@ -620,9 +620,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/pfs",
+							"raw": "{{kalos_local}}{{api}}/pfs",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"pfs"
@@ -662,9 +662,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/sp",
+							"raw": "{{kalos_local}}{{api}}/sp",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"sp"
@@ -698,9 +698,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/sp",
+							"raw": "{{kalos_local}}{{api}}/sp",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"sp"
@@ -743,9 +743,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/st",
+									"raw": "{{kalos_local}}{{api}}/st",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"st"
@@ -779,9 +779,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/st",
+									"raw": "{{kalos_local}}{{api}}/st",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"st"
@@ -821,9 +821,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/usf",
+									"raw": "{{kalos_local}}{{api}}/usf",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"usf"
@@ -857,9 +857,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/usf/63142f6666fc0d4b562231cf",
+									"raw": "{{kalos_local}}{{api}}/usf/63142f6666fc0d4b562231cf",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"usf",
@@ -894,9 +894,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/sf",
+									"raw": "{{kalos_local}}{{api}}/sf",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"sf"
@@ -963,9 +963,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/wnr",
+							"raw": "{{kalos_local}}{{api}}/wnr",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"wnr"
@@ -999,9 +999,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/wnr",
+							"raw": "{{kalos_local}}{{api}}/wnr",
 							"host": [
-								"{{kalos_local}}{{user_dev}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"wnr"
@@ -1044,9 +1044,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/hds",
+									"raw": "{{kalos_local}}{{api}}/hds",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"hds"
@@ -1088,9 +1088,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/hds",
+									"raw": "{{kalos_local}}{{api}}/hds",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"hds"
@@ -1138,9 +1138,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/usr",
+									"raw": "{{kalos_local}}{{api}}/usr",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"usr"
@@ -1180,9 +1180,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/usr",
+									"raw": "{{kalos_local}}{{api}}/usr",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"usr"
@@ -1216,9 +1216,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/usr",
+									"raw": "{{kalos_local}}{{api}}/usr",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"usr"
@@ -1252,9 +1252,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/usr",
+									"raw": "{{kalos_local}}{{api}}/usr",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"usr"
@@ -1293,9 +1293,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/emailverification/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE",
+									"raw": "{{kalos_local}}{{api}}/emailverification/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"emailverification",

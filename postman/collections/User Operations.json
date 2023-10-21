@@ -20,7 +20,7 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+								"value": "{{user_dev}}",
 								"type": "text"
 							}
 						],
@@ -34,13 +34,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/epa/",
+							"raw": "{{kalos_local}}{{api}}/epa/",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{api}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
 								"epa",
 								""
 							]
@@ -73,13 +71,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/epa",
+							"raw": "{{kalos_local}}{{api}}/epa",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{api}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
 								"epa"
 							]
 						}
@@ -111,13 +107,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/epa",
+							"raw": "{{kalos_local}}{{api}}/epa",
 							"host": [
-								"localhost"
+								"{{kalos_local}}{{api}}"
 							],
-							"port": "3000",
 							"path": [
-								"api",
 								"epa"
 							]
 						}
@@ -149,9 +143,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{url_local}}{{v_api}}/apu",
+							"raw": "{{kalos_local}}{{api}}/apu",
 							"host": [
-								"{{url_local}}{{v_api}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"apu"
@@ -185,9 +179,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{url_local}}{{v_api}}/apu/uapd",
+							"raw": "{{kalos_local}}{{api}}/apu/uapd",
 							"host": [
-								"{{url_local}}{{v_api}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"apu",
@@ -222,9 +216,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{url_local}}{{v_api}}/apu/uinser",
+							"raw": "{{kalos_local}}{{api}}/apu/uinser",
 							"host": [
-								"{{url_local}}{{v_api}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"apu",
@@ -259,9 +253,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{url_local}}{{v_api}}/apu/wuap",
+							"raw": "{{kalos_local}}{{api}}/apu/wuap",
 							"host": [
-								"{{url_local}}{{v_api}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"apu",
@@ -288,7 +282,13 @@
 							},
 							"request": {
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
 									"raw": "{\r\n    \"name\": \"Lamed\",\r\n    \"lastName\": \"Saenz\",\r\n    \"movil\": \"3142540351\",\r\n    \"email\": \"lameddev@gmail.com\",\r\n    \"pass\": \"123456\",\r\n    \"terms\": true\r\n}",
@@ -299,9 +299,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/usr",
+									"raw": "{{kalos_local}}{{api}}/usr",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"usr"
@@ -341,9 +341,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/usr/64a8d9b6f12d3126f6a50b5c",
+									"raw": "{{kalos_local}}{{api}}/usr/64a8d9b6f12d3126f6a50b5c",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"usr",
@@ -378,9 +378,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/usr/chuspass",
+									"raw": "{{kalos_local}}{{api}}/usr/chuspass",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"usr",
@@ -415,9 +415,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{url_local}}{{v_api}}/usr",
+									"raw": "{{kalos_local}}{{api}}/usr",
 									"host": [
-										"{{url_local}}{{v_api}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"usr"
@@ -456,9 +456,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/emailverification/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE",
+									"raw": "{{kalos_local}}{{api}}/emailverification/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"emailverification",
