@@ -26,7 +26,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"01/06/2023\",\r\n    \"datefin\": \"18/06/2023\"\r\n}",
+							"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"01/10/2023\",\r\n    \"datefin\": \"23/10/2023\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -34,13 +34,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/epa/",
+							"raw": "{{kalos_local}}{{api}}/apu",
 							"host": [
 								"{{kalos_local}}{{api}}"
 							],
 							"path": [
-								"epa",
-								""
+								"apu"
 							]
 						}
 					},
@@ -129,13 +128,13 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{token_lamed}}",
+								"value": "{{user_local}}",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"user\": \"64a8d9b6f12d3126f6a50b5c\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"23/08/2023\",\r\n    \"timeService\": \"08:30:00\"\r\n}",
+							"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"23/10/2023\",\r\n    \"timeService\": \"09:30:00\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -165,13 +164,13 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{token_us}}",
+								"value": "{{user_local}}",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"UserId\":\"64a8d9b6f12d3126f6a50b5c\"\r\n}",
+							"raw": "{}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -202,7 +201,7 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{token_lamed}}",
+								"value": "{{user_local}}",
 								"type": "text"
 							}
 						],
@@ -216,13 +215,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/apu/uinser",
+							"raw": "{{kalos_local}}{{api}}/apu/uapd",
 							"host": [
 								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"apu",
-								"uinser"
+								"uapd"
 							]
 						}
 					},
@@ -239,7 +238,7 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{token_lamed}}",
+								"value": "{{user_dev}}",
 								"type": "text"
 							}
 						],
@@ -284,9 +283,10 @@
 								"method": "POST",
 								"header": [
 									{
-										"key": "",
-										"value": "",
-										"type": "text"
+										"key": "x-token",
+										"value": "{{user_dev}}",
+										"type": "text",
+										"disabled": true
 									}
 								],
 								"body": {
@@ -397,17 +397,23 @@
 					"name": "User Read",
 					"item": [
 						{
-							"name": "View User",
+							"name": "View One User",
 							"id": "8bbaeaf4-d7d4-4863-aa93-452f1e398f92",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
 							"request": {
 								"method": "GET",
-								"header": [],
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{user_local}}",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"Manager\"\r\n}",
+									"raw": "{}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -415,12 +421,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/usr",
+									"raw": "{{kalos_local}}{{api}}/usr/oneusr",
 									"host": [
 										"{{kalos_local}}{{api}}"
 									],
 									"path": [
-										"usr"
+										"usr",
+										"oneusr"
 									]
 								}
 							},
@@ -463,6 +470,51 @@
 									"path": [
 										"emailverification",
 										"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Forgot Password",
+							"id": "085ece42-cd2c-43a1-a4c2-5e1fee5527e8",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{user_dev}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"lameddev@gmail.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/forpass/usr",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"forpass",
+										"usr"
+									],
+									"query": [
+										{
+											"key": "x-token",
+											"value": null,
+											"type": "text",
+											"disabled": true
+										}
 									]
 								}
 							},

@@ -1310,6 +1310,48 @@
 				}
 			],
 			"id": "34de08ef-2b7f-49ed-a420-41adcce39c8b"
+		},
+		{
+			"name": "Users Management",
+			"item": [
+				{
+					"name": "View User",
+					"id": "f5bb4a4c-a9cd-4f50-87f3-5d3c4e6ee27c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{user_dev}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Manager\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/usr",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"usr"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "656ddebd-4860-4f9b-9306-4045043a940e"
 		}
 	]
 }

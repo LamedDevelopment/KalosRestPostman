@@ -186,7 +186,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{kalos_local}}{{user_dev}}/login/close",
+					"raw": "{{kalos_local}}{{user_dev}}/login/close?x-token={{user_dev}}",
 					"host": [
 						"{{kalos_local}}{{user_dev}}"
 					],
@@ -197,9 +197,7 @@
 					"query": [
 						{
 							"key": "x-token",
-							"value": "{{token_lamed}}",
-							"type": "text",
-							"disabled": true
+							"value": "{{user_dev}}"
 						}
 					]
 				}
