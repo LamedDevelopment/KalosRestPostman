@@ -56,13 +56,13 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+								"value": "{{user_dev}}",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+							"raw": "{\r\n    \"business\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"dateini\": \"22/10/2022\",\r\n    \"datefin\": \"23/10/2022\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -291,7 +291,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"Lamed\",\r\n    \"lastName\": \"Saenz\",\r\n    \"movil\": \"3142540351\",\r\n    \"email\": \"lameddev@gmail.com\",\r\n    \"pass\": \"123456\",\r\n    \"terms\": true\r\n}",
+									"raw": "{\r\n    \"name\": \"WIlliam\",\r\n    \"lastName\": \"Sáenz\",\r\n    \"movil\": \"3216549879\",\r\n    \"email\": \"docente2@email.com\",\r\n    \"pass\": \"Caleb1234*\",\r\n    \"terms\": \"true\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -364,13 +364,13 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{token_us_lc}}",
+										"value": "{{user_local}}",
 										"type": "text"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"passOld\": \"12345\",\r\n    \"pass\": \"12345\",\r\n    \"validationPass\": \"12345\"\r\n}",
+									"raw": "{\r\n    \"passOld\": \"80139076\",\r\n    \"pass\": \"123456\",\r\n    \"validationPass\": \"123456\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -385,6 +385,43 @@
 									"path": [
 										"usr",
 										"chuspass"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Reset-Password User",
+							"id": "b0b22eb7-6a6a-4441-aaae-828ca21b28b7",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{user_local}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"codValidateUser\": \"1698134844918\",\r\n    \"pass\": \"123456\",\r\n    \"validationPass\": \"123456\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/forpass/rpuspass",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"forpass",
+										"rpuspass"
 									]
 								}
 							},
@@ -476,6 +513,53 @@
 							"response": []
 						},
 						{
+							"name": "Validate Token Email User",
+							"id": "265643ac-07fa-4456-8d69-5bfb884ea974",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/forpass/vatkusr/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxhbWVkZGV2QGdtYWlsLmNvbSIsInRpbWUiOjE2OTgxMTY4NDAsImNvZFZhbGlkYXRlVXNlciI6MTY5ODEzNDg0NDkxOCwiaWF0IjoxNjk4MTE2ODQ0LCJleHAiOjE2OTgxMzQ4NDR9.zjOSC3DzA-RQkR0i7OmAsLbmbWtsYdBajxtUtcWBuBc",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"forpass",
+										"vatkusr",
+										"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxhbWVkZGV2QGdtYWlsLmNvbSIsInRpbWUiOjE2OTgxMTY4NDAsImNvZFZhbGlkYXRlVXNlciI6MTY5ODEzNDg0NDkxOCwiaWF0IjoxNjk4MTE2ODQ0LCJleHAiOjE2OTgxMzQ4NDR9.zjOSC3DzA-RQkR0i7OmAsLbmbWtsYdBajxtUtcWBuBc"
+									],
+									"query": [
+										{
+											"key": "x-token",
+											"value": null,
+											"type": "text",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
 							"name": "Forgot Password",
 							"id": "085ece42-cd2c-43a1-a4c2-5e1fee5527e8",
 							"protocolProfileBehavior": {
@@ -487,7 +571,8 @@
 									{
 										"key": "x-token",
 										"value": "{{user_dev}}",
-										"type": "text"
+										"type": "text",
+										"disabled": true
 									}
 								],
 								"body": {
