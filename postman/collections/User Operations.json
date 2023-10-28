@@ -142,12 +142,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/apu",
+							"raw": "{{kalos_local}}{{api}}/apu/oneser",
 							"host": [
 								"{{kalos_local}}{{api}}"
 							],
 							"path": [
-								"apu"
+								"apu",
+								"oneser"
 							]
 						}
 					},
@@ -164,13 +165,13 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+								"value": "{{user_local}}",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"appointmentID\": \"653aa7cea65008b0d94274b7\",\r\n    \"service\": \"6301b4f0006c848620d63933\"\r\n}",
+							"raw": "{\r\n    \"appointmentID\": \"653aa7cea65008b0d94274b7\",\r\n    \"service\": \"653ab183cba0f3c1bd0cd574\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -178,12 +179,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/epa/oneser",
+							"raw": "{{kalos_local}}{{api}}/apu/oneser",
 							"host": [
 								"{{kalos_local}}{{api}}"
 							],
 							"path": [
-								"epa",
+								"apu",
 								"oneser"
 							]
 						}
