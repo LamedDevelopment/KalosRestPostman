@@ -46,6 +46,43 @@
 					"response": []
 				},
 				{
+					"name": "View Appointment History",
+					"id": "4db8f103-ed74-49d1-a9ac-c4221991a00c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{user_local}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/apu/hisuap",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"apu",
+								"hisuap"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Accept And Close Service",
 					"id": "8a51cc9b-2e9b-410f-842d-08988c953892",
 					"protocolProfileBehavior": {
@@ -134,7 +171,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"appointmentID\": \"64d82417caf5a9a3d6458161\"\r\n}",
+							"raw": "{\r\n    \"appointmentID\": \"6538916b0f047ece16d5654a\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -142,13 +179,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/apu/oneser",
+							"raw": "{{kalos_local}}{{api}}/apu",
 							"host": [
 								"{{kalos_local}}{{api}}"
 							],
 							"path": [
-								"apu",
-								"oneser"
+								"apu"
 							]
 						}
 					},

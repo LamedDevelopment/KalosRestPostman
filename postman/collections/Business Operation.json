@@ -394,6 +394,302 @@
 						}
 					],
 					"id": "b56f9f7c-93eb-4696-9eef-506ae011b5ea"
+				},
+				{
+					"name": "Settings Collaborator",
+					"item": [
+						{
+							"name": "Collaborator Update",
+							"item": [
+								{
+									"name": "Update Collaborator",
+									"id": "8b9106d6-80cc-4631-84f2-7057b384adaf",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{colla_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"name\":\"Elizabeth\",\r\n    \"lastName\":\"Sáenz\",\r\n    \"celusu\":\"3142540351\",\r\n    \"email\":\"elizabethvoxlot@gmail.com\",\r\n    \"country\":\"Colombia\",\r\n    \"city\":\"Bogotá\",\r\n    \"address\":\"cll 72 c sur\",\r\n    \"birthdate\":\"1988-04-30T05:00:00.000Z\",\r\n    \"gender\":\"female\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/bususu/64b4dd0fbd21c7b449d52ece",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bususu",
+												"64b4dd0fbd21c7b449d52ece"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Update Password Collaborator",
+									"id": "5aae3137-98f2-4241-bb3d-00e2c0b5e989",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{colla_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"passOld\": \"123456\",\r\n    \"pass\": \"123456\",\r\n    \"validationPass\": \"123456\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/bususu/chcollapass",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bususu",
+												"chcollapass"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Reset-Password Collaborator",
+									"id": "d9686f40-f9e8-466e-9c9e-bcc31fb6b104",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{user_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"codValidateUser\": \"1698134844918\",\r\n    \"pass\": \"123456\",\r\n    \"validationPass\": \"123456\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/forpass/rpcollapass",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"forpass",
+												"rpcollapass"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "1336b43b-0cd4-478b-bcb1-02d8137ed23f"
+						},
+						{
+							"name": "Collaborator Read",
+							"item": [
+								{
+									"name": "View One Collaborator",
+									"id": "f89057b2-f250-45a3-b760-30faeb48e1e6",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{colla_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/bususu/onecol",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bususu",
+												"onecol"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "6deb0f60-995f-4de5-95fa-93c0a0f5bf04"
+						},
+						{
+							"name": "Collaborator Validation",
+							"item": [
+								{
+									"name": "Validate Email Collaborator",
+									"id": "fc785628-c501-4ab1-9efd-61031bd22caa",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/emailverification/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"emailverification",
+												"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Validate Token Email Collaborator",
+									"id": "d2521482-3a73-4a82-bbb8-75b6c2c3be6c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "",
+												"value": "",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/forpass/vatkcolla/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxhbWVkZGV2QGdtYWlsLmNvbSIsInRpbWUiOjE2OTgxMTY4NDAsImNvZFZhbGlkYXRlVXNlciI6MTY5ODEzNDg0NDkxOCwiaWF0IjoxNjk4MTE2ODQ0LCJleHAiOjE2OTgxMzQ4NDR9.zjOSC3DzA-RQkR0i7OmAsLbmbWtsYdBajxtUtcWBuBc",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"forpass",
+												"vatkcolla",
+												"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxhbWVkZGV2QGdtYWlsLmNvbSIsInRpbWUiOjE2OTgxMTY4NDAsImNvZFZhbGlkYXRlVXNlciI6MTY5ODEzNDg0NDkxOCwiaWF0IjoxNjk4MTE2ODQ0LCJleHAiOjE2OTgxMzQ4NDR9.zjOSC3DzA-RQkR0i7OmAsLbmbWtsYdBajxtUtcWBuBc"
+											],
+											"query": [
+												{
+													"key": "x-token",
+													"value": null,
+													"type": "text",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Forgot Password",
+									"id": "a9ca6fe5-269b-4047-b47d-34c9c8673503",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{user_dev}}",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"email\": \"lameddev@gmail.com\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/forpass/colla",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"forpass",
+												"colla"
+											],
+											"query": [
+												{
+													"key": "x-token",
+													"value": null,
+													"type": "text",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "5f36aaec-ef30-40d3-8e85-698a4a87ca3e"
+						}
+					],
+					"id": "ba379352-196b-40eb-945b-8febba20d179"
 				}
 			],
 			"id": "26c77b59-947a-4741-84ca-31c7f8d02228"
