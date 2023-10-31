@@ -480,7 +480,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\":\"Lamed\",\r\n    \"lastName\":\"Saenz\",\r\n    \"celusu\":\"3142540356\",\r\n    \"email\":\"lameddev@gmail.com\",\r\n    \"city\":\"Bogotá\",\r\n    \"address\":\"cll 72 c sur\",\r\n    \"birthdate\":\"2023-10-26T05:00:00.000Z\",\r\n    \"gender\":\"male\"\r\n}",
+									"raw": "{\r\n    \"name\": \"Lamed\",\r\n    \"lastName\": \"Saenz\",\r\n    \"celusu\": \"3142540356\",\r\n    \"email\": \"lameddev@gmail.com\",\r\n    \"city\": \"Bogotá\",\r\n    \"address\": \"cll 72 c sur\",\r\n    \"birthdate\": \"2023-10-26T05:00:00.000Z\",\r\n    \"gender\": \"male\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -754,6 +754,57 @@
 						}
 					],
 					"id": "28bb6169-f859-4f82-b037-063dc947d6a2"
+				},
+				{
+					"name": "User Rating",
+					"item": [
+						{
+							"name": "Rate User Service",
+							"id": "ff46e02a-1621-4609-a2da-f7a634acaa61",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{user_local}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"appointmentID\": \"64d813c5442d49b676c241e8\",  \r\n    \"questionOne\": \"Nueva pregunta 1\",\r\n    \"ratingOne\": 4,  \r\n    \"questionTwo\": \"Nueva pregunta 2\",\r\n    \"ratingTwo\": 5,  \r\n    \"questionThree\": \"Nueva pregunta 3\",\r\n    \"ratingThree\": 3,  \r\n    \"observation\":\"Nueva observación\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/apu/ratuser",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"apu",
+										"ratuser"
+									],
+									"query": [
+										{
+											"key": "x-token",
+											"value": null,
+											"type": "text",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "a03df6ce-e683-4ec4-81a0-7813c1656bbc"
 				}
 			],
 			"id": "46aeb98e-0303-4b39-8240-c762d7a6581a"
