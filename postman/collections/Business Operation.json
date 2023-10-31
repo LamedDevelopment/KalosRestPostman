@@ -171,226 +171,338 @@
 					"name": "Appoinment",
 					"item": [
 						{
-							"name": "View Appoinment",
-							"id": "cdb41c9d-076e-4738-b56d-6ecda5c221e5",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+							"name": "Colla Rating",
+							"item": [
+								{
+									"name": "Rate Colla Service",
+									"id": "9cbb4b04-58c7-4c38-bc1b-2ef4452ef6c0",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{user_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"appointmentID\": \"64d813c5442d49b676c241e8\",  \r\n    \"questionOne\": \"Nueva pregunta 1\",\r\n    \"ratingOne\": 4,  \r\n    \"questionTwo\": \"Nueva pregunta 2\",\r\n    \"ratingTwo\": 5,  \r\n    \"questionThree\": \"Nueva pregunta 3\",\r\n    \"ratingThree\": 3,  \r\n    \"observation\":\"Nueva observación\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/ratcolla",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"ratcolla"
+											],
+											"query": [
+												{
+													"key": "x-token",
+													"value": null,
+													"type": "text",
+													"disabled": true
+												}
+											]
 										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/api/epa",
-									"host": [
-										"{{kalos_local}}{{user_dev}}"
-									],
-									"path": [
-										"api",
-										"epa"
-									]
+									},
+									"response": []
 								}
-							},
-							"response": []
+							],
+							"id": "08883c00-3d30-4217-b731-87597fe8a31a"
 						},
 						{
-							"name": "Update Appoinment",
-							"id": "d09f6d36-fc14-480b-b786-344d8e087c36",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "PUT",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+							"name": "get",
+							"item": [
+								{
+									"name": "View Appoinment",
+									"id": "cdb41c9d-076e-4738-b56d-6ecda5c221e5",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{user_dev}}/api/epa",
+											"host": [
+												"{{kalos_local}}{{user_dev}}"
+											],
+											"path": [
+												"api",
+												"epa"
+											]
 										}
-									}
+									},
+									"response": []
 								},
-								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/api/epa",
-									"host": [
-										"{{kalos_local}}{{user_dev}}"
-									],
-									"path": [
-										"api",
-										"epa"
-									]
+								{
+									"name": "Consulta de Citas Dia",
+									"id": "f2a2e2f6-b1cc-4c82-a8eb-aeaff9e0e18e",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{user_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapd",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapd"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Semana",
+									"id": "a890317c-11ba-4dd1-8579-92245c0c64ce",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{user_dev}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/wuap",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"wuap"
+											]
+										}
+									},
+									"response": []
 								}
-							},
-							"response": []
+							],
+							"id": "1be3e356-b5fa-48ed-8f86-42ab1cf27c64"
 						},
 						{
-							"name": "Delete Appoinment",
-							"id": "5a619219-7839-4cdf-adad-fc696e674293",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "DELETE",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+							"name": "post",
+							"item": [
+								{
+									"name": "Consulta de Citas Dia X ID",
+									"id": "e113fd9a-181f-46c4-9774-4c6e96a00696",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{token_lamed}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"idAppointment\": \"64d847ef4db32789651fc294\",\r\n    \"userID\": \"64a8d9b6f12d3126f6a50b5c\",\r\n    \"collaborator\" : \"64c499092f24c1efb51031bc\",\r\n    \"observationColla\": \"Prueba de Observacion del Colaborador para Finalizar el Servicio\",\r\n    \"Initialization\": false,\r\n    \"Termination\": true,\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"14/08/2023\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{user_dev}}/apu/inser",
+											"host": [
+												"{{kalos_local}}{{user_dev}}"
+											],
+											"path": [
+												"apu",
+												"inser"
+											]
 										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/api/epa",
-									"host": [
-										"{{kalos_local}}{{user_dev}}"
-									],
-									"path": [
-										"api",
-										"epa"
-									]
+									},
+									"response": []
 								}
-							},
-							"response": []
+							],
+							"id": "ae64cf0f-f298-447e-b3fe-acdd8df2cd5f"
 						},
 						{
-							"name": "Consulta de Citas Dia Colaborador",
-							"id": "ad1a9ed0-0756-436b-a2d1-f8385278b766",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{token_lamed}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"collaborator\" : \"64c499092f24c1efb51031bc\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"13/08/2023\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+							"name": "put",
+							"item": [
+								{
+									"name": "Update Appoinment",
+									"id": "d09f6d36-fc14-480b-b786-344d8e087c36",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{user_dev}}/api/epa",
+											"host": [
+												"{{kalos_local}}{{user_dev}}"
+											],
+											"path": [
+												"api",
+												"epa"
+											]
 										}
-									}
+									},
+									"response": []
 								},
-								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/apu/capd",
-									"host": [
-										"{{kalos_local}}{{user_dev}}"
-									],
-									"path": [
-										"apu",
-										"capd"
-									]
+								{
+									"name": "Start Service",
+									"id": "920af22c-a30b-41de-a2f9-4f76224d8b4f",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{colla_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"staff\": \"63142f6666fc0d4b562231cf\",\r\n    \"appointment\": \"63b25a00fe1b52ce46259322\",\r\n    \"appointmentDate\": \"63b25a00fe1b52ce46259325\",\r\n    \"dateini\": \"02/01/2023\",\r\n    \"datefin\": \"07/01/2023\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/cb/ssca",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"cb",
+												"ssca"
+											]
+										}
+									},
+									"response": []
 								}
-							},
-							"response": []
+							],
+							"id": "2d40e4c6-f07c-4176-8392-281599e9b5c2"
 						},
 						{
-							"name": "Consulta de Citas Dia X ID",
-							"id": "e113fd9a-181f-46c4-9774-4c6e96a00696",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{token_lamed}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"idAppointment\": \"64d847ef4db32789651fc294\",\r\n    \"userID\": \"64a8d9b6f12d3126f6a50b5c\",\r\n    \"collaborator\" : \"64c499092f24c1efb51031bc\",\r\n    \"observationColla\": \"Prueba de Observacion del Colaborador para Finalizar el Servicio\",\r\n    \"Initialization\": false,\r\n    \"Termination\": true,\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"14/08/2023\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+							"name": "del",
+							"item": [
+								{
+									"name": "Delete Appoinment",
+									"id": "5a619219-7839-4cdf-adad-fc696e674293",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{user_dev}}/api/epa",
+											"host": [
+												"{{kalos_local}}{{user_dev}}"
+											],
+											"path": [
+												"api",
+												"epa"
+											]
 										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/apu/inser",
-									"host": [
-										"{{kalos_local}}{{user_dev}}"
-									],
-									"path": [
-										"apu",
-										"inser"
-									]
+									},
+									"response": []
 								}
-							},
-							"response": []
-						},
-						{
-							"name": "Consulta de Citas Semana Colaborador",
-							"id": "2c7cef2f-17c7-4846-9de3-2a831a6d1711",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{token_lamed}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"collaborator\" : \"64c499092f24c1efb51031bc\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"12/08/2023\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/apu/capm",
-									"host": [
-										"{{kalos_local}}{{user_dev}}"
-									],
-									"path": [
-										"apu",
-										"capm"
-									]
-								}
-							},
-							"response": []
+							],
+							"id": "ef87de3e-4e38-4367-94d4-0d6fab29e184"
 						}
 					],
 					"id": "b56f9f7c-93eb-4696-9eef-506ae011b5ea"
