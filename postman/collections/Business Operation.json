@@ -272,7 +272,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{user_local}}",
+												"value": "{{colla_local}}",
 												"type": "text"
 											}
 										],
@@ -286,13 +286,13 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/apu/uapd",
+											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
 											"host": [
 												"{{kalos_local}}{{api}}"
 											],
 											"path": [
 												"apu",
-												"uapd"
+												"uapdco"
 											]
 										}
 									},
@@ -309,7 +309,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{user_dev}}",
+												"value": "{{colla_local}}",
 												"type": "text"
 											}
 										],
@@ -323,13 +323,13 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/apu/wuap",
+											"raw": "{{kalos_local}}{{api}}/apu/wuapco",
 											"host": [
 												"{{kalos_local}}{{api}}"
 											],
 											"path": [
 												"apu",
-												"wuap"
+												"wuapco"
 											]
 										}
 									},
@@ -422,7 +422,7 @@
 									"response": []
 								},
 								{
-									"name": "Start Service",
+									"name": "Service Start",
 									"id": "920af22c-a30b-41de-a2f9-4f76224d8b4f",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -438,7 +438,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"staff\": \"63142f6666fc0d4b562231cf\",\r\n    \"appointment\": \"63b25a00fe1b52ce46259322\",\r\n    \"appointmentDate\": \"63b25a00fe1b52ce46259325\",\r\n    \"dateini\": \"02/01/2023\",\r\n    \"datefin\": \"07/01/2023\"\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"64d8232c442d49b676c2422b\",\r\n    \"businessID\": \"64c1ff325cec58954b278c1a\",\r\n    \"serviceID\": \"64d8232c442d49b676c2422c\",\r\n    \"staffID\": \"64c499092f24c1efb51031bc\",\r\n    \"appointmentDateID\": \"64d8232c442d49b676c2422e\",\r\n    \"observationAppointment\": \"Datos que el Collaborador ingresa para iniciar el Servicio.\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -446,13 +446,50 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/cb/ssca",
+											"raw": "{{kalos_local}}{{api}}/apu/iniser",
 											"host": [
 												"{{kalos_local}}{{api}}"
 											],
 											"path": [
-												"cb",
-												"ssca"
+												"apu",
+												"iniser"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Service End",
+									"id": "f7443836-d4b3-4a8e-9525-ef52cbe9ec31",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{colla_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"appointmentID\": \"64d8232c442d49b676c2422b\",\r\n    \"businessID\": \"64c1ff325cec58954b278c1a\",\r\n    \"serviceID\": \"64d8232c442d49b676c2422c\",\r\n    \"staffID\": \"64c499092f24c1efb51031bc\",\r\n    \"appointmentDateID\": \"64d8232c442d49b676c2422e\",\r\n    \"observationAppointment\": \"Datos que el Collaborador ingresa para finalizar el Servicio.\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/finser",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"finser"
 											]
 										}
 									},
