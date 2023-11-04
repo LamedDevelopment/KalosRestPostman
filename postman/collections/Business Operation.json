@@ -377,6 +377,43 @@
 										}
 									},
 									"response": []
+								},
+								{
+									"name": "Create Appointments",
+									"id": "463aba2b-0726-440e-bdd8-abc9fa59940a",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{user_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"64c499092f24c1efb51031bc\",\r\n    \"observationManager\": \"Creacion de Agenda por parte del Manager del Establecimiento\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"02/11/2023\",\r\n    \"timeService\": \"20:00:00\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/crapstf",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"crapstf"
+											]
+										}
+									},
+									"response": []
 								}
 							],
 							"id": "ae64cf0f-f298-447e-b3fe-acdd8df2cd5f"
@@ -475,7 +512,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"64d8232c442d49b676c2422b\",\r\n    \"businessID\": \"64c1ff325cec58954b278c1a\",\r\n    \"serviceID\": \"64d8232c442d49b676c2422c\",\r\n    \"staffID\": \"64c499092f24c1efb51031bc\",\r\n    \"appointmentDateID\": \"64d8232c442d49b676c2422e\",\r\n    \"observationAppointment\": \"Datos que el Collaborador ingresa para finalizar el Servicio.\"\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"64d8232c442d49b676c2422b\",\r\n    \"businessID\": \"64c1ff325cec58954b278c1a\",\r\n    \"serviceID\": \"64d8232c442d49b676c2422c\",\r\n    \"staffID\": \"64c499092f24c1efb51031bc\",\r\n    \"appointmentDateID\": \"64d8232c442d49b676c2422e\",\r\n    \"observationAppointment\": \"Prueba de cierre de servicio aumentando nuevas actualizaciones de cierra al Appointment\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -860,13 +897,13 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{token_lamed}}",
+										"value": "{{colla_local}}",
 										"type": "text"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"12/08/2023\"\r\n}",
+									"raw": "{}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -874,13 +911,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/apu/mapd",
+									"raw": "{{kalos_local}}{{api}}/apu/uapdma",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"apu",
-										"mapd"
+										"uapdma"
 									]
 								}
 							},
@@ -897,13 +934,13 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{token_lamed}}",
+										"value": "{{colla_local}}",
 										"type": "text"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"12/08/2023\"\r\n}",
+									"raw": "{}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -911,21 +948,21 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/apu/apm",
+									"raw": "{{kalos_local}}{{api}}/apu/wuapma",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"apu",
-										"apm"
+										"wuapma"
 									]
 								}
 							},
 							"response": []
 						},
 						{
-							"name": "Create Appointments Copy",
-							"id": "cd8a11fc-a4f8-4dad-84be-fa0b5de86ac4",
+							"name": "Create Appointment",
+							"id": "dbeb1e15-9d87-4884-b506-4ac8177c7409",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -934,13 +971,13 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{token_lamed}}",
+										"value": "{{user_local}}",
 										"type": "text"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"user\": \"64a8d9b6f12d3126f6a50b5c\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"14/08/2023\",\r\n    \"timeService\": \"09:28:00\"\r\n}",
+									"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"64b4dd0fbd21c7b449d52ece\",\r\n    \"observationManager\": \"Se crea el agendamiento por parte del Manager de la tienda\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"03/11/2023\",\r\n    \"timeService\": \"09:30:00\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -948,12 +985,85 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/apu",
+									"raw": "{{kalos_local}}{{api}}/apu",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"apu"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Cancel Appoinment",
+							"id": "9142ddc0-bbb0-4e47-979b-d62c33bd7468",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{user_local}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"appointmentID\": \"64d8365972e48268d5c773d1\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/apu",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"apu"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Cancel Appoinment One Service",
+							"id": "0af88b60-0abd-47c7-b328-177e0bde0ade",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{colla_local}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"appointmentID\": \"653aa7cea65008b0d94274b7\",\r\n    \"service\": \"653ab183cba0f3c1bd0cd574\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/apu/onestf",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"apu",
+										"onestf"
 									]
 								}
 							},

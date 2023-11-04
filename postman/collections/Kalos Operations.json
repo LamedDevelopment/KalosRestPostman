@@ -729,7 +729,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{token_lamed}}",
+										"value": "{{colla_local}}",
 										"type": "text"
 									}
 								],
@@ -797,7 +797,7 @@
 					"name": "See Business Staff",
 					"item": [
 						{
-							"name": "Staff Type",
+							"name": "View Staff Type X Nit",
 							"id": "407cdd87-dfec-44b8-8193-981203678503",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -807,13 +807,13 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+										"value": "{{colla_local}}",
 										"type": "text"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"nitBusiness\": \"1234567892\"\r\n}",
+									"raw": "{\r\n    \"nitBusiness\": \"901715265\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -821,12 +821,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/usf",
+									"raw": "{{kalos_local}}{{api}}/sf",
 									"host": [
 										"{{kalos_local}}{{api}}"
 									],
 									"path": [
-										"usf"
+										"sf"
 									]
 								}
 							},
@@ -880,7 +880,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{token_lamed}}",
+										"value": "{{colla_local}}",
 										"type": "text"
 									}
 								],
@@ -1352,6 +1352,49 @@
 				}
 			],
 			"id": "656ddebd-4860-4f9b-9306-4045043a940e"
+		},
+		{
+			"name": "Control Menu",
+			"item": [
+				{
+					"name": "Menu Create",
+					"id": "43647700-2e7b-4a25-8606-53ec3eb49654",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{colla_local}}",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Administrador\",\r\n    \"profile\": \"ADMIN_ROLE\",\r\n    \"menu\": [\r\n        {\r\n            \"path\": \"ad/dash\",\r\n            \"title\": \"Dashboard\",\r\n            \"type\": \"sub\",\r\n            \"icontype\":\"\",\r\n            \"collapse\":\"Dashboard\",\r\n            \"access\": [\"REPMA\"],\r\n            \"children\": [\r\n                {\r\n                    \"path\": \"/pc\",\r\n                    \"title\": \"Panel De Control\",\r\n                    \"ab\": \"REPMA\",\r\n                    \"access\": \"REPMA\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"path\": \"ad/pro\",\r\n            \"title\": \"Perfil Usuario\",\r\n            \"type\": \"sub\",\r\n            \"icontype\": \"\",\r\n            \"collapse\": \"profile\",\r\n            \"access\": [\"ACCMA\",\"SECMA\"],\r\n            \"children\": [\r\n                {\r\n                    \"path\": \"/per\",\r\n                    \"title\": \"Perfil\",\r\n                    \"ab\": \"ACCMA\",\r\n                    \"access\": \"ACCMA\"\r\n                },\r\n                {\r\n                    \"path\": \"/sec\",\r\n                    \"title\": \"Seguridad\",\r\n                    \"ab\": \"SECMA\",\r\n                    \"access\": \"SECMA\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"path\": \"ad/app\",\r\n            \"title\": \"Agenda\",\r\n            \"type\": \"sub\",\r\n            \"icontype\":\"\",\r\n            \"collapse\":\"appointment\",\r\n            \"access\": [\"CRAPMA\",\"VIAPMA\",\"EDAPMA\",\"CAAPMA\",\"RAAPMA\"],\r\n            \"children\": [\r\n                {\r\n                    \"path\": \"/create\",\r\n                    \"title\": \"Crear Agenda\",\r\n                    \"ab\": \"CRAPMA\",\r\n                    \"access\": \"CRAPMA\"\r\n                },\r\n                {\r\n                    \"path\": \"/view\",\r\n                    \"title\": \"Ver Agenda\",\r\n                    \"ab\": \"VIAPMA\",\r\n                    \"access\": \"VIAPMA\"\r\n                },\r\n                {\r\n                    \"path\": \"\",\r\n                    \"title\": \"Editar Agenda\",\r\n                    \"ab\": \"EDAPMA\",\r\n                    \"access\": \"EDAPMA\"\r\n                },\r\n                {\r\n                    \"path\": \"\",\r\n                    \"title\": \"Cancelar Agenda\",\r\n                    \"ab\": \"CAAPMA\",\r\n                    \"access\": \"CAAPMA\"\r\n                },\r\n                {\r\n                    \"path\": \"\",\r\n                    \"title\": \"Calificar Servicio\",\r\n                    \"ab\": \"RAAPMA\",\r\n                    \"access\": \"RAAPMA\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"path\": \"ad/his\",\r\n            \"title\": \"Historico\",\r\n            \"type\": \"sub\",\r\n            \"icontype\":\"\",\r\n            \"collapse\":\"history\",\r\n            \"access\": [\"VIAPMAHI\"],\r\n            \"children\": [\r\n                {\r\n                    \"path\": \"/hiser\",\r\n                    \"title\": \"Historico de Servicios\",\r\n                    \"ab\": \"VIAPMAHI\",\r\n                    \"access\": \"VIAPMAHI\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"path\": \"ad/wallet\",\r\n            \"title\": \"Pagos\",\r\n            \"type\": \"sub\",\r\n            \"icontype\":\"\",\r\n            \"collapse\":\"payments\",\r\n            \"access\": [\"PAYMA\"],\r\n            \"children\": [\r\n                {\r\n                    \"path\": \"/pagos\",\r\n                    \"title\": \"Pagos\",\r\n                    \"ab\": \"PAYMA\",\r\n                    \"access\": \"PAYMA\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"path\": \"ad/cose\",\r\n            \"title\": \"Comisiones de Servicios\",\r\n            \"type\": \"sub\",\r\n            \"icontype\":\"\",\r\n            \"collapse\":\"serviceCommissions\",\r\n            \"access\": [\"COCMA\",\"COEMA\"],\r\n            \"children\": [\r\n                {\r\n                    \"path\": \"/coco\",\r\n                    \"title\": \"Comisiones Colaboradores\",\r\n                    \"ab\": \"COCMA\",\r\n                    \"access\": \"COCMA\"\r\n                },\r\n                {\r\n                    \"path\": \"/coes\",\r\n                    \"title\": \"Comisiones Establecimiento\",\r\n                    \"ab\": \"COEMA\",\r\n                    \"access\": \"COEMA\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"path\": \"ad/maper\",\r\n            \"title\": \"Gerente de Personal\",\r\n            \"type\": \"sub\",\r\n            \"icontype\":\"\",\r\n            \"collapse\":\"PersonalManager\",\r\n            \"access\": [\"PERMA\"],\r\n            \"children\": [\r\n                {\r\n                    \"path\": \"/perm\",\r\n                    \"title\": \"Permisos\",\r\n                    \"ab\": \"PERMA\",\r\n                    \"access\": \"PERMA\"\r\n                },\r\n                {\r\n                    \"path\": \"/anti\",\r\n                    \"title\": \"Anticipos\",\r\n                    \"ab\": \"ANMA\",\r\n                    \"access\": \"ANMA\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/mn",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"mn"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "cfbb3a00-4450-4d5f-94d3-e45e865c01fd"
 		}
 	]
 }
