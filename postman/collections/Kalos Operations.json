@@ -570,13 +570,13 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+								"value": "{{user_local}}",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "",
+							"raw": "{\r\n    \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -584,12 +584,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/tr",
+							"raw": "{{kalos_local}}{{api}}/pf",
 							"host": [
 								"{{kalos_local}}{{api}}"
 							],
 							"path": [
-								"tr"
+								"pf"
 							]
 						}
 					},
@@ -1395,6 +1395,48 @@
 				}
 			],
 			"id": "cfbb3a00-4450-4d5f-94d3-e45e865c01fd"
+		},
+		{
+			"name": "See Menu For User Type",
+			"item": [
+				{
+					"name": "See Menu",
+					"id": "be9bb1ec-1ee1-45da-a9ec-5eb6e02dc47a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{colla_local}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/mn",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"mn"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "98a291e1-c5bd-4752-828f-d862d4a1d50b"
 		}
 	]
 }

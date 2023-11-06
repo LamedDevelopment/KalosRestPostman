@@ -512,7 +512,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"64d8232c442d49b676c2422b\",\r\n    \"businessID\": \"64c1ff325cec58954b278c1a\",\r\n    \"serviceID\": \"64d8232c442d49b676c2422c\",\r\n    \"staffID\": \"64c499092f24c1efb51031bc\",\r\n    \"appointmentDateID\": \"64d8232c442d49b676c2422e\",\r\n    \"observationAppointment\": \"Prueba de cierre de servicio aumentando nuevas actualizaciones de cierra al Appointment\"\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"653aa7cea65008b0d94274b7\",\r\n    \"businessID\": \"64c1ff325cec58954b278c1a\",\r\n    \"serviceID\": \"653ab1c412db04c422d43957\",\r\n    \"staffID\": \"64c499092f24c1efb51031bc\",\r\n    \"appointmentDateID\": \"653aae9a2964485cfa7f711b\",\r\n    \"observationAppointment\": \"Observacion de cierre de servicio por parte del Colaborador.\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -887,254 +887,257 @@
 					"name": "Appoinment",
 					"item": [
 						{
-							"name": "Consulta de Citas Dia",
-							"id": "95828276-a702-4880-87e3-2567799a0aba",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{colla_local}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{}",
-									"options": {
-										"raw": {
-											"language": "json"
+							"name": "View Day Or Week",
+							"item": [
+								{
+									"name": "Consulta de Citas Dia",
+									"id": "95828276-a702-4880-87e3-2567799a0aba",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{colla_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapdma",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapdma"
+											]
 										}
-									}
+									},
+									"response": []
 								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/apu/uapdma",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"apu",
-										"uapdma"
-									]
+								{
+									"name": "Consulta de Citas Semana",
+									"id": "522004a6-e35e-48c1-9051-0ab27a7a8743",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{colla_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/wuapma",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"wuapma"
+											]
+										}
+									},
+									"response": []
 								}
-							},
-							"response": []
+							],
+							"id": "dd2948eb-15b6-485e-b99b-3587b03d57d6"
 						},
 						{
-							"name": "Consulta de Citas Semana",
-							"id": "522004a6-e35e-48c1-9051-0ab27a7a8743",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{colla_local}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{}",
-									"options": {
-										"raw": {
-											"language": "json"
+							"name": "Create Services",
+							"item": [
+								{
+									"name": "Create Appointment",
+									"id": "dbeb1e15-9d87-4884-b506-4ac8177c7409",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{user_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"64b4dd0fbd21c7b449d52ece\",\r\n    \"observationManager\": \"Se crea el agendamiento por parte del Manager de la tienda\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"03/11/2023\",\r\n    \"timeService\": \"09:30:00\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu"
+											]
 										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/apu/wuapma",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"apu",
-										"wuapma"
-									]
+									},
+									"response": []
 								}
-							},
-							"response": []
+							],
+							"id": "d90ee1ce-cb82-4339-9e76-143935cb63be"
 						},
 						{
-							"name": "Create Appointment",
-							"id": "dbeb1e15-9d87-4884-b506-4ac8177c7409",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{user_local}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"64b4dd0fbd21c7b449d52ece\",\r\n    \"observationManager\": \"Se crea el agendamiento por parte del Manager de la tienda\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"03/11/2023\",\r\n    \"timeService\": \"09:30:00\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+							"name": "Cancel Services",
+							"item": [
+								{
+									"name": "Cancel Appoinment",
+									"id": "9142ddc0-bbb0-4e47-979b-d62c33bd7468",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{user_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"appointmentID\": \"64d8365972e48268d5c773d1\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu"
+											]
 										}
-									}
+									},
+									"response": []
 								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/apu",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"apu"
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "Cancel Appoinment",
-							"id": "9142ddc0-bbb0-4e47-979b-d62c33bd7468",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "DELETE",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{user_local}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"appointmentID\": \"64d8365972e48268d5c773d1\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+								{
+									"name": "Cancel Appoinment One Service",
+									"id": "0af88b60-0abd-47c7-b328-177e0bde0ade",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{colla_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"appointmentID\": \"653aa7cea65008b0d94274b7\",\r\n    \"service\": \"653ab183cba0f3c1bd0cd574\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/onestf",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"onestf"
+											]
 										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/apu",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"apu"
-									]
+									},
+									"response": []
 								}
-							},
-							"response": []
-						},
-						{
-							"name": "Cancel Appoinment One Service",
-							"id": "0af88b60-0abd-47c7-b328-177e0bde0ade",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "DELETE",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{colla_local}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"appointmentID\": \"653aa7cea65008b0d94274b7\",\r\n    \"service\": \"653ab183cba0f3c1bd0cd574\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/apu/onestf",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"apu",
-										"onestf"
-									]
-								}
-							},
-							"response": []
+							],
+							"id": "1ee73e57-408d-46f6-a0e3-38e751ed8e19"
 						}
 					],
 					"id": "a622bc51-cb76-4028-aa38-80e71bdb7f11"
 				},
 				{
-					"name": "Business Manager",
-					"id": "983868da-bc27-4915-b2cd-9fbbba634cf8",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "x-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzE0MjhhMGQxNGM1OTM2OGRiYmUyNDMiLCJyb2xlIjoiNjJkOWE5NThjYzdjMDAxZDRhZjRiZGVlIiwiYnVzIjoxMjM0NTY3ODkyLCJpYXQiOjE2Nzc1NTczMTksImV4cCI6MTY4MDE0OTMxOX0.hlqaMRxRC7_A9a1Q77Z7-Vtje6TKSjO8gHZi151NXIA",
-								"type": "text"
-							}
-						],
-						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/api/bm",
-							"host": [
-								"{{kalos_local}}{{user_dev}}"
-							],
-							"path": [
-								"api",
-								"bm"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Business Manager",
-					"id": "4d93badb-eaf7-427a-b02e-3f2ba82141ab",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "x-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"manager\" : \"62d72dd306ea6012055e403c\",\r\n    \"document\": \"52757050\",\r\n    \"role\": \"62d9a958cc7c001d4af4bdee\",\r\n    \"typeCollaborator\":[\"62d9a07d69c8bd50e68f7b96\"],\r\n    \"nit\":\"1234567892\",\r\n    \"businessName\":\"Centro de Estetica 1\",\r\n    \"business\":\"6301b4f0006c848620d63933\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
+					"name": "Billing",
+					"item": [
+						{
+							"name": "See Payment",
+							"item": [
+								{
+									"name": "All Services",
+									"id": "e70dc7d6-f357-4f21-926f-8412df91cf3d",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{colla_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/payma",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"payma"
+											]
+										}
+									},
+									"response": []
 								}
-							}
-						},
-						"url": {
-							"raw": "{{kalos_local}}{{user_dev}}/bm",
-							"host": [
-								"{{kalos_local}}{{user_dev}}"
 							],
-							"path": [
-								"bm"
-							]
+							"id": "e07305a5-cdd0-4c27-885b-2afa577bde3f"
 						}
-					},
-					"response": []
+					],
+					"id": "34faac7e-011c-41ff-91f8-260f98f4db34"
 				}
 			],
 			"id": "2d8ab866-f2bf-419e-ac6c-003421d81f19"
@@ -1256,6 +1259,76 @@
 						}
 					],
 					"id": "04b0d641-9f11-44de-b5aa-e52b76b57278"
+				},
+				{
+					"name": "Create Manager",
+					"item": [
+						{
+							"name": "Business Manager",
+							"id": "983868da-bc27-4915-b2cd-9fbbba634cf8",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzE0MjhhMGQxNGM1OTM2OGRiYmUyNDMiLCJyb2xlIjoiNjJkOWE5NThjYzdjMDAxZDRhZjRiZGVlIiwiYnVzIjoxMjM0NTY3ODkyLCJpYXQiOjE2Nzc1NTczMTksImV4cCI6MTY4MDE0OTMxOX0.hlqaMRxRC7_A9a1Q77Z7-Vtje6TKSjO8gHZi151NXIA",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{kalos_local}}{{user_dev}}/api/bm",
+									"host": [
+										"{{kalos_local}}{{user_dev}}"
+									],
+									"path": [
+										"api",
+										"bm"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Business Manager",
+							"id": "4d93badb-eaf7-427a-b02e-3f2ba82141ab",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"manager\" : \"62d72dd306ea6012055e403c\",\r\n    \"document\": \"52757050\",\r\n    \"role\": \"62d9a958cc7c001d4af4bdee\",\r\n    \"typeCollaborator\":[\"62d9a07d69c8bd50e68f7b96\"],\r\n    \"nit\":\"1234567892\",\r\n    \"businessName\":\"Centro de Estetica 1\",\r\n    \"business\":\"6301b4f0006c848620d63933\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{user_dev}}/bm",
+									"host": [
+										"{{kalos_local}}{{user_dev}}"
+									],
+									"path": [
+										"bm"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "487e27ac-48ec-433f-a981-b0730a627c73"
 				}
 			],
 			"id": "05eb961d-7746-4f7e-986d-0e106de2550f"
