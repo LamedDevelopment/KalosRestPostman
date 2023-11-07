@@ -475,7 +475,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"64d8232c442d49b676c2422b\",\r\n    \"businessID\": \"64c1ff325cec58954b278c1a\",\r\n    \"serviceID\": \"64d8232c442d49b676c2422c\",\r\n    \"staffID\": \"64c499092f24c1efb51031bc\",\r\n    \"appointmentDateID\": \"64d8232c442d49b676c2422e\",\r\n    \"observationAppointment\": \"Datos que el Collaborador ingresa para iniciar el Servicio.\"\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"64d813c5442d49b676c241e8\",\r\n    \"businessID\": \"64c1ff325cec58954b278c1a\",\r\n    \"serviceID\": \"653ab1c412db04c422d43957\",\r\n    \"staffID\": \"64c499092f24c1efb51031bc\",\r\n    \"appointmentDateID\": \"64d813c5442d49b676c241eb\",\r\n    \"observationAppointment\": \"Datos que el Collaborador ingresa para iniciar el Servicio.\",\r\n    \"startAddDescriptionService\": [{\r\n        \"serviceName\": \"2 Mechones Permanentes Azul y Futcia,\",\r\n        \"CostService\": \"50000\"\r\n    }]\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -512,7 +512,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"653aa7cea65008b0d94274b7\",\r\n    \"businessID\": \"64c1ff325cec58954b278c1a\",\r\n    \"serviceID\": \"653ab1c412db04c422d43957\",\r\n    \"staffID\": \"64c499092f24c1efb51031bc\",\r\n    \"appointmentDateID\": \"653aae9a2964485cfa7f711b\",\r\n    \"observationAppointment\": \"Observacion de cierre de servicio por parte del Colaborador.\"\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"64d813c5442d49b676c241e8\",\r\n    \"businessID\": \"64c1ff325cec58954b278c1a\",\r\n    \"serviceID\": \"653ab1c412db04c422d43957\",\r\n    \"staffID\": \"64c499092f24c1efb51031bc\",\r\n    \"appointmentDateID\": \"64d813c5442d49b676c241eb\",\r\n    \"observationAppointment\": \"Observacion de cierre de servicio por parte del Colaborador.\",\r\n    \"endAddDescriptionService\": [{\r\n        \"serviceName\": \"Se agrega Servicio Al finalizar el Servicio\",\r\n        \"costService\": \"15000\"\r\n    }]\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1091,7 +1091,7 @@
 					"id": "a622bc51-cb76-4028-aa38-80e71bdb7f11"
 				},
 				{
-					"name": "Billing",
+					"name": "Billing Service",
 					"item": [
 						{
 							"name": "See Payment",
@@ -1135,6 +1135,48 @@
 								}
 							],
 							"id": "e07305a5-cdd0-4c27-885b-2afa577bde3f"
+						},
+						{
+							"name": "Create Billing",
+							"item": [
+								{
+									"name": "Billing Service",
+									"id": "b71fab86-6ca2-47a6-8e56-1a47cd39d445",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{colla_local}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"appointmentID\": \"64d813c5442d49b676c241e8\",\r\n    \"docuUser\": \"80139076\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/bil",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bil"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "05f5bae1-7ab0-4279-9150-45313da3fd8b"
 						}
 					],
 					"id": "34faac7e-011c-41ff-91f8-260f98f4db34"
