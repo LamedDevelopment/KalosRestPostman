@@ -385,7 +385,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"business\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"dateini\": \"22/10/2022\",\r\n    \"datefin\": \"23/10/2022\"\r\n}",
+									"raw": "{\r\n    \"appointmentOld\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"dateService\": \"01/11/2023\",\r\n    \"timeService\": \"20:00:00\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
