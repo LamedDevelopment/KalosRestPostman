@@ -11,6 +11,18 @@
 			"item": [
 				{
 					"name": "login_user",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "1e708e60-ce51-4794-950a-4bd361bd0056",
+								"exec": [
+									"postman.setEnvironmentVariable(\"tk_user\",  JSON.parse(responseBody).login);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "d294f415-70bb-4d9c-95d9-512aaa140957",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -47,6 +59,18 @@
 			"item": [
 				{
 					"name": "login_colaborador",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "62c6b4f8-b2b1-4fa1-b824-e6f1bdf123c7",
+								"exec": [
+									"postman.setEnvironmentVariable(\"tk_colla\",  JSON.parse(responseBody).login);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "657015cf-c1de-48cc-88f1-59e68e62ad0d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -127,7 +151,7 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "{{user_dev}}",
+						"value": "{{tk_user}}",
 						"type": "text"
 					}
 				],
@@ -172,7 +196,7 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "{{token_lamed}}",
+						"value": "{{tk_user}}",
 						"type": "text"
 					}
 				],

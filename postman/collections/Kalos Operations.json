@@ -57,7 +57,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"businessName\": \"Centro LAMED\",\r\n  \"nit\": 901715265,\r\n  \"numberCell\": \"3142540356\",\r\n  \"CellDescription\": \"Recepcion\",\r\n  \"email\": \"lameddev@gmail.com\",\r\n  \"phoneNumber\": \"6017499351\",\r\n  \"phoneDescription\": \"Recepcion\",\r\n  \"coordinates\": [4.602993671063257,-74.20185032633],\r\n  \"address\": \"Calle 96 # 69 - 67\",\r\n  \"city\": \"Bogota\",\r\n  \"cityCode\": \"BOG\",\r\n  \"country\": \"Colombia\",\r\n  \"countryCode\": \"CO\",\r\n  \"state\": \"DC\",\r\n  \"services\": [\"64ab9174923ff67b725791b7\",\"64ab9448063c636a40004160\"],\r\n  \"typeServices\":[\"64ab92e0063c636a40004149\",\"64ab92f3063c636a4000414d\",\"64ab949d063c636a4000416c\"],\r\n  \"img\": \"\",\r\n  \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n  \"daysServices\": [{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    }],\r\n  \"user\": \"64a8d9b6f12d3126f6a50b5c\",\r\n  \"emailUser\": \"lameddev@gmail.com\",\r\n  \"document\": \"80139076\",\r\n  \"profile\":\"64abbcdc5190388112342e8d\",\r\n  \"typeCollaborator\":\"64afa0596e8b9ff0f19a6dde\"\r\n}",
+							"raw": "{\r\n  \"businessName\": \"Centro Estetico Beautiful\",\r\n  \"nit\": 911111111,\r\n  \"numberCell\": \"3103389243\",\r\n  \"CellDescription\": \"Recepcion\",\r\n  \"email\": \"andregusi22@gmail.com\",\r\n  \"phoneNumber\": \"6017499351\",\r\n  \"phoneDescription\": \"Recepcion\",\r\n  \"coordinates\": [4.602993671063257,-74.20185032633],\r\n  \"address\": \"Calle 96 # 69 - 67\",\r\n  \"city\": \"Bogota\",\r\n  \"cityCode\": \"BOG\",\r\n  \"country\": \"Colombia\",\r\n  \"countryCode\": \"CO\",\r\n  \"state\": \"DC\",\r\n  \"services\": [\"64ab9174923ff67b725791b7\",\"64ab9448063c636a40004160\"],\r\n  \"typeServices\":[\"64ab92e0063c636a40004149\",\"64ab92f3063c636a4000414d\",\"64ab949d063c636a4000416c\"],\r\n  \"img\": \"\",\r\n  \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n  \"daysServices\": [{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    }],\r\n  \"user\": \"64a8d9b6f12d3126f6a50b5c\",\r\n  \"emailUser\": \"lameddev@gmail.com\",\r\n  \"document\": \"80139076\",\r\n  \"profile\":\"64abbcdc5190388112342e8d\",\r\n  \"typeCollaborator\":\"64afa0596e8b9ff0f19a6dde\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -271,12 +271,50 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/tsv",
+							"raw": "{{kalos_local}}{{api}}/sv",
 							"host": [
 								"{{kalos_local}}{{api}}"
 							],
 							"path": [
-								"tsv"
+								"sv"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "View All Services",
+					"id": "099057a3-bc97-49ed-a809-51101228b015",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/sv/allse",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"sv",
+								"allse"
 							]
 						}
 					},
@@ -807,7 +845,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{colla_local}}",
+										"value": "{{tk_colla}}",
 										"type": "text"
 									}
 								],
@@ -886,7 +924,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"nit\": \"901715265\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"email\": \"lameddev@gmail.com\",\r\n    \"document\": \"80139076\",\r\n    \"profile\": \"64abbcdc5190388112342e8d\",\r\n    \"typeCollaborator\": \"64afa0596e8b9ff0f19a6dde\",\r\n    \"staffType\" : [\"64c20c05312bb1f27f68c9c9\"],\r\n    \"service\":[\r\n        { \r\n            \"servicesParameter\": \"64ab92e0063c636a40004149\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"servicesParameter\": \"64ab934c063c636a40004151\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"servicesParameter\": \"64ab94a7063c636a40004170\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"servicesParameter\": \"64ab9579063c636a40004183\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"servicesParameter\": \"64ab9af1d82418177a7237e6\",\r\n            \"percentage\": \"0.60\"\r\n        }\r\n    ],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
+									"raw": "{\r\n    \"nit\": \"901715265\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"email\": \"lameddev@gmail.com\",\r\n    \"document\": \"80139076\",\r\n    \"profile\": \"64abbcdc5190388112342e8d\",\r\n    \"typeCollaborator\": \"64afa0596e8b9ff0f19a6dde\",\r\n    \"staffType\" : [\"64c20c05312bb1f27f68c9c9\"],\r\n    \"service\":[\r\n        { \r\n            \"typeServices\": \"64ab92e0063c636a40004149\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeServices\": \"64ab934c063c636a40004151\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeServices\": \"64ab94a7063c636a40004170\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeServices\": \"64ab9579063c636a40004183\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeServices\": \"64ab9af1d82418177a7237e6\",\r\n            \"percentage\": \"0.60\"\r\n        }\r\n    ],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
