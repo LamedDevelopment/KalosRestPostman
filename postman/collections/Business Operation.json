@@ -353,12 +353,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/sf",
+									"raw": "{{kalos_local}}{{api}}/sf/oneco",
 									"host": [
 										"{{kalos_local}}{{api}}"
 									],
 									"path": [
-										"sf"
+										"sf",
+										"oneco"
 									]
 								}
 							},
@@ -1070,6 +1071,50 @@
 													"key": "x-token",
 													"value": null,
 													"type": "text",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Validar Token",
+									"id": "d119b952-b55d-42f8-9bc9-e3e745f1a50f",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/login/token",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"login",
+												"token"
+											],
+											"query": [
+												{
+													"key": "x-token",
+													"value": "{{tk_colla}}",
 													"disabled": true
 												}
 											]
