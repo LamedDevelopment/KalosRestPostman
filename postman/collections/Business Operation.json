@@ -139,7 +139,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"user\": \"64a8d9b6f12d3126f6a50b5c\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"14/08/2023\",\r\n    \"timeService\": \"09:28:00\"\r\n}",
+									"raw": "{\r\n    \"user\": \"6554480313419cfc8e55bf83\", \r\n    \"discount\": \"\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"655707806c6b23062ab9c753\",\r\n    \"observationManager\": \"Se crea el agendamiento por parte del Manager de la tienda\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"17/11/2023\",\r\n    \"timeService\": \"09:00:00\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -147,9 +147,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/apu",
+									"raw": "{{kalos_local}}{{api}}/apu",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"apu"
@@ -586,7 +586,7 @@
 									"response": []
 								},
 								{
-									"name": "Create Appointments",
+									"name": "Create Appointments Manager",
 									"id": "463aba2b-0726-440e-bdd8-abc9fa59940a",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -596,13 +596,13 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{user_local}}",
+												"value": "{{tk_colla}}",
 												"type": "text"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"64c499092f24c1efb51031bc\",\r\n    \"observationManager\": \"Creacion de Agenda por parte del Manager del Establecimiento\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"02/11/2023\",\r\n    \"timeService\": \"20:00:00\"\r\n}",
+											"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"655707806c6b23062ab9c76b\",\r\n    \"observationManager\": \"Creacion de Agenda por parte del Manager del Establecimiento\",\r\n    \"staff\": \"655709768197f57fe38ae95b\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"28/11/2023\",\r\n    \"timeService\": \"14:30:00\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -784,6 +784,124 @@
 								}
 							],
 							"id": "ef87de3e-4e38-4367-94d4-0d6fab29e184"
+						},
+						{
+							"name": "Dependent Create",
+							"item": [
+								{
+									"name": "View Staff Type X Nit Copy",
+									"id": "1f089664-0491-4741-b770-44a526414595",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"nitBusiness\": \"901715265\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/sf/allco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"sf",
+												"allco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "View All Services X Nit",
+									"id": "96543bc0-8d63-4a44-af8a-f7866897a589",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"nitBusiness\": 911111111,\r\n    \"tradename\": \"Nombre Sede O comercial\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/bus/allsebu",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bus",
+												"allsebu"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "View Available Appointment Times",
+									"id": "418d1016-b6da-422c-9c55-39c49a022d65",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_user}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"staff\": \"655709768197f57fe38ae95b\",\r\n    \"dateService\": \"28/11/2023\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/horact",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"horact"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "b88529ab-e3d8-4c7d-aa3f-a97d0057fcf3"
 						}
 					],
 					"id": "b56f9f7c-93eb-4696-9eef-506ae011b5ea"
@@ -1231,13 +1349,13 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{user_local}}",
+												"value": "{{tk_colla}}",
 												"type": "text"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"64b4dd0fbd21c7b449d52ece\",\r\n    \"observationManager\": \"Se crea el agendamiento por parte del Manager de la tienda\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"03/11/2023\",\r\n    \"timeService\": \"09:30:00\"\r\n}",
+											"raw": "{\r\n    \"user\": \"6554480313419cfc8e55bf83\", \r\n    \"discount\": \"\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"655707806c6b23062ab9c753\",\r\n    \"observationManager\": \"Se crea el agendamiento por parte del Manager de la tienda\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"17/11/2023\",\r\n    \"timeService\": \"09:00:00\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"

@@ -80,7 +80,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"colla@email.com\",\r\n    \"pass\": \"123456\"\r\n}",
+							"raw": "{\r\n    \"email\": \"manager@email.com\",\r\n    \"pass\": \"123456\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -210,9 +210,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{kalos_local}}{{user_dev}}/login/close?x-token={{user_dev}}",
+					"raw": "{{kalos_local}}{{api}}/login/close?x-token={{user_dev}}",
 					"host": [
-						"{{kalos_local}}{{user_dev}}"
+						"{{kalos_local}}{{api}}"
 					],
 					"path": [
 						"login",
