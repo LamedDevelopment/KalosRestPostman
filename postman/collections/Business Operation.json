@@ -37,9 +37,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{user_dev}}/epa",
+									"raw": "{{kalos_local}}{{api}}/epa",
 									"host": [
-										"{{kalos_local}}{{user_dev}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"epa"
@@ -559,13 +559,13 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{token_lamed}}",
+												"value": "{{tk_colla}}",
 												"type": "text"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"idAppointment\": \"64d847ef4db32789651fc294\",\r\n    \"userID\": \"64a8d9b6f12d3126f6a50b5c\",\r\n    \"collaborator\" : \"64c499092f24c1efb51031bc\",\r\n    \"observationColla\": \"Prueba de Observacion del Colaborador para Finalizar el Servicio\",\r\n    \"Initialization\": false,\r\n    \"Termination\": true,\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"14/08/2023\"\r\n}",
+											"raw": "{\r\n    \"idAppointment\": \"64d847ef4db32789651fc294\",\r\n    \"userID\": \"64a8d9b6f12d3126f6a50b5c\",\r\n    \"collaborator\" : \"64c499092f24c1efb51031bc\",\r\n    \"observationColla\": \"Prueba de Observacion del Colaborador para Finalizar el Servicio\",\r\n    \"Initialization\": false,\r\n    \"Termination\": true,\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"19/08/2023\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -573,9 +573,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{user_dev}}/apu/inser",
+											"raw": "{{kalos_local}}{{api}}/apu/inser",
 											"host": [
-												"{{kalos_local}}{{user_dev}}"
+												"{{kalos_local}}{{api}}"
 											],
 											"path": [
 												"apu",
@@ -897,6 +897,44 @@
 												"horact"
 											]
 										}
+									},
+									"response": []
+								},
+								{
+									"name": "Business Days Available",
+									"id": "0267fca7-279e-49f6-9076-d0adc5d9890e",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_user}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"businessID\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/busdaycal",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"busdaycal"
+											]
+										},
+										"description": "**Este End Point**, Nos estrega los dias habiles que el establecimiento habilito para atencion a clientes, ademas de la hora de inicio de servicio y finalizacion de Servicio, para que el Front pueda parametrizar el calendario donde el cliente puede buscar el espacio de agendamiento, al momento de crear el servicio.  \nEnviamos el **id del Business** y complementamos con el **nombre comercial de la sucursal** sobre la cual estamos realizando la busqueda de los horarios."
 									},
 									"response": []
 								}
