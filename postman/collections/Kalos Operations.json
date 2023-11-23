@@ -164,7 +164,7 @@
 				},
 				{
 					"name": "Create Appointments",
-					"id": "071ce94c-0654-4dd0-b6f1-be6de45ed709",
+					"id": "487666ff-0b44-41ea-aee5-3c5018469c37",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -179,7 +179,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"discount\": \"\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"655707806c6b23062ab9c76b\",\r\n    \"observationManager\": \"El Manager Creaa esta citas para el cliente\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"20/11/2023\",\r\n    \"timeService\": \"15:30:00\"\r\n}\r\n",
+							"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"discount\": \"\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"655707806c6b23062ab9c76b\",\r\n    \"observationManager\": \"El Manager Creaa esta citas para el cliente\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"21/11/2023\",\r\n    \"timeService\": \"11:30:00\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -766,13 +766,13 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{token_lamed}}",
+								"value": "{{tk_colla}}",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"business\": \"64b0e7f7dfb5742dacb9f717\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92f3063c636a4000414d\",\r\n    \"staffType\": \"64b2ddb51bcd863da11fa144\",\r\n    \"serviceTime\": \"10\",\r\n    \"biocleaning\": \"2\",\r\n    \"servicePrice\": \"12000\"\r\n}",
+							"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"staffType\": \"64b2ddc31bcd863da11fa147\",\r\n    \"serviceTime\": \"25\",\r\n    \"biocleaning\": \"2\",\r\n    \"servicePrice\": \"15000\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"

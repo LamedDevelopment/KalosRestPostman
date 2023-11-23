@@ -676,13 +676,13 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{colla_local}}",
+												"value": "{{tk_colla}}",
 												"type": "text"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"64d813c5442d49b676c241e8\",\r\n    \"businessID\": \"64c1ff325cec58954b278c1a\",\r\n    \"serviceID\": \"653ab1c412db04c422d43957\",\r\n    \"staffID\": \"64c499092f24c1efb51031bc\",\r\n    \"appointmentDateID\": \"64d813c5442d49b676c241eb\",\r\n    \"observationAppointment\": \"Datos que el Collaborador ingresa para iniciar el Servicio.\",\r\n    \"startAddDescriptionService\": [{\r\n        \"serviceName\": \"2 Mechones Permanentes Azul y Futcia,\",\r\n        \"CostService\": \"50000\"\r\n    }]\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"655c35264e1ce3799b6c1f30\",\r\n    \"businessID\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"serviceID\": \"655c35264e1ce3799b6c1f31\",\r\n    \"staffID\": \"655c35264e1ce3799b6c1f32\",\r\n    \"appointmentDateID\": \"655c35264e1ce3799b6c1f33\",\r\n    \"observationAppointment\": \"Datos que el Collaborador ingresa para iniciar el Servicio.\",\r\n    \"startAddDescriptionService\": [\r\n        {\r\n            \"serviceName\": \"2 Mechones Permanentes Azul y Futcia,\",\r\n            \"CostService\": 15000\r\n        }\r\n    ]\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -880,7 +880,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"staff\": \"655709768197f57fe38ae95b\",\r\n    \"dateService\": \"24/11/2023\"\r\n}",
+											"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"dateService\": \"21/11/2023\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1461,11 +1461,11 @@
 										"disableBodyPruning": true
 									},
 									"request": {
-										"method": "DELETE",
+										"method": "POST",
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{colla_local}}",
+												"value": "{{tk_colla}}",
 												"type": "text"
 											}
 										],
