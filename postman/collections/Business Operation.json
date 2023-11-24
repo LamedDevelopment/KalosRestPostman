@@ -247,6 +247,44 @@
 							"response": []
 						},
 						{
+							"name": "Services X ID",
+							"id": "30f18151-017f-4f54-a278-e2422f1d6a9c",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"serviceID\": \"64ab9174923ff67b725791b7\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/sv/serid",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"sv",
+										"serid"
+									]
+								}
+							},
+							"response": []
+						},
+						{
 							"name": "All Services X Nit",
 							"id": "6b6b6a39-2cb6-4b9b-99a9-22700a1e5d95",
 							"protocolProfileBehavior": {
@@ -438,17 +476,17 @@
 										"disableBodyPruning": true
 									},
 									"request": {
-										"method": "GET",
+										"method": "POST",
 										"header": [
 											{
 												"key": "x-token",
-												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
+												"value": "{{tk_colla}}",
 												"type": "text"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+											"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -456,9 +494,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{user_dev}}/api/epa",
+											"raw": "{{kalos_local}}{{api}}/api/epa",
 											"host": [
-												"{{kalos_local}}{{user_dev}}"
+												"{{kalos_local}}{{api}}"
 											],
 											"path": [
 												"api",
@@ -479,7 +517,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{colla_local}}",
+												"value": "{{tk_colla}}",
 												"type": "text"
 											}
 										],
@@ -565,7 +603,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"idAppointment\": \"64d847ef4db32789651fc294\",\r\n    \"userID\": \"64a8d9b6f12d3126f6a50b5c\",\r\n    \"collaborator\" : \"64c499092f24c1efb51031bc\",\r\n    \"observationColla\": \"Prueba de Observacion del Colaborador para Finalizar el Servicio\",\r\n    \"Initialization\": false,\r\n    \"Termination\": true,\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"19/08/2023\"\r\n}",
+											"raw": "{\r\n    \"idAppointment\": \"64d847ef4db32789651fc294\",\r\n    \"userID\": \"64a8d9b6f12d3126f6a50b5c\",\r\n    \"collaborator\" : \"64c499092f24c1efb51031bc\",\r\n    \"observationColla\": \"Prueba de Observacion del Colaborador para Finalizar el Servicio\",\r\n    \"Initialization\": false,\r\n    \"Termination\": true,\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"dateService\": \"22/11/2023\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -682,7 +720,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"655c35264e1ce3799b6c1f30\",\r\n    \"businessID\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"serviceID\": \"655c35264e1ce3799b6c1f31\",\r\n    \"staffID\": \"655c35264e1ce3799b6c1f32\",\r\n    \"appointmentDateID\": \"655c35264e1ce3799b6c1f33\",\r\n    \"observationAppointment\": \"Datos que el Collaborador ingresa para iniciar el Servicio.\",\r\n    \"startAddDescriptionService\": [\r\n        {\r\n            \"serviceName\": \"2 Mechones Permanentes Azul y Futcia,\",\r\n            \"CostService\": 15000\r\n        }\r\n    ]\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"655c35664e1ce3799b6c2d27\",\r\n    \"businessID\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"serviceID\": \"655c35664e1ce3799b6c2d28\",\r\n    \"staffID\": \"655709768197f57fe38ae973\",\r\n    \"appointmentDateID\": \"655c35664e1ce3799b6c2d2a\",\r\n    \"observationAppointment\": \"Datos que el Collaborador ingresa para iniciar el Servicio.\",\r\n    \"startAddDescriptionService\": [\r\n        {\r\n            \"serviceName\": \"2 Mechones Permanentes Azul y Futcia,\",\r\n            \"CostService\": 150000\r\n        }\r\n    ]\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -713,13 +751,13 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{colla_local}}",
+												"value": "{{tk_colla}}",
 												"type": "text"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"653aa7cea65008b0d94274b7\",\r\n    \"businessID\": \"64c1ff325cec58954b278c1a\",\r\n    \"serviceID\": \"653ab1c412db04c422d43957\",\r\n    \"staffID\": \"64c499092f24c1efb51031bc\",\r\n    \"appointmentDateID\": \"653ab1c412db04c422d43955\",\r\n    \"observationAppointment\": \"Observacion de cierre de servicio por parte del Colaborador.\",\r\n    \"endAddDescriptionService\": [{\r\n        \"serviceName\": \"Se agrega Servicio Al finalizar el Servicio\",\r\n        \"costService\": \"15000\"\r\n    }]\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"655c35664e1ce3799b6c2d27\",\r\n    \"businessID\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"serviceID\": \"655c35664e1ce3799b6c2d28\",\r\n    \"staffID\": \"655709768197f57fe38ae973\",\r\n    \"appointmentDateID\": \"655c35664e1ce3799b6c2d2a\",\r\n    \"observationAppointment\": \"Observacion de cierre de servicio por parte del Colaborador.\",\r\n    \"endAddDescriptionService\": [{\r\n        \"serviceName\": \"Se agrega Servicio Al finalizar el Servicio\",\r\n        \"costService\": \"55000\"\r\n    }]\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -880,7 +918,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"dateService\": \"21/11/2023\"\r\n}",
+											"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"dateService\": \"27/11/2023\"\r\n}\r\n",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1307,7 +1345,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{colla_local}}",
+												"value": "{{tk_colla}}",
 												"type": "text"
 											}
 										],
@@ -1344,7 +1382,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{colla_local}}",
+												"value": "{{tk_colla}}",
 												"type": "text"
 											}
 										],
@@ -1514,7 +1552,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{colla_local}}",
+												"value": "{{tk_colla}}",
 												"type": "text"
 											}
 										],
@@ -1547,7 +1585,7 @@
 							"name": "Create Billing",
 							"item": [
 								{
-									"name": "Billing Service",
+									"name": "Pre Billing Service",
 									"id": "b71fab86-6ca2-47a6-8e56-1a47cd39d445",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -1557,13 +1595,13 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{colla_local}}",
+												"value": "{{tk_colla}}",
 												"type": "text"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"64d813c5442d49b676c241e8\",\r\n    \"docuUser\": \"80139076\"\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"655c35264e1ce3799b6c1f30\",\r\n    \"docuUser\": \"80139076\",\r\n    \"managerDiscount\": 0,\r\n    \"tax\": [{\"description\": \"IVA\", \"value\": 19}],\r\n    \"paymentMethod\": \"Efectivo\",\r\n    \"electronicBilling\": true,\r\n    \"observationBilling\": \"Cancela en Efectivo, pero sugiere que tengamos Datafono\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
