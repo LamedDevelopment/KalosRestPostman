@@ -383,7 +383,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"nitBusiness\": \"901715265\"\r\n}",
+									"raw": "{\r\n    \"nitBusiness\": \"911111111\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -398,6 +398,43 @@
 									"path": [
 										"sf",
 										"allco"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search Collaborators",
+							"id": "775b9896-8041-4c1d-b7fb-b46067e51828",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nit\": \"911111111\",\r\n    \"nameStaff\": \"col\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/bususu/vcolla",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"bususu",
+										"vcolla"
 									]
 								}
 							},
@@ -442,6 +479,49 @@
 						}
 					],
 					"id": "349fc92e-f445-4e89-839d-eeeb82a3f486"
+				},
+				{
+					"name": "View User",
+					"item": [
+						{
+							"name": "Search User",
+							"id": "6f730933-075f-4249-86f6-f145068d5a15",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"emailUser\": \"lameddev@gmail.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/usr/usem",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"usr",
+										"usem"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "9a3e2136-05e7-465f-a442-cab35876dceb"
 				}
 			],
 			"id": "794e28b7-7630-417f-b436-abb9f1481c2e"
