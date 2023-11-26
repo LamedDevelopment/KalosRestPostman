@@ -133,7 +133,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{token_lamed}}",
+										"value": "{{tk_colla}}",
 										"type": "text"
 									}
 								],
@@ -175,9 +175,8 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "",
-										"type": "text",
-										"disabled": true
+										"value": "{{tk_colla}}",
+										"type": "text"
 									}
 								],
 								"body": {
@@ -1233,7 +1232,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{colla_local}}",
+												"value": "{{tk_colla}}",
 												"type": "text"
 											}
 										],
@@ -1718,7 +1717,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"655c35264e1ce3799b6c1f30\",\r\n    \"docuUser\": \"80139076\",\r\n    \"managerDiscount\": 5,\r\n    \"tax\": [{\"description\": \"IVA\", \"value\": 19}],\r\n    \"paymentMethod\": \"Efectivo\",\r\n    \"electronicBilling\": true,\r\n    \"observationBilling\": \"Cancela en Efectivo, pero sugiere que tengamos Datafono\"\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"655c35264e1ce3799b6c1f30\",\r\n    \"docuUser\": \"80139076\",\r\n    \"managerDiscount\": 0,\r\n    \"tax\": [{\"description\": \"IVA\", \"value\": 0}],\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"electronicBilling\": true,\r\n    \"observationBilling\": \"Cancela Sin Impuestos y Descuentos\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1754,7 +1753,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"655c35264e1ce3799b6c1f30\",\r\n    \"staffReceivingPayment\": {\r\n        \"creatorStaffBusiness\": \"655707806c6b23062ab9c76b\",\r\n        \"name\": \"Manager\",\r\n        \"lastName\": \"User\"\r\n    },\r\n    \"user\": {\r\n        \"userID\": \"64b2ee2ce9f144ef52a96853\",\r\n        \"docu\": \"80139076\",\r\n        \"nomUser\": \"Elizabeth\",\r\n        \"apeUser\": \"Saenz\",\r\n        \"emailUser\": \"elizabethvoxlot@gmail.com\",\r\n        \"movilUser\": 3142540351\r\n    },\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"nameBusiness\": \"Centro Pruebas Beautiful\",\r\n        \"brachOffice\": {\r\n            \"phone\": {\r\n                \"description\": \"Recepcion\"\r\n            },\r\n            \"cellphone\": {\r\n                \"description\": \"Recepcion\"\r\n            },\r\n            \"location\": {\r\n                \"type\": \"Point\",\r\n                \"coordinates\": [\r\n                    4.602993671064257,\r\n                    -74.20185042633\r\n                ]\r\n            },\r\n            \"tradename\": \"Nombre Sede O comercial\",\r\n            \"address\": \"Calle 96 # 69 - 67\",\r\n            \"email\": \"beautiful@email.com\",\r\n            \"city\": \"Bogota\",\r\n            \"country\": \"Colombia\",\r\n            \"countryCode\": \"CO\",\r\n            \"state\": \"DC\",\r\n            \"services\": [\r\n                {\r\n                    \"services\": \"64ab9b60d82418177a7237fd\",\r\n                    \"name\": \"Cuidado Facial\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c95\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab95f1063c636a40004196\",\r\n                    \"name\": \"Cuidado Capilar\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c96\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9aced82418177a7237e2\",\r\n                    \"name\": \"Barberia\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c97\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9448063c636a40004160\",\r\n                    \"name\": \"Peinados\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c98\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9174923ff67b725791b7\",\r\n                    \"name\": \"Peluqueria\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c99\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9537063c636a4000417b\",\r\n                    \"name\": \"Tinturas\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c9a\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9debd82418177a723847\",\r\n                    \"name\": \"Spa de Uñas\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c9b\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9cbad82418177a723820\",\r\n                    \"name\": \"Maquillaje\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c9c\"\r\n                }\r\n            ]\r\n        }\r\n    },\r\n    \"serviceDescription\": [\r\n        {\r\n            \"_id\": \"655c35264e1ce3799b6c1f31\",\r\n            \"ServicesID\": \"655c34974e1ce3799b6c1727\",\r\n            \"ServicesParameter\": \"655c34974e1ce3799b6c1727\",\r\n            \"nameService\": \"Peluqueria\",\r\n            \"nameTypeService\": \"64ab92e0063c636a40004149\",\r\n            \"servicePrice\": 15000,\r\n            \"discount\": null,\r\n            \"staffServices\": [\r\n                {\r\n                    \"staff\": \"655709768197f57fe38ae973\",\r\n                    \"nameCollaborator\": \"collaborator User\",\r\n                    \"status\": true,\r\n                    \"_id\": \"655c35264e1ce3799b6c1f32\"\r\n                }\r\n            ],\r\n            \"AddServiceDescription\": [\r\n                {\r\n                    \"staff\": \"655709768197f57fe38ae973\",\r\n                    \"serviceName\": \"Se agrega Servicio Al finalizar el Servicio\",\r\n                    \"costService\": \"15000\",\r\n                    \"TimeService\": \"23:33:42\",\r\n                    \"_id\": \"655ed79cc80edbf4e71bfee9\"\r\n                }\r\n            ],\r\n            \"supplies\": []\r\n        }\r\n    ],\r\n    \"appointmentDate\": [\r\n        {\r\n            \"appointmentDateID\": \"655c35264e1ce3799b6c1f33\",\r\n            \"dateService\": \"22/11/2023\",\r\n            \"timeService\": \"09:30:00\"\r\n        }\r\n    ],\r\n    \"subTotal\": 30000,\r\n    \"discount\": {\r\n        \"PercentegeDiscount\": 5,\r\n        \"discount\": 1500\r\n    },\r\n    \"taxes\": {\r\n        \"taxes\": \"IVA\",\r\n        \"taxValue\": 19,\r\n        \"tax\": 5700\r\n    },\r\n    \"grandTotal\": 34200,\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"invoiceRequired\": true,\r\n    \"observation\": \"Cancela en Efectivo, pero sugiere que tengamos Datafono\",\r\n    \"customerLoyaltyService\": {\r\n        \"user\": {\r\n            \"userID\": \"64b2ee2ce9f144ef52a96853\",\r\n            \"docu\": \"80139076\",\r\n            \"emailUser\": \"elizabethvoxlot@gmail.com\"\r\n        },\r\n        \"business\": {\r\n            \"nit\": 911111111,\r\n            \"nameBusiness\": \"Centro Pruebas Beautiful\"\r\n        },\r\n        \"LoyaltyService\": 2\r\n    }\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"655c35264e1ce3799b6c1f30\",\r\n    \"staffReceivingPayment\": {\r\n        \"creatorStaffBusiness\": \"655707806c6b23062ab9c76b\",\r\n        \"name\": \"Manager\",\r\n        \"lastName\": \"User\"\r\n    },\r\n    \"user\": {\r\n        \"userID\": \"64b2ee2ce9f144ef52a96853\",\r\n        \"docu\": \"80139076\",\r\n        \"nomUser\": \"Elizabeth\",\r\n        \"apeUser\": \"Saenz\",\r\n        \"emailUser\": \"elizabethvoxlot@gmail.com\",\r\n        \"movilUser\": 3142540351\r\n    },\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"nameBusiness\": \"Centro Pruebas Beautiful\",\r\n        \"brachOffice\": {\r\n            \"phone\": {\r\n                \"description\": \"Recepcion\"\r\n            },\r\n            \"cellphone\": {\r\n                \"description\": \"Recepcion\"\r\n            },\r\n            \"location\": {\r\n                \"type\": \"Point\",\r\n                \"coordinates\": [\r\n                    4.602993671064257,\r\n                    -74.20185042633\r\n                ]\r\n            },\r\n            \"tradename\": \"Nombre Sede O comercial\",\r\n            \"address\": \"Calle 96 # 69 - 67\",\r\n            \"email\": \"beautiful@email.com\",\r\n            \"city\": \"Bogota\",\r\n            \"country\": \"Colombia\",\r\n            \"countryCode\": \"CO\",\r\n            \"state\": \"DC\",\r\n            \"services\": [\r\n                {\r\n                    \"services\": \"64ab9b60d82418177a7237fd\",\r\n                    \"name\": \"Cuidado Facial\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c95\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab95f1063c636a40004196\",\r\n                    \"name\": \"Cuidado Capilar\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c96\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9aced82418177a7237e2\",\r\n                    \"name\": \"Barberia\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c97\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9448063c636a40004160\",\r\n                    \"name\": \"Peinados\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c98\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9174923ff67b725791b7\",\r\n                    \"name\": \"Peluqueria\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c99\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9537063c636a4000417b\",\r\n                    \"name\": \"Tinturas\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c9a\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9debd82418177a723847\",\r\n                    \"name\": \"Spa de Uñas\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c9b\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9cbad82418177a723820\",\r\n                    \"name\": \"Maquillaje\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c9c\"\r\n                }\r\n            ]\r\n        }\r\n    },\r\n    \"serviceDescription\": [\r\n        {\r\n            \"_id\": \"655c35264e1ce3799b6c1f31\",\r\n            \"ServicesID\": \"655c34974e1ce3799b6c1727\",\r\n            \"ServicesParameter\": \"655c34974e1ce3799b6c1727\",\r\n            \"nameService\": \"Peluqueria\",\r\n            \"nameTypeService\": \"64ab92e0063c636a40004149\",\r\n            \"servicePrice\": 15000,\r\n            \"discount\": null,\r\n            \"staffServices\": [\r\n                {\r\n                    \"staff\": \"655709768197f57fe38ae973\",\r\n                    \"nameCollaborator\": \"collaborator User\",\r\n                    \"status\": true,\r\n                    \"_id\": \"655c35264e1ce3799b6c1f32\"\r\n                }\r\n            ],\r\n            \"AddServiceDescription\": [\r\n                {\r\n                    \"staff\": \"655709768197f57fe38ae973\",\r\n                    \"serviceName\": \"Se agrega Servicio Al finalizar el Servicio\",\r\n                    \"costService\": \"15000\",\r\n                    \"TimeService\": \"23:33:42\",\r\n                    \"_id\": \"655ed79cc80edbf4e71bfee9\"\r\n                }\r\n            ],\r\n            \"supplies\": []\r\n        }\r\n    ],\r\n    \"appointmentDate\": [\r\n        {\r\n            \"appointmentDateID\": \"655c35264e1ce3799b6c1f33\",\r\n            \"dateService\": \"22/11/2023\",\r\n            \"timeService\": \"09:30:00\"\r\n        }\r\n    ],\r\n    \"subTotal\": 30000,\r\n    \"discount\": {\r\n        \"PercentegeDiscount\": 0,\r\n        \"discount\": 0\r\n    },\r\n    \"taxes\": {\r\n        \"taxes\": \"IVA\",\r\n        \"taxValue\": 0,\r\n        \"tax\": 0\r\n    },\r\n    \"grandTotal\": 30000,\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"invoiceRequired\": true,\r\n    \"observation\": \"Cancela Sin Impuestos y Descuentos\",\r\n    \"customerLoyaltyService\": {\r\n        \"user\": {\r\n            \"userID\": \"64b2ee2ce9f144ef52a96853\",\r\n            \"docu\": \"80139076\",\r\n            \"emailUser\": \"elizabethvoxlot@gmail.com\"\r\n        },\r\n        \"business\": {\r\n            \"nit\": 911111111,\r\n            \"nameBusiness\": \"Centro Pruebas Beautiful\"\r\n        },\r\n        \"LoyaltyService\": 3\r\n    }\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1779,6 +1778,55 @@
 						}
 					],
 					"id": "34faac7e-011c-41ff-91f8-260f98f4db34"
+				},
+				{
+					"name": "Business",
+					"item": [
+						{
+							"name": "View",
+							"item": [
+								{
+									"name": "All Business",
+									"id": "666b5351-8fb1-42ec-a036-aac1e36c42fe",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/bus/allbus",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bus",
+												"allbus"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "910db894-13ab-450a-8e83-a1d031bc68ff"
+						}
+					],
+					"id": "fd79b97b-fdad-4671-8057-91216e05bc8d"
 				}
 			],
 			"id": "2d8ab866-f2bf-419e-ac6c-003421d81f19"
