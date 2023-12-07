@@ -306,7 +306,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"discount\": \"\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"23/11/2023\",\r\n    \"timeService\": \"19:00:00\"\r\n}",
+									"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"discount\": \"\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"04/12/2023\",\r\n    \"timeService\": \"09:30:00\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -517,7 +517,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"Owner\",\r\n    \"lastName\": \"User\",\r\n    \"movil\": \"3142540352\",\r\n    \"email\": \"owner@email.com\",\r\n    \"pass\": \"123456\",\r\n    \"terms\": \"true\"\r\n}",
+									"raw": "{\r\n    \"name\": \"newUser1\",\r\n    \"lastName\": \"UserNew1\",\r\n    \"movil\": \"3142540350\",\r\n    \"email\": \"lamed.saenz@hotmail.com\",\r\n    \"pass\": \"123456\",\r\n    \"terms\": \"true\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -525,9 +525,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/usr",
+									"raw": "{{kalos_dev}}{{api}}/usr",
 									"host": [
-										"{{kalos_local}}{{api}}"
+										"{{kalos_dev}}{{api}}"
 									],
 									"path": [
 										"usr"
@@ -839,7 +839,48 @@
 		},
 		{
 			"name": "Payment Service",
-			"item": [],
+			"item": [
+				{
+					"name": "Wallet",
+					"id": "ec3ba368-253e-42d3-bb7b-4dfadc115d42",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_user}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/bil/user",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"bil",
+								"user"
+							]
+						}
+					},
+					"response": []
+				}
+			],
 			"id": "4b68e692-6d78-4dd5-a603-dde77faa6766"
 		}
 	]
