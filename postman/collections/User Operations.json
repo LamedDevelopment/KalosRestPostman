@@ -517,7 +517,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"newUser1\",\r\n    \"lastName\": \"UserNew1\",\r\n    \"movil\": \"3142540350\",\r\n    \"email\": \"lamed.saenz@hotmail.com\",\r\n    \"pass\": \"123456\",\r\n    \"terms\": \"true\"\r\n}",
+									"raw": "{\r\n    \"name\": \"name User Foreing\",\r\n    \"lastName\": \"Lastname NewForeing\",\r\n    \"movil\": \"1234567890\",\r\n    \"email\": \"email@email.com\",\r\n    \"pass\": \"123456\",\r\n    \"terms\": \"true\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
