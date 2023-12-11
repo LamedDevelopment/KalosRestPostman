@@ -7,50 +7,8 @@
 	},
 	"item": [
 		{
-			"name": "Business",
+			"name": "Create Business",
 			"item": [
-				{
-					"name": "Create",
-					"item": [
-						{
-							"name": "Create Business",
-							"id": "a33e49fb-74cd-4f0f-8cfc-bf9d7889c4ef",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n  \"businessName\": \"Centro Pruebas Beautiful\",\r\n  \"tradename\": \"Nombre Sede O comercial\",\r\n  \"nit\": 911111111,\r\n  \"numberCell\": \"3103389244\",\r\n  \"CellDescription\": \"Recepcion\",\r\n  \"email\": \"beautiful@email.com\",\r\n  \"phoneNumber\": \"6017499352\",\r\n  \"phoneDescription\": \"Recepcion\",\r\n  \"coordinates\": [4.602993671064257,-74.20185042633],\r\n  \"address\": \"Calle 96 # 69 - 67\",\r\n  \"city\": \"Bogota\",\r\n  \"cityCode\": \"BOG\",\r\n  \"country\": \"Colombia\",\r\n  \"countryCode\": \"CO\",\r\n  \"state\": \"DC\",\r\n  \"services\": [\"64ab9b60d82418177a7237fd\",\"64ab95f1063c636a40004196\",\"64ab9aced82418177a7237e2\",\"64ab9448063c636a40004160\",\"64ab9174923ff67b725791b7\",\"64ab9537063c636a4000417b\",\"64ab9debd82418177a723847\",\"64ab9cbad82418177a723820\"],\r\n  \"typeServices\":[\"64ab92e0063c636a40004149\",\"64ab94a7063c636a40004170\",\"64ab9598063c636a4000418b\",\"64ab95a7063c636a4000418f\",\"64ab9a70d82418177a7237db\",\"64ab9b23d82418177a7237f2\",\"64ab9dc2d82418177a723840\",\"64ab9dd3d82418177a723844\",\"64ab9af1d82418177a7237e6\",\"64ab934c063c636a40004151\",\"64ab9d9ed82418177a723838\",\"64ab9c67d82418177a723815\",\"64ab9cd6d82418177a723824\",\"64ab9ea6d82418177a72385f\",\"64ab948e063c636a40004168\",\"64ab9be0d82418177a723805\",\"64ab9579063c636a40004183\",\"64ab94b4063c636a40004174\",\"64ab9a56d82418177a7237d3\",\"64ab9b17d82418177a7237ee\",\"64ab9b2dd82418177a7237f6\",\"64ab9d7ad82418177a723834\",\"64ab9ecad82418177a723867\",\"64ab954d063c636a4000417f\",\"64ab95bc063c636a40004193\",\"64ab9635063c636a4000419a\",\"64ab92f3063c636a4000414d\",\"64ab949d063c636a4000416c\",\"64ab9ce7d82418177a723828\",\"64ab9eb6d82418177a723863\",\"64ab9ab9d82418177a7237df\",\"64ab9383063c636a40004159\",\"64ab958a063c636a40004187\",\"64ab9dabd82418177a72383c\",\"64ab9d04d82418177a723830\",\"64ab9e86d82418177a723853\",\"64ab9473063c636a40004164\",\"64ab9c1ad82418177a723809\",\"64ab93a4063c636a4000415d\",\"64ab9524063c636a40004178\",\"64ab9bcdd82418177a723801\",\"64ab9c39d82418177a72380d\",\"64ab9c94d82418177a72381d\",\"64ab9e5bd82418177a72384b\",\"64ab9370063c636a40004155\",\"64ab9a45d82418177a7237cf\",\"64ab9c84d82418177a723819\",\"64ab9cf2d82418177a72382c\",\"64ab9a39d82418177a7237cb\",\"64ab9c45d82418177a723811\",\"64ab9e74d82418177a72384f\",\"64ab9e8fd82418177a723857\",\"64ab9ea0d82418177a72385b\"],\r\n  \"img\": [\"\"],\r\n  \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n  \"daysServices\": [{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"20:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"20:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"20:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"20:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"20:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"20:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"20:00\" \r\n    }],\r\n  \"user\": \"6554485813419cfc8e55bf92\",\r\n  \"emailUser\": \"owner@email.com\",\r\n  \"document\": \"80139075\",\r\n  \"profile\":\"64abbcc15190388112342e8a\",\r\n  \"typeCollaborator\":\"64afa0596e8b9ff0f19a6dde\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/bus",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"bus"
-									]
-								}
-							},
-							"response": []
-						}
-					],
-					"id": "3150de24-9cc0-4c92-956e-dc4080b3e21f"
-				},
 				{
 					"name": "View Business",
 					"id": "ecb5edb0-28e7-48bf-b01e-c45ef52b605e",
@@ -62,13 +20,49 @@
 						"header": [
 							{
 								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/bus",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"bus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Business",
+					"id": "a33e49fb-74cd-4f0f-8cfc-bf9d7889c4ef",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
 								"value": "{{tk_colla}}",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{}"
+							"raw": "{\r\n  \"businessName\": \"Centro Pruebas Beautiful\",\r\n  \"tradename\": \"Nombre Sede O comercial\",\r\n  \"nit\": 911111111,\r\n  \"numberCell\": \"3103389244\",\r\n  \"CellDescription\": \"Recepcion\",\r\n  \"email\": \"beautiful@email.com\",\r\n  \"phoneNumber\": \"6017499352\",\r\n  \"phoneDescription\": \"Recepcion\",\r\n  \"coordinates\": [4.602993671064257,-74.20185042633],\r\n  \"address\": \"Calle 96 # 69 - 67\",\r\n  \"city\": \"Bogota\",\r\n  \"cityCode\": \"BOG\",\r\n  \"country\": \"Colombia\",\r\n  \"countryCode\": \"CO\",\r\n  \"state\": \"DC\",\r\n  \"services\": [\"64ab9b60d82418177a7237fd\",\"64ab95f1063c636a40004196\",\"64ab9aced82418177a7237e2\",\"64ab9448063c636a40004160\",\"64ab9174923ff67b725791b7\",\"64ab9537063c636a4000417b\",\"64ab9debd82418177a723847\",\"64ab9cbad82418177a723820\"],\r\n  \"typeServices\":[\"64ab92e0063c636a40004149\",\"64ab94a7063c636a40004170\",\"64ab9598063c636a4000418b\",\"64ab95a7063c636a4000418f\",\"64ab9a70d82418177a7237db\",\"64ab9b23d82418177a7237f2\",\"64ab9dc2d82418177a723840\",\"64ab9dd3d82418177a723844\",\"64ab9af1d82418177a7237e6\",\"64ab934c063c636a40004151\",\"64ab9d9ed82418177a723838\",\"64ab9c67d82418177a723815\",\"64ab9cd6d82418177a723824\",\"64ab9ea6d82418177a72385f\",\"64ab948e063c636a40004168\",\"64ab9be0d82418177a723805\",\"64ab9579063c636a40004183\",\"64ab94b4063c636a40004174\",\"64ab9a56d82418177a7237d3\",\"64ab9b17d82418177a7237ee\",\"64ab9b2dd82418177a7237f6\",\"64ab9d7ad82418177a723834\",\"64ab9ecad82418177a723867\",\"64ab954d063c636a4000417f\",\"64ab95bc063c636a40004193\",\"64ab9635063c636a4000419a\",\"64ab92f3063c636a4000414d\",\"64ab949d063c636a4000416c\",\"64ab9ce7d82418177a723828\",\"64ab9eb6d82418177a723863\",\"64ab9ab9d82418177a7237df\",\"64ab9383063c636a40004159\",\"64ab958a063c636a40004187\",\"64ab9dabd82418177a72383c\",\"64ab9d04d82418177a723830\",\"64ab9e86d82418177a723853\",\"64ab9473063c636a40004164\",\"64ab9c1ad82418177a723809\",\"64ab93a4063c636a4000415d\",\"64ab9524063c636a40004178\",\"64ab9bcdd82418177a723801\",\"64ab9c39d82418177a72380d\",\"64ab9c94d82418177a72381d\",\"64ab9e5bd82418177a72384b\",\"64ab9370063c636a40004155\",\"64ab9a45d82418177a7237cf\",\"64ab9c84d82418177a723819\",\"64ab9cf2d82418177a72382c\",\"64ab9a39d82418177a7237cb\",\"64ab9c45d82418177a723811\",\"64ab9e74d82418177a72384f\",\"64ab9e8fd82418177a723857\",\"64ab9ea0d82418177a72385b\"],\r\n  \"img\": [\"\"],\r\n  \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n  \"daysServices\": [{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"20:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"20:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"20:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"20:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"20:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"20:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"20:00\" \r\n    }],\r\n  \"user\": \"6554485813419cfc8e55bf92\",\r\n  \"emailUser\": \"owner@email.com\",\r\n  \"document\": \"80139075\",\r\n  \"profile\":\"64abbcc15190388112342e8a\",\r\n  \"typeCollaborator\":\"64afa0596e8b9ff0f19a6dde\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
 						},
 						"url": {
 							"raw": "{{kalos_local}}{{api}}/bus",
@@ -88,50 +82,6 @@
 		{
 			"name": "Create Appoinment",
 			"item": [
-				{
-					"name": "View User",
-					"item": [
-						{
-							"name": "View User For Appointment",
-							"id": "227ffedd-ef8c-4751-98f2-1d2ef199bb6a",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
-										"type": "text",
-										"disabled": true
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"emailUser\": \"simona@email.com\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/usr/usem",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"usr",
-										"usem"
-									]
-								}
-							},
-							"response": []
-						}
-					],
-					"id": "f67ac72c-a961-450d-a7a1-a704d21a28f1"
-				},
 				{
 					"name": "View Appoinment",
 					"id": "4c4ed64b-67a2-4f87-9264-8a016f8f4d39",
@@ -170,7 +120,7 @@
 				},
 				{
 					"name": "Create Appointments",
-					"id": "487666ff-0b44-41ea-aee5-3c5018469c37",
+					"id": "071ce94c-0654-4dd0-b6f1-be6de45ed709",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -179,13 +129,13 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{tk_colla}}",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"discount\": \"\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"655707806c6b23062ab9c76b\",\r\n    \"observationManager\": \"El Manager Creaa esta citas para el cliente\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"21/11/2023\",\r\n    \"timeService\": \"11:30:00\"\r\n}",
+							"raw": "{\r\n    \"user\": \"64a8d9b6f12d3126f6a50b5c\", \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"64c499092f24c1efb51031bc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"14/08/2023\",\r\n    \"timeService\": \"09:28:00\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -307,7 +257,7 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{tk_colla}}",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
 								"type": "text"
 							}
 						],
@@ -424,7 +374,7 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{tk_colla}}",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
 								"type": "text"
 							}
 						],
@@ -772,13 +722,13 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{tk_colla}}",
+								"value": "{{token_lamed}}",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"staffType\": \"64b2ddc31bcd863da11fa147\",\r\n    \"serviceTime\": \"25\",\r\n    \"biocleaning\": \"2\",\r\n    \"servicePrice\": \"15000\"\r\n}",
+							"raw": "{\r\n    \"business\": \"64b0e7f7dfb5742dacb9f717\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92f3063c636a4000414d\",\r\n    \"staffType\": \"64b2ddb51bcd863da11fa144\",\r\n    \"serviceTime\": \"10\",\r\n    \"biocleaning\": \"2\",\r\n    \"servicePrice\": \"12000\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -974,7 +924,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"nit\": \"911111111\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"email\": \"colla@email.com\",\r\n    \"document\": \"80139077\",\r\n    \"profile\": [\"64abbc985190388112342e84\"],\r\n    \"typeCollaborator\": [\"64afa1d8e8969589ddc17e0a\"],\r\n    \"staffType\" : [\"64b2ddc31bcd863da11fa147\", \"64b2dde51bcd863da11fa14a\"],\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"services\": \"64ab95f1063c636a40004196\",\r\n            \"percentage\": \"0.60\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\", \"64ab94a7063c636a40004170\",\"64ab9b23d82418177a7237f2\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"64ab9b17d82418177a7237ee\",\"64ab9b2dd82418177a7237f6\",\"64ab92f3063c636a4000414d\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"19:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"19:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"19:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"2\"\r\n}",
+									"raw": "{\r\n    \"nit\": \"911111111\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"email\": \"manager@email.com\",\r\n    \"document\": \"80139078\",\r\n    \"profile\": \"6554482a13419cfc8e55bf88\",\r\n    \"typeCollaborator\": \"64afa1cce8969589ddc17e07\",\r\n    \"staffType\" : [\"65546601edc9aad90120fbb7\", \"64b2ddb51bcd863da11fa144\"],\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9537063c636a4000417b\",\r\n            \"percentage\": \"0.60\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\", \"64ab94a7063c636a40004170\",\"64ab9b23d82418177a7237f2\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"64ab9b17d82418177a7237ee\",\"64ab9b2dd82418177a7237f6\",\"64ab92f3063c636a4000414d\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
