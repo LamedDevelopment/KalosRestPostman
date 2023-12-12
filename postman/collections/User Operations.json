@@ -80,7 +80,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"01/10/2023\",\r\n    \"datefin\": \"23/10/2024\"\r\n}",
+									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"01/10/2023\",\r\n    \"datefin\": \"23/10/2023\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -306,7 +306,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"user\": \"64a8d9b6f12d3126f6a50b5c\", \r\n    \"discount\": \"\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"11/12/2023\",\r\n    \"timeService\": \"14:00:00\"\r\n}",
+									"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"userForeing\": {}, \r\n    \"discount\": \"\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"12/12/2023\",\r\n    \"timeService\": \"11:30:00\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -314,9 +314,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_dev}}{{api}}/apu",
+									"raw": "{{kalos_local}}{{api}}/apu",
 									"host": [
-										"{{kalos_dev}}{{api}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"apu"
@@ -342,7 +342,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"appointmentID\": \"657746626859007bf3d6feeb\",\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"userForeing\": {}, \r\n    \"discount\": \"\",\r\n    \"business\": \"64c1ff325cec58954b278c1a\",\r\n    \"tradename\": \"Centro LAMED\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"64c499092f24c1efb51031ca\",\r\n    \"services\": \"64ab9448063c636a40004160\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"11/12/2023\",\r\n    \"timeService\": \"15:30:00\"\r\n}",
+									"raw": "{\r\n    \"appointmentID\": \"6577f70799dd8560f672df32\",\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"userForeing\": {}, \r\n    \"discount\": \"\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"12/12/2023\",\r\n    \"timeService\": \"09:00:00\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
