@@ -80,7 +80,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"01/10/2023\",\r\n    \"datefin\": \"23/10/2023\"\r\n}",
+									"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"01/10/2023\",\r\n    \"datefin\": \"23/10/2024\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
