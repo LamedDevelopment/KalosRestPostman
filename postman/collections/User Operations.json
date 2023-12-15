@@ -868,12 +868,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/bil/user",
+							"raw": "{{kalos_local}}{{api}}/bill/user",
 							"host": [
 								"{{kalos_local}}{{api}}"
 							],
 							"path": [
-								"bil",
+								"bill",
 								"user"
 							]
 						}
@@ -882,6 +882,11 @@
 				}
 			],
 			"id": "4b68e692-6d78-4dd5-a603-dde77faa6766"
+		},
+		{
+			"name": "Dashboard",
+			"item": [],
+			"id": "80e47bc7-7ca4-4035-a11b-a42ef05ca08a"
 		}
 	]
 }

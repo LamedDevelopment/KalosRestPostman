@@ -1707,6 +1707,154 @@
 										}
 									},
 									"response": []
+								},
+								{
+									"name": "Consulta de Citas Dia",
+									"id": "8307aa89-5f80-437a-8e54-7a9ae921caaa",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapdco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Semana",
+									"id": "bc66bd97-c0e0-41df-9c19-10b2b718883c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/wuapco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"wuapco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Dia",
+									"id": "8307aa89-5f80-437a-8e54-7a9ae921caaa",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapdco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Semana",
+									"id": "bc66bd97-c0e0-41df-9c19-10b2b718883c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/wuapco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"wuapco"
+											]
+										}
+									},
+									"response": []
 								}
 							],
 							"id": "8c66dad4-bc4c-4592-89ec-efbe513999ff"
@@ -2308,6 +2456,154 @@
 										}
 									},
 									"response": []
+								},
+								{
+									"name": "Consulta de Citas Dia",
+									"id": "8307aa89-5f80-437a-8e54-7a9ae921caaa",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapdco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Semana",
+									"id": "bc66bd97-c0e0-41df-9c19-10b2b718883c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/wuapco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"wuapco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Dia",
+									"id": "8307aa89-5f80-437a-8e54-7a9ae921caaa",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapdco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Semana",
+									"id": "bc66bd97-c0e0-41df-9c19-10b2b718883c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/wuapco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"wuapco"
+											]
+										}
+									},
+									"response": []
 								}
 							],
 							"id": "8c66dad4-bc4c-4592-89ec-efbe513999ff"
@@ -2470,6 +2766,43 @@
 											"path": [
 												"bususu",
 												"onecol"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Appointment History",
+									"id": "3f260b55-6fca-4944-b4bd-f31d3e9172bf",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/collahisap",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"collahisap"
 											]
 										}
 									},
@@ -2987,6 +3320,86 @@
 								}
 							],
 							"id": "1ee73e57-408d-46f6-a0e3-38e751ed8e19"
+						},
+						{
+							"name": "Collaborator Read",
+							"item": [
+								{
+									"name": "View Collaborator History",
+									"id": "2db9cc33-a933-4116-a8d2-beba01631a4e",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"collaID\": \"655709768197f57fe38ae973\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/onehiscolla",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"onehiscolla"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Appointment History",
+									"id": "ae24c7c7-579e-4bdc-abd3-c0e02c14b4f8",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/bushisap",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"bushisap"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "fab0c808-da1e-427b-a3cb-a304cbfd36a5"
 						}
 					],
 					"id": "a622bc51-cb76-4028-aa38-80e71bdb7f11"
