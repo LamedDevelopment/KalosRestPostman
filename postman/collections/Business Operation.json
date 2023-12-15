@@ -4341,7 +4341,8 @@
 										"lose",
 										"prolo"
 									]
-								}
+								},
+								"description": "el proceso de aprobacion tiene un parametro importante a tener encuenta:\n\nLos Estados (loanStatus): que permite la base ingresar son: StartFragment\\['Solicitado', 'Autorizado', 'Negado', 'Desembolsado', 'Cancelado', 'Pagado', 'Bloqueado'\\]EndFragment  \n  \nLo anterios de cara al Frontend que solo podra mostrar estos estados, para ser seleccionados."
 							},
 							"response": []
 						}
