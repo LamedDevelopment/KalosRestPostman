@@ -1855,6 +1855,302 @@
 										}
 									},
 									"response": []
+								},
+								{
+									"name": "Consulta de Citas Dia",
+									"id": "8307aa89-5f80-437a-8e54-7a9ae921caaa",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapdco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Semana",
+									"id": "bc66bd97-c0e0-41df-9c19-10b2b718883c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/wuapco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"wuapco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Dia",
+									"id": "8307aa89-5f80-437a-8e54-7a9ae921caaa",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapdco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Semana",
+									"id": "bc66bd97-c0e0-41df-9c19-10b2b718883c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/wuapco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"wuapco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Dia",
+									"id": "8307aa89-5f80-437a-8e54-7a9ae921caaa",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapdco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Semana",
+									"id": "bc66bd97-c0e0-41df-9c19-10b2b718883c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/wuapco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"wuapco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Dia",
+									"id": "8307aa89-5f80-437a-8e54-7a9ae921caaa",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapdco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Semana",
+									"id": "bc66bd97-c0e0-41df-9c19-10b2b718883c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/wuapco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"wuapco"
+											]
+										}
+									},
+									"response": []
 								}
 							],
 							"id": "8c66dad4-bc4c-4592-89ec-efbe513999ff"
@@ -2309,6 +2605,302 @@
 						{
 							"name": "View Day Or Week",
 							"item": [
+								{
+									"name": "Consulta de Citas Dia",
+									"id": "8307aa89-5f80-437a-8e54-7a9ae921caaa",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapdco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Semana",
+									"id": "bc66bd97-c0e0-41df-9c19-10b2b718883c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/wuapco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"wuapco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Dia",
+									"id": "8307aa89-5f80-437a-8e54-7a9ae921caaa",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapdco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Semana",
+									"id": "bc66bd97-c0e0-41df-9c19-10b2b718883c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/wuapco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"wuapco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Dia",
+									"id": "8307aa89-5f80-437a-8e54-7a9ae921caaa",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapdco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Semana",
+									"id": "bc66bd97-c0e0-41df-9c19-10b2b718883c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/wuapco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"wuapco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Dia",
+									"id": "8307aa89-5f80-437a-8e54-7a9ae921caaa",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapdco"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Consulta de Citas Semana",
+									"id": "bc66bd97-c0e0-41df-9c19-10b2b718883c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/wuapco",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"wuapco"
+											]
+										}
+									},
+									"response": []
+								},
 								{
 									"name": "Consulta de Citas Dia",
 									"id": "8307aa89-5f80-437a-8e54-7a9ae921caaa",
@@ -3669,6 +4261,92 @@
 						}
 					],
 					"id": "cb88566d-6f9f-490b-9441-133cf5db360c"
+				},
+				{
+					"name": "Load Service",
+					"item": [
+						{
+							"name": "Load Service",
+							"id": "6c05c0db-04a9-4bf4-ad7c-1f0b4fe0bb77",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"loanAmount\": 150000,\r\n    \"paymentDeadline\": 1,\r\n    \"loanDetail\": \"Prueba para la Solicitud de Prestamos al Colaborador\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/lose/sola",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"lose",
+										"sola"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Process Loan",
+							"id": "d6426cef-af3e-407c-8882-423ec691ccb8",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"loadID\": \"6578dc7856d505cedf4e3f48\",\r\n    \"loanAmount\": 150000,\r\n    \"loanStatus\": \"Autorizado\",\r\n    \"paymentObservation\": \"Texto de Prueba que indica el Staff que Procesa el Anticipo\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/lose/prolo",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"lose",
+										"prolo"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "fbe54681-481a-4f17-be89-daed154897cc"
 				}
 			],
 			"id": "2d8ab866-f2bf-419e-ac6c-003421d81f19"
