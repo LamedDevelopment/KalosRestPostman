@@ -306,7 +306,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"userForeing\": {}, \r\n    \"discount\": \"\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"12/12/2023\",\r\n    \"timeService\": \"11:30:00\"\r\n}",
+									"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"userForeing\": {}, \r\n    \"discount\": \"\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"01/01/2024\",\r\n    \"timeService\": \"09:00:00\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -868,9 +868,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/bill/user",
+							"raw": "{{kalos_dev}}{{api}}/bill/user",
 							"host": [
-								"{{kalos_local}}{{api}}"
+								"{{kalos_dev}}{{api}}"
 							],
 							"path": [
 								"bill",

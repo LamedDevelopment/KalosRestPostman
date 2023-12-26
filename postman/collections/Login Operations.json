@@ -65,7 +65,7 @@
 							"script": {
 								"id": "62c6b4f8-b2b1-4fa1-b824-e6f1bdf123c7",
 								"exec": [
-									"postman.setEnvironmentVariable(\"tk_colla\",  JSON.parse(responseBody).login);"
+									"postman.setEnvironmentVariable(\"tk_colla\",  JSON.parse(responseBody).msg);"
 								],
 								"type": "text/javascript"
 							}
