@@ -50,6 +50,55 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "login_user Log Out",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "1e708e60-ce51-4794-950a-4bd361bd0056",
+								"exec": [
+									"postman.setEnvironmentVariable(\"tk_user\",  JSON.parse(responseBody).login);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "48b24858-beed-4182-9423-7dbcbc6b758e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_user}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"elizabethvoxlot@gmail.com\",\r\n    \"pass\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_dev}}{{api}}/login/close",
+							"host": [
+								"{{kalos_dev}}{{api}}"
+							],
+							"path": [
+								"login",
+								"close"
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "d352d6a0-571a-427a-9327-9c0d48ec1e7b"
@@ -196,7 +245,7 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "{{tk_user}}",
+						"value": "{{tk_colla}}",
 						"type": "text"
 					}
 				],
@@ -210,19 +259,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{kalos_local}}{{api}}/login/close?x-token={{user_dev}}",
+					"raw": "{{kalos_local}}{{api}}/login/close",
 					"host": [
 						"{{kalos_local}}{{api}}"
 					],
 					"path": [
 						"login",
 						"close"
-					],
-					"query": [
-						{
-							"key": "x-token",
-							"value": "{{user_dev}}"
-						}
 					]
 				}
 			},
