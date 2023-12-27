@@ -52,7 +52,7 @@
 					"response": []
 				},
 				{
-					"name": "login_user Log Out",
+					"name": "Log Out User",
 					"event": [
 						{
 							"listen": "test",
@@ -235,7 +235,7 @@
 			"response": []
 		},
 		{
-			"name": "Close Sesion",
+			"name": "Log Out Staff",
 			"id": "b5af6dd9-9707-48fb-b103-bd15d67c9835",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
