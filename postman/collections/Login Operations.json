@@ -70,7 +70,7 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "POST",
+						"method": "GET",
 						"header": [
 							{
 								"key": "x-token",
@@ -80,7 +80,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"elizabethvoxlot@gmail.com\",\r\n    \"pass\": \"123456\"\r\n}",
+							"raw": "{}",
 							"options": {
 								"raw": {
 									"language": "json"
