@@ -1461,9 +1461,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_dev}}{{api}}/mn",
+							"raw": "{{kalos_local}}{{api}}/mn",
 							"host": [
-								"{{kalos_dev}}{{api}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"mn"
@@ -1474,6 +1474,84 @@
 				}
 			],
 			"id": "98a291e1-c5bd-4752-828f-d862d4a1d50b"
+		},
+		{
+			"name": "Create Evaluation Questions",
+			"item": [
+				{
+					"name": "Create",
+					"id": "9329cae8-631f-4a80-ba89-6aaef10bbbe6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"question\": \"¿Los productos utilizados estuvieron a la altura de tus expectativas en términos de calidad y efectividad o te hicieron sentir como si estuvieras en una película de Terror?\",\r\n    \"TypeService\": \"Evalua las Instalaciones\",\r\n    \"TypeUser\": \"user\",\r\n    \"observation\": \"\",\r\n    \"alwaysPostQuestion\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/qs",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"qs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "View Questions Staff",
+					"id": "dbff0102-bf2c-4e8b-ae92-4d6b12bdc9e3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/qs",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"qs"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "af77ca1f-0b9e-4444-b85e-960b58d489ae"
 		}
 	]
 }
