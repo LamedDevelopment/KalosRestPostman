@@ -673,6 +673,169 @@
 			"id": "e0262515-3ef0-49be-a56a-a171ba9b803b"
 		},
 		{
+			"name": "Create Beauty Products",
+			"item": [
+				{
+					"name": "View Products Category",
+					"id": "cbaf34e8-8f26-4318-95ae-53daf9e17938",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/bp",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"bp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "View Brand Product",
+					"id": "f6150f62-e67b-49c0-8d0d-56ae8e1eca0e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nameCategory\": \"Color Pelo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/bp/consbrand",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"bp",
+								"consbrand"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "View Brand Product + Ref",
+					"id": "b8995ec0-193a-40f4-88cf-58ca9ed1fddc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nameCategory\": \"Color Pelo\",\r\n    \"brandName\": \"Kuul\",\r\n    \"reference\": \"6\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/bp/consref",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"bp",
+								"consref"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Bulk Load Beauty Products",
+					"id": "6fb80d7f-67db-434b-b272-70957f931607",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+									"filesNotInWorkingDirectory": [
+										"/J:/Mi unidad/Procesos LamedDev/productos_color.xlsx"
+									],
+									"src": "/J:/Mi unidad/Procesos LamedDev/productos_color.xlsx"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/bp/carprod",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"bp",
+								"carprod"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "58cfe99a-35da-4f4b-9992-4a9dbc90ca19"
+		},
+		{
 			"name": "Service Parameter",
 			"item": [
 				{

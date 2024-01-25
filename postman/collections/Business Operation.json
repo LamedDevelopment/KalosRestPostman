@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "c9a54d29-d9c9-460b-8ef3-2eb4cbdd0e58",
+		"_postman_id": "444180b0-81e2-4fe3-8d03-6bf261d62859",
 		"name": "Business Operation",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "30190062-c9a54d29-d9c9-460b-8ef3-2eb4cbdd0e58"
+		"_uid": "30190062-444180b0-81e2-4fe3-8d03-6bf261d62859"
 	},
 	"item": [
 		{
@@ -14,7 +14,7 @@
 					"item": [
 						{
 							"name": "All Business",
-							"id": "f0be7e76-59b8-4f90-8acd-1541661b75fb",
+							"id": "a45074d6-e986-46f2-aba7-1b95a58f8b4f",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -50,14 +50,14 @@
 							"response": []
 						}
 					],
-					"id": "59262408-051d-49cc-ad7e-287efd5ca6b8"
+					"id": "eab30f5a-00ae-4c44-8006-05caddc6e0a2"
 				},
 				{
 					"name": "View Services",
 					"item": [
 						{
 							"name": "All Services",
-							"id": "d0cbf3ff-0198-4d8b-8cc5-6345eeed2946",
+							"id": "18c707b2-ba41-436e-a5d7-c337adce516c",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -95,7 +95,7 @@
 						},
 						{
 							"name": "Services X ID",
-							"id": "e28c66b6-61e6-49d2-866c-7e47f83f65da",
+							"id": "cf66e692-868a-40b1-b93b-e4ab4819dea5",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -133,7 +133,7 @@
 						},
 						{
 							"name": "Services Type X ServiceID",
-							"id": "813739b8-4b9b-4eb6-98da-b27ef552008f",
+							"id": "eb0cdce6-5ba7-452f-aa35-1c97aa7a14e9",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -170,7 +170,7 @@
 						},
 						{
 							"name": "All Services X Nit",
-							"id": "e2132699-7a15-4337-89ef-9e07022545cd",
+							"id": "939f5588-cb69-4be4-b244-f6df58474355",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -206,14 +206,14 @@
 							"response": []
 						}
 					],
-					"id": "9618d8ad-02d4-49d2-9204-901f94634522"
+					"id": "f5a955ae-7e4e-4ad1-b758-0ce1c0e9d912"
 				},
 				{
 					"name": "View Collaborators",
 					"item": [
 						{
 							"name": "All Collaborators X Nit",
-							"id": "94146570-8303-4061-b77d-d75096966cc2",
+							"id": "9b83da34-b3d1-4f6a-8d1b-f0594ef4823b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -251,7 +251,7 @@
 						},
 						{
 							"name": "Search Collaborators",
-							"id": "63eb7b9e-3b34-4b21-bd68-cea06a5cd813",
+							"id": "7ba6b413-7241-492d-a4ce-481a68a860fe",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -288,7 +288,7 @@
 						},
 						{
 							"name": "Staff  X Nit X DocuStaff",
-							"id": "8e977f9b-b315-4484-a963-d31c0e57b00e",
+							"id": "0c17bff6-3189-44a5-9af0-0856d2e4390c",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -324,14 +324,14 @@
 							"response": []
 						}
 					],
-					"id": "d136d6b9-92d5-4305-8539-440208aa848b"
+					"id": "51ab44fe-4d63-425a-ae0d-587d24856279"
 				},
 				{
 					"name": "View User",
 					"item": [
 						{
 							"name": "Search User",
-							"id": "2b564769-9bc4-4f37-a8de-33e9c0e68ac7",
+							"id": "93158d45-30bc-4040-a114-3865e1098947",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -367,7 +367,7 @@
 							"response": []
 						}
 					],
-					"id": "5648e153-849a-4ba1-b1e7-b36310fc4344"
+					"id": "91748e02-836c-463f-aba8-792e70bda4df"
 				},
 				{
 					"name": "Personal Control",
@@ -377,7 +377,7 @@
 							"item": [
 								{
 									"name": "Create Staff",
-									"id": "9664edd7-4dbc-453a-855b-4bca46d67b41",
+									"id": "8690c560-9f27-4120-8231-0624a0ad578a",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -413,7 +413,7 @@
 								},
 								{
 									"name": "View All Collaborator",
-									"id": "7af1134e-31f5-4869-8787-83d23bbd7a89",
+									"id": "3f10a604-b743-426d-a1c9-394c26bb0b11",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -450,7 +450,7 @@
 								},
 								{
 									"name": "Update Staff",
-									"id": "06d07b5b-e849-439c-b858-8fc81e8152d1",
+									"id": "d8d8ac4c-238c-45b3-b97b-6998ad345055",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -487,7 +487,7 @@
 								},
 								{
 									"name": "Delete",
-									"id": "d1e407be-f32e-4338-9ba0-9ffd1295604e",
+									"id": "9e320fa7-4fe6-4d4a-a417-9a9a0cfc1f6d",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -523,14 +523,14 @@
 									"response": []
 								}
 							],
-							"id": "53e4fa81-9b78-43bc-b121-6b9bd2823d11"
+							"id": "95ed833e-4306-44e8-907d-6773fa46499f"
 						},
 						{
 							"name": "Staff Type",
 							"item": [
 								{
 									"name": "Create",
-									"id": "41e65675-4235-4a28-8e47-7245f7cff31d",
+									"id": "2cf6e0d8-9ee0-49f0-a3d8-90309b387583",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -560,7 +560,7 @@
 								},
 								{
 									"name": "View",
-									"id": "86cb8aca-402d-4d95-93c2-a363072b188c",
+									"id": "37cd44b9-739a-4813-8893-e4ec74bcc1e4",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -590,7 +590,7 @@
 								},
 								{
 									"name": "Edit",
-									"id": "0c657c11-4039-4ef8-bf5c-74fd2e4ac004",
+									"id": "dc92f47f-1a03-4621-a73c-b5f3e4499b71",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -620,7 +620,7 @@
 								},
 								{
 									"name": "Delete",
-									"id": "b3657442-c3d4-4fa1-abaf-a2746ca63b04",
+									"id": "bc3734c7-b3e0-4f5c-acda-03a645cb1bd5",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -649,14 +649,14 @@
 									"response": []
 								}
 							],
-							"id": "04325eae-09e7-4174-9e37-9b91068ff633"
+							"id": "c18d7245-0ecb-4b5a-be98-c52b7f6f47a1"
 						},
 						{
 							"name": "Load Control",
 							"item": [
 								{
 									"name": "Create",
-									"id": "8ace9618-86ee-4dd4-ae6c-50d1375f1f42",
+									"id": "660b5982-f3dd-4bba-8a05-f73a40d59580",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -686,7 +686,7 @@
 								},
 								{
 									"name": "View",
-									"id": "b2852473-9061-4e7e-ab2e-175f4329f37a",
+									"id": "1710b584-ef14-4364-9105-697a03ad0005",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -716,7 +716,7 @@
 								},
 								{
 									"name": "Edit",
-									"id": "4c7bbff4-43a4-44c4-94a2-896194b8a464",
+									"id": "63204d08-568a-47b7-9c05-4ba3f03c96b1",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -746,7 +746,7 @@
 								},
 								{
 									"name": "Delete",
-									"id": "6cca5df6-e907-41ec-b742-fc7f990133e9",
+									"id": "a7755e89-42b5-4d20-bde6-fb7229e1d9e4",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -775,10 +775,10 @@
 									"response": []
 								}
 							],
-							"id": "e743581c-cab9-4ecb-844d-0d2daea0784b"
+							"id": "b6efec1d-26d8-4109-aeb2-a34afe116278"
 						}
 					],
-					"id": "d0796315-bf19-4c05-99ed-d36bd20cd465"
+					"id": "332d0334-2cfb-4d12-8434-bb1848b75fbd"
 				},
 				{
 					"name": "Business Control",
@@ -788,7 +788,7 @@
 							"item": [
 								{
 									"name": "Create Copy",
-									"id": "9326bb0b-2cea-423e-84f6-4a9f96f85013",
+									"id": "b1cdf67f-460d-4b2e-8b47-07757763a0cb",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -818,7 +818,7 @@
 								},
 								{
 									"name": "View Copy",
-									"id": "1a80363a-d29f-4876-8f60-68b1662ec439",
+									"id": "0fd10d37-b262-4fb8-9c7a-9ddcf0a38816",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -848,7 +848,7 @@
 								},
 								{
 									"name": "Edit Copy",
-									"id": "27a3c2ea-6a05-4277-92f4-a067a6af7f0f",
+									"id": "a04d30a2-477f-4fe1-83f0-7134356f8951",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -878,7 +878,7 @@
 								},
 								{
 									"name": "Delete Copy",
-									"id": "4f94dd38-2c81-4f5a-8a3a-da79812b8439",
+									"id": "3852bf6e-b86d-4369-b1a5-7238b445aeed",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -907,14 +907,14 @@
 									"response": []
 								}
 							],
-							"id": "29f984b5-392f-4a8d-b437-5ad37928a960"
+							"id": "aa5fdfcc-8bd1-436c-bbad-37415edd55df"
 						},
 						{
 							"name": "Staff Type",
 							"item": [
 								{
 									"name": "Create Copy",
-									"id": "f05867e6-56ed-4676-8657-673937383481",
+									"id": "efbba8e0-fe49-44af-8291-ea5895d7f680",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -944,7 +944,7 @@
 								},
 								{
 									"name": "View Copy",
-									"id": "93e457b9-9f8a-4262-a089-fb0c90a4450f",
+									"id": "bd18bfeb-333d-4990-b386-f37f5defaff2",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -974,7 +974,7 @@
 								},
 								{
 									"name": "Edit Copy",
-									"id": "9717800d-b55b-4976-a161-36eda23fda25",
+									"id": "8696f223-33db-489d-8398-e0d02331f613",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1004,7 +1004,7 @@
 								},
 								{
 									"name": "Delete Copy",
-									"id": "01da4ba7-f7b9-433e-a455-a6aa5df24fc6",
+									"id": "c9173aff-4a69-4be6-8e0a-677c46b90266",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1033,14 +1033,14 @@
 									"response": []
 								}
 							],
-							"id": "3786989d-fcfd-4763-b474-b0995d4fa196"
+							"id": "78139dee-c71e-4da2-bc73-02b058d6c4d6"
 						},
 						{
 							"name": "Staff",
 							"item": [
 								{
 									"name": "Create Copy",
-									"id": "651b3a19-a0f4-4ea6-be56-0e7e0511552c",
+									"id": "6d1a4e50-fbc1-44d9-97b6-bd584f25dc85",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1070,7 +1070,7 @@
 								},
 								{
 									"name": "View Copy",
-									"id": "f0ac535d-abe6-4672-80db-24b494f954e3",
+									"id": "35b83797-813a-42b8-8c2b-f45e87965b0f",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1100,7 +1100,7 @@
 								},
 								{
 									"name": "Edit Copy",
-									"id": "87d97781-dbb8-4082-84ab-c3be7e72d6cb",
+									"id": "14b5bf4c-3b0a-4af3-90f3-3e82d54c12ac",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1130,7 +1130,7 @@
 								},
 								{
 									"name": "Delete Copy",
-									"id": "285b04f7-aac3-4f39-b276-9cce9909fbda",
+									"id": "e0cc888c-3932-4b72-8a75-7b407eecfc5a",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1159,10 +1159,10 @@
 									"response": []
 								}
 							],
-							"id": "12142694-a307-4a94-8fd0-17277e6fb51f"
+							"id": "fa4c1cad-3f09-4166-8771-a6117a8e8abc"
 						}
 					],
-					"id": "0008271b-6d1e-41b2-8370-9958d2ef3651"
+					"id": "da979ded-08ed-4761-9e73-81734f4f091b"
 				},
 				{
 					"name": "Control Of Collaborator Payments",
@@ -1172,7 +1172,7 @@
 							"item": [
 								{
 									"name": "Create Copy",
-									"id": "c1149890-58b2-45d1-aaa9-8759ffdd8039",
+									"id": "46c402e4-6e88-4994-a2cb-7eb9a29cff5a",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1202,7 +1202,7 @@
 								},
 								{
 									"name": "View Copy",
-									"id": "9f2d8773-08b8-4a2d-b01d-4b12dc24f465",
+									"id": "7d6337f7-5545-4f4f-9ed5-1439e5f13b7b",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1232,7 +1232,7 @@
 								},
 								{
 									"name": "Edit Copy",
-									"id": "ae5a5e0d-fcea-4b93-b214-8244f0536635",
+									"id": "fde43098-d450-43f1-a05f-a5d661470992",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1262,7 +1262,7 @@
 								},
 								{
 									"name": "Delete Copy",
-									"id": "2614f385-8d4f-4755-adef-96724d8646d6",
+									"id": "1630f799-fda1-40cf-b1b2-8d8863cc37e2",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1291,14 +1291,14 @@
 									"response": []
 								}
 							],
-							"id": "57241cfd-bd38-4ae4-a70c-df22a3017d9e"
+							"id": "b2acdeb5-543e-4b86-87ac-9ab900630e81"
 						},
 						{
 							"name": "Payment control",
 							"item": [
 								{
 									"name": "Create Copy",
-									"id": "87a0a2c5-39f3-4592-91ab-13405439c4b9",
+									"id": "18ce729b-25e2-4189-b536-0d16dba83168",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1328,7 +1328,7 @@
 								},
 								{
 									"name": "View Copy",
-									"id": "d30f9b02-6b5f-4355-9951-8620241c5af4",
+									"id": "7f33de62-c981-4a46-8f80-1bce30fabdc5",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1358,7 +1358,7 @@
 								},
 								{
 									"name": "Edit Copy",
-									"id": "d9a42bad-8331-4af6-a16e-430c1b78a7f0",
+									"id": "468c31d9-b043-4979-8aa6-cf16fee580e5",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1388,7 +1388,7 @@
 								},
 								{
 									"name": "Delete Copy",
-									"id": "c308a104-4e4f-4a4f-a489-1df930de8805",
+									"id": "07e8bd8f-45ea-4030-b855-54ede1721297",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1417,14 +1417,14 @@
 									"response": []
 								}
 							],
-							"id": "8d7b4856-27cc-46d0-9391-6e1c55ed23b3"
+							"id": "0d79d8a0-6777-4b02-9234-febb3b883ab3"
 						},
 						{
 							"name": "Loan Control",
 							"item": [
 								{
 									"name": "Create Copy",
-									"id": "be026629-8096-4a19-9c7a-34b3ccdb6a1f",
+									"id": "fc94879f-7ece-4390-998e-3a3b5edc6ac8",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1454,7 +1454,7 @@
 								},
 								{
 									"name": "View Copy",
-									"id": "6e15c786-2233-4af1-8747-f5d705ee3414",
+									"id": "4c5bfa3f-7b13-477a-ac00-784955536b78",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1484,7 +1484,7 @@
 								},
 								{
 									"name": "Edit Copy",
-									"id": "3347acc2-84fe-443c-b833-e3f5c4f3aa63",
+									"id": "34f19164-8434-4f88-b374-b5fd55cb5681",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1514,7 +1514,7 @@
 								},
 								{
 									"name": "Delete Copy",
-									"id": "1dbf9731-0f50-4dbe-9e07-7513ccd3cae5",
+									"id": "0a5b485f-60d1-4050-9c5b-4f0457b752ce",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1543,13 +1543,13 @@
 									"response": []
 								}
 							],
-							"id": "fb35555f-c94d-403e-a1f3-8f6f401c8f9a"
+							"id": "678d4492-dcc2-4f37-b6f7-a2ed06e6a3ef"
 						}
 					],
-					"id": "34ffb89f-8bee-4df8-817e-714ed41c47cd"
+					"id": "f5d541ce-fed3-40b8-b780-f647e393568f"
 				}
 			],
-			"id": "6768c6ef-da68-4934-a227-2c52a440ae13"
+			"id": "939741ea-463d-4cc4-98f4-fdd34eb1bd9a"
 		},
 		{
 			"name": "Collaborator",
@@ -1562,7 +1562,7 @@
 							"item": [
 								{
 									"name": "Consulta de Citas Dia",
-									"id": "39f69b0d-8a07-4717-9f20-8aeab50ccc26",
+									"id": "408617af-d495-422d-8d89-0ff95b05e2d8",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1599,7 +1599,7 @@
 								},
 								{
 									"name": "Consulta de Citas Semana",
-									"id": "827972ea-3d62-4281-acb3-b1523860e691",
+									"id": "1169d236-5e92-40b7-8b84-38720b4fb5ef",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1635,14 +1635,14 @@
 									"response": []
 								}
 							],
-							"id": "3c812e07-8e68-48c3-8ef7-3e461fbb3431"
+							"id": "32fc81e8-cb76-474a-8721-bdaf522d46e5"
 						},
 						{
 							"name": "Colla Rating",
 							"item": [
 								{
 									"name": "Rate Colla Service",
-									"id": "fd5a3972-f83e-445b-978d-43ac34a6863b",
+									"id": "78d26c4b-57ce-4242-9165-98a2c394dbf6",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1686,14 +1686,14 @@
 									"response": []
 								}
 							],
-							"id": "1e544589-b577-4520-ac42-6268b546d193"
+							"id": "3ca44169-dbbd-4f4b-9f27-7508c31558f4"
 						},
 						{
 							"name": "post",
 							"item": [
 								{
 									"name": "Consulta de Citas Dia X ID",
-									"id": "d8dd8dc4-fed6-4bab-950b-0923f37f0ffb",
+									"id": "7148f93b-e073-44f0-b7ca-d0d6d7e3b011",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1730,7 +1730,7 @@
 								},
 								{
 									"name": "Create Appointments Manager",
-									"id": "77029ecb-3e2f-42ee-8cf3-6459e6ead31d",
+									"id": "5d8c9323-154d-4443-9d06-6b38449c25af",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1766,14 +1766,14 @@
 									"response": []
 								}
 							],
-							"id": "ae0b62ee-e4d0-4266-a945-b8ee5647f826"
+							"id": "439f98d8-e015-402a-9a0e-87ce1c154cc6"
 						},
 						{
 							"name": "put",
 							"item": [
 								{
 									"name": "Update Appoinment",
-									"id": "158c5241-cdd1-4a81-a459-401a82d24884",
+									"id": "654603e0-3c89-468c-b5d7-c72ab6e19834",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1810,7 +1810,7 @@
 								},
 								{
 									"name": "Service Start",
-									"id": "c3c13acf-da35-40e7-9f15-f195c59d7b45",
+									"id": "6401f42c-fe63-4043-805f-f5b4d4b8519d",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1848,7 +1848,7 @@
 								},
 								{
 									"name": "Service End",
-									"id": "471812e6-16c5-478f-af62-425e42d6fb70",
+									"id": "2367c55a-7cc9-4faa-9217-ecb95ef43931",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1884,14 +1884,14 @@
 									"response": []
 								}
 							],
-							"id": "ef79fd30-659c-49fe-819e-a586eccc20db"
+							"id": "5c2e2d52-12df-4ae3-800f-7802de4b97ac"
 						},
 						{
 							"name": "del",
 							"item": [
 								{
 									"name": "Delete Appoinment",
-									"id": "596f0bb5-c065-4e95-9110-1f0e8229984b",
+									"id": "c46fa758-0e98-41ef-b088-1e3f9e044f7c",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1927,14 +1927,14 @@
 									"response": []
 								}
 							],
-							"id": "05e15160-7a61-4632-9ce2-8882f2fa807e"
+							"id": "d95b9535-9475-49c1-976c-f34e291b620e"
 						},
 						{
 							"name": "Dependent Create",
 							"item": [
 								{
 									"name": "View Staff Type X Nit Copy",
-									"id": "03370e6b-f2be-470a-9729-9f9ae5dd7c1c",
+									"id": "a756b24e-1dd1-4e8e-8184-806cd41eee74",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1971,7 +1971,7 @@
 								},
 								{
 									"name": "View All Services X Nit",
-									"id": "e4f9f9f9-e0c6-4e54-9b9c-94b33a262cf6",
+									"id": "21862723-2988-43a8-a124-e4b08f6acb4e",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2009,7 +2009,7 @@
 								},
 								{
 									"name": "View Available Appointment Times",
-									"id": "691555d1-2151-46d0-8d15-7e8459ad8748",
+									"id": "9edd71b3-1044-4348-923f-0a59006f7adc",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2046,7 +2046,7 @@
 								},
 								{
 									"name": "Business Days Available",
-									"id": "765639b1-77cd-4d6e-af13-8c3cbdb55c48",
+									"id": "5f16a6e5-7d9b-4aca-9138-96e75ad81d6e",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2083,7 +2083,7 @@
 									"response": []
 								}
 							],
-							"id": "76f7fc50-b267-43db-b203-b7b7322d90bd"
+							"id": "7e281008-7822-4de1-9d4f-c9aa0e7ced18"
 						},
 						{
 							"name": "View Day Or Week",
@@ -2166,7 +2166,7 @@
 							"id": "8c66dad4-bc4c-4592-89ec-efbe513999ff"
 						}
 					],
-					"id": "7b5759c3-4dcb-474c-bb6d-dbeff65ec93f"
+					"id": "d907ce7d-bbf7-4f54-9ba2-50c38a3208cb"
 				},
 				{
 					"name": "Settings Collaborator",
@@ -2176,7 +2176,7 @@
 							"item": [
 								{
 									"name": "Update Collaborator",
-									"id": "2385d03c-3cb2-4555-b54e-852022b94486",
+									"id": "74941074-e2db-4f66-a68c-2d1c8d8309e7",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2213,7 +2213,7 @@
 								},
 								{
 									"name": "Update Password Collaborator",
-									"id": "9dbc873b-8ee0-4667-9930-ead062dab7ad",
+									"id": "db93ca54-2531-499c-9023-747e66ca4964",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2250,7 +2250,7 @@
 								},
 								{
 									"name": "Reset-Password Collaborator",
-									"id": "ba2d147a-81a1-441f-a470-f85e0be1b70f",
+									"id": "e6e2a449-5514-48d6-bb6e-4fdc2b9a9335",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2286,14 +2286,14 @@
 									"response": []
 								}
 							],
-							"id": "b3476efd-3482-4358-a809-df1560cc2055"
+							"id": "df4543b5-2fd6-4633-8ae2-b832fef40aa5"
 						},
 						{
 							"name": "Collaborator Read",
 							"item": [
 								{
 									"name": "View One Collaborator",
-									"id": "b385e708-ebb3-47b8-90b0-10dac4f70c2a",
+									"id": "f6552e18-102a-44c6-a4da-a5da9bba3688",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2330,7 +2330,7 @@
 								},
 								{
 									"name": "Appointment History",
-									"id": "d2a20478-f1c7-4920-9d8c-bd6dc6551892",
+									"id": "690472ac-8b25-496c-98f9-389a00e1e76c",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2366,14 +2366,14 @@
 									"response": []
 								}
 							],
-							"id": "9c47ea56-b6cb-4968-ba6b-b0b934acc979"
+							"id": "b8f9e136-b7aa-46ce-9199-140249dedd00"
 						},
 						{
 							"name": "Collaborator Validation",
 							"item": [
 								{
 									"name": "Validate Email Collaborator",
-									"id": "9d091b21-14d8-4062-bb1e-2f2e264927a9",
+									"id": "d8616c14-d2c3-4c49-945d-d41341afbfbf",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2404,7 +2404,7 @@
 								},
 								{
 									"name": "Validate Token Email Collaborator",
-									"id": "b2aa6da1-fb7c-4fef-aa50-aa9bb88568ed",
+									"id": "d11feeb6-10ff-47e1-88e8-b89d5b6d1fff",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2451,7 +2451,7 @@
 								},
 								{
 									"name": "Forgot Password",
-									"id": "87eaeeb7-17ee-41c3-a9b8-abdd1f7ef810",
+									"id": "bfddf830-8159-436c-bf82-66e7d066952e",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2497,7 +2497,7 @@
 								},
 								{
 									"name": "Validar Token",
-									"id": "f27e5029-358e-4544-9bd1-0505fa78885f",
+									"id": "0a7b07ee-3d42-433a-8348-b2afa0c839eb",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2540,17 +2540,17 @@
 									"response": []
 								}
 							],
-							"id": "51d90d23-5a79-41ab-93c1-91d0149bb25a"
+							"id": "f40fc325-c5c7-4a6c-8619-a93c2927b538"
 						}
 					],
-					"id": "5229e7ce-dae6-424a-a975-a4bb91c28f77"
+					"id": "e396dbbc-ccdb-4b2b-9e0b-7716996f4cd7"
 				},
 				{
 					"name": "Wallet",
 					"item": [
 						{
 							"name": "View",
-							"id": "8b3b2a63-7e1f-4cd7-b62e-f66c7ce6975e",
+							"id": "4f3cf40e-398f-4140-afea-2b11ded5b539",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2590,7 +2590,7 @@
 						},
 						{
 							"name": "Load Service",
-							"id": "fd2dc05a-8158-4817-b889-e8180e2d9bbb",
+							"id": "94e8cbac-2e57-4008-8342-ad0552fa39e2",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2629,10 +2629,10 @@
 							"response": []
 						}
 					],
-					"id": "c1163e09-79b1-4b12-b793-c62040581007"
+					"id": "af4dfa54-47bb-4ebe-9e03-c2982bee6d2b"
 				}
 			],
-			"id": "420b8c02-4d4c-4372-b7f9-f2d180706dba"
+			"id": "7a8874b2-fa64-45a3-8840-6ec854dea46c"
 		},
 		{
 			"name": "Manager",
@@ -2645,7 +2645,7 @@
 							"item": [
 								{
 									"name": "Consulta de Citas Dia",
-									"id": "f652c8ec-33de-4508-934f-1691f06efaf3",
+									"id": "b813e063-db85-4d3a-8113-60bc50b8c911",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2682,7 +2682,7 @@
 								},
 								{
 									"name": "Consulta de Citas Semana",
-									"id": "ea474202-fd67-43bf-908c-ad54f5ad5267",
+									"id": "5ea0bbc5-c99c-48d9-b762-7df51ef556c1",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2718,14 +2718,14 @@
 									"response": []
 								}
 							],
-							"id": "f655ac1f-4257-4649-b181-177de5061eb1"
+							"id": "2c4abc78-b57f-4cac-8297-412304d06051"
 						},
 						{
 							"name": "Create",
 							"item": [
 								{
 									"name": "Create Appointment",
-									"id": "fcfd44bf-13f0-4b53-b7f5-24bacfe11a4b",
+									"id": "6d6c540f-91e4-4308-85bf-4cb41ffbc5f7",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2761,7 +2761,7 @@
 								},
 								{
 									"name": "Foreign Client Appointment",
-									"id": "73785813-5e0a-4cd6-929f-782f5985f4d2",
+									"id": "4a5478cc-4397-48a6-ae7f-42f87b1419ec",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2797,14 +2797,14 @@
 									"response": []
 								}
 							],
-							"id": "2e584421-568b-4482-981d-aab369ca744a"
+							"id": "eb6499b9-e82a-45ea-bd64-0aa9d44fca24"
 						},
 						{
 							"name": "Cancel Services",
 							"item": [
 								{
 									"name": "Cancel Appoinment",
-									"id": "c2c9712d-b689-421b-aef3-1787c9a2cb71",
+									"id": "2e09acc4-6299-4110-b7a7-a866cf9b2d5a",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2840,7 +2840,7 @@
 								},
 								{
 									"name": "Cancel Appoinment One Service",
-									"id": "736ba0b0-37a2-4b20-9d0d-7c21368f60d5",
+									"id": "d3c66187-d509-44d3-83d1-e43067953683",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2876,14 +2876,14 @@
 									"response": []
 								}
 							],
-							"id": "bc8f0676-25c2-415b-b087-c3fa3907a407"
+							"id": "5568368b-9aed-48af-a6f1-7dc4bf1c20b7"
 						},
 						{
 							"name": "Collaborator Read",
 							"item": [
 								{
 									"name": "View Collaborator History",
-									"id": "32e7f45e-bbe5-43e6-a9d9-0782769487ed",
+									"id": "c7bcc0f0-f960-4331-a90f-ad63cb526994",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2920,7 +2920,7 @@
 								},
 								{
 									"name": "Appointment History",
-									"id": "8276291c-e601-43ad-8afc-fb8c1755103e",
+									"id": "69219685-a919-4621-a53b-3d0a0d878d72",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2956,10 +2956,10 @@
 									"response": []
 								}
 							],
-							"id": "4e521e85-619d-4424-8fc5-ce9da949c912"
+							"id": "cb90b4a2-9da0-47f0-b8b9-d0009510eda6"
 						}
 					],
-					"id": "499aba2c-d38a-4594-bb0a-2e27c74d3aa8"
+					"id": "d46eb140-1d79-4fd9-8d08-c3a31d353407"
 				},
 				{
 					"name": "Billing Service",
@@ -2969,7 +2969,7 @@
 							"item": [
 								{
 									"name": "All Services",
-									"id": "82eae42b-8b84-48a1-88f1-b7f7290c789f",
+									"id": "5b681d87-d5cd-444a-aaa7-e006f929f605",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3005,14 +3005,14 @@
 									"response": []
 								}
 							],
-							"id": "909adfa4-e0ec-4bed-aad2-1fd5be210bed"
+							"id": "6738d87c-74bd-4529-9bf1-d13b683ba39e"
 						},
 						{
 							"name": "Create Billing",
 							"item": [
 								{
 									"name": "Pre Billing Service",
-									"id": "be4b844f-5ab9-4ad0-a31e-9a3a7c844d03",
+									"id": "312fc40d-748a-4524-b5a8-2d73ec94fa00",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3048,7 +3048,7 @@
 								},
 								{
 									"name": "Customer Payment",
-									"id": "c4c5b213-fd06-4c2b-9e93-996d4e31fef2",
+									"id": "36b5f967-05bb-4858-8ef7-be52cf296f5d",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3085,7 +3085,7 @@
 								},
 								{
 									"name": "View Payroll",
-									"id": "60b8c0fc-cfed-40c1-ad10-b58d5cafa58c",
+									"id": "1c777bb0-1983-4111-8946-b37ccc29d3da",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3121,10 +3121,10 @@
 									"response": []
 								}
 							],
-							"id": "f6330b32-6a17-4a85-8702-32ba9042decb"
+							"id": "8ca17d25-d89b-41fd-808c-0b30caa1a5cb"
 						}
 					],
-					"id": "30d63fd6-9e22-4b41-851e-eba8d3872eba"
+					"id": "62080dfb-0fd9-4626-a34f-1c3dfff30298"
 				},
 				{
 					"name": "Business",
@@ -3134,7 +3134,7 @@
 							"item": [
 								{
 									"name": "Business",
-									"id": "f3632d65-9d6a-4a0d-9bdb-bcb36cfc4ab8",
+									"id": "62fd3546-b842-4d30-a7d1-3046bbf18a8f",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3170,14 +3170,14 @@
 									"response": []
 								}
 							],
-							"id": "40acf221-d404-4624-99f5-d5b8645e10f4"
+							"id": "d20f487e-0d1f-487a-948b-f43b1f3003c6"
 						},
 						{
 							"name": "Update",
 							"item": [
 								{
 									"name": "Business",
-									"id": "677936f8-f5e2-4e8c-97ed-d8070c20295d",
+									"id": "472e24cf-b9eb-4959-bd0f-78cbb7a0e9d0",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3213,17 +3213,17 @@
 									"response": []
 								}
 							],
-							"id": "608a32f1-7129-460a-8dd0-811fb1adbd0b"
+							"id": "91a4d6e7-5296-41ad-9c6c-d038921c720e"
 						}
 					],
-					"id": "3db999fa-445d-453d-bc63-41c928411847"
+					"id": "0d0bc4dc-93c5-4501-941a-5b2336e47551"
 				},
 				{
 					"name": "Wallet",
 					"item": [
 						{
 							"name": "View",
-							"id": "3d6593ff-1d37-4813-8adc-aae85a8fd55f",
+							"id": "59de6641-3ce5-43a1-8f1c-55356923435d",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3262,14 +3262,14 @@
 							"response": []
 						}
 					],
-					"id": "2a367cf7-93b8-476a-9c2f-341d6af68c4a"
+					"id": "7457a81f-aa2e-4d6e-baf9-31a2e949ba5e"
 				},
 				{
 					"name": "Load Service",
 					"item": [
 						{
 							"name": "Load Service",
-							"id": "47a92741-b38c-4925-b792-bf574b31c5d3",
+							"id": "16434e2f-10f6-4da1-a8ed-e55bc0d7c159",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3309,7 +3309,7 @@
 						},
 						{
 							"name": "Process Loan",
-							"id": "ac2dce75-8f81-4097-ad84-e51013c57e41",
+							"id": "2f267473-da14-4520-8fcf-fff809402ad5",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3349,10 +3349,10 @@
 							"response": []
 						}
 					],
-					"id": "1a29a655-5424-44ba-87a5-ea8978219b7d"
+					"id": "3271b226-36cb-43bd-bfa8-3d3b883a88a8"
 				}
 			],
-			"id": "aec72b5c-eb7a-4de3-8580-e4e51ae681a7"
+			"id": "94c1402e-8f8e-4f3c-9499-8f246769c477"
 		},
 		{
 			"name": "Owner",
@@ -3362,7 +3362,7 @@
 					"item": [
 						{
 							"name": "View Appoinment",
-							"id": "1b215749-89c1-4af2-840d-662ae191c58b",
+							"id": "79789c28-36a8-45a4-84c2-f913a28f1717",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3398,7 +3398,7 @@
 						},
 						{
 							"name": "Update Appoinment",
-							"id": "9ab2e0c2-cbc8-4d85-bf67-37e6bdf5961d",
+							"id": "26e0fc62-9684-4f4f-96a1-f56eb76b7a70",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3435,7 +3435,7 @@
 						},
 						{
 							"name": "Delete Appoinment",
-							"id": "40810d3e-9e5c-425c-abe7-4133895ac9e9",
+							"id": "4bd15996-10ad-4b7d-af85-d62cb1daff80",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3470,14 +3470,14 @@
 							"response": []
 						}
 					],
-					"id": "79b95eb7-68a2-41b5-b991-1c3d593cb71e"
+					"id": "d568dee2-625a-49e0-9b9c-c5809c9a45d5"
 				},
 				{
 					"name": "Create Manager",
 					"item": [
 						{
 							"name": "Business Manager",
-							"id": "e0544269-cf8d-402b-a276-e76f12527e95",
+							"id": "f4786a7c-625f-4658-83bf-699512f17c5a",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3505,7 +3505,7 @@
 						},
 						{
 							"name": "Business Manager",
-							"id": "631e08b1-7454-4ad5-8278-35c25230f6da",
+							"id": "8f51320a-1771-446e-a68b-8edf0825e132",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3540,10 +3540,10 @@
 							"response": []
 						}
 					],
-					"id": "a071d21a-d595-4423-b83a-b352afe388fc"
+					"id": "955a3541-2d70-4e53-bc66-51419d6039f9"
 				}
 			],
-			"id": "c11a61d8-40f8-40ae-97d6-96bdfc7508dd"
+			"id": "fc7acded-9ab7-45de-81e1-72be1ccb4d98"
 		}
 	]
 }
