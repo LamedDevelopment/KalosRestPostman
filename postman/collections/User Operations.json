@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "0e73a204-db7a-4b4f-8916-70f6e7c4daca",
+		"_postman_id": "2a0a12a3-318f-4287-bd73-4c729adba1cf",
 		"name": "User Operations",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "30190062-0e73a204-db7a-4b4f-8916-70f6e7c4daca"
+		"_uid": "30190062-2a0a12a3-318f-4287-bd73-4c729adba1cf"
 	},
 	"item": [
 		{
@@ -14,7 +14,7 @@
 					"item": [
 						{
 							"name": "Rate User Service",
-							"id": "ff46e02a-1621-4609-a2da-f7a634acaa61",
+							"id": "de74ee89-d438-4660-97d7-33f60edc6e00",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -58,14 +58,14 @@
 							"response": []
 						}
 					],
-					"id": "a03df6ce-e683-4ec4-81a0-7813c1656bbc"
+					"id": "2acddb6b-04b9-4d19-9237-be7f5cc0015a"
 				},
 				{
 					"name": "get",
 					"item": [
 						{
 							"name": "View Appoinment",
-							"id": "361d3558-4d96-430b-b3ef-6b94f4a0d6a0",
+							"id": "5674cb6c-f5b1-4ce4-a571-cd82136ec6cd",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -101,7 +101,7 @@
 						},
 						{
 							"name": "View Appointment History",
-							"id": "4db8f103-ed74-49d1-a9ac-c4221991a00c",
+							"id": "47db8db4-2d7c-4de0-b468-a564a19cd351",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -138,7 +138,7 @@
 						},
 						{
 							"name": "Accept And Close Service",
-							"id": "8a51cc9b-2e9b-410f-842d-08988c953892",
+							"id": "4d9f82ca-3509-4c3d-99cd-5d2eac142e2b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -174,7 +174,7 @@
 						},
 						{
 							"name": "Consulta de Citas Dia",
-							"id": "524d0448-dd55-45e7-a3cd-602a3c192de1",
+							"id": "be527c7e-b937-4cfa-93ca-7c8767c58862",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -211,7 +211,7 @@
 						},
 						{
 							"name": "Consulta de Citas Dia X ID",
-							"id": "de750c7b-2157-4edd-9849-3e81d75ad732",
+							"id": "5b8420f4-82da-476b-8b93-b576ac2b4f71",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -248,7 +248,7 @@
 						},
 						{
 							"name": "Consulta de Citas Semana",
-							"id": "f870faef-5aa5-4a3c-9418-e67821517367",
+							"id": "058d451a-9b84-4211-8b6e-3a60bf628185",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -284,14 +284,14 @@
 							"response": []
 						}
 					],
-					"id": "297218ab-cd12-4de1-b9d0-cfeb754258da"
+					"id": "dd2d6fad-6b29-4bad-b0b2-986054cae5c9"
 				},
 				{
 					"name": "post",
 					"item": [
 						{
 							"name": "Create Appointments",
-							"id": "61a4b6b2-00c3-4465-9df7-557826a37a17",
+							"id": "4dacc5a9-f57e-4453-9f62-4b7d703c51c6",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -327,7 +327,7 @@
 						},
 						{
 							"name": "Add Appointment A Service",
-							"id": "61b09300-e003-4a20-8dbb-8c0e434a9631",
+							"id": "1e7dc2e8-ad3f-4a14-8b44-eb7df35b2b0a",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -363,14 +363,14 @@
 							"response": []
 						}
 					],
-					"id": "8d903042-3a64-4545-b05d-8135a573faca"
+					"id": "eecac065-b414-49ca-807c-29838f09e9be"
 				},
 				{
 					"name": "put",
 					"item": [
 						{
 							"name": "Update Appoinment",
-							"id": "d6056e33-9df4-426e-8ceb-4a729bcfcba8",
+							"id": "066eef5e-1340-4bc5-93a2-1acfe81ecd1e",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -405,14 +405,14 @@
 							"response": []
 						}
 					],
-					"id": "cb5f7cb7-093f-40aa-84c6-3416b4b8e09c"
+					"id": "27443d8b-d9c0-4ad7-a6e2-d95828457581"
 				},
 				{
 					"name": "del",
 					"item": [
 						{
 							"name": "Cancel Appoinment",
-							"id": "1afd8195-a6a9-42ad-932a-f8b9f7d99681",
+							"id": "bf72b602-2bfb-41bb-a8a0-6eab61ca0162",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -452,7 +452,7 @@
 						},
 						{
 							"name": "Cancel Appoinment One Service",
-							"id": "a87bc859-9ead-4480-9ab7-2595d3b8862d",
+							"id": "780921dc-53c9-4cbe-b076-171f985d40e5",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -488,14 +488,14 @@
 							"response": []
 						}
 					],
-					"id": "6d722b13-1bb6-43e8-a798-19f909773d57"
+					"id": "0334c1c2-36b1-4a4c-8c6f-2eee7c68549e"
 				},
 				{
 					"name": "Evaluation Questions",
 					"item": [
 						{
 							"name": "View Questions User",
-							"id": "0f14446c-1b80-4451-8b99-1c01e52d1935",
+							"id": "a7829e06-9e8e-4ce2-97f7-b30dc8cb3eb1",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -530,10 +530,10 @@
 							"response": []
 						}
 					],
-					"id": "dd9cb734-2ac4-4246-a877-8200481886cf"
+					"id": "e2f38f8c-a8ab-45c0-9dab-0ec1eb0ade8b"
 				}
 			],
-			"id": "62cd3a6c-bccb-4d8b-8837-7cf42911a22d"
+			"id": "09c4e0b5-dcb9-40a0-887f-205c6031d209"
 		},
 		{
 			"name": "Login Services",
@@ -543,7 +543,7 @@
 					"item": [
 						{
 							"name": "Create User",
-							"id": "54c61134-893b-4a57-977e-f200b102f119",
+							"id": "4f54487a-384b-4e42-87db-f79d8e176539",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -579,14 +579,14 @@
 							"response": []
 						}
 					],
-					"id": "34318b4d-c9ec-41d1-bac0-e4d7697acf2a"
+					"id": "fe0a917a-7479-45d4-9c1e-3e126327bc25"
 				},
 				{
 					"name": "User Update",
 					"item": [
 						{
 							"name": "Update User",
-							"id": "35dc4e2e-6875-4754-a88f-986d941a6d71",
+							"id": "4b8118b3-261f-4727-a115-82f8a360ce45",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -623,7 +623,7 @@
 						},
 						{
 							"name": "Update Password User",
-							"id": "d6d3a215-f567-4bd8-8564-f7e4353c4481",
+							"id": "866622f7-544c-499c-8a1a-a77fb2394baa",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -660,7 +660,7 @@
 						},
 						{
 							"name": "Reset-Password User",
-							"id": "b0b22eb7-6a6a-4441-aaae-828ca21b28b7",
+							"id": "9c0a44d5-6648-4945-a5fb-32c1df6dac44",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -696,14 +696,14 @@
 							"response": []
 						}
 					],
-					"id": "916fc89a-8535-42a0-a28b-3ba1b3b65e37"
+					"id": "64131935-131d-4549-9bd5-86363133b829"
 				},
 				{
 					"name": "User Read",
 					"item": [
 						{
 							"name": "View One User",
-							"id": "8bbaeaf4-d7d4-4863-aa93-452f1e398f92",
+							"id": "21055667-7f89-41fd-8f92-1bd97a978baa",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -739,19 +739,19 @@
 							"response": []
 						}
 					],
-					"id": "65b73956-04d5-47d8-81c0-bb8b32f095d2"
+					"id": "58d97979-4e79-4af4-bee5-f5c78029d2bc"
 				},
 				{
 					"name": "User Delete",
 					"item": [],
-					"id": "f7dab279-247e-4780-ad33-648f5f2bbc0a"
+					"id": "87be7b9c-e1b3-46b2-a56a-375782db3157"
 				},
 				{
 					"name": "User Validation",
 					"item": [
 						{
 							"name": "Validate Email User",
-							"id": "e818f06d-75ce-4e1e-bc35-bc5a987064cb",
+							"id": "d9e99f6f-dbd6-433f-8d89-0f74d0b459fe",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -782,7 +782,7 @@
 						},
 						{
 							"name": "Validate Token Email User",
-							"id": "265643ac-07fa-4456-8d69-5bfb884ea974",
+							"id": "8e2c4937-3658-4328-b6cc-dd3e1f198975",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -829,7 +829,7 @@
 						},
 						{
 							"name": "Forgot Password",
-							"id": "085ece42-cd2c-43a1-a4c2-5e1fee5527e8",
+							"id": "f518bec2-d893-449f-8830-a6b1b234a6b1",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -874,17 +874,17 @@
 							"response": []
 						}
 					],
-					"id": "28bb6169-f859-4f82-b037-063dc947d6a2"
+					"id": "16b06282-f362-449d-a0b2-c79749f21ced"
 				}
 			],
-			"id": "46aeb98e-0303-4b39-8240-c762d7a6581a"
+			"id": "06ed3896-4c74-487c-a60f-ff2326fe9726"
 		},
 		{
 			"name": "Payment Service",
 			"item": [
 				{
 					"name": "Wallet",
-					"id": "ec3ba368-253e-42d3-bb7b-4dfadc115d42",
+					"id": "46f4b83c-23c7-4f1c-b1d5-78b10f9e6263",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -923,12 +923,12 @@
 					"response": []
 				}
 			],
-			"id": "4b68e692-6d78-4dd5-a603-dde77faa6766"
+			"id": "248c9cc3-9bc9-483a-b6e0-15a4e67c1dc1"
 		},
 		{
 			"name": "Dashboard",
 			"item": [],
-			"id": "80e47bc7-7ca4-4035-a11b-a42ef05ca08a"
+			"id": "12c1c679-7ce4-4142-b85f-769727e597d7"
 		}
 	]
 }
