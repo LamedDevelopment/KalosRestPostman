@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "65fac41c-7d38-4e3d-aa8a-b9acecabc82f",
+		"_postman_id": "eb825b1e-a410-493a-bf4e-799e0b1e5b20",
 		"name": "Login Operations",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "30190062-65fac41c-7d38-4e3d-aa8a-b9acecabc82f"
+		"_uid": "30190062-eb825b1e-a410-493a-bf4e-799e0b1e5b20"
 	},
 	"item": [
 		{
@@ -15,7 +15,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "1e708e60-ce51-4794-950a-4bd361bd0056",
+								"id": "68a44a29-577c-4d3d-809a-b5d3cc303089",
 								"exec": [
 									"postman.setEnvironmentVariable(\"tk_user\",  JSON.parse(responseBody).login);"
 								],
@@ -23,7 +23,7 @@
 							}
 						}
 					],
-					"id": "d294f415-70bb-4d9c-95d9-512aaa140957",
+					"id": "95b99def-47af-4bc8-be19-cf4027bb5834",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -57,7 +57,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "1e708e60-ce51-4794-950a-4bd361bd0056",
+								"id": "a0bc78e3-1596-430a-867b-dfb743480719",
 								"exec": [
 									"postman.setEnvironmentVariable(\"tk_user\",  JSON.parse(responseBody).login);"
 								],
@@ -65,7 +65,7 @@
 							}
 						}
 					],
-					"id": "48b24858-beed-4182-9423-7dbcbc6b758e",
+					"id": "1a11b598-372b-4e38-bc1d-a6b774920107",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -101,7 +101,7 @@
 					"response": []
 				}
 			],
-			"id": "d352d6a0-571a-427a-9327-9c0d48ec1e7b"
+			"id": "3f644bd9-7355-47b8-b949-d62677dec7cc"
 		},
 		{
 			"name": "Collaborator",
@@ -112,7 +112,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "62c6b4f8-b2b1-4fa1-b824-e6f1bdf123c7",
+								"id": "1737383b-ef44-442a-a72d-f735b2be2d8a",
 								"exec": [
 									"postman.setEnvironmentVariable(\"tk_colla\",  JSON.parse(responseBody).msg);"
 								],
@@ -120,7 +120,7 @@
 							}
 						}
 					],
-					"id": "657015cf-c1de-48cc-88f1-59e68e62ad0d",
+					"id": "d07a5af7-2609-4f49-a72f-69c815c3e926",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -151,7 +151,7 @@
 				},
 				{
 					"name": "Update Password Collaborator",
-					"id": "8da13a80-e437-47a5-bc4e-dd23bccc36e4",
+					"id": "b9cf52be-7837-481b-a9f8-b61e065bc0a1",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -187,11 +187,11 @@
 					"response": []
 				}
 			],
-			"id": "a4e20ecf-0114-4ce5-a432-15e8b88c53de"
+			"id": "d2d33957-23bd-4dc8-b33b-809e24bbd0fe"
 		},
 		{
 			"name": "Validar Token",
-			"id": "cd17dcd0-9aac-49d6-b0f5-0915b545e48e",
+			"id": "a2e65a2a-3a9e-4f25-ad63-f041d07cc8ef",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -236,7 +236,7 @@
 		},
 		{
 			"name": "Log Out Staff",
-			"id": "b5af6dd9-9707-48fb-b103-bd15d67c9835",
+			"id": "9888d4ec-2ce3-4098-9fa0-6d10a93f21cc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
