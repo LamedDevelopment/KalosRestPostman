@@ -10,410 +10,14 @@
 			"name": "Business",
 			"item": [
 				{
-					"name": "View Business",
+					"name": "Global Services",
 					"item": [
 						{
-							"name": "All Business",
-							"id": "a45074d6-e986-46f2-aba7-1b95a58f8b4f",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/bus/allbus",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"bus",
-										"allbus"
-									]
-								}
-							},
-							"response": []
-						}
-					],
-					"id": "eab30f5a-00ae-4c44-8006-05caddc6e0a2"
-				},
-				{
-					"name": "View Services",
-					"item": [
-						{
-							"name": "All Services",
-							"id": "18c707b2-ba41-436e-a5d7-c337adce516c",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "",
-										"type": "text",
-										"disabled": true
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/sv/allse",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"sv",
-										"allse"
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "Services X ID",
-							"id": "cf66e692-868a-40b1-b93b-e4ab4819dea5",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "",
-										"type": "text",
-										"disabled": true
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"serviceID\": \"64ab9174923ff67b725791b7\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/sv/serid",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"sv",
-										"serid"
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "Services Type X ServiceID",
-							"id": "eb0cdce6-5ba7-452f-aa35-1c97aa7a14e9",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"serviceID\": \"64ab9174923ff67b725791b7\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/tsv/tsxserid",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"tsv",
-										"tsxserid"
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "All Services X Nit",
-							"id": "939f5588-cb69-4be4-b244-f6df58474355",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"nitBusiness\": 901715265,\r\n    \"tradename\": \"Centro LAMED\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/bus/allsebu",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"bus",
-										"allsebu"
-									]
-								}
-							},
-							"response": []
-						}
-					],
-					"id": "f5a955ae-7e4e-4ad1-b758-0ce1c0e9d912"
-				},
-				{
-					"name": "View Collaborators",
-					"item": [
-						{
-							"name": "All Collaborators X Nit",
-							"id": "9b83da34-b3d1-4f6a-8d1b-f0594ef4823b",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "",
-										"type": "text",
-										"disabled": true
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"nitBusiness\": \"911111111\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/sf/allco",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"sf",
-										"allco"
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "Search Collaborators",
-							"id": "7ba6b413-7241-492d-a4ce-481a68a860fe",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"nit\": \"911111111\",\r\n    \"nameStaff\": \"coll\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/bususu/vcolla",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"bususu",
-										"vcolla"
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "Staff  X Nit X DocuStaff",
-							"id": "0c17bff6-3189-44a5-9af0-0856d2e4390c",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"nitBusiness\": 901715265,\r\n    \"docuStaff\": 80139076\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/sf/oneco",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"sf",
-										"oneco"
-									]
-								}
-							},
-							"response": []
-						}
-					],
-					"id": "51ab44fe-4d63-425a-ae0d-587d24856279"
-				},
-				{
-					"name": "View User",
-					"item": [
-						{
-							"name": "Search User",
-							"id": "93158d45-30bc-4040-a114-3865e1098947",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"emailUser\": \"lameddev@gmail.co\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{kalos_local}}{{api}}/usr/usem",
-									"host": [
-										"{{kalos_local}}{{api}}"
-									],
-									"path": [
-										"usr",
-										"usem"
-									]
-								}
-							},
-							"response": []
-						}
-					],
-					"id": "91748e02-836c-463f-aba8-792e70bda4df"
-				},
-				{
-					"name": "Personal Control",
-					"item": [
-						{
-							"name": "Staff",
+							"name": "View Business Copy",
 							"item": [
 								{
-									"name": "Create Staff",
-									"id": "8690c560-9f27-4120-8231-0624a0ad578a",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n    \"nit\": \"911111111\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"email\": \"colla@email.com\",\r\n    \"document\": \"80139077\",\r\n    \"profile\": [\"64abbc985190388112342e84\"],\r\n    \"typeCollaborator\": [\"64afa1d8e8969589ddc17e0a\"],\r\n    \"staffType\" : [\"64b2ddc31bcd863da11fa147\", \"64b2dde51bcd863da11fa14a\"],\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"services\": \"64ab95f1063c636a40004196\",\r\n            \"percentage\": \"0.60\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\", \"64ab94a7063c636a40004170\",\"64ab9b23d82418177a7237f2\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"64ab9b17d82418177a7237ee\",\"64ab9b2dd82418177a7237f6\",\"64ab92f3063c636a4000414d\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"19:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"19:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"19:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"2\"\r\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": "{{kalos_local}}{{api}}/sf",
-											"host": [
-												"{{kalos_local}}{{api}}"
-											],
-											"path": [
-												"sf"
-											]
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "View All Collaborator",
-									"id": "3f10a604-b743-426d-a1c9-394c26bb0b11",
+									"name": "All Business",
+									"id": "b07c19b3-c151-4cd6-a81f-d1dcc2dad5b6",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -436,21 +40,221 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/sf/manaall",
+											"raw": "{{kalos_local}}{{api}}/bus/allbus",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bus",
+												"allbus"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "afc228fd-dd45-4a6b-8612-f18c651c545c"
+						},
+						{
+							"name": "View Services Copy",
+							"item": [
+								{
+									"name": "All Services",
+									"id": "a476b595-18bc-4e4c-93d4-4a4346acc3da",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/sv/allse",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"sv",
+												"allse"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Services X ID",
+									"id": "2b3f0c62-8a58-488e-8355-ddd8ace10063",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"serviceID\": \"64ab9174923ff67b725791b7\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/sv/serid",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"sv",
+												"serid"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Services Type X ServiceID",
+									"id": "7dd37057-a650-4ca2-a1d4-ca43e3a0cec1",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"serviceID\": \"64ab9174923ff67b725791b7\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/tsv/tsxserid",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"tsv",
+												"tsxserid"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "All Services X Nit",
+									"id": "f93029eb-8097-4ff4-9f55-0d628d45b746",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"nitBusiness\": 901715265,\r\n    \"tradename\": \"Centro LAMED\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/bus/allsebu",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bus",
+												"allsebu"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "49f2e38a-552b-4b81-911b-a20127f0f2c7"
+						},
+						{
+							"name": "View Collaborators Copy",
+							"item": [
+								{
+									"name": "All Collaborators X Nit",
+									"id": "df935b43-b4dc-4af0-a2db-ff2ee41b48d5",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"nitBusiness\": \"911111111\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/sf/allco",
 											"host": [
 												"{{kalos_local}}{{api}}"
 											],
 											"path": [
 												"sf",
-												"manaall"
+												"allco"
 											]
 										}
 									},
 									"response": []
 								},
 								{
-									"name": "Update Staff",
-									"id": "d8d8ac4c-238c-45b3-b97b-6998ad345055",
+									"name": "Search Collaborators",
+									"id": "cd4a8c21-f601-4e9c-817b-7c499c5a80a7",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -459,13 +263,13 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+												"value": "{{tk_colla}}",
 												"type": "text"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"nit\": \"64b0e7f7dfb5742dacb9f717\",\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"profile\": \"64abbc985190388112342e84\",\r\n    \"staffType\" : [\"64b2ddb51bcd863da11fa144\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    }],\r\n    \"staffService\":[\r\n        { \r\n            \"typeService\": \"64ab92e0063c636a40004149\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n    ],\r\n    \"level\":\"1\"\r\n}",
+											"raw": "{\r\n    \"nit\": \"911111111\",\r\n    \"nameStaff\": \"coll\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -473,21 +277,21 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/usf/manaupcolla",
+											"raw": "{{kalos_local}}{{api}}/bususu/vcolla",
 											"host": [
 												"{{kalos_local}}{{api}}"
 											],
 											"path": [
-												"usf",
-												"manaupcolla"
+												"bususu",
+												"vcolla"
 											]
 										}
 									},
 									"response": []
 								},
 								{
-									"name": "Delete",
-									"id": "9e320fa7-4fe6-4d4a-a417-9a9a0cfc1f6d",
+									"name": "Staff  X Nit X DocuStaff",
+									"id": "5c23e9d3-662f-4ad3-89b5-d6be640b5f4c",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -502,7 +306,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"CollaID\": \"\"\r\n}",
+											"raw": "{\r\n    \"nitBusiness\": 901715265,\r\n    \"docuStaff\": 80139076\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -510,27 +314,27 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/usf/manadel",
+											"raw": "{{kalos_local}}{{api}}/sf/oneco",
 											"host": [
 												"{{kalos_local}}{{api}}"
 											],
 											"path": [
-												"usf",
-												"manadel"
+												"sf",
+												"oneco"
 											]
 										}
 									},
 									"response": []
 								}
 							],
-							"id": "95ed833e-4306-44e8-907d-6773fa46499f"
+							"id": "0d1ff194-3fbf-4cd8-8de4-1da27891bfbe"
 						},
 						{
-							"name": "Staff Type",
+							"name": "View User Copy",
 							"item": [
 								{
-									"name": "Create",
-									"id": "2cf6e0d8-9ee0-49f0-a3d8-90309b387583",
+									"name": "Search User",
+									"id": "7e457484-767a-4c98-b703-0e0fba28bd2d",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -545,7 +349,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "",
+											"raw": "{\r\n    \"emailUser\": \"lameddev@gmail.co\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -553,272 +357,1212 @@
 											}
 										},
 										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "View",
-									"id": "37cd44b9-739a-4813-8893-e4ec74bcc1e4",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Edit",
-									"id": "dc92f47f-1a03-4621-a73c-b5f3e4499b71",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Delete",
-									"id": "bc3734c7-b3e0-4f5c-acda-03a645cb1bd5",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "DELETE",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
+											"raw": "{{kalos_local}}{{api}}/usr/usem",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"usr",
+												"usem"
+											]
 										}
 									},
 									"response": []
 								}
 							],
-							"id": "c18d7245-0ecb-4b5a-be98-c52b7f6f47a1"
+							"id": "48eab02b-908e-4c88-ba4d-eaef68b201e1"
 						},
 						{
-							"name": "Load Control",
+							"name": "Personal Control Copy",
 							"item": [
 								{
-									"name": "Create",
-									"id": "660b5982-f3dd-4bba-8a05-f73a40d59580",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
+									"name": "Staff",
+									"item": [
+										{
+											"name": "Create Staff",
+											"id": "9b797f7f-22fe-4ea9-8286-62336f3161af",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"nit\": \"911111111\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"email\": \"colla@email.com\",\r\n    \"document\": \"80139077\",\r\n    \"profile\": [\"64abbc985190388112342e84\"],\r\n    \"typeCollaborator\": [\"64afa1d8e8969589ddc17e0a\"],\r\n    \"staffType\" : [\"64b2ddc31bcd863da11fa147\", \"64b2dde51bcd863da11fa14a\"],\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"services\": \"64ab95f1063c636a40004196\",\r\n            \"percentage\": \"0.60\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\", \"64ab94a7063c636a40004170\",\"64ab9b23d82418177a7237f2\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"64ab9b17d82418177a7237ee\",\"64ab9b2dd82418177a7237f6\",\"64ab92f3063c636a4000414d\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"19:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"19:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"19:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"2\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{kalos_local}}{{api}}/sf",
+													"host": [
+														"{{kalos_local}}{{api}}"
+													],
+													"path": [
+														"sf"
+													]
 												}
-											}
+											},
+											"response": []
 										},
-										"url": {
-											"raw": ""
+										{
+											"name": "View All Collaborator",
+											"id": "25b551ba-1868-4ef2-b37f-3f7054257b98",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{kalos_local}}{{api}}/sf/manaall",
+													"host": [
+														"{{kalos_local}}{{api}}"
+													],
+													"path": [
+														"sf",
+														"manaall"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Update Staff",
+											"id": "fb1fe9bd-bc40-4e82-a292-ec9561df6392",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"nit\": \"64b0e7f7dfb5742dacb9f717\",\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"profile\": \"64abbc985190388112342e84\",\r\n    \"staffType\" : [\"64b2ddb51bcd863da11fa144\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    }],\r\n    \"staffService\":[\r\n        { \r\n            \"typeService\": \"64ab92e0063c636a40004149\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n    ],\r\n    \"level\":\"1\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{kalos_local}}{{api}}/usf/manaupcolla",
+													"host": [
+														"{{kalos_local}}{{api}}"
+													],
+													"path": [
+														"usf",
+														"manaupcolla"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete",
+											"id": "9b656e08-4f73-43fc-adae-d4bdde87035f",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"CollaID\": \"\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{kalos_local}}{{api}}/usf/manadel",
+													"host": [
+														"{{kalos_local}}{{api}}"
+													],
+													"path": [
+														"usf",
+														"manadel"
+													]
+												}
+											},
+											"response": []
 										}
-									},
-									"response": []
+									],
+									"id": "05dda973-9e5c-44dc-84ea-2deed4deae98"
 								},
 								{
-									"name": "View",
-									"id": "1710b584-ef14-4364-9105-697a03ad0005",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
+									"name": "Staff Type",
+									"item": [
+										{
+											"name": "Create",
+											"id": "1d49c622-7d65-4550-b5e0-452bbd49eadb",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
 												}
-											}
+											},
+											"response": []
 										},
-										"url": {
-											"raw": ""
+										{
+											"name": "View",
+											"id": "8b818df5-dc6b-4e6a-b7e4-99d865d1ae4a",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit",
+											"id": "b7c16ee0-649a-41db-8528-c322d30d7dee",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete",
+											"id": "908df880-f228-4976-8f31-534c21e94695",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
 										}
-									},
-									"response": []
+									],
+									"id": "037f902d-b939-4e1e-94b1-e7335ccc7670"
 								},
 								{
-									"name": "Edit",
-									"id": "63204d08-568a-47b7-9c05-4ba3f03c96b1",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
+									"name": "Load Control",
+									"item": [
+										{
+											"name": "Create",
+											"id": "9e8dfcd1-e96a-4a32-a99d-91b275f1dd68",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
 												}
-											}
+											},
+											"response": []
 										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Delete",
-									"id": "a7755e89-42b5-4d20-bde6-fb7229e1d9e4",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "DELETE",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
+										{
+											"name": "View",
+											"id": "6d05d29f-3efa-4829-8151-b85c9632e9c9",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
 												}
-											}
+											},
+											"response": []
 										},
-										"url": {
-											"raw": ""
+										{
+											"name": "Edit",
+											"id": "ca033397-ed19-49da-8903-232d687fddf3",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete",
+											"id": "97e16ec5-dd52-4492-9e2c-e2e152230697",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
 										}
-									},
-									"response": []
+									],
+									"id": "5f09a976-a2e8-476f-8d8e-2e0d6f452d02"
 								}
 							],
-							"id": "b6efec1d-26d8-4109-aeb2-a34afe116278"
+							"id": "4dda3c28-c342-4912-bf5f-d595aa039274"
+						},
+						{
+							"name": "Business Control Copy",
+							"item": [
+								{
+									"name": "Services Parameter",
+									"item": [
+										{
+											"name": "Create Copy",
+											"id": "4f1b068d-b30a-4b23-9637-77e5425e0163",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View Copy",
+											"id": "c68c9434-cdd4-4003-a1bc-b20325d4864c",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit Copy",
+											"id": "d1f965eb-20c5-4dc1-a1f9-f26189bece8f",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete Copy",
+											"id": "9acf8e2f-7144-4e6d-a611-26237e7babbe",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "5669ebfc-7a78-4cad-b5d0-bd1512faf0e5"
+								},
+								{
+									"name": "Staff Type",
+									"item": [
+										{
+											"name": "Create Copy",
+											"id": "c598180b-80fd-49c2-a4f4-bdaad4d670c2",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View Copy",
+											"id": "85b204e2-05c2-4f07-a839-c28609f3a3cf",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit Copy",
+											"id": "b3a61691-26f0-4fde-8f8e-4519a878e704",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete Copy",
+											"id": "8a58669f-dd96-44a1-bc3e-8d8bdc62d326",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "3765cba3-73b3-406b-8167-defe598dd8fb"
+								},
+								{
+									"name": "Staff",
+									"item": [
+										{
+											"name": "Create Copy",
+											"id": "a9f81572-7555-4760-b84e-412beedbe4b8",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View Copy",
+											"id": "e1e64dbc-f6a6-4d8e-b52b-17ca7392c05e",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit Copy",
+											"id": "48bfcfad-de25-4d9e-9b4f-8b0d9ee1050e",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete Copy",
+											"id": "34237ac8-9dff-47d8-9739-c826d1da94f2",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "7e46d7d9-deb5-4d0e-9ac4-6d2a6f69df76"
+								}
+							],
+							"id": "54154021-445a-41ea-a583-9aa732fd8de6"
+						},
+						{
+							"name": "Control Of Collaborator Payments Copy",
+							"item": [
+								{
+									"name": "Generate payments",
+									"item": [
+										{
+											"name": "Create Copy",
+											"id": "aca09695-072c-40bc-b1fd-961931137bdd",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View Copy",
+											"id": "79066007-393f-4e9a-8a39-e2a3029d2ef6",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit Copy",
+											"id": "2bf2a034-6293-48d0-89d6-7df0310e3dbd",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete Copy",
+											"id": "e5531c01-2087-4052-8209-d88b4e28f5d5",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "38a1aa36-bc80-4622-b360-908d3cbf9b5a"
+								},
+								{
+									"name": "Payment control",
+									"item": [
+										{
+											"name": "Create Copy",
+											"id": "ced8e4b4-6a05-4b06-8c6e-eedac89582be",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View Copy",
+											"id": "42fd0c6a-445c-4eb8-bd01-34f3c60ba297",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit Copy",
+											"id": "c61ef555-5747-4870-9605-70f38382038b",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete Copy",
+											"id": "02184c39-3001-4393-a89c-57d27a8f1bfc",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "801b561f-37c2-47e1-8265-0973fa3aa2c9"
+								},
+								{
+									"name": "Loan Control",
+									"item": [
+										{
+											"name": "Create Copy",
+											"id": "1e0fdc82-40ef-49a6-a8fc-84d4673da1cf",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View Copy",
+											"id": "b32d196d-0f35-46be-9c70-9932d72dbc95",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit Copy",
+											"id": "37728217-606e-4670-b9d6-0ed2d2151040",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete Copy",
+											"id": "ce1b33b0-67a7-4a1f-be2f-11c496ffd478",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "d9c7363d-bdac-4134-a039-991870eaa459"
+								}
+							],
+							"id": "707cdee8-c16f-4e4f-a9e9-1d86c5bcbdd2"
 						}
 					],
-					"id": "332d0334-2cfb-4d12-8434-bb1848b75fbd"
+					"id": "4f7b61e3-f800-4164-bed5-c5f6d1026b91"
 				},
 				{
-					"name": "Business Control",
+					"name": "Services With Login",
 					"item": [
 						{
-							"name": "Services Parameter",
+							"name": "View Business",
 							"item": [
 								{
-									"name": "Create Copy",
-									"id": "b1cdf67f-460d-4b2e-8b47-07757763a0cb",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "View Copy",
-									"id": "0fd10d37-b262-4fb8-9c7a-9ddcf0a38816",
+									"name": "View Business  Manager",
+									"id": "a45074d6-e986-46f2-aba7-1b95a58f8b4f",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -833,7 +1577,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "",
+											"raw": "{}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -841,80 +1585,27 @@
 											}
 										},
 										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Edit Copy",
-									"id": "a04d30a2-477f-4fe1-83f0-7134356f8951",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Delete Copy",
-									"id": "3852bf6e-b86d-4369-b1a5-7238b445aeed",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "DELETE",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
+											"raw": "{{kalos_local}}{{api}}/bus/manbus",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bus",
+												"manbus"
+											]
 										}
 									},
 									"response": []
 								}
 							],
-							"id": "aa5fdfcc-8bd1-436c-bbad-37415edd55df"
+							"id": "eab30f5a-00ae-4c44-8006-05caddc6e0a2"
 						},
 						{
-							"name": "Staff Type",
+							"name": "View Services",
 							"item": [
 								{
-									"name": "Create Copy",
-									"id": "efbba8e0-fe49-44af-8291-ea5895d7f680",
+									"name": "See Services X BusinessID",
+									"id": "6612e12d-1c7f-4136-b66c-27b2ef8302c5",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -929,7 +1620,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "",
+											"raw": "{\r\n    \"nit\": 911111111,\r\n    \"tradename\": \"Nombre Sede O comercial\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -937,44 +1628,21 @@
 											}
 										},
 										"url": {
-											"raw": ""
+											"raw": "{{kalos_local}}{{api}}/bus/viewsebu",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bus",
+												"viewsebu"
+											]
 										}
 									},
 									"response": []
 								},
 								{
-									"name": "View Copy",
-									"id": "bd18bfeb-333d-4990-b386-f37f5defaff2",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Edit Copy",
-									"id": "8696f223-33db-489d-8398-e0d02331f613",
+									"name": "Services Type X ServiceID",
+									"id": "eb0cdce6-5ba7-452f-aa35-1c97aa7a14e9",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -989,7 +1657,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "",
+											"raw": "{\r\n    \"serviceID\": \"64ab9174923ff67b725791b7\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -997,50 +1665,27 @@
 											}
 										},
 										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Delete Copy",
-									"id": "c9173aff-4a69-4be6-8e0a-677c46b90266",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "DELETE",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
+											"raw": "{{kalos_local}}{{api}}/tsv/tsxserid",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"tsv",
+												"tsxserid"
+											]
 										}
 									},
 									"response": []
 								}
 							],
-							"id": "78139dee-c71e-4da2-bc73-02b058d6c4d6"
+							"id": "f5a955ae-7e4e-4ad1-b758-0ce1c0e9d912"
 						},
 						{
-							"name": "Staff",
+							"name": "View Collaborators",
 							"item": [
 								{
-									"name": "Create Copy",
-									"id": "6d1a4e50-fbc1-44d9-97b6-bd584f25dc85",
+									"name": "Search Collaborators",
+									"id": "7ba6b413-7241-492d-a4ce-481a68a860fe",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1055,7 +1700,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "",
+											"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"tradename\": \"Nombre Sede O comercial\"\r\n    //\"name\": \"Peluqueria\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1063,490 +1708,1245 @@
 											}
 										},
 										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "View Copy",
-									"id": "35b83797-813a-42b8-8c2b-f45e87965b0f",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Edit Copy",
-									"id": "14b5bf4c-3b0a-4af3-90f3-3e82d54c12ac",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Delete Copy",
-									"id": "e0cc888c-3932-4b72-8a75-7b407eecfc5a",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "DELETE",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
+											"raw": "{{kalos_local}}{{api}}/bus/seecolla",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bus",
+												"seecolla"
+											]
 										}
 									},
 									"response": []
 								}
 							],
-							"id": "fa4c1cad-3f09-4166-8771-a6117a8e8abc"
+							"id": "51ab44fe-4d63-425a-ae0d-587d24856279"
+						},
+						{
+							"name": "View User",
+							"item": [
+								{
+									"name": "Search User",
+									"id": "93158d45-30bc-4040-a114-3865e1098947",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"emailUser\": \"lameddev@gmail.co\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/usr/usem",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"usr",
+												"usem"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "91748e02-836c-463f-aba8-792e70bda4df"
+						},
+						{
+							"name": "Personal Control",
+							"item": [
+								{
+									"name": "Staff",
+									"item": [
+										{
+											"name": "Create Staff",
+											"id": "8690c560-9f27-4120-8231-0624a0ad578a",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"nit\": \"911111111\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"email\": \"colla@email.com\",\r\n    \"document\": \"80139077\",\r\n    \"profile\": [\"64abbc985190388112342e84\"],\r\n    \"typeCollaborator\": [\"64afa1d8e8969589ddc17e0a\"],\r\n    \"staffType\" : [\"64b2ddc31bcd863da11fa147\", \"64b2dde51bcd863da11fa14a\"],\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"services\": \"64ab95f1063c636a40004196\",\r\n            \"percentage\": \"0.60\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\", \"64ab94a7063c636a40004170\",\"64ab9b23d82418177a7237f2\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"64ab9b17d82418177a7237ee\",\"64ab9b2dd82418177a7237f6\",\"64ab92f3063c636a4000414d\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"19:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"19:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"19:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"11:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"2\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{kalos_local}}{{api}}/sf",
+													"host": [
+														"{{kalos_local}}{{api}}"
+													],
+													"path": [
+														"sf"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View All Collaborator",
+											"id": "3f10a604-b743-426d-a1c9-394c26bb0b11",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{kalos_local}}{{api}}/sf/manaall",
+													"host": [
+														"{{kalos_local}}{{api}}"
+													],
+													"path": [
+														"sf",
+														"manaall"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Update Staff",
+											"id": "d8d8ac4c-238c-45b3-b97b-6998ad345055",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"nit\": \"64b0e7f7dfb5742dacb9f717\",\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"profile\": \"64abbc985190388112342e84\",\r\n    \"staffType\" : [\"64b2ddb51bcd863da11fa144\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"22:00\" \r\n    }],\r\n    \"staffService\":[\r\n        { \r\n            \"typeService\": \"64ab92e0063c636a40004149\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"typeService\": \"64b2ddb51bcd863da11fa144\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n    ],\r\n    \"level\":\"1\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{kalos_local}}{{api}}/usf/manaupcolla",
+													"host": [
+														"{{kalos_local}}{{api}}"
+													],
+													"path": [
+														"usf",
+														"manaupcolla"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete",
+											"id": "9e320fa7-4fe6-4d4a-a417-9a9a0cfc1f6d",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"CollaID\": \"\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{kalos_local}}{{api}}/usf/manadel",
+													"host": [
+														"{{kalos_local}}{{api}}"
+													],
+													"path": [
+														"usf",
+														"manadel"
+													]
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "95ed833e-4306-44e8-907d-6773fa46499f"
+								},
+								{
+									"name": "Staff Type",
+									"item": [
+										{
+											"name": "Create",
+											"id": "2cf6e0d8-9ee0-49f0-a3d8-90309b387583",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View",
+											"id": "37cd44b9-739a-4813-8893-e4ec74bcc1e4",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit",
+											"id": "dc92f47f-1a03-4621-a73c-b5f3e4499b71",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete",
+											"id": "bc3734c7-b3e0-4f5c-acda-03a645cb1bd5",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "c18d7245-0ecb-4b5a-be98-c52b7f6f47a1"
+								},
+								{
+									"name": "Load Control",
+									"item": [
+										{
+											"name": "Create",
+											"id": "660b5982-f3dd-4bba-8a05-f73a40d59580",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View",
+											"id": "1710b584-ef14-4364-9105-697a03ad0005",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit",
+											"id": "63204d08-568a-47b7-9c05-4ba3f03c96b1",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete",
+											"id": "a7755e89-42b5-4d20-bde6-fb7229e1d9e4",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "b6efec1d-26d8-4109-aeb2-a34afe116278"
+								}
+							],
+							"id": "332d0334-2cfb-4d12-8434-bb1848b75fbd"
+						},
+						{
+							"name": "Business Control",
+							"item": [
+								{
+									"name": "Services Parameter",
+									"item": [
+										{
+											"name": "Create Copy",
+											"id": "b1cdf67f-460d-4b2e-8b47-07757763a0cb",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View Copy",
+											"id": "0fd10d37-b262-4fb8-9c7a-9ddcf0a38816",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit Copy",
+											"id": "a04d30a2-477f-4fe1-83f0-7134356f8951",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete Copy",
+											"id": "3852bf6e-b86d-4369-b1a5-7238b445aeed",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "aa5fdfcc-8bd1-436c-bbad-37415edd55df"
+								},
+								{
+									"name": "Staff Type",
+									"item": [
+										{
+											"name": "Create Copy",
+											"id": "efbba8e0-fe49-44af-8291-ea5895d7f680",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View Copy",
+											"id": "bd18bfeb-333d-4990-b386-f37f5defaff2",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit Copy",
+											"id": "8696f223-33db-489d-8398-e0d02331f613",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete Copy",
+											"id": "c9173aff-4a69-4be6-8e0a-677c46b90266",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "78139dee-c71e-4da2-bc73-02b058d6c4d6"
+								},
+								{
+									"name": "Staff",
+									"item": [
+										{
+											"name": "Create Copy",
+											"id": "6d1a4e50-fbc1-44d9-97b6-bd584f25dc85",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View Copy",
+											"id": "35b83797-813a-42b8-8c2b-f45e87965b0f",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit Copy",
+											"id": "14b5bf4c-3b0a-4af3-90f3-3e82d54c12ac",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete Copy",
+											"id": "e0cc888c-3932-4b72-8a75-7b407eecfc5a",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "fa4c1cad-3f09-4166-8771-a6117a8e8abc"
+								}
+							],
+							"id": "da979ded-08ed-4761-9e73-81734f4f091b"
+						},
+						{
+							"name": "Control Of Collaborator Payments",
+							"item": [
+								{
+									"name": "Generate payments",
+									"item": [
+										{
+											"name": "Create Copy",
+											"id": "46c402e4-6e88-4994-a2cb-7eb9a29cff5a",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View Copy",
+											"id": "7d6337f7-5545-4f4f-9ed5-1439e5f13b7b",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit Copy",
+											"id": "fde43098-d450-43f1-a05f-a5d661470992",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete Copy",
+											"id": "1630f799-fda1-40cf-b1b2-8d8863cc37e2",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "b2acdeb5-543e-4b86-87ac-9ab900630e81"
+								},
+								{
+									"name": "Payment control",
+									"item": [
+										{
+											"name": "Create Copy",
+											"id": "18ce729b-25e2-4189-b536-0d16dba83168",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View Copy",
+											"id": "7f33de62-c981-4a46-8f80-1bce30fabdc5",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit Copy",
+											"id": "468c31d9-b043-4979-8aa6-cf16fee580e5",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete Copy",
+											"id": "07e8bd8f-45ea-4030-b855-54ede1721297",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "0d79d8a0-6777-4b02-9234-febb3b883ab3"
+								},
+								{
+									"name": "Loan Control",
+									"item": [
+										{
+											"name": "Create Copy",
+											"id": "fc94879f-7ece-4390-998e-3a3b5edc6ac8",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "View Copy",
+											"id": "4c5bfa3f-7b13-477a-ac00-784955536b78",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Edit Copy",
+											"id": "34f19164-8434-4f88-b374-b5fd55cb5681",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete Copy",
+											"id": "0a5b485f-60d1-4050-9c5b-4f0457b752ce",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "x-token",
+														"value": "{{tk_colla}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": ""
+												}
+											},
+											"response": []
+										}
+									],
+									"id": "678d4492-dcc2-4f37-b6f7-a2ed06e6a3ef"
+								}
+							],
+							"id": "f5d541ce-fed3-40b8-b780-f647e393568f"
 						}
 					],
-					"id": "da979ded-08ed-4761-9e73-81734f4f091b"
-				},
-				{
-					"name": "Control Of Collaborator Payments",
-					"item": [
-						{
-							"name": "Generate payments",
-							"item": [
-								{
-									"name": "Create Copy",
-									"id": "46c402e4-6e88-4994-a2cb-7eb9a29cff5a",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "View Copy",
-									"id": "7d6337f7-5545-4f4f-9ed5-1439e5f13b7b",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Edit Copy",
-									"id": "fde43098-d450-43f1-a05f-a5d661470992",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Delete Copy",
-									"id": "1630f799-fda1-40cf-b1b2-8d8863cc37e2",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "DELETE",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								}
-							],
-							"id": "b2acdeb5-543e-4b86-87ac-9ab900630e81"
-						},
-						{
-							"name": "Payment control",
-							"item": [
-								{
-									"name": "Create Copy",
-									"id": "18ce729b-25e2-4189-b536-0d16dba83168",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "View Copy",
-									"id": "7f33de62-c981-4a46-8f80-1bce30fabdc5",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Edit Copy",
-									"id": "468c31d9-b043-4979-8aa6-cf16fee580e5",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Delete Copy",
-									"id": "07e8bd8f-45ea-4030-b855-54ede1721297",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "DELETE",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								}
-							],
-							"id": "0d79d8a0-6777-4b02-9234-febb3b883ab3"
-						},
-						{
-							"name": "Loan Control",
-							"item": [
-								{
-									"name": "Create Copy",
-									"id": "fc94879f-7ece-4390-998e-3a3b5edc6ac8",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "View Copy",
-									"id": "4c5bfa3f-7b13-477a-ac00-784955536b78",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Edit Copy",
-									"id": "34f19164-8434-4f88-b374-b5fd55cb5681",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Delete Copy",
-									"id": "0a5b485f-60d1-4050-9c5b-4f0457b752ce",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "DELETE",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": ""
-										}
-									},
-									"response": []
-								}
-							],
-							"id": "678d4492-dcc2-4f37-b6f7-a2ed06e6a3ef"
-						}
-					],
-					"id": "f5d541ce-fed3-40b8-b780-f647e393568f"
+					"id": "be6513da-7ed3-487a-8d6f-eaebd8c020fc"
 				}
 			],
 			"id": "939741ea-463d-4cc4-98f4-fdd34eb1bd9a"

@@ -40,9 +40,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/login",
+							"raw": "{{kalos_dev}}{{api}}/login",
 							"host": [
-								"{{kalos_local}}{{api}}"
+								"{{kalos_dev}}{{api}}"
 							],
 							"path": [
 								"login"
