@@ -321,6 +321,44 @@
 					"response": []
 				},
 				{
+					"name": "View All Services Copy",
+					"id": "443b1747-c362-4da2-8039-a440da8c198a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/sv/allse",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"sv",
+								"allse"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Create Services",
 					"id": "11344cc5-4036-483c-bd96-b4e8f41e33b5",
 					"protocolProfileBehavior": {
@@ -765,7 +803,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nameCategory\": \"Color Pelo\",\r\n    \"brandName\": \"Kuul\",\r\n    \"reference\": \"6\"\r\n}",
+							"raw": "{\r\n    \"nameCategory\": \"Color Pelo\",\r\n    \"brandName\": \"Kuul\",\r\n    \"reference\": \"6.2\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1715,6 +1753,48 @@
 				}
 			],
 			"id": "f4f1107b-c1c4-4008-bdf8-3da61d6417d6"
+		},
+		{
+			"name": "Hours",
+			"item": [
+				{
+					"name": "Create Appointments Copy",
+					"id": "c145a99b-05a4-495f-ac73-c940193a5915",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_user}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"userForeing\": {}, \r\n    \"discount\": \"\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"31/01/2024\",\r\n    \"timeService\": \"09:30:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/apu",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"apu"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "4589e3ab-43e8-4d96-8ea8-38fd25b124d9"
 		}
 	]
 }
