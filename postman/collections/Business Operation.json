@@ -2965,7 +2965,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"dateService\": \"04/02/2024\"\r\n}",
+											"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"dateService\": \"02/02/2024\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -2986,7 +2986,7 @@
 									"response": []
 								},
 								{
-									"name": "View Time Copy",
+									"name": "Days Available Business",
 									"id": "8377ec9b-d4f8-4f0c-8131-3dfdb42ab04f",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -3002,7 +3002,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"dateService\": \"04/02/2024\"\r\n}",
+											"raw": "{\r\n    \"businessID\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -3010,13 +3010,13 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/apu/horact",
+											"raw": "{{kalos_local}}{{api}}/apu/busdaycal",
 											"host": [
 												"{{kalos_local}}{{api}}"
 											],
 											"path": [
 												"apu",
-												"horact"
+												"busdaycal"
 											]
 										}
 									},
