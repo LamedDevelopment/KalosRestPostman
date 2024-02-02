@@ -4702,7 +4702,7 @@
 					"name": "Wallet",
 					"item": [
 						{
-							"name": "View",
+							"name": "View Detail",
 							"id": "59de6641-3ce5-43a1-8f1c-55356923435d",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -4721,7 +4721,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"dateStart\": \"01/12/2023\",\r\n    \"dateEnd\": \"25/12/2024\"\r\n}",
+									"raw": "{\r\n    \"dateStart\": \"01/12/2023\",\r\n    \"dateEnd\": \"31/01/2024\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -4736,6 +4736,46 @@
 									"path": [
 										"paycom",
 										"mana"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "View Accumulated",
+							"id": "8876c663-ec07-4f2c-bd01-53de8ed49071",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"dateStart\": \"01/12/2023\",\r\n    \"dateEnd\": \"31/01/2024\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/paycom/manaaccum",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"paycom",
+										"manaaccum"
 									]
 								}
 							},
@@ -4870,6 +4910,52 @@
 						}
 					],
 					"id": "3271b226-36cb-43bd-bfa8-3d3b883a88a8"
+				},
+				{
+					"name": "Payments To Collaborators",
+					"item": [
+						{
+							"name": "View Date Range",
+							"id": "fcd2c42d-06ac-4ad7-93a2-3df96c335257",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"dateStart\": \"01/12/2023\",\r\n    \"dateEnd\": \"25/12/2024\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/paycom/mana",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"paycom",
+										"mana"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "18ef07e0-d6cb-4fca-ad76-1d5c492259d6"
 				}
 			],
 			"id": "94c1402e-8f8e-4f3c-9499-8f246769c477"
