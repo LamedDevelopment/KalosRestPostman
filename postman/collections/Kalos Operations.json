@@ -1758,8 +1758,45 @@
 			"name": "Hours",
 			"item": [
 				{
-					"name": "Create Appointments Copy",
+					"name": "Appointment Hours",
 					"id": "c145a99b-05a4-495f-ac73-c940193a5915",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_user}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user\": \"\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"staff\": \"655707806c6b23062ab9c76b\",\r\n    \"dateService\": \"07/02/2024\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/apu/horact",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"apu",
+								"horact"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Appointment Hours Copy",
+					"id": "1286d0d8-4829-4d63-800b-54dbfa1eccce",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},

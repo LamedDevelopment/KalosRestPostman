@@ -2965,7 +2965,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"dateService\": \"02/02/2024\"\r\n}",
+											"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"dateService\": \"08/02/2024\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -4729,9 +4729,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/paycom/mana",
+									"raw": "{{kalos_dev}}{{api}}/paycom/mana",
 									"host": [
-										"{{kalos_local}}{{api}}"
+										"{{kalos_dev}}{{api}}"
 									],
 									"path": [
 										"paycom",
@@ -4815,9 +4815,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/lose/sola",
+									"raw": "{{kalos_dev}}{{api}}/lose/sola",
 									"host": [
-										"{{kalos_local}}{{api}}"
+										"{{kalos_dev}}{{api}}"
 									],
 									"path": [
 										"lose",
@@ -4887,7 +4887,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"loadID\": \"6596c99e41bdba98b9cd0de8\",\r\n    \"loanAmount\": 200000,\r\n    \"loanStatus\": \"Autorizado\",\r\n    \"paymentObservation\": \"Texto de Prueba que indica el Staff que Procesa el Anticipo\"\r\n}",
+									"raw": "{\r\n    \"loadID\": \"65c230e2c836e9c10ece78dd\",\r\n    \"loanAmount\": 200000,\r\n    \"loanStatus\": \"Autorizado\",\r\n    \"paymentObservation\": \"Texto de Prueba que indica el Staff que Procesa el Anticipo\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
