@@ -1601,6 +1601,93 @@
 							"id": "eab30f5a-00ae-4c44-8006-05caddc6e0a2"
 						},
 						{
+							"name": "QR Generate",
+							"item": [
+								{
+									"name": "Business QR",
+									"id": "35a74b5e-33d0-4148-84c9-2a199109c965",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/bus/qr",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bus",
+												"qr"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "QR Reader",
+									"id": "4723dbfb-8e3f-4127-96d0-396f579a25c8",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"name\": \"nombre usuario 1\",\r\n    \"lastName\": \"Apellido usuario 1\",\r\n    \"movil\": \"3103389244\",\r\n    \"email\": \"lamed.saenz@gmail.com\",\r\n    \"pass\": \"12345\",\r\n    \"terms\": \"true\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/usr/qr?d=U2FsdGVkX1+iztHG1a0OSt7G3zcn4VIjYvRGc/CenV2dLn/VJ8BZ0AevQkCP/VhO0+Dg4zQQffkic8Z+Vkphiz9Iy6RlK74DJ3hmGkP8+7G1w+l0spe09XzDmyGZBUnnSnbOnJWgxCiH+Hd/Ass49WXWfCpmAdsqzYkRhjzcIT8=",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"usr",
+												"qr"
+											],
+											"query": [
+												{
+													"key": "d",
+													"value": "U2FsdGVkX1+iztHG1a0OSt7G3zcn4VIjYvRGc/CenV2dLn/VJ8BZ0AevQkCP/VhO0+Dg4zQQffkic8Z+Vkphiz9Iy6RlK74DJ3hmGkP8+7G1w+l0spe09XzDmyGZBUnnSnbOnJWgxCiH+Hd/Ass49WXWfCpmAdsqzYkRhjzcIT8="
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "8418747d-2b09-404a-899d-1862020eca22",
+							"description": "Generador de QR para el establecimiento."
+						},
+						{
 							"name": "View Services",
 							"item": [
 								{
@@ -4256,7 +4343,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"user\": \"\", \r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"New Client\", \r\n        \"apeUser\": \"Foreing Client\", \r\n        \"emailUser\": \"lamed.saenz@hotmail.com\", \r\n        \"movilUser\": \"3142540356\", \r\n        \"userDocu\": \"80139069\"\r\n    },\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"655707806c6b23062ab9c76b\",\r\n    \"observationManager\": \"Creando un Usuario Foraneo\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"09/12/2023\",\r\n    \"timeService\": \"17:30:00\"\r\n}",
+											"raw": "{\r\n    \"user\": \"\", \r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"New Client\", \r\n        \"apeUser\": \"Foreing Client\", \r\n        \"emailUser\": \"lamed.saenz@hotmail.com\", \r\n        \"movilUser\": \"3142540356\", \r\n        \"userDocu\": \"80139069\"\r\n    },\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"655707806c6b23062ab9c76b\",\r\n    \"observationManager\": \"Creando un Usuario Foraneo\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"09/02/2024\",\r\n    \"timeService\": \"17:30:00\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -4264,13 +4351,12 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/apu/fore",
+											"raw": "{{kalos_local}}{{api}}/apu",
 											"host": [
 												"{{kalos_local}}{{api}}"
 											],
 											"path": [
-												"apu",
-												"fore"
+												"apu"
 											]
 										}
 									},
