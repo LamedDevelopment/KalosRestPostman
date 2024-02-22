@@ -4175,7 +4175,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"loanAmount\": 150000,\r\n    \"paymentDeadline\": 1,\r\n    \"loanDetail\": \"Prueba para la Solicitud de Prestamos al Colaborador\"\r\n}",
+									"raw": "{\r\n    \"loanAmount\": 50000,\r\n    \"paymentDeadline\": 1,\r\n    \"loanDetail\": \"Prueba de flujo de Proceso de Solicitud, para Desarrollo en la division de 1 cuotas\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -4973,7 +4973,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{}",
+									"raw": "{\r\n    \"collaID\": \"655709768197f57fe38ae973\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5013,7 +5013,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"loadID\": \"65c230e2c836e9c10ece78dd\",\r\n    \"loanAmount\": 200000,\r\n    \"loanStatus\": \"Autorizado\",\r\n    \"paymentObservation\": \"Texto de Prueba que indica el Staff que Procesa el Anticipo\"\r\n}",
+									"raw": "{\r\n    \"loadID\": \"65d7a74dcb9998e5331d2fa8\",\r\n    \"loanAmount\": 50000,\r\n    \"paymentDeadline\": 1,\r\n    \"loanStatus\": \"Autorizado\",\r\n    \"paymentObservation\": \"Texto de Prueba que indica el Staff que Procesa el Anticipo\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5036,6 +5036,92 @@
 						}
 					],
 					"id": "3271b226-36cb-43bd-bfa8-3d3b883a88a8"
+				},
+				{
+					"name": "Settle Commissions",
+					"item": [
+						{
+							"name": "Settlement To Employee",
+							"id": "03753e0e-6b0e-4b3e-881c-9dff007fe05d",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"NameCollaborator\": \"collaborator User\",\r\n    \"Document\": \"80139077\",\r\n    \"BusinessCommissionValue\": 972600,\r\n    \"sumOfAdvances\": 0,\r\n    \"commissionPayment\": 672600,\r\n    \"payLoans\": [\r\n        {\r\n            \"loansID\": \"65d6d6a07bd674ccba45defe\",\r\n            \"loanAmount\": 500000,\r\n            \"paymentDeadline\": 2,\r\n            \"applicationDate\": \"22/02/2024, 00:06:46\",\r\n            \"loanStatus\": \"Autorizado\",\r\n            \"PaymentFees\": 2,\r\n            \"newLoanBalance\": 500000\r\n        },\r\n        {\r\n            \"loansID\": \"65d6d6ea7bd674ccba45df0b\", //Se Cambia de _id a loansID\r\n            \"loanAmount\": 50000,\r\n            \"paymentDeadline\": 1,\r\n            \"applicationDate\": \"22/02/2024, 00:06:46\",\r\n            \"loanStatus\": \"Pagado\",\r\n            \"PaymentFees\": 50000,\r\n            \"newLoanBalance\": 1\r\n        }\r\n    ],\r\n    \"commissionDateRange\": {\r\n        \"dateStart\": \"01/12/2023\",\r\n        \"dateEnd\": \"31/01/2024\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/paycom/manaaccum",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"paycom",
+										"manaaccum"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Pre-Settlement To The employee",
+							"id": "f10a2dc2-d096-4c64-bebe-184707dafad0",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"nameBusiness\": \"Centro Pruebas Beautiful\",\r\n        \"tradename\": \"Nombre Sede O comercial\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"655709768197f57fe38ae973\",\r\n        \"nomColla\": \"collaborator\",\r\n        \"document\": 80139077,\r\n        \"apeColla\": \"User\",\r\n        \"emailColla\": \"colla@email.com\",\r\n        \"movilColla\": 3142540353\r\n    },\r\n    \"BusinessCommissionValue\": 972600,\r\n    //\"sumOfAdvances\": 0,\r\n    //\"commissionPayment\": 672600,\r\n    \"payLoans\": [\r\n        {\r\n            \"loansID\": \"65d6d6a07bd674ccba45defe\",\r\n            \"loanAmount\": 500000,\r\n            \"paymentDeadline\": 2,\r\n            \"applicationDate\": \"22/02/2024, 00:06:46\",\r\n            \"loanStatus\": \"Autorizado\",\r\n            \"PaymentFees\": 2,\r\n            \"newLoanBalance\": 500000,\r\n            \"preRoll\": false\r\n        },\r\n        {\r\n            \"loansID\": \"65d6d6ea7bd674ccba45df0b\",\r\n            \"loanAmount\": 50000,\r\n            \"paymentDeadline\": 1,\r\n            \"applicationDate\": \"22/02/2024, 00:06:46\",\r\n            \"loanStatus\": \"Autorizado\",\r\n            \"PaymentFees\": 1,\r\n            \"newLoanBalance\": 50000,\r\n            \"preRoll\": false\r\n        }\r\n        // {\r\n        //     \"loansID\": \"65d6d6ea7bd674ccba45df0b\",\r\n        //     \"loanAmount\": 50000,\r\n        //     \"paymentDeadline\": 1,\r\n        //     \"applicationDate\": \"22/02/2024, 00:06:46\",\r\n        //     \"loanStatus\": \"Proceso de Pagado\",\r\n        //     \"PaymentFees\": 0,\r\n        //     \"newLoanBalance\": 50000,\r\n        //     \"preRoll\": true\r\n        // }\r\n    ],\r\n    \"commissionDateRange\": {\r\n        \"dateStart\": \"01/12/2023\",\r\n        \"dateEnd\": \"31/01/2024\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/payroll/prepayroll",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"payroll",
+										"prepayroll"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "b7ecc4cf-d899-4d69-9faa-581477e1678f"
 				},
 				{
 					"name": "Payments To Collaborators",
