@@ -1682,6 +1682,43 @@
 										}
 									},
 									"response": []
+								},
+								{
+									"name": "Member Email Registration",
+									"id": "4a3fa0ed-1cfe-4a69-b30a-aed37238d63b",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"email\": \"elizabethvoxlot@gmail.com\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/bus/member",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bus",
+												"member"
+											]
+										}
+									},
+									"response": []
 								}
 							],
 							"id": "8418747d-2b09-404a-899d-1862020eca22",
@@ -3152,9 +3189,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
+											"raw": "{{kalos_dev}}{{api}}/apu/uapdco",
 											"host": [
-												"{{kalos_local}}{{api}}"
+												"{{kalos_dev}}{{api}}"
 											],
 											"path": [
 												"apu",
@@ -4847,7 +4884,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"dateStart\": \"01/01/2024\",\r\n    \"dateEnd\": \"31/01/2024\"\r\n}",
+									"raw": "{\r\n    \"dateStart\": \"01/02/2024\",\r\n    \"dateEnd\": \"26/02/2024\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -4981,9 +5018,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/lose/payloans",
+									"raw": "{{kalos_dev}}{{api}}/lose/payloans",
 									"host": [
-										"{{kalos_local}}{{api}}"
+										"{{kalos_dev}}{{api}}"
 									],
 									"path": [
 										"lose",
@@ -5013,7 +5050,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"loadID\": \"65d7a74dcb9998e5331d2fa8\",\r\n    \"loanAmount\": 50000,\r\n    \"paymentDeadline\": 1,\r\n    \"loanStatus\": \"Autorizado\",\r\n    \"paymentObservation\": \"Texto de Prueba que indica el Staff que Procesa el Anticipo\"\r\n}",
+									"raw": "{\r\n    \"loadID\": \"65da124f911d9cbd1d414276\",\r\n    \"loanAmount\": 550000,\r\n    \"paymentDeadline\": 2,\r\n    \"loanStatus\": \"Autorizado\",\r\n    \"paymentObservation\": \"Texto de Prueba que indica el Staff que Procesa el Anticipo\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5100,7 +5137,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"nameBusiness\": \"Centro Pruebas Beautiful\",\r\n        \"tradename\": \"Nombre Sede O comercial\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"655709768197f57fe38ae973\",\r\n        \"nomColla\": \"collaborator\",\r\n        \"document\": 80139077,\r\n        \"apeColla\": \"User\",\r\n        \"emailColla\": \"colla@email.com\",\r\n        \"movilColla\": 3142540353\r\n    },\r\n    \"BusinessCommissionValue\": 972600,\r\n    //\"sumOfAdvances\": 0,\r\n    //\"commissionPayment\": 672600,\r\n    \"payLoans\": [\r\n        {\r\n            \"loansID\": \"65d6d6a07bd674ccba45defe\",\r\n            \"loanAmount\": 500000,\r\n            \"paymentDeadline\": 2,\r\n            \"applicationDate\": \"22/02/2024, 00:06:46\",\r\n            \"loanStatus\": \"Autorizado\",\r\n            \"PaymentFees\": 2,\r\n            \"newLoanBalance\": 500000,\r\n            \"preRoll\": false\r\n        },\r\n        // {\r\n        //     \"loansID\": \"65d6d6ea7bd674ccba45df0b\",\r\n        //     \"loanAmount\": 50000,\r\n        //     \"paymentDeadline\": 1,\r\n        //     \"applicationDate\": \"22/02/2024, 00:06:46\",\r\n        //     \"loanStatus\": \"Autorizado\",\r\n        //     \"PaymentFees\": 0,\r\n        //     \"newLoanBalance\": 50000,\r\n        //     \"preRoll\": true\r\n        // },\r\n        {\r\n            \"loansID\": \"65d6d6ea7bd674ccba45df0b\",\r\n            \"loanAmount\": 50000,\r\n            \"paymentDeadline\": 1,\r\n            \"applicationDate\": \"22/02/2024, 00:06:46\",\r\n            \"loanStatus\": \"Proceso de Pagado\",\r\n            \"PaymentFees\": 0,\r\n            \"newLoanBalance\": 50000,\r\n            \"preRoll\": true\r\n        }\r\n    ],\r\n    \"commissionDateRange\": {\r\n        \"dateStart\": \"01/12/2023\",\r\n        \"dateEnd\": \"31/01/2024\"\r\n    },\r\n    \"observation\": \"Prueba de Comentario a la Nomina del Colaborador\"\r\n}",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"nameBusiness\": \"Centro Pruebas Beautiful\",\r\n        \"tradename\": \"Nombre Sede O comercial\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"655709768197f57fe38ae973\",\r\n        \"nomColla\": \"collaborator\",\r\n        \"document\": 80139077,\r\n        \"apeColla\": \"User\",\r\n        \"emailColla\": \"colla@email.com\",\r\n        \"movilColla\": 3142540353\r\n    },\r\n    \"BusinessCommissionValue\": 540600,\r\n    \"payLoans\": [\r\n        {\r\n            \"loanAmount\": 15000,\r\n            \"paymentDeadline\": 1,\r\n            \"loanDetail\": \"lalala\",\r\n            \"applicationDate\": \"26/02/2024, 15:18:25\",\r\n            \"loanStatus\": \"Autorizado\",\r\n            \"prePay\": false,\r\n            \"newLoanBalance\": 15000,\r\n            \"paymentFees\": 1,\r\n            \"loansID\": \"65dcfd702b8c39ca03a5f358\"\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"

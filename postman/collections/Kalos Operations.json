@@ -20,7 +20,7 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+								"value": "{{tk_colla}}",
 								"type": "text"
 							}
 						],
@@ -35,6 +35,80 @@
 							],
 							"path": [
 								"bus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "View Business For ID",
+					"id": "87d764b7-2f23-4f45-bdad-147b4a4e6022",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"businessID\": \"655456e56eb1b0c5c3523c8a\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/bus/viewone",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"bus",
+								"viewone"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "View Branch Office For ID",
+					"id": "a8325cd2-a616-404f-bec6-d60861f82ed4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"businessID\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/bus/viewonebranch",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"bus",
+								"viewonebranch"
 							]
 						}
 					},
