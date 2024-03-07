@@ -40,9 +40,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_dev}}{{api}}/login",
+							"raw": "{{kalos_local}}{{api}}/login",
 							"host": [
-								"{{kalos_dev}}{{api}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"login"
@@ -200,7 +200,7 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "{{tk_colla}}",
+						"value": "{{tk_user}}",
 						"type": "text"
 					}
 				],
@@ -225,7 +225,7 @@
 					"query": [
 						{
 							"key": "x-token",
-							"value": "{{token_lamed}}",
+							"value": "{{to",
 							"type": "text",
 							"disabled": true
 						}
