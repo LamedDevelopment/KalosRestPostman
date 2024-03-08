@@ -1702,7 +1702,7 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/usr/register?d=U2FsdGVkX1/y6LhlSuP+OGQgSkOCIMMVnWSrc0pC3ku9312ZBTp5faJMnIyJxjCMD45HevPg5ovL/e119XjvSRR6M1mtWCtbDEk3rMOVH44Kw1p8V7NL4JIfFa1Dyypo/zVEsYTzd8ExWj01umK9Rgbz4XvVkFMRqdNDDj9b+TfSOIMMrMYyeSKluUKqAW7hJoIW8fpBU5a4GuhRx2e/Q2VdnNuoMCx0GUYE+j5Nb6QqbMKXDOcj1lWyRfWi51wW",
+											"raw": "{{kalos_local}}{{api}}/usr/register?d=U2FsdGVkX1/RZmTwU96Nh4YS08Lsmr9SDV9a7rgsGH4OwlAUnK7LlWt8N8FamxdpAAAOWv0FE/H2RvZBaeSChq/7D7HPSYLNfMEkAaiQZjAZ5fz3g57YVmoJkPh9Fph0YEqKNRqAvtA3+g08zxNh1aHtEx/OGeMJBJuPimBlPaaWHLvC04Hn+y26Yhh3uSAyMemdFIvGpm64DNmOt4gyhjnEE8+HLqaUDXEFPWxKrFCqvHCMI7FJI+804WKCyweK",
 											"host": [
 												"{{kalos_local}}{{api}}"
 											],
@@ -1713,7 +1713,7 @@
 											"query": [
 												{
 													"key": "d",
-													"value": "U2FsdGVkX1/y6LhlSuP+OGQgSkOCIMMVnWSrc0pC3ku9312ZBTp5faJMnIyJxjCMD45HevPg5ovL/e119XjvSRR6M1mtWCtbDEk3rMOVH44Kw1p8V7NL4JIfFa1Dyypo/zVEsYTzd8ExWj01umK9Rgbz4XvVkFMRqdNDDj9b+TfSOIMMrMYyeSKluUKqAW7hJoIW8fpBU5a4GuhRx2e/Q2VdnNuoMCx0GUYE+j5Nb6QqbMKXDOcj1lWyRfWi51wW"
+													"value": "U2FsdGVkX1/RZmTwU96Nh4YS08Lsmr9SDV9a7rgsGH4OwlAUnK7LlWt8N8FamxdpAAAOWv0FE/H2RvZBaeSChq/7D7HPSYLNfMEkAaiQZjAZ5fz3g57YVmoJkPh9Fph0YEqKNRqAvtA3+g08zxNh1aHtEx/OGeMJBJuPimBlPaaWHLvC04Hn+y26Yhh3uSAyMemdFIvGpm64DNmOt4gyhjnEE8+HLqaUDXEFPWxKrFCqvHCMI7FJI+804WKCyweK"
 												}
 											]
 										}
@@ -1789,9 +1789,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/bus/viewsebu",
+											"raw": "{{kalos_dev}}{{api}}/bus/viewsebu",
 											"host": [
-												"{{kalos_local}}{{api}}"
+												"{{kalos_dev}}{{api}}"
 											],
 											"path": [
 												"bus",
