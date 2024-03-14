@@ -1606,13 +1606,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/emailverification/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE",
+									"raw": "{{kalos_local}}{{api}}/emailverification/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxhbWVkLnNhZW56QGdtYWlsLmNvbSIsInRpbWUiOjE3MDk4NDE4ODIxMzQsImlhdCI6MTcwOTg0MTg4MiwiZXhwIjoxNzA5OTI4MjgyfQ.iEoHbNkc6NufI2YHXzKOD5eaC8hn7LtEcUSNqdBSdV0",
 									"host": [
 										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"emailverification",
-										"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE"
+										"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxhbWVkLnNhZW56QGdtYWlsLmNvbSIsInRpbWUiOjE3MDk4NDE4ODIxMzQsImlhdCI6MTcwOTg0MTg4MiwiZXhwIjoxNzA5OTI4MjgyfQ.iEoHbNkc6NufI2YHXzKOD5eaC8hn7LtEcUSNqdBSdV0"
 									]
 								}
 							},

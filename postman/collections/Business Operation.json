@@ -3224,13 +3224,13 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/bp/carprod",
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
 											"host": [
 												"{{kalos_local}}{{api}}"
 											],
 											"path": [
-												"bp",
-												"carprod"
+												"doc",
+												"mm"
 											]
 										}
 									},
