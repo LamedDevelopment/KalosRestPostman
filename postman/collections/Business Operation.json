@@ -1737,7 +1737,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"email\": \"email@email.com\"\r\n}",
+											"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"email\": \"kevinazul999@gmail.com\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -3185,6 +3185,60 @@
 								}
 							],
 							"id": "69a0105f-3eb7-494c-9a16-7a8602fe0dcc"
+						},
+						{
+							"name": "Business Documentation",
+							"item": [
+								{
+									"name": "Cargue Matricula Mercantil CC",
+									"id": "12d62d34-5724-4d21-95ee-a5e2032e071e",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/J:/Mi unidad/Procesos LamedDev/productos_color.xlsx"
+													],
+													"src": "/J:/Mi unidad/Procesos LamedDev/productos_color.xlsx"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/bp/carprod",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bp",
+												"carprod"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "375c8b78-722b-4db0-ae18-1f85cf81a0bf",
+							"description": "Control de la Documentacion que un Establecimiento debe Cargar a My Driver Establecimiento"
 						}
 					],
 					"id": "be6513da-7ed3-487a-8d6f-eaebd8c020fc"
@@ -4921,7 +4975,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"dateStart\": \"05/03/2024\",\r\n    \"dateEnd\": \"10/03/2024\"\r\n}",
+									"raw": "{\r\n    \"dateStart\": \"05/03/2024\",\r\n    \"dateEnd\": \"15/03/2024\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5134,7 +5188,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"nameBusiness\": \"Centro Pruebas Beautiful\",\r\n        \"tradename\": \"Nombre Sede O comercial\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"655709768197f57fe38ae973\",\r\n        \"nomColla\": \"collaborator\",\r\n        \"document\": 80139077,\r\n        \"apeColla\": \"User\",\r\n        \"emailColla\": \"colla@email.com\",\r\n        \"movilColla\": 3142540353\r\n    },\r\n    \"BusinessCommissionValue\": 108000,\r\n    \"payLoans\": [\r\n        {\r\n            \"loanAmount\": 50000,\r\n            \"paymentDeadline\": 1,\r\n            \"loanDetail\": \"Servicio de Cafeteria\",\r\n            \"applicationDate\": \"05/03/2024, 00:43:42\",\r\n            \"loanStatus\": \"Proceso de Pagado\",\r\n            \"prePay\": true,\r\n            \"newLoanBalance\": 50000,\r\n            \"paymentFees\": 0,\r\n            \"loansID\": \"65e6b178e0856ce850f6edd7\"\r\n        }\r\n    ],\r\n    \"sumOfAdvances\": -50000,\r\n    \"commissionPayment\": 58000,\r\n    \"commissionDateRange\": {\r\n        \"datastart\": \"1/3/2024\",\r\n        \"dateEnd\": \"5/3/2024\"\r\n    }\r\n}",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"nameBusiness\": \"Centro Pruebas Beautiful\",\r\n        \"tradename\": \"Nombre Sede O comercial\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"655709768197f57fe38ae973\",\r\n        \"nomColla\": \"collaborator\",\r\n        \"document\": 80139077,\r\n        \"apeColla\": \"User\",\r\n        \"emailColla\": \"colla@email.com\",\r\n        \"movilColla\": 3142540353\r\n    },\r\n    \"BusinessCommissionValue\": 160200,\r\n    \"payLoans\": [\r\n        {\r\n            \"loanAmount\": 5000,\r\n            \"paymentDeadline\": 1,\r\n            \"loanDetail\": \"Cafeteria\",\r\n            \"applicationDate\": \"05/03/2024, 16:52:39\",\r\n            \"loanStatus\": \"Proceso de Pagado\",\r\n            \"prePay\": true,\r\n            \"newLoanBalance\": 5000,\r\n            \"paymentFees\": 0,\r\n            \"loansID\": \"65e79582e995ae31ae561073\"\r\n        }\r\n        // {\r\n        //     \"loanAmount\": 50000,\r\n        //     \"paymentDeadline\": 2,\r\n        //     \"loanDetail\": \"personal\",\r\n        //     \"applicationDate\": \"10/03/2024, 18:24:25\",\r\n        //     \"loanStatus\": \"Proceso de Pagado\",\r\n        //     \"prePay\": true,\r\n        //     \"newLoanBalance\": 25000,\r\n        //     \"paymentFees\": 1,\r\n        //     \"loansID\": \"65ee5cb40df46f073be0a2cb\"\r\n        // }\r\n    ],\r\n    \"sumOfAdvances\": -30000,\r\n    \"commissionPayment\": 130200,\r\n    \"commissionDateRange\": {\r\n        \"datastart\": \"01/3/2024\",\r\n        \"dateEnd\": \"05/3/2024\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5174,7 +5228,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"nameBusiness\": \"Centro Pruebas Beautiful\",\r\n        \"tradename\": \"Nombre Sede O comercial\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"655709768197f57fe38ae973\",\r\n        \"nomColla\": \"collaborator\",\r\n        \"document\": 80139077,\r\n        \"apeColla\": \"User\",\r\n        \"emailColla\": \"colla@email.com\",\r\n        \"movilColla\": 3142540353\r\n    },\r\n    \"BusinessCommissionValue\": 108000,\r\n    \"payLoans\": [\r\n        {\r\n            \"loanAmount\": 50000,\r\n            \"paymentDeadline\": 1,\r\n            \"loanDetail\": \"Servicio de Cafeteria\",\r\n            \"applicationDate\": \"05/03/2024, 00:43:42\",\r\n            \"loanStatus\": \"Autorizado\",\r\n            \"prePay\": false,\r\n            \"newLoanBalance\": 50000,\r\n\t\t\t\"paymentFees\": 1,\r\n            \"loansID\": \"65e6b178e0856ce850f6edd7\"\r\n        }\r\n    ]\r\n}",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"nameBusiness\": \"Centro Pruebas Beautiful\",\r\n        \"tradename\": \"Nombre Sede O comercial\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"655709768197f57fe38ae973\",\r\n        \"nomColla\": \"collaborator\",\r\n        \"document\": 80139077,\r\n        \"apeColla\": \"User\",\r\n        \"emailColla\": \"colla@email.com\",\r\n        \"movilColla\": 3142540353\r\n    },\r\n    \"BusinessCommissionValue\": 160200,\r\n    \"payLoans\": [\r\n        {\r\n            \"loanAmount\": 50000,\r\n            \"paymentDeadline\": 2,\r\n            \"loanDetail\": \"personal\",\r\n            \"applicationDate\": \"10/03/2024, 18:24:25\",\r\n            \"loanStatus\": \"Proceso de Pagado\",\r\n            \"prePay\": false,\r\n            \"newLoanBalance\": 50000,\r\n            \"paymentFees\": 2,\r\n            \"loansID\": \"65ee5cb40df46f073be0a2cb\"\r\n        },\r\n        {\r\n            \"loanAmount\": 5000,\r\n            \"paymentDeadline\": 1,\r\n            \"loanDetail\": \"Cafeteria\",\r\n            \"applicationDate\": \"05/03/2024, 16:52:39\",\r\n            \"loanStatus\": \"Proceso de Pagado\",\r\n            \"prePay\": false,\r\n            \"newLoanBalance\": 5000,\r\n            \"paymentFees\": 1,\r\n            \"loansID\": \"65e79582e995ae31ae561073\"\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
