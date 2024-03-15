@@ -3210,11 +3210,1294 @@
 												{
 													"key": "file",
 													"type": "file",
+													"src": "/C:/Users/LAMUX/Downloads/DiplomadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "MatriculaMercantil",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue RUT",
+									"id": "c2f46880-8b04-44a8-af46-fe76de551fb5",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
 													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
 													"filesNotInWorkingDirectory": [
-														"/J:/Mi unidad/Procesos LamedDev/productos_color.xlsx"
+														"/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
 													],
-													"src": "/J:/Mi unidad/Procesos LamedDev/productos_color.xlsx"
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "Rut",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Sayco Acinpro",
+									"id": "0ae6643d-3597-4e6f-9d78-c13fb5875318",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "SaycoAcinpro",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Certificado Bomberos",
+									"id": "787ff996-e46e-462d-a77b-e096a1fa1afe",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													],
+													"src": "postman-cloud:///1eee2f5c-2131-4740-ae9f-6e227fbf5c60"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "CertificadoBomberos",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Curriculum",
+									"id": "34093792-3183-4d95-a3dd-7b03a3c8fc61",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "Curriculum",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "80139076",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Documento Identidad",
+									"id": "fa5423df-66cc-4183-b9d7-1d8feb5fb8ce",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "DocumentoIdentidad",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "80139076",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Certificado Cosmetologia",
+									"id": "5df8045e-8fbe-422c-a192-f8e804e6495e",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "CertificadoCosmetologia",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "80139076",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Certificado Bioseguridad",
+									"id": "693e977c-e1f2-413f-9dbc-6442fcee879a",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "CertificadoBioseguridad",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "80139076",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Concepto Sanitario",
+									"id": "2baa604b-14da-41b4-a0e4-4673b58a117c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "ConceptoSanitarios",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Control de Vectores o Plagas",
+									"id": "cc279dde-30a0-41c8-bef8-e277bd62c4e1",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "ControlVectoresPlagas",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Manual de Bioseguridad",
+									"id": "5da6ba6c-b572-41be-84ba-b025213d6f31",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "ManualBioseguridad",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Uso de EPP",
+									"id": "b78946a7-eca1-4f01-879e-39e0a12cc4b6",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													],
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "EPP",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Procedimiento de Higiene de Manos",
+									"id": "9ede2f88-61b0-436b-b088-03e7f58cde4a",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "ProcedimientoHigieneManos",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Procedimientos de limpieza, desinfección y esterilización",
+									"id": "72faf072-e583-49f0-9f7e-ff3e7f00f642",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "RecomendacionesUsoAdecuadoProductosCosméticosPrimerosAuxilios",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Gestión integral de residuos",
+									"id": "65f09da1-18f6-42f5-9541-33c69d102e19",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													],
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "GestionIntegralResiduos",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Certificado de Uso de Suelo",
+									"id": "722cf011-a6c8-4422-b978-2d6d6505e73e",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "CertificadoUsoSuelo",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Planos del Establecimiento",
+									"id": "3db35736-b0fe-4953-bd4f-06e1f0bac8d4",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "PlanosEstablecimiento",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Cargue Relacion del Personal y Servicios en el Establecimiento",
+									"id": "77675399-3bb9-4a7f-bee9-920cd1111cd4",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "RelacionPersonalServiciosEstablecimiento",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text"
 												}
 											],
 											"options": {
@@ -3280,9 +4563,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_dev}}{{api}}/apu/uapdco",
+											"raw": "{{kalos_local}}{{api}}/apu/uapdco",
 											"host": [
-												"{{kalos_dev}}{{api}}"
+												"{{kalos_local}}{{api}}"
 											],
 											"path": [
 												"apu",
@@ -5109,9 +6392,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/lose/payloans",
+									"raw": "{{kalos_dev}}{{api}}/lose/payloans",
 									"host": [
-										"{{kalos_local}}{{api}}"
+										"{{kalos_dev}}{{api}}"
 									],
 									"path": [
 										"lose",

@@ -306,7 +306,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "\r\n{\r\n    \"user\": \"6554480313419cfc8e55bf83\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"11/03/2024\",\r\n    \"timeService\": \"14:00:00\"\r\n}\r\n",
+									"raw": "\r\n{\r\n    \"user\": \"6554480313419cfc8e55bf83\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"15/03/2024\",\r\n    \"timeService\": \"09:00:00\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -559,7 +559,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"name User Foreing\",\r\n    \"lastName\": \"Lastname NewForeing\",\r\n    \"movil\": \"1234567890\",\r\n    \"email\": \"email@email.com\",\r\n    \"pass\": \"123456\",\r\n    \"terms\": \"true\"\r\n}",
+									"raw": "{\r\n    \"name\": \"Usuario Name\",\r\n    \"lastName\": \"Lastname Usuario\",\r\n    \"movil\": \"1234567890\",\r\n    \"email\": \"lamed.saenz@gmail.com\",\r\n    \"pass\": \"123456\",\r\n    \"terms\": \"true\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -567,9 +567,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_dev}}{{api}}/usr",
+									"raw": "{{kalos_local}}{{api}}/usr",
 									"host": [
-										"{{kalos_dev}}{{api}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"usr"
