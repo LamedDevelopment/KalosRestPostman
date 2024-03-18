@@ -3283,10 +3283,6 @@
 												{
 													"key": "file",
 													"type": "file",
-													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
-													"filesNotInWorkingDirectory": [
-														"/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
-													],
 													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
 												},
 												{
@@ -6384,7 +6380,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"collaID\": \"655709768197f57fe38ae973\"\r\n}",
+									"raw": "{\r\n    \"collaID\": \"655707806c6b23062ab9c76b\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6392,9 +6388,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_dev}}{{api}}/lose/payloans",
+									"raw": "{{kalos_local}}{{api}}/lose/payloans",
 									"host": [
-										"{{kalos_dev}}{{api}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"lose",

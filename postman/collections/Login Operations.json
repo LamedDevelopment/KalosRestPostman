@@ -19,7 +19,8 @@
 								"exec": [
 									"postman.setEnvironmentVariable(\"tk_user\",  JSON.parse(responseBody).login);"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
@@ -32,7 +33,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"elizabethvoxlot@gmail.com\",\r\n    \"pass\": \"123456\"\r\n}",
+							"raw": "{\r\n    \"email\": \"simona@email.com\",\r\n    \"pass\": \"123456\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
