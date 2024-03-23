@@ -811,6 +811,43 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "View One User For Email",
+							"id": "ee6be283-5b70-4ab0-91f8-6eef2c4f0f0f",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_user}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"emailUser\": \"simona@email.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/usr/usem",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"usr",
+										"usem"
+									]
+								}
+							},
+							"response": []
 						}
 					],
 					"id": "feacfb42-2f36-419d-b6ee-a504d0a541bc"
