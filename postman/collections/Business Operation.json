@@ -6254,7 +6254,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"dateStart\": \"05/03/2024\",\r\n    \"dateEnd\": \"15/03/2024\"\r\n}",
+									"raw": "{\r\n    \"dateStart\": \"05/03/2024\",\r\n    \"dateEnd\": \"22/03/2024\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6482,6 +6482,46 @@
 									"path": [
 										"payroll",
 										"paypayroll"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Sett. To Emp. Without Loans",
+							"id": "d5bf17d1-de17-4b14-8a2a-3da7f2399c41",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"nameBusiness\": \"Centro Pruebas Beautiful\",\r\n        \"tradename\": \"Nombre Sede O comercial\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"655707806c6b23062ab9c76b\",\r\n        \"nomColla\": \"Manager\",\r\n        \"document\": 80139078,\r\n        \"apeColla\": \"User\",\r\n        \"emailColla\": \"manager@email.com\",\r\n        \"movilColla\": 3142540354\r\n    },\r\n    \"BusinessCommissionValue\": 9000,\r\n    \"payLoans\": [\r\n        {}\r\n    ],\r\n    \"sumOfAdvances\": 0,\r\n    \"commissionPayment\": 9000,\r\n    \"observation\": \"Observaciones de Pago de Nomina\",\r\n    \"commissionDateRange\": {\r\n        \"dateStart\": \"05/03/2024\",\r\n        \"dateEnd\": \"22/03/2024\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/payroll/paynoloans",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"payroll",
+										"paynoloans"
 									]
 								}
 							},
