@@ -131,7 +131,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"nit\": 802127585,\r\n    \"numberCell\": \"3213955155\",\r\n    \"CellDescription\": \"Recepcion\",\r\n    \"email\": \"viviana.caicedo@hotmail.com\",\r\n    \"phoneNumber\": \"6019254181\",\r\n    \"phoneDescription\": \"Recepcion\",\r\n    \"coordinates\": [\r\n        4.602993671064257,\r\n        -74.21185042633\r\n    ],\r\n    \"address\": \"Diag 73 B Sur # 79 c - 09 Piso 1\",\r\n    \"city\": \"Bogota\",\r\n    \"cityCode\": \"BOG\",\r\n    \"country\": \"Colombia\",\r\n    \"countryCode\": \"CO\",\r\n    \"state\": \"DC\",\r\n    \"services\": [\r\n        \"64ab9174923ff67b725791b7\",\r\n        \"64ab9537063c636a4000417b\",\r\n        \"64ab95f1063c636a40004196\",\r\n        \"64ab9aced82418177a7237e2\"\r\n    ],\r\n    \"typeServices\": [\r\n        \"64ab92e0063c636a40004149\",\r\n        \"64ab92f3063c636a4000414d\",\r\n        \"64ab9524063c636a40004178\",\r\n        \"64ab9383063c636a40004159\",\r\n        \"64ab934c063c636a40004151\",\r\n        \"64ab9370063c636a40004155\",\r\n        \"64ab93a4063c636a4000415d\",\r\n        \"64ab954d063c636a4000417f\",\r\n        \"64ab9579063c636a40004183\",\r\n        \"64ab958a063c636a40004187\",\r\n        \"64ab9598063c636a4000418b\",\r\n        \"64ab95a7063c636a4000418f\",\r\n        \"64ab95bc063c636a40004193\",\r\n        \"64ab9635063c636a4000419a\",\r\n        \"64ab9a39d82418177a7237cb\",\r\n        \"64ab9a45d82418177a7237cf\",\r\n        \"64ab9a61d82418177a7237d7\",\r\n        \"64ab9a70d82418177a7237db\",\r\n        \"64ab9c1ad82418177a723809\",\r\n        \"64ab9a56d82418177a7237d3\",\r\n        \"64ab9ab9d82418177a7237df\",\r\n        \"64ab9af1d82418177a7237e6\",\r\n        \"64ab9b00d82418177a7237ea\",\r\n        \"660a073f1a72c4a6093c4cb0\",\r\n        \"64ab9b17d82418177a7237ee\",\r\n        \"64ab9b23d82418177a7237f2\",\r\n        \"64ab9b2dd82418177a7237f6\"\r\n    ],\r\n    \"img\": [\r\n        \"\"\r\n    ],\r\n    \"businessDays\": [\r\n        \"Lunes\",\r\n        \"Martes\",\r\n        \"Miercoles\",\r\n        \"Jueves\",\r\n        \"Viernes\",\r\n        \"Sabado\",\r\n        \"Domingo\"\r\n    ],\r\n    \"daysServices\": [\r\n        {\r\n            \"dayWeek\": \"Lunes\",\r\n            \"dayNumber\": \"1\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Martes\",\r\n            \"dayNumber\": \"2\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Miercoles\",\r\n            \"dayNumber\": \"3\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Jueves\",\r\n            \"dayNumber\": \"4\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Viernes\",\r\n            \"dayNumber\": \"5\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Sabado\",\r\n            \"dayNumber\": \"6\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Domingo\",\r\n            \"dayNumber\": \"7\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        }\r\n    ],\r\n    \"user\": \"660b94f16aa876c714941731\",\r\n    \"emailUser\": \"viviana.caicedo@hotmail.com\",\r\n    \"document\": \"20965636\",\r\n    \"profile\": \"64abbcc15190388112342e8a\",\r\n    \"typeCollaborator\": \"64afa0596e8b9ff0f19a6dde\"\r\n}",
+							"raw": "{\r\n    \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"nit\": 802127585,\r\n    \"numberCell\": \"3213955155\",\r\n    \"CellDescription\": \"Recepcion\",\r\n    \"email\": \"viviana.caicedo@hotmail.com\",\r\n    \"phoneNumber\": \"6019254181\",\r\n    \"phoneDescription\": \"Recepcion\",\r\n    \"coordinates\": [\r\n        4.602993671064257,\r\n        -74.21185042633\r\n    ],\r\n    \"address\": \"Diag 73 B Sur # 79 c - 09 Piso 1\",\r\n    \"city\": \"Bogota\",\r\n    \"cityCode\": \"BOG\",\r\n    \"country\": \"Colombia\",\r\n    \"countryCode\": \"CO\",\r\n    \"state\": \"DC\",\r\n    \"services\": [\r\n        \"64ab9174923ff67b725791b7\",\"64ab9448063c636a40004160\",\"64ab9537063c636a4000417b\",\"64ab95f1063c636a40004196\",\"64ab9aced82418177a7237e2\",\"64ab9b60d82418177a7237fd\"],\r\n    \"typeServices\": [\r\n        \"64ab92e0063c636a40004149\",\"64ab92f3063c636a4000414d\",\"64ab9383063c636a40004159\",\"64ab934c063c636a40004151\",\"64ab9370063c636a40004155\",\"64ab93a4063c636a4000415d\",\"64ab948e063c636a40004168\",\"64ab949d063c636a4000416c\",\"64ab94a7063c636a40004170\",\"64ab94b4063c636a40004174\",\"64ab9473063c636a40004164\",\"6611e989726393abf109a5a3\",\"64ab954d063c636a4000417f\",\"64ab9579063c636a40004183\",\"64ab958a063c636a40004187\",\"64ab9598063c636a4000418b\",\"64ab95a7063c636a4000418f\",\"64ab95bc063c636a40004193\",\"64ab9635063c636a4000419a\",\"64ab9a61d82418177a7237d7\",\"64ab9a70d82418177a7237db\",\"64ab9ab9d82418177a7237df\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"660a073f1a72c4a6093c4cb0\",\"64ab9b17d82418177a7237ee\",\"64ab9b23d82418177a7237f2\",\"64ab9b2dd82418177a7237f6\",\"64ab9be0d82418177a723805\"\r\n    ],\r\n    \"img\": [\r\n        \"\"\r\n    ],\r\n    \"businessDays\": [\r\n        \"Lunes\",\r\n        \"Martes\",\r\n        \"Miercoles\",\r\n        \"Jueves\",\r\n        \"Viernes\",\r\n        \"Sabado\",\r\n        \"Domingo\"\r\n    ],\r\n    \"daysServices\": [\r\n        {\r\n            \"dayWeek\": \"Lunes\",\r\n            \"dayNumber\": \"1\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Martes\",\r\n            \"dayNumber\": \"2\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Miercoles\",\r\n            \"dayNumber\": \"3\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Jueves\",\r\n            \"dayNumber\": \"4\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Viernes\",\r\n            \"dayNumber\": \"5\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Sabado\",\r\n            \"dayNumber\": \"6\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Domingo\",\r\n            \"dayNumber\": \"7\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        }\r\n    ],\r\n    \"user\": \"660b94f16aa876c714941731\",\r\n    \"emailUser\": \"viviana.caicedo@hotmail.com\",\r\n    \"document\": \"20965636\",\r\n    \"profile\": \"64abbcc15190388112342e8a\",\r\n    \"typeCollaborator\": \"64afa0596e8b9ff0f19a6dde\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -486,7 +486,7 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
+								"value": "{{tk_colla}}",
 								"type": "text"
 							}
 						],
@@ -528,7 +528,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"serviceName\": \"64ab9cbad82418177a723820\",\r\n    \"typeService\": \"Cejas Pelo a Pelo\"\r\n}",
+							"raw": "{\r\n    \"serviceName\": \"64ab9b60d82418177a7237fd\",\r\n    \"typeService\": \"Rejuvenecimiento\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -948,7 +948,7 @@
 			"id": "58cfe99a-35da-4f4b-9992-4a9dbc90ca19"
 		},
 		{
-			"name": "Service Parameter",
+			"name": "Upload Service Parameters",
 			"item": [
 				{
 					"name": "View Service Parameter",
@@ -957,17 +957,17 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
+						"method": "POST",
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{token_lamed}}",
+								"value": "{{tk_colla}}",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nit\": \"6301b4f0006c848620d63933\",\r\n    \"business\": \"6301b4f0006c848620d63933\"\r\n}",
+							"raw": "{\r\n    \"nit\": 911111111,\r\n    \"business\": \"6611f36d17568f886ca76c6a\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -975,12 +975,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/sp",
+							"raw": "{{kalos_local}}{{api}}/sp/viewallts",
 							"host": [
 								"{{kalos_local}}{{api}}"
 							],
 							"path": [
-								"sp"
+								"sp",
+								"viewallts"
 							]
 						}
 					},
@@ -997,13 +998,13 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{token_lamed}}",
+								"value": "{{tk_colla}}",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"business\": \"64b0e7f7dfb5742dacb9f717\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92f3063c636a4000414d\",\r\n    \"staffType\": \"64b2ddb51bcd863da11fa144\",\r\n    \"serviceTime\": \"10\",\r\n    \"biocleaning\": \"2\",\r\n    \"servicePrice\": \"12000\"\r\n}",
+							"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92f3063c636a4000414d\",\r\n    \"staffType\": \"64b2ddb51bcd863da11fa144\",\r\n    \"serviceTime\": \"28\",\r\n    \"biocleaning\": \"2\",\r\n    \"servicePrice\": \"15000\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1011,9 +1012,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/sp",
+							"raw": "{{kalos_dev}}{{api}}/sp",
 							"host": [
-								"{{kalos_local}}{{api}}"
+								"{{kalos_dev}}{{api}}"
 							],
 							"path": [
 								"sp"
@@ -1021,9 +1022,137 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Assign Service To Collaborator",
+					"id": "481d256c-c415-4c03-8330-3f2250513f71",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"nit\": \"911111111\",\r\n    \"tradeName\": \"Nombre Sede O comercial\",\r\n    \"userID\": \"655707806c6b23062ab9c76b\",\r\n    \"document\": \"80139078\",\r\n    \"services\": [\r\n        {\r\n            \"services\": \"64ab9174923ff67b725791b7\",\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        {\r\n            \"services\": \"64ab9448063c636a40004160\",\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        {\r\n            \"services\": \"64ab9537063c636a4000417b\",\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        {\r\n            \"services\": \"64ab95f1063c636a40004196\",\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        {\r\n            \"services\": \"64ab9aced82418177a7237e2\",\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        {\r\n            \"services\": \"64ab9b60d82418177a7237fd\",\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        {\r\n            \"services\": \"64ab9537063c636a4000417b\",\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        {\r\n            \"services\": \"64ab9537063c636a4000417b\",\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\",\"64ab92f3063c636a4000414d\",\"64ab9383063c636a40004159\",\"64ab934c063c636a40004151\",\"64ab9370063c636a40004155\",\"64ab93a4063c636a4000415d\",\"64ab948e063c636a40004168\",\"64ab949d063c636a4000416c\",\"64ab94a7063c636a40004170\",\"64ab94b4063c636a40004174\",\"64ab9473063c636a40004164\",\"6611e989726393abf109a5a3\",\"64ab954d063c636a4000417f\",\"64ab9579063c636a40004183\",\"64ab958a063c636a40004187\",\"64ab9598063c636a4000418b\",\"64ab95a7063c636a4000418f\",\"64ab95bc063c636a40004193\",\"64ab9635063c636a4000419a\",\"64ab9a39d82418177a7237cb\",\"64ab9a45d82418177a7237cf\",\"64ab9a61d82418177a7237d7\",\"64ab9a70d82418177a7237db\",\"64ab9a56d82418177a7237d3\",\"64ab9ab9d82418177a7237df\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"660a073f1a72c4a6093c4cb0\",\"64ab9b17d82418177a7237ee\",\"64ab9b23d82418177a7237f2\",\"64ab9b2dd82418177a7237f6\",\"64ab9be0d82418177a723805\",\"64ab9c84d82418177a723819\",\"64ab9c45d82418177a723811\",\"64ab9c1ad82418177a723809\",\"64ab9c39d82418177a72380d\",\"64ab9c67d82418177a723815\",\"64ab9c94d82418177a72381d\",\"64ab9bcdd82418177a723801\",\"64ab9cd6d82418177a723824\",\"64ab9ce7d82418177a723828\",\"64ab9cf2d82418177a72382c\",\"64ab9d04d82418177a723830\",\"660a1586c0a0602d3054765d\",\"660a1596c0a0602d3054765f\",\"64ab9d7ad82418177a723834\",\"64ab9d9ed82418177a723838\",\"64ab9dabd82418177a72383c\",\"64ab9dd3d82418177a723844\",\"64ab9dc2d82418177a723840\",\"64ab9e5bd82418177a72384b\",\"64ab9e74d82418177a72384f\",\"64ab9e86d82418177a723853\",\"64ab9ea6d82418177a72385f\",\"64ab9ea0d82418177a72385b\",\"64ab9e8fd82418177a723857\",\"64ab9eb6d82418177a723863\",\"64ab9ecad82418177a723867\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/bus/upusesp",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"bus",
+								"upusesp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Assign Type Service To Collaborator",
+					"id": "38515de4-0f35-4a6b-b83a-2fae6434d2c2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"nit\": \"911111111\",\r\n    \"tradeName\": \"Nombre Sede O comercial\",\r\n    \"userID\": \"655707806c6b23062ab9c76b\",\r\n    \"document\": \"80139078\",\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\",\"64ab92f3063c636a4000414d\",\"64ab9383063c636a40004159\",\"64ab934c063c636a40004151\",\"64ab9370063c636a40004155\",\"64ab93a4063c636a4000415d\",\"64ab948e063c636a40004168\",\"64ab949d063c636a4000416c\",\"64ab94a7063c636a40004170\",\"64ab94b4063c636a40004174\",\"64ab9473063c636a40004164\",\"6611e989726393abf109a5a3\",\"64ab954d063c636a4000417f\",\"64ab9579063c636a40004183\",\"64ab958a063c636a40004187\",\"64ab9598063c636a4000418b\",\"64ab95a7063c636a4000418f\",\"64ab95bc063c636a40004193\",\"64ab9635063c636a4000419a\",\"64ab9a39d82418177a7237cb\",\"64ab9a45d82418177a7237cf\",\"64ab9a61d82418177a7237d7\",\"64ab9a70d82418177a7237db\",\"64ab9a56d82418177a7237d3\",\"64ab9ab9d82418177a7237df\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"660a073f1a72c4a6093c4cb0\",\"64ab9b17d82418177a7237ee\",\"64ab9b23d82418177a7237f2\",\"64ab9b2dd82418177a7237f6\",\"64ab9be0d82418177a723805\",\"64ab9c84d82418177a723819\",\"64ab9c45d82418177a723811\",\"64ab9c1ad82418177a723809\",\"64ab9c39d82418177a72380d\",\"64ab9c67d82418177a723815\",\"64ab9c94d82418177a72381d\",\"64ab9bcdd82418177a723801\",\"64ab9cd6d82418177a723824\",\"64ab9ce7d82418177a723828\",\"64ab9cf2d82418177a72382c\",\"64ab9d04d82418177a723830\",\"660a1586c0a0602d3054765d\",\"660a1596c0a0602d3054765f\",\"64ab9d7ad82418177a723834\",\"64ab9d9ed82418177a723838\",\"64ab9dabd82418177a72383c\",\"64ab9dd3d82418177a723844\",\"64ab9dc2d82418177a723840\",\"64ab9e5bd82418177a72384b\",\"64ab9e74d82418177a72384f\",\"64ab9e86d82418177a723853\",\"64ab9ea6d82418177a72385f\",\"64ab9ea0d82418177a72385b\",\"64ab9e8fd82418177a723857\",\"64ab9eb6d82418177a723863\",\"64ab9ecad82418177a723867\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_dev}}{{api}}/bus/upusetypser",
+							"host": [
+								"{{kalos_dev}}{{api}}"
+							],
+							"path": [
+								"bus",
+								"upusetypser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Bulk Upload Of Service Parameters",
+					"id": "3fcbc6e3-1455-4a53-bd7a-c6eed80ed00f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/J:/Mi unidad/Procesos LamedDev/CargueCostosTypeServicesBarbaros.csv"
+								},
+								{
+									"key": "businessID",
+									"value": "661204ff9c1faeecf2f552f2",
+									"type": "text"
+								},
+								{
+									"key": "tradename",
+									"value": "Centro de Belleza y Barberia Barbaros EYV",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/sp/bulktyser",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"sp",
+								"bulktyser"
+							]
+						}
+					},
+					"response": []
 				}
 			],
-			"id": "4a473e2c-3290-418b-a70d-1791ecd8e020"
+			"id": "4a473e2c-3290-418b-a70d-1791ecd8e020",
+			"description": "Cargue de Servicios del Establecimiento para Precios tiempos de Ejecucion + Tiempo de Bioseguridad para Cada Colaborador"
 		},
 		{
 			"name": "Staff",
