@@ -1312,8 +1312,44 @@
 							"response": []
 						},
 						{
-							"name": "Create Staff",
+							"name": "Create Staff Estilista",
 							"id": "639d3f4c-ad93-4a3c-b4ff-8e1f06d4c436",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nit\": \"911111111\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"email\": \"manager@email.com\",\r\n    \"document\": \"80139078\",\r\n    \"profile\": \"6554482a13419cfc8e55bf88\",\r\n    \"typeCollaborator\": \"64afa1cce8969589ddc17e07\",\r\n    \"staffType\" : [\"65546601edc9aad90120fbb7\", \"64b2ddb51bcd863da11fa144\"],\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9537063c636a4000417b\",\r\n            \"percentage\": \"0.60\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\", \"64ab94a7063c636a40004170\",\"64ab9b23d82418177a7237f2\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"64ab9b17d82418177a7237ee\",\"64ab9b2dd82418177a7237f6\",\"64ab92f3063c636a4000414d\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/sf",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"sf"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Staff Colaborador",
+							"id": "eb8eed2c-849b-4721-adf7-f5eb6e2b6bb6",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
