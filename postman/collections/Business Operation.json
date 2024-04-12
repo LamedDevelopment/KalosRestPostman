@@ -1753,7 +1753,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"name\": \"nombre usuario 2\",\r\n    \"lastName\": \"Apellido usuario 2\",\r\n    \"movil\": \"3103389245\",\r\n    \"email\": \"lamed.saenz@gmail.com\",\r\n    \"pass\": \"12345\",\r\n    \"terms\": \"true\"\r\n}",
+											"raw": "{\r\n    \"name\": \"Johan\",\r\n    \"lastName\": \"Varon\",\r\n    \"movil\": \"3115264498\",\r\n    \"email\": \"varonjohan51@gmail.com\",\r\n    \"pass\": \"12345\",\r\n    \"terms\": \"true\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1761,7 +1761,7 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/usr/register?d=U2FsdGVkX1/RZmTwU96Nh4YS08Lsmr9SDV9a7rgsGH4OwlAUnK7LlWt8N8FamxdpAAAOWv0FE/H2RvZBaeSChq/7D7HPSYLNfMEkAaiQZjAZ5fz3g57YVmoJkPh9Fph0YEqKNRqAvtA3+g08zxNh1aHtEx/OGeMJBJuPimBlPaaWHLvC04Hn+y26Yhh3uSAyMemdFIvGpm64DNmOt4gyhjnEE8+HLqaUDXEFPWxKrFCqvHCMI7FJI+804WKCyweK",
+											"raw": "{{kalos_local}}{{api}}/usr/register?d=U2FsdGVkX1/29V2OoHygwjeLlPHI+EJzw286IPxo1lxMIwriNHjh6GBBHYYJXeDCnz+NyBV7Cf8depdYlPXolyt3qSlA/SmKzPD53w++INx8h8VMBR/zYZVDeJHq3AiJpT4C/B9D68dEhSjNHxym1xmQA6A1VulasvCzAVFMZLtvCqfChGAot177NkCpqnIUwmpkF/5NLkmpaED1j4pbtkqDDpcYbNqzGiwY5PSij5I=",
 											"host": [
 												"{{kalos_local}}{{api}}"
 											],
@@ -1772,7 +1772,7 @@
 											"query": [
 												{
 													"key": "d",
-													"value": "U2FsdGVkX1/RZmTwU96Nh4YS08Lsmr9SDV9a7rgsGH4OwlAUnK7LlWt8N8FamxdpAAAOWv0FE/H2RvZBaeSChq/7D7HPSYLNfMEkAaiQZjAZ5fz3g57YVmoJkPh9Fph0YEqKNRqAvtA3+g08zxNh1aHtEx/OGeMJBJuPimBlPaaWHLvC04Hn+y26Yhh3uSAyMemdFIvGpm64DNmOt4gyhjnEE8+HLqaUDXEFPWxKrFCqvHCMI7FJI+804WKCyweK"
+													"value": "U2FsdGVkX1/29V2OoHygwjeLlPHI+EJzw286IPxo1lxMIwriNHjh6GBBHYYJXeDCnz+NyBV7Cf8depdYlPXolyt3qSlA/SmKzPD53w++INx8h8VMBR/zYZVDeJHq3AiJpT4C/B9D68dEhSjNHxym1xmQA6A1VulasvCzAVFMZLtvCqfChGAot177NkCpqnIUwmpkF/5NLkmpaED1j4pbtkqDDpcYbNqzGiwY5PSij5I="
 												}
 											]
 										}
@@ -5641,7 +5641,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"loanAmount\": 50000,\r\n    \"paymentDeadline\": 1,\r\n    \"loanDetail\": \"Prueba de flujo de Proceso de Solicitud, para Desarrollo en la division de 1 cuotas\"\r\n}",
+									"raw": "{\r\n    \"loanAmount\": 50000,\r\n    \"paymentDeadline\": 1,\r\n    \"meansOfLoan\": \"Nequi\", //Opciones de Medio de Pago: Nequi, Daviplata, Efectivo, Productos, \r\n    \"loanDetail\": \"Prueba de flujo de Proceso de Solicitud, para Desarrollo en la division de 1 cuotas\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"

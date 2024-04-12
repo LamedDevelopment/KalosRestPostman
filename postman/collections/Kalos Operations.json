@@ -1312,8 +1312,44 @@
 							"response": []
 						},
 						{
-							"name": "Create Staff Estilista",
+							"name": "Create Staff Manager",
 							"id": "639d3f4c-ad93-4a3c-b4ff-8e1f06d4c436",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nit\": \"802127585\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"email\": \"edisonra_@hotmail.com\",\r\n    \"document\": \"80212758\",\r\n    \"profile\": [\"64abbcc15190388112342e8a\"],//Gerente\r\n    \"typeCollaborator\": [\"64afa0596e8b9ff0f19a6dde\", \"64afa1cce8969589ddc17e07\"], //Propietario(a), Administrador(a)\r\n    \"staffType\": [\r\n        \"65546601edc9aad90120fbb7\",//Administrador/a\r\n        \"64b2ddb51bcd863da11fa144\"//Estilista\r\n    ],\r\n    \"service\": [\r\n        {\r\n            \"services\": \"64ab9174923ff67b725791b7\",\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        {\r\n            \"services\": \"64ab9448063c636a40004160\",\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        {\r\n            \"services\": \"64ab9537063c636a4000417b\",\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        {\r\n            \"services\": \"64ab95f1063c636a40004196\",\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        {\r\n            \"services\": \"64ab9aced82418177a7237e2\",\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        {\r\n            \"services\": \"64ab9b60d82418177a7237fd\",\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\r\n        \"64ab92e0063c636a40004149\",\r\n        \"64ab92f3063c636a4000414d\",\r\n        \"64ab9383063c636a40004159\",\r\n        \"64ab934c063c636a40004151\",\r\n        \"64ab9370063c636a40004155\",\r\n        \"64ab93a4063c636a4000415d\",\r\n        \"64ab948e063c636a40004168\",\r\n        \"64ab949d063c636a4000416c\",\r\n        \"64ab94a7063c636a40004170\",\r\n        \"64ab94b4063c636a40004174\",\r\n        \"64ab9473063c636a40004164\",\r\n        \"6611e989726393abf109a5a3\",\r\n        \"64ab954d063c636a4000417f\",\r\n        \"64ab9579063c636a40004183\",\r\n        \"64ab958a063c636a40004187\",\r\n        \"64ab9598063c636a4000418b\",\r\n        \"64ab95a7063c636a4000418f\",\r\n        \"64ab95bc063c636a40004193\",\r\n        \"64ab9635063c636a4000419a\",\r\n        \"64ab9a61d82418177a7237d7\",\r\n        \"64ab9a70d82418177a7237db\",\r\n        \"64ab9ab9d82418177a7237df\",\r\n        \"64ab9af1d82418177a7237e6\",\r\n        \"64ab9b00d82418177a7237ea\",\r\n        \"660a073f1a72c4a6093c4cb0\",\r\n        \"64ab9b17d82418177a7237ee\",\r\n        \"64ab9b23d82418177a7237f2\",\r\n        \"64ab9b2dd82418177a7237f6\",\r\n        \"64ab9be0d82418177a723805\"\r\n    ],\r\n    \"businessDays\": [\r\n        \"Lunes\",\r\n        \"Martes\",\r\n        \"Miercoles\",\r\n        \"Jueves\",\r\n        \"Viernes\",\r\n        \"Sabado\",\r\n        \"Domingo\"\r\n    ],\r\n    \"daysServices\": [\r\n        {\r\n            \"dayWeek\": \"Lunes\",\r\n            \"dayNumber\": \"1\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Martes\",\r\n            \"dayNumber\": \"2\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Miercoles\",\r\n            \"dayNumber\": \"3\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Jueves\",\r\n            \"dayNumber\": \"4\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Viernes\",\r\n            \"dayNumber\": \"5\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Sabado\",\r\n            \"dayNumber\": \"6\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Domingo\",\r\n            \"dayNumber\": \"7\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        }\r\n    ],\r\n    \"level\": \"1\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/sf",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"sf"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Staff Estilista",
+							"id": "f17e5811-f943-4aae-9c0c-838af0a30120",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1364,7 +1400,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"nit\": \"911111111\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"email\": \"manager@email.com\",\r\n    \"document\": \"80139078\",\r\n    \"profile\": \"6554482a13419cfc8e55bf88\",\r\n    \"typeCollaborator\": \"64afa1cce8969589ddc17e07\",\r\n    \"staffType\" : [\"65546601edc9aad90120fbb7\", \"64b2ddb51bcd863da11fa144\"],\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\",\r\n            \"percentage\": \"0.60\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9537063c636a4000417b\",\r\n            \"percentage\": \"0.60\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\", \"64ab94a7063c636a40004170\",\"64ab9b23d82418177a7237f2\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"64ab9b17d82418177a7237ee\",\"64ab9b2dd82418177a7237f6\",\"64ab92f3063c636a4000414d\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
+									"raw": "{\r\n    \"nit\": \"802127585\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"email\": \"varonjohan51@gmail.com\",\r\n    \"document\": \"1028782329\",\r\n    \"profile\": \"64abbc985190388112342e84\",//Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\",//Colaborador(a)\r\n    \"staffType\" : [\"64b2ddc31bcd863da11fa147\", \"64b2dde51bcd863da11fa14a\"],//Peluquero/a , Barbero/a\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\",//Peluqueria\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\",//Barberia\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\",\"64ab92f3063c636a4000414d\",\"64ab9383063c636a40004159\",\"64ab934c063c636a40004151\",\"64ab9370063c636a40004155\",\"64ab93a4063c636a4000415d\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"660a073f1a72c4a6093c4cb0\",\"64ab9b17d82418177a7237ee\",\"64ab9b23d82418177a7237f2\",\"64ab9b2dd82418177a7237f6\",\"64ab9be0d82418177a723805\"\r\n],//Corte,Lavado,Despuntado,Shampoo,Grafilado,Corte Desvanecido,Afeitada,Barba de Lujo,free Style,Barba con Vapor y Cuchilla,Color Barba,Retoque Barba\r\n\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1629,6 +1665,42 @@
 						}
 					],
 					"id": "492bf031-413e-4e88-818a-5900e0f546fd"
+				},
+				{
+					"name": "Collaborator Create Curriculum",
+					"item": [
+						{
+							"name": "Create User",
+							"id": "abd44ab1-0c27-4415-b62d-2802cfed12ec",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Lamed\",\r\n    \"lastName\": \"Saenz\",\r\n    \"movil\": \"3142540351\",\r\n    \"email\": \"lameddev@gmail.com\",\r\n    \"pass\": \"123456\",\r\n    \"terms\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/usr",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"usr"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "ab11ec96-3e32-4ff0-be92-097c0d2eed11"
 				},
 				{
 					"name": "Collaborator Update",
