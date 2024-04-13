@@ -988,6 +988,43 @@
 					"response": []
 				},
 				{
+					"name": "View Cost Of The Service Parameter",
+					"id": "e6829e7d-0b0f-4502-9e32-95b6dab89b72",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\":\"64ab92e0063c636a40004149\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/sp/bussviewallts",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"sp",
+								"bussviewallts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Create Service Parameter",
 					"id": "ad5698cb-6f82-46ae-99df-4a9c6ae06347",
 					"protocolProfileBehavior": {

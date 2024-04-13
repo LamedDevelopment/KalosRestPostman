@@ -1592,7 +1592,7 @@
 					"id": "4f7b61e3-f800-4164-bed5-c5f6d1026b91"
 				},
 				{
-					"name": "Services With Login",
+					"name": "Closing Of Payment Box",
 					"item": [
 						{
 							"name": "View Business",
@@ -6367,9 +6367,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_dev}}{{api}}/lose/sola",
+									"raw": "{{kalos_local}}{{api}}/lose/sola",
 									"host": [
-										"{{kalos_dev}}{{api}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"lose",
@@ -6628,6 +6628,92 @@
 						}
 					],
 					"id": "b7ecc4cf-d899-4d69-9faa-581477e1678f"
+				},
+				{
+					"name": "Payment Box",
+					"item": [
+						{
+							"name": "View Detail",
+							"id": "1d42239f-cf77-441e-b5bc-dfc0c8c8f988",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"dateStart\": \"01/12/2023\",\r\n    \"dateEnd\": \"31/01/2024\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_dev}}{{api}}/paycom/mana",
+									"host": [
+										"{{kalos_dev}}{{api}}"
+									],
+									"path": [
+										"paycom",
+										"mana"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "View Accumulated",
+							"id": "73faa2cd-43d4-4067-b922-8f3d475b9b63",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"dateStart\": \"05/03/2024\",\r\n    \"dateEnd\": \"23/03/2024\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/paycom/manaaccum",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"paycom",
+										"manaaccum"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "c9fd3cfd-00cd-4c0d-b6a5-e4d543793e9e"
 				},
 				{
 					"name": "Payments To Collaborators",
