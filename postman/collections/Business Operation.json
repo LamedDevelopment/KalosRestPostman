@@ -6630,10 +6630,10 @@
 					"id": "b7ecc4cf-d899-4d69-9faa-581477e1678f"
 				},
 				{
-					"name": "Payment Box",
+					"name": "Cash Register",
 					"item": [
 						{
-							"name": "View Detail",
+							"name": "Sales Of The Day",
 							"id": "1d42239f-cf77-441e-b5bc-dfc0c8c8f988",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -6642,7 +6642,7 @@
 								"auth": {
 									"type": "noauth"
 								},
-								"method": "POST",
+								"method": "GET",
 								"header": [
 									{
 										"key": "x-token",
@@ -6652,7 +6652,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"dateStart\": \"01/12/2023\",\r\n    \"dateEnd\": \"31/01/2024\"\r\n}",
+									"raw": "{}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6660,20 +6660,20 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_dev}}{{api}}/paycom/mana",
+									"raw": "{{kalos_local}}{{api}}/bill/checkout",
 									"host": [
-										"{{kalos_dev}}{{api}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
-										"paycom",
-										"mana"
+										"bill",
+										"checkout"
 									]
 								}
 							},
 							"response": []
 						},
 						{
-							"name": "View Accumulated",
+							"name": "Outflows",
 							"id": "73faa2cd-43d4-4067-b922-8f3d475b9b63",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -6692,7 +6692,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"dateStart\": \"05/03/2024\",\r\n    \"dateEnd\": \"23/03/2024\"\r\n}",
+									"raw": "{\r\n    \"businessID\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"paymentMethod\": \"Nequi\",//Opciones Nequi, DaviPlata, Efectivo, Transferencia Bancaria\r\n    \"amountPaid\": \"50000\",\r\n    \"payees\": \"Nombre del Beneficiario\",\r\n    \"descriptionExpenditure\": \"Prestamo al colaborador\",\r\n    \"expenditureDate\": \"05/03/2024\", //Fecha en que genera el Egreso, en el front un campo tipo fecha\r\n    \"categorizationExpenditures\": \"Anticipo\",//la categoría del egreso, como gastos operativos, suministros, salario, Anticipo o Prestamo etc\r\n    \"approvalOfExpenditures\": \"\" //Aqui podremos poner un objeto con los datos del que autoriza el pago\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6700,13 +6700,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/paycom/manaaccum",
+									"raw": "{{kalos_local}}{{api}}/outf/outflow",
 									"host": [
 										"{{kalos_local}}{{api}}"
 									],
 									"path": [
-										"paycom",
-										"manaaccum"
+										"outf",
+										"outflow"
 									]
 								}
 							},
