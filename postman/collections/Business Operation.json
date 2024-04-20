@@ -4858,7 +4858,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"65888721c843f358e11078d5\",\r\n    \"businessID\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"serviceID\": \"65888721c843f358e11078d6\",\r\n    \"staffID\": \"655709768197f57fe38ae973\",\r\n    \"appointmentDateID\": \"65888721c843f358e11078d8\",\r\n    \"observationAppointment\": \"Datos que el Collaborador ingresa para iniciar el Servicio.\",\r\n    \"startAddDescriptionService\": [\r\n        {\r\n            \"serviceName\": \"Servicio Adicional Solicitado Ante de iniciar Servicio 5 Min mas de tiempo\",\r\n            \"CostService\": 65000\r\n        }\r\n    ],\r\n    \"supplies\": [\r\n        {\r\n            \"product\": \"Belleza Capilar\",\r\n            \"brand\": \"L'Oréal\",\r\n            \"reference\": \"L'Oréal 6G\",\r\n            \"description\": \"cabello castaño dorado claro\",\r\n            \"suppliesPrice\": \"10000\"\r\n        }\r\n    ]\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"662068c4b3e5a78e238ef59a\",\r\n    \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n    \"serviceID\": \"64ab9174923ff67b725791b7\",\r\n    \"staffID\": \"6614ca4e939d2ce747ef0ca1\",\r\n    \"appointmentDateID\": \"662068c4b3e5a78e238ef59d\",\r\n    \"observationAppointment\": \"Datos que el Collaborador ingresa para iniciar el Servicio.\",\r\n    \"startAddDescriptionService\": [\r\n        {\r\n            \"serviceName\": \"Servicio Adicional Solicitado Ante de iniciar Servicio 5 Min mas de tiempo\",\r\n            \"CostService\": 80000\r\n        },\r\n        {\r\n            \"serviceName\": \"Servicio Adicional Solicitado Ante de iniciar Servicio 5 Min mas de tiempo\",\r\n            \"CostService\": 10000\r\n        }\r\n    ],\r\n    \"supplies\": [\r\n        {\r\n            \"product\": \"Belleza Capilar\",\r\n            \"brand\": \"L'Oréal\",\r\n            \"reference\": \"L'Oréal 6G\",\r\n            \"description\": \"cabello castaño dorado claro\",\r\n            \"suppliesPrice\": \"50000\"\r\n        },\r\n        {\r\n            \"product\": \"Belleza Capilar\",\r\n            \"brand\": \"L'Oréal\",\r\n            \"reference\": \"L'Oréal 6G\",\r\n            \"description\": \"cabello castaño dorado claro\",\r\n            \"suppliesPrice\": \"50000\"\r\n        },\r\n        {\r\n            \"product\": \"Belleza Capilar\",\r\n            \"brand\": \"L'Oréal\",\r\n            \"reference\": \"L'Oréal 6G\",\r\n            \"description\": \"cabello castaño dorado claro\",\r\n            \"suppliesPrice\": \"50000\"\r\n        }\r\n    ]\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -4896,7 +4896,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"65888721c843f358e11078d5\",\r\n    \"businessID\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"serviceID\": \"65888721c843f358e11078d6\",\r\n    \"staffID\": \"655709768197f57fe38ae973\",\r\n    \"appointmentDateID\": \"65888721c843f358e11078d8\",\r\n    \"observationAppointment\": \"Observacion de cierre de servicio por parte del Colaborador.\",\r\n    \"endAddDescriptionService\": [\r\n        {}\r\n    ],\r\n    \"supplies\": [\r\n        {}\r\n    ]\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"66206903b3e5a78e238f083c\",\r\n    \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n    \"serviceID\": \"64ab9174923ff67b725791b7\",\r\n    \"staffID\": \"6614ca4e939d2ce747ef0ca1\",\r\n    \"appointmentDateID\": \"66206903b3e5a78e238f083f\",\r\n    \"observationAppointment\": \"Observacion de cierre de servicio por parte del Colaborador.\",\r\n    \"endAddDescriptionService\": [\r\n        // {\r\n            // \"serviceName\": \"Servicio Adicional Solicitado Ante de iniciar Servicio 5 Min mas de tiempo\",\r\n            // \"CostService\": 100000\r\n        // }\r\n    ],\r\n    \"supplies\": [\r\n        // {\r\n        //     \"product\": \"Belleza Capilar\",\r\n        //     \"brand\": \"L'Oréal\",\r\n        //     \"reference\": \"L'Oréal 6G\",\r\n        //     \"description\": \"cabello castaño dorado claro\",\r\n        //     \"suppliesPrice\": \"50000\"\r\n        // },\r\n        // {\r\n        //     \"product\": \"Belleza Capilar\",\r\n        //     \"brand\": \"L'Oréal\",\r\n        //     \"reference\": \"L'Oréal 6G\",\r\n        //     \"description\": \"cabello castaño dorado claro\",\r\n        //     \"suppliesPrice\": \"50000\"\r\n        // }\r\n    ]\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -5773,7 +5773,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"user\": \"6554480313419cfc8e55bf83\", \r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\", \r\n        \"apeUser\": \"\", \r\n        \"emailUser\": \"\", \r\n        \"movilUser\": \"\", \r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"655707806c6b23062ab9c76b\",\r\n    \"observationManager\": \"Creando un Usuario Foraneo\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"04/03/2024\",\r\n    \"timeService\": \"13:00:00\"\r\n}",
+											"raw": "{\r\n    \"user\": \"6554480313419cfc8e55bf83\", \r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\", \r\n        \"apeUser\": \"\", \r\n        \"emailUser\": \"\", \r\n        \"movilUser\": \"\", \r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"manager\": \"661204ff9c1faeecf2f552f6\",\r\n    \"observationManager\": \"Creando un Agenda desde el Manager\",\r\n    \"staff\": \"6614c35209b0934f2b0470ef\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"17/04/2024\",\r\n    \"timeService\": \"10:30:00\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -5809,7 +5809,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"user\": \"\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"kevin\",\r\n        \"apeUser\": \"prueba\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"655707806c6b23062ab9c76b\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"26/03/2024\",\r\n    \"timeService\": \"09:00:00\"\r\n}",
+											"raw": "{\r\n    \"user\": \"\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"kevin\",\r\n        \"apeUser\": \"prueba\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"655707806c6b23062ab9c76b\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"15/04/2024\",\r\n    \"timeService\": \"09:00:00\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6059,7 +6059,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"65888893c843f358e1108c3b\",\r\n    \"docuUser\": \"80139076\",\r\n    \"managerDiscount\": 0,\r\n    \"tax\": [{\"description\": \"IVA\", \"value\": 0}],\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"electronicBilling\": true,\r\n    \"observationBilling\": \"Cancela Sin Impuestos y Descuentos\"\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"66206908b3e5a78e238f09aa\",\r\n    \"docuUser\": \"80139076\",\r\n    \"managerDiscount\": 0,\r\n    \"tax\": [{\"description\": \"IVA\", \"value\": 0}],\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"electronicBilling\": true,\r\n    \"observationBilling\": \"Cancela Sin Impuestos y Descuentos\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6095,7 +6095,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"65888721c843f358e11078d5\",\r\n    \"staffReceivingPayment\": {\r\n        \"creatorStaffBusiness\": \"655709768197f57fe38ae973\",\r\n        \"name\": \"collaborator\",\r\n        \"lastName\": \"User\"\r\n    },\r\n    \"user\": {\r\n        \"docu\": \"80139076\"\r\n    },\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"nameBusiness\": \"Centro Pruebas Beautiful\",\r\n        \"branchOffice\": {\r\n            \"phone\": {\r\n                \"description\": \"Recepcion\"\r\n            },\r\n            \"cellphone\": {\r\n                \"description\": \"Recepcion\"\r\n            },\r\n            \"location\": {\r\n                \"type\": \"Point\",\r\n                \"coordinates\": [\r\n                    4.602993671064257,\r\n                    -74.20185042633\r\n                ]\r\n            },\r\n            \"tradename\": \"Nombre Sede O comercial\",\r\n            \"address\": \"Calle 96 # 69 - 67\",\r\n            \"email\": \"beautiful@email.com\",\r\n            \"city\": \"Bogota\",\r\n            \"country\": \"Colombia\",\r\n            \"countryCode\": \"CO\",\r\n            \"state\": \"DC\",\r\n            \"services\": [\r\n                {\r\n                    \"services\": \"64ab9b60d82418177a7237fd\",\r\n                    \"name\": \"Cuidado Facial\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c95\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab95f1063c636a40004196\",\r\n                    \"name\": \"Cuidado Capilar\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c96\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9aced82418177a7237e2\",\r\n                    \"name\": \"Barberia\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c97\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9448063c636a40004160\",\r\n                    \"name\": \"Peinados\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c98\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9174923ff67b725791b7\",\r\n                    \"name\": \"Peluqueria\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c99\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9537063c636a4000417b\",\r\n                    \"name\": \"Tinturas\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c9a\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9debd82418177a723847\",\r\n                    \"name\": \"Spa de Uñas\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c9b\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9cbad82418177a723820\",\r\n                    \"name\": \"Maquillaje\",\r\n                    \"_id\": \"655456e56eb1b0c5c3523c9c\"\r\n                }\r\n            ]\r\n        }\r\n    },\r\n    \"serviceDescription\": [\r\n        {\r\n            \"_id\": \"65888721c843f358e11078d6\",\r\n            \"ServicesID\": \"655c34974e1ce3799b6c1727\",\r\n            \"ServicesParameter\": \"655c34974e1ce3799b6c1727\",\r\n            \"nameService\": \"Peluqueria\",\r\n            \"nameTypeService\": \"Corte\",\r\n            \"servicePrice\": 15000,\r\n            \"discount\": null,\r\n            \"staffServices\": [\r\n                {\r\n                    \"staff\": \"655709768197f57fe38ae973\",\r\n                    \"nameCollaborator\": \"collaborator User\",\r\n                    \"status\": true,\r\n                    \"_id\": \"65888721c843f358e11078d7\"\r\n                }\r\n            ],\r\n            \"AddServiceDescription\": [\r\n                {\r\n                    \"staff\": \"655709768197f57fe38ae973\",\r\n                    \"serviceName\": \"Servicio Adicional Solicitado Ante de iniciar Servicio 5 Min mas de tiempo\",\r\n                    \"CostService\": \"65000\",\r\n                    \"TimeService\": \"16:21:47\",\r\n                    \"_id\": \"6588a0ebf2a063ec51ed0a6b\"\r\n                }\r\n            ],\r\n            \"supplies\": [\r\n                {\r\n                    \"staff\": \"655709768197f57fe38ae973\",\r\n                    \"product\": \"Belleza Capilar\",\r\n                    \"brand\": \"L'Oréal\",\r\n                    \"reference\": \"L'Oréal 6G\",\r\n                    \"description\": \"cabello castaño dorado claro\",\r\n                    \"suppliesPrice\": \"10000\",\r\n                    \"_id\": \"6588a0ebf2a063ec51ed0a6a\"\r\n                },\r\n                {\r\n                    \"_id\": \"6588a0ebf2a063ec51ed0a6b\"\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"appointmentDate\": [\r\n        {\r\n            \"appointmentDateID\": \"65888721c843f358e11078d8\",\r\n            \"dateService\": \"26/12/2023\",\r\n            \"timeService\": \"09:00:00\"\r\n        }\r\n    ],\r\n    \"subTotal\": 80000,\r\n    \"discount\": {\r\n        \"PercentegeDiscount\": 0,\r\n        \"discount\": 0\r\n    },\r\n    \"taxes\": {\r\n        \"taxes\": \"IVA\",\r\n        \"taxValue\": 0,\r\n        \"tax\": 0\r\n    },\r\n    \"grandTotal\": 80000,\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"invoiceRequired\": true,\r\n    \"observation\": \"Cancela Sin Impuestos y Descuentos\",\r\n    \"customerLoyaltyService\": {\r\n        \"user\": {\r\n            \"docu\": \"80139076\"\r\n        },\r\n        \"business\": {\r\n            \"nit\": 911111111,\r\n            \"nameBusiness\": \"Centro Pruebas Beautiful\"\r\n        },\r\n        \"LoyaltyService\": 8\r\n    }\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"66206908b3e5a78e238f09aa\",\r\n    \"staffReceivingPayment\": {\r\n        \"creatorStaffBusiness\": \"661204ff9c1faeecf2f552f6\",\r\n        \"name\": \"Viviana Andrea\",\r\n        \"lastName\": \"Caicedo\"\r\n    },\r\n    \"user\": {\r\n        \"userID\": \"6554480313419cfc8e55bf83\",\r\n        \"docu\": \"80139076\",\r\n        \"nomUser\": \"Simona\",\r\n        \"apeUser\": \"Sáenz\",\r\n        \"emailUser\": \"simona@email.com\",\r\n        \"movilUser\": 3142540355\r\n    },\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"branchOffice\": {\r\n            \"phone\": {\r\n                \"description\": \"Recepcion\"\r\n            },\r\n            \"cellphone\": {\r\n                \"description\": \"Recepcion\"\r\n            },\r\n            \"location\": {\r\n                \"type\": \"Point\",\r\n                \"coordinates\": [\r\n                    4.602993671064257,\r\n                    -74.21185042633\r\n                ]\r\n            },\r\n            \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n            \"address\": \"Diag 73 B Sur # 79 c - 09 Piso 1\",\r\n            \"email\": \"viviana.caicedo@hotmail.com\",\r\n            \"city\": \"Bogota\",\r\n            \"country\": \"Colombia\",\r\n            \"countryCode\": \"CO\",\r\n            \"state\": \"DC\",\r\n            \"services\": [\r\n                {\r\n                    \"services\": \"64ab9174923ff67b725791b7\",\r\n                    \"name\": \"Peluqueria\",\r\n                    \"servicesUnique\": \"20965636_802127585_Peluqueria\",\r\n                    \"_id\": \"661204ff9c1faeecf2f552fd\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9448063c636a40004160\",\r\n                    \"name\": \"Peinados\",\r\n                    \"servicesUnique\": \"20965636_802127585_Peinados\",\r\n                    \"_id\": \"661204ff9c1faeecf2f552fe\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9537063c636a4000417b\",\r\n                    \"name\": \"Tinturas\",\r\n                    \"servicesUnique\": \"20965636_802127585_Tinturas\",\r\n                    \"_id\": \"661204ff9c1faeecf2f552ff\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab95f1063c636a40004196\",\r\n                    \"name\": \"Cuidado Capilar\",\r\n                    \"servicesUnique\": \"20965636_802127585_Cuidado Capilar\",\r\n                    \"_id\": \"661204ff9c1faeecf2f55300\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9aced82418177a7237e2\",\r\n                    \"name\": \"Barberia\",\r\n                    \"servicesUnique\": \"20965636_802127585_Barberia\",\r\n                    \"_id\": \"661204ff9c1faeecf2f55301\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9b60d82418177a7237fd\",\r\n                    \"name\": \"Cuidado Facial\",\r\n                    \"servicesUnique\": \"20965636_802127585_Cuidado Facial\",\r\n                    \"_id\": \"661204ff9c1faeecf2f55302\"\r\n                }\r\n            ]\r\n        }\r\n    },\r\n    \"serviceDescription\": [\r\n        {\r\n            \"_id\": \"66206908b3e5a78e238f09ab\",\r\n            \"ServicesID\": \"66120618f831ade9d90b5485\",\r\n            \"ServicesParameter\": \"66120618f831ade9d90b5485\",\r\n            \"nameService\": \"Peluqueria\",\r\n            \"nameTypeService\": \"Corte\",\r\n            \"servicePrice\": 15500,\r\n            \"discount\": null,\r\n            \"staffServices\": [\r\n                {\r\n                    \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n                    \"nameCollaborator\": \"Johan Varon\",\r\n                    \"status\": true,\r\n                    \"_id\": \"66206908b3e5a78e238f09ac\"\r\n                }\r\n            ],\r\n            \"AddServiceDescription\": [\r\n                {\r\n                    \"serviceName\": \"Color Pelo\",\r\n                    \"CostService\": \"65000\",\r\n                    \"_id\": \"662218be74d08fa1b24c479e\"\r\n                },\r\n                {\r\n                    \"staff\": \"661204ff9c1faeecf2f552f6\",\r\n                    \"serviceName\": \"Color Barba\",\r\n                    \"CostService\": \"50000\",\r\n                    \"TimeService\": \"02:10:30\",\r\n                    \"_id\": \"662218e674d08fa1b24c47ad\"\r\n                }\r\n            ],\r\n            \"supplies\": [\r\n                {\r\n                    \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n                    \"product\": \"Color Pelo\",\r\n                    \"brand\": \"Kuul\",\r\n                    \"reference\": \"6.1\",\r\n                    \"description\": \"Cenizo\",\r\n                    \"suppliesPrice\": 20000,\r\n                    \"dateCreate\": \"1713510590426\",\r\n                    \"_id\": \"662218be74d08fa1b24c479d\"\r\n                },\r\n                {\r\n                    \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n                    \"product\": \"Color Pelo\",\r\n                    \"brand\": \"Kuul\",\r\n                    \"reference\": \"6.1\",\r\n                    \"description\": \"Otro Color\",\r\n                    \"suppliesPrice\": 22000,\r\n                    \"dateCreate\": \"1713510630928\",\r\n                    \"_id\": \"662218e674d08fa1b24c47ac\"\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"appointmentDate\": [\r\n        {\r\n            \"appointmentDateID\": \"66206908b3e5a78e238f09ad\",\r\n            \"dateService\": \"21/04/2024\",\r\n            \"timeService\": \"12:00:00\"\r\n        }\r\n    ],\r\n    \"subTotal\": 130500,\r\n    \"discount\": {\r\n        \"PercentegeDiscount\": 0,\r\n        \"discount\": 0\r\n    },\r\n    \"taxes\": {\r\n        \"taxes\": \"IVA\",\r\n        \"taxValue\": 0,\r\n        \"tax\": 0\r\n    },\r\n    \"grandTotal\": 130500,\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"invoiceRequired\": true,\r\n    \"observation\": \"Cancela Sin Impuestos y Descuentos\",\r\n    \"customerLoyaltyService\": {\r\n        \"user\": {\r\n            \"userID\": \"6554480313419cfc8e55bf83\",\r\n            \"docu\": \"80139076\",\r\n            \"emailUser\": \"simona@email.com\"\r\n        },\r\n        \"business\": {\r\n            \"nit\": 802127585,\r\n            \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n        },\r\n        \"LoyaltyService\": 12\r\n    }\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6132,7 +6132,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"dateStart\": \"\",\r\n    \"dateEnd\": \"\"\r\n}",
+											"raw": "{\r\n    \"dateStart\": \"14/04/2024\",\r\n    \"dateEnd\": \"25/04/2024\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6313,7 +6313,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"dateStart\": \"05/03/2024\",\r\n    \"dateEnd\": \"23/03/2024\"\r\n}",
+									"raw": "{\r\n    \"dateStart\": \"14/04/2024\",\r\n    \"dateEnd\": \"25/04/2024\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6633,7 +6633,7 @@
 					"name": "Cash Register",
 					"item": [
 						{
-							"name": "Sales Of The Day",
+							"name": "Sales Of The Day (CajaDelDia)",
 							"id": "1d42239f-cf77-441e-b5bc-dfc0c8c8f988",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -6673,7 +6673,7 @@
 							"response": []
 						},
 						{
-							"name": "Outflows",
+							"name": "Outflows (Egresos)",
 							"id": "73faa2cd-43d4-4067-b922-8f3d475b9b63",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -6692,7 +6692,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"businessID\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"paymentMethod\": \"Nequi\",//Opciones Nequi, DaviPlata, Efectivo, Transferencia Bancaria\r\n    \"amountPaid\": \"50000\",\r\n    \"payees\": \"Nombre del Beneficiario\",\r\n    \"descriptionExpenditure\": \"Prestamo al colaborador\",\r\n    \"expenditureDate\": \"05/03/2024\", //Fecha en que genera el Egreso, en el front un campo tipo fecha\r\n    \"categorizationExpenditures\": \"Anticipo\",//la categoría del egreso, como gastos operativos, suministros, salario, Anticipo o Prestamo etc\r\n    \"approvalOfExpenditures\": \"\" //Aqui podremos poner un objeto con los datos del que autoriza el pago\r\n}",
+									"raw": "{ //Formulario de Egresos\r\n    \"businessID\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"paymentMethod\": \"Nequi\",//Opciones Nequi, DaviPlata, Efectivo, Transferencia Bancaria\r\n    \"amountPaid\": \"50000\",\r\n    \"payees\": \"Nombre del Beneficiario 1\",\r\n    \"descriptionExpenditure\": \"Prestamo al colaborador\",\r\n    \"expenditureDate\": \"05/03/2024\", //Fecha en que genera el Egreso, en el front un campo tipo fecha\r\n    \"categorizationExpenditures\": \"Anticipo\",//la categoría del egreso, como gastos operativos, suministros, salario, Anticipo o Prestamo etc\r\n    \"approvalOfExpenditures\": \"\" //Aqui podremos poner un objeto con los datos del que autoriza el pago\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6707,6 +6707,46 @@
 									"path": [
 										"outf",
 										"outflow"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Cash Reconciliation (Cierre)",
+							"id": "01e5b9b1-5710-4f51-b2cd-a2484ad2be86",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"TotalVentas\": {\r\n        \"_id\": 911111111,\r\n        \"totalSales\": 237000\r\n    },\r\n    \"DetallesVentas\": [\r\n        {\r\n            \"totalServicesFacturados\": 1,\r\n            \"services\": {\r\n                \"name\": \"Peluqueria\",\r\n                \"type\": \"Corte\",\r\n                \"client\": \"Simona Sáenz\",\r\n                \"price\": 160000,\r\n                \"collaborator\": [\r\n                    \"collaborator User\"\r\n                ],\r\n                \"appointmentID\": \"65e78dc9841d51165ceaf951\"\r\n            }\r\n        },\r\n        {\r\n            \"totalServicesFacturados\": 1,\r\n            \"services\": {\r\n                \"name\": \"Peluqueria\",\r\n                \"type\": \"Corte\",\r\n                \"client\": \"Elizabeth Saenz\",\r\n                \"price\": 77000,\r\n                \"collaborator\": [\r\n                    \"collaborator User\"\r\n                ],\r\n                \"appointmentID\": \"65eb8926f2b2208121beb8fb\"\r\n            }\r\n        }\r\n    ],\r\n    \"StatusAppoinment\": [\r\n        {\r\n            \"status\": \"Activos\",\r\n            \"count\": 5\r\n        },\r\n        {\r\n            \"status\": \"En Proceso\",\r\n            \"count\": 1\r\n        },\r\n        {\r\n            \"status\": \"Completados\",\r\n            \"count\": 3\r\n        },\r\n        {\r\n            \"status\": \"Cancelados\",\r\n            \"count\": 1\r\n        }\r\n    ],\r\n    \"methodOfCashReconciliation\": \"Cierre Final\",//enum: ['Cierre Parcial', 'Cierre Final']\r\n    \"Business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"name\": \"Centro Pruebas Beautiful\",\r\n        \"tradename\": \"Nombre Sede O comercial\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/casrec/cash",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"casrec",
+										"cash"
 									]
 								}
 							},
@@ -6738,7 +6778,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"dateStart\": \"01/12/2023\",\r\n    \"dateEnd\": \"25/12/2024\"\r\n}",
+									"raw": "{\r\n    \"dateStart\": \"14/04/2024\",\r\n    \"dateEnd\": \"25/04/2024\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"

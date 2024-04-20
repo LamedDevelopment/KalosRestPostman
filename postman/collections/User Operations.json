@@ -306,7 +306,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"user\": \"6554480313419cfc8e55bf83\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"23/03/2024\",\r\n    \"timeService\": \"19:30:00\"\r\n}\r\n",
+									"raw": "{\r\n    \"user\": \"6554480313419cfc8e55bf83\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"21/04/2024\",\r\n    \"timeService\": \"19:30:00\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -314,9 +314,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_dev}}{{api}}/apu",
+									"raw": "{{kalos_local}}{{api}}/apu",
 									"host": [
-										"{{kalos_dev}}{{api}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"apu"
@@ -749,7 +749,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"codValidateUser\": \"1698134844918\",\r\n    \"pass\": \"123456\",\r\n    \"validationPass\": \"123456\"\r\n}",
+									"raw": "{\r\n    \"codValidateUser\": \"1713334729996\",\r\n    \"pass\": \"123456\",\r\n    \"validationPass\": \"123456\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -956,7 +956,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"email\": \"lameddev@gmail.com\"\r\n}",
+									"raw": "{\r\n    \"email\": \"edisonra_@hotmail.com\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -973,6 +973,57 @@
 										"usr"
 									],
 									"query": [
+										{
+											"key": "x-token",
+											"value": null,
+											"type": "text",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Forgot Password Copy",
+							"id": "732b9e63-7621-4a77-9568-2d6784cbd4f9",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{user_dev}}",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/auth/reset-password/token?eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVkaXNvbnJhX0Bob3RtYWlsLmNvbSIsInRpbWUiOjE3MTMzMTY3Mjk5OTYsImNvZFZhbGlkYXRlVXNlciI6MTcxMzMzNDcyOTk5NiwiaWF0IjoxNzEzMzE2NzI5LCJleHAiOjE3MTMzMzQ3Mjl9.9c9QTZ1kQqDVOgGyJenGYA7mSFmxCCAs-9KC2NFVwmw",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"auth",
+										"reset-password",
+										"token"
+									],
+									"query": [
+										{
+											"key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVkaXNvbnJhX0Bob3RtYWlsLmNvbSIsInRpbWUiOjE3MTMzMTY3Mjk5OTYsImNvZFZhbGlkYXRlVXNlciI6MTcxMzMzNDcyOTk5NiwiaWF0IjoxNzEzMzE2NzI5LCJleHAiOjE3MTMzMzQ3Mjl9.9c9QTZ1kQqDVOgGyJenGYA7mSFmxCCAs-9KC2NFVwmw",
+											"value": null
+										},
 										{
 											"key": "x-token",
 											"value": null,
