@@ -6660,9 +6660,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/bill/checkout",
+									"raw": "{{kalos_dev}}{{api}}/bill/checkout",
 									"host": [
-										"{{kalos_local}}{{api}}"
+										"{{kalos_dev}}{{api}}"
 									],
 									"path": [
 										"bill",
