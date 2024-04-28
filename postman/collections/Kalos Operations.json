@@ -501,13 +501,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/sv/allse",
+							"raw": "{{kalos_local}}{{api}}/bill/allpatmeth",
 							"host": [
 								"{{kalos_local}}{{api}}"
 							],
 							"path": [
-								"sv",
-								"allse"
+								"bill",
+								"allpatmeth"
 							]
 						}
 					},
