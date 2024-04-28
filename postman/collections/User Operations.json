@@ -306,7 +306,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"user\": \"6554480313419cfc8e55bf83\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"6614c35209b0934f2b0470ef\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"22/04/2024\",\r\n    \"timeService\": \"21:00:00\"\r\n}\r\n",
+									"raw": "{\r\n    \"user\": \"6554480313419cfc8e55bf83\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"6614c35209b0934f2b0470ef\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab9383063c636a40004159\",\r\n    \"dateService\": \"27/04/2024\",\r\n    \"timeService\": \"11:30:00\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -470,7 +470,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBvaW50bWVudElEIjoiNjYyNzM2NjE5YTA5YzRjZDEyNTUzZjI5IiwiZGF0ZUFwcG9pbnRtZW50IjoiRW1haWwgZGUgQ3JlYWNpb24iLCJ0aW1lIjoxNzEzODg0NDAwMDAwLCJpYXQiOjE3MTM4NDU4NTcsImV4cCI6MTcxMzg1MzA1N30.R7YXpY4XmqsBlcFKjoMtDsdtXKfMZygukOrWex6G2g4\"\r\n}",
+									"raw": "{\r\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBvaW50bWVudElEIjoiNjYyOGYxNzlhNmVmZDdkNjg1YTVmYmY0IiwiZGF0ZUFwcG9pbnRtZW50IjoiRW1haWwgZGUgMiBIb3JhcyIsInRpbWUiOm51bGwsImlhdCI6MTcxMzk4ODgwMCwiZXhwIjoxNzEzOTk2MDAwfQ.ulrARZaG6f4GOqnsvy93h15g7jBMy-aFwnsrssmuct8\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -478,11 +478,16 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/apu/emailcanapp",
+									"raw": "https://devback.bellezaap.com/api/v1/apu/emailcanapp",
+									"protocol": "https",
 									"host": [
-										"{{kalos_local}}{{api}}"
+										"devback",
+										"bellezaap",
+										"com"
 									],
 									"path": [
+										"api",
+										"v1",
 										"apu",
 										"emailcanapp"
 									]
@@ -789,7 +794,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"codValidateUser\": \"1713334729996\",\r\n    \"pass\": \"123456\",\r\n    \"validationPass\": \"123456\"\r\n}",
+									"raw": "{\r\n    \"codValidateUser\": \"1713925486057\",\r\n    \"pass\": \"123456\",\r\n    \"validationPass\": \"123456\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1034,7 +1039,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"email\": \"lameddev@gmail.com\"\r\n}",
+									"raw": "{\r\n    \"email\": \"karensann98@gmail.com\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"

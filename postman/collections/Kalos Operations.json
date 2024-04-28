@@ -473,6 +473,87 @@
 			"id": "9953837a-a6a7-4985-b08b-c52f1610fc4e"
 		},
 		{
+			"name": "Loan Payment Methods",
+			"item": [
+				{
+					"name": "View All Services",
+					"id": "068e117f-59cd-4c2b-b302-f844ace8b0f6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/sv/allse",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"sv",
+								"allse"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Services",
+					"id": "4cfd3896-ab56-460a-a5bf-c85d206a2a50",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NGFhNTllODlhOGExOThjYWVjNzM3NWUiLCJyb2xlIjoiTEFNRURfUk9MRSIsImlhdCI6MTY4ODk0NjUwMCwiZXhwIjoxNjkxNTM4NTAwfQ.qLDreCyj6T1q6h2LjECFynPhPcNhWm3rHn0ROY3mKSk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Spa de Uñas\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/v1/sv",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"v1",
+								"sv"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "7b73a492-8224-49ca-9b47-41e59a37291c"
+		},
+		{
 			"name": "Create Type Services",
 			"item": [
 				{
@@ -1996,7 +2077,7 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{tk_user}}",
+								"value": "{{tk_colla}}",
 								"type": "text"
 							}
 						],
