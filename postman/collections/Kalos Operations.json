@@ -501,9 +501,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/bill/allpatmeth",
+							"raw": "{{kalos_dev}}{{api}}/bill/allpatmeth",
 							"host": [
-								"{{kalos_local}}{{api}}"
+								"{{kalos_dev}}{{api}}"
 							],
 							"path": [
 								"bill",
