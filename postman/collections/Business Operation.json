@@ -26,8 +26,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -63,8 +62,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -107,7 +105,6 @@
 											{
 												"key": "x-token",
 												"value": "",
-												"type": "text",
 												"disabled": true
 											}
 										],
@@ -145,7 +142,6 @@
 											{
 												"key": "x-token",
 												"value": "",
-												"type": "text",
 												"disabled": true
 											}
 										],
@@ -182,8 +178,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -219,8 +214,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -263,7 +257,6 @@
 											{
 												"key": "x-token",
 												"value": "",
-												"type": "text",
 												"disabled": true
 											}
 										],
@@ -300,8 +293,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -337,8 +329,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -380,8 +371,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -426,8 +416,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -462,8 +451,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -499,8 +487,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
-														"type": "text"
+														"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME"
 													}
 												],
 												"body": {
@@ -536,8 +523,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -579,8 +565,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -609,8 +594,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -639,8 +623,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -669,8 +652,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -705,8 +687,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -735,8 +716,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -765,8 +745,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -795,8 +774,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -837,8 +815,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -867,8 +844,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -897,8 +873,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -927,8 +902,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -963,8 +937,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -993,8 +966,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1023,8 +995,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1053,8 +1024,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1089,8 +1059,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1119,8 +1088,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1149,8 +1117,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1179,8 +1146,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1221,8 +1187,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1251,8 +1216,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1281,8 +1245,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1311,8 +1274,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1347,8 +1309,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1377,8 +1338,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1407,8 +1367,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1437,8 +1396,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1473,8 +1431,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1503,8 +1460,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1533,8 +1489,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1563,8 +1518,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -1608,8 +1562,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -1651,8 +1604,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -1710,8 +1662,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -1747,8 +1698,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -1790,8 +1740,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -1834,8 +1783,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -1871,8 +1819,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -1914,8 +1861,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -1957,8 +1903,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -2003,8 +1948,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2039,8 +1983,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2076,8 +2019,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
-														"type": "text"
+														"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME"
 													}
 												],
 												"body": {
@@ -2113,8 +2055,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2156,8 +2097,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2186,8 +2126,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2216,8 +2155,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2246,8 +2184,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2282,8 +2219,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2312,8 +2248,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2342,8 +2277,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2372,8 +2306,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2414,8 +2347,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2444,8 +2376,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2474,8 +2405,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2504,8 +2434,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2540,8 +2469,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2570,8 +2498,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2600,8 +2527,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2630,8 +2556,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2666,8 +2591,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2696,8 +2620,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2726,8 +2649,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2756,8 +2678,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2798,8 +2719,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2828,8 +2748,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2858,8 +2777,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2888,8 +2806,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2924,8 +2841,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2954,8 +2870,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -2984,8 +2899,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -3014,8 +2928,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -3050,8 +2963,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -3080,8 +2992,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -3110,8 +3021,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -3140,8 +3050,7 @@
 												"header": [
 													{
 														"key": "x-token",
-														"value": "{{tk_colla}}",
-														"type": "text"
+														"value": "{{tk_colla}}"
 													}
 												],
 												"body": {
@@ -3179,8 +3088,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -3216,8 +3124,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -3259,8 +3166,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -3332,8 +3238,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -3405,8 +3310,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -3478,8 +3382,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -3555,8 +3458,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -3628,8 +3530,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -3701,8 +3602,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -3774,8 +3674,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -3847,8 +3746,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -3920,8 +3818,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -3993,8 +3890,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -4066,8 +3962,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -4143,8 +4038,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -4216,8 +4110,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -4289,8 +4182,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -4366,8 +4258,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -4439,8 +4330,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -4512,8 +4402,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -4604,8 +4493,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -4641,8 +4529,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -4684,8 +4571,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{user_local}}",
-												"type": "text"
+												"value": "{{user_local}}"
 											}
 										],
 										"body": {
@@ -4710,7 +4596,6 @@
 												{
 													"key": "x-token",
 													"value": null,
-													"type": "text",
 													"disabled": true
 												}
 											]
@@ -4735,8 +4620,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -4772,8 +4656,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -4815,8 +4698,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
-												"type": "text"
+												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww"
 											}
 										],
 										"body": {
@@ -4852,8 +4734,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -4890,8 +4771,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -4933,8 +4813,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
-												"type": "text"
+												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww"
 											}
 										],
 										"body": {
@@ -4976,8 +4855,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -5014,7 +4892,6 @@
 											{
 												"key": "x-token",
 												"value": "{{tk_colla}}",
-												"type": "text",
 												"disabled": true
 											}
 										],
@@ -5051,8 +4928,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_user}}",
-												"type": "text"
+												"value": "{{tk_user}}"
 											}
 										],
 										"body": {
@@ -5088,8 +4964,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_user}}",
-												"type": "text"
+												"value": "{{tk_user}}"
 											}
 										],
 										"body": {
@@ -5132,8 +5007,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -5169,8 +5043,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -5218,8 +5091,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{colla_local}}",
-												"type": "text"
+												"value": "{{colla_local}}"
 											}
 										],
 										"body": {
@@ -5255,8 +5127,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -5292,8 +5163,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{user_local}}",
-												"type": "text"
+												"value": "{{user_local}}"
 											}
 										],
 										"body": {
@@ -5335,8 +5205,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -5372,8 +5241,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -5447,7 +5315,6 @@
 											{
 												"key": "",
 												"value": "",
-												"type": "text",
 												"disabled": true
 											}
 										],
@@ -5474,7 +5341,6 @@
 												{
 													"key": "x-token",
 													"value": null,
-													"type": "text",
 													"disabled": true
 												}
 											]
@@ -5494,7 +5360,6 @@
 											{
 												"key": "x-token",
 												"value": "{{user_dev}}",
-												"type": "text",
 												"disabled": true
 											}
 										],
@@ -5520,7 +5385,6 @@
 												{
 													"key": "x-token",
 													"value": null,
-													"type": "text",
 													"disabled": true
 												}
 											]
@@ -5539,8 +5403,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -5595,8 +5458,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
@@ -5635,13 +5497,12 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"loanAmount\": 50000,\r\n    \"paymentDeadline\": 1,\r\n    \"meansOfLoan\": \"Nequi\", //Opciones de Medio de Pago: Nequi, Daviplata, Efectivo, Productos, \r\n    \"loanDetail\": \"Prueba de flujo de Proceso de Solicitud, para Desarrollo en la division de 1 cuotas\"\r\n}",
+									"raw": "{\r\n    \"loanAmount\": 999,\r\n    \"paymentDeadline\": 1,\r\n    \"meansOfLoan\": \"Nequi\", //Opciones de Medio de Pago: Nequi, Daviplata, Efectivo, Productos, \r\n    \"loanDetail\": \"Prueba de flujo de Proceso de Solicitud, para Desarrollo en la division de 1 cuotas\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5687,8 +5548,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -5724,8 +5584,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -5767,8 +5626,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -5803,8 +5661,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -5845,8 +5702,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_user}}",
-												"type": "text"
+												"value": "{{tk_user}}"
 											}
 										],
 										"body": {
@@ -5882,8 +5738,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -5925,8 +5780,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -5962,8 +5816,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -6011,8 +5864,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -6054,8 +5906,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -6090,8 +5941,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -6127,13 +5977,12 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"dateStart\": \"14/04/2024\",\r\n    \"dateEnd\": \"25/04/2024\"\r\n}",
+											"raw": "{\r\n    \"dateStart\": \"14/04/2024\",\r\n    \"dateEnd\": \"30/04/2024\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6176,8 +6025,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -6219,8 +6067,7 @@
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{tk_colla}}",
-												"type": "text"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
@@ -6268,8 +6115,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
@@ -6308,8 +6154,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
@@ -6354,8 +6199,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
@@ -6394,8 +6238,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
@@ -6434,13 +6277,12 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"collaID\": \"655707806c6b23062ab9c76b\"\r\n}",
+									"raw": "{\r\n    \"collaID\": \"655709768197f57fe38ae973\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6461,6 +6303,45 @@
 							"response": []
 						},
 						{
+							"name": "Collaborator Loan Payment PayRoll",
+							"id": "eb5882dd-57ee-428b-b800-a1524e2f24dd",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"6614ca4e939d2ce747ef0ca1\",\r\n        \"nomColla\": \"Johan\",\r\n        \"document\": 1028782329,\r\n        \"apeColla\": \"Varon\",\r\n        \"emailColla\": \"varonjohan51@gmail.com\",\r\n        \"movilColla\": 3115264498\r\n    },\r\n    \"loanAmount\": 50000,\r\n    \"paymentDeadline\": 1,\r\n    \"loanDetail\": \"Cafeteria\",\r\n    \"applicationDate\": \"01/05/2024, 13:04:00\",\r\n    \"loanStatus\": \"Autorizado\",\r\n    \"prePay\": false,\r\n    \"newLoanBalance\": 50000,\r\n    \"paymentFees\": 1,\r\n    \"loansID\": \"6633f7b9ffd6c963e8667175\",\r\n    \"commissionDateRange\": {\r\n        \"datestart\": \"14/04/2024\",\r\n        \"dateEnd\": \"30/04/2024\"\r\n    }\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/payroll/paynoloans",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"payroll",
+										"paynoloans"
+									]
+								}
+							},
+							"response": []
+						},
+						{
 							"name": "Process Loan",
 							"id": "2f267473-da14-4520-8fcf-fff809402ad5",
 							"protocolProfileBehavior": {
@@ -6474,13 +6355,12 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"loadID\": \"65e79582e995ae31ae561073\",\r\n    // \"loanAmount\": 5000,\r\n    \"paymentDeadline\": 1,\r\n    \"loanStatus\": \"Autorizado\",\r\n    \"paymentObservation\": \"\"\r\n}",
+									"raw": "{\r\n    \"loadID\": \"662d9936f6845044be5502ae\",\r\n    \"loanAmount\": 50000,\r\n    \"paymentDeadline\": 1,\r\n    \"loanStatus\": \"Autorizado\",\r\n    \"paymentObservation\": \"\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6521,13 +6401,12 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"nameBusiness\": \"Centro Pruebas Beautiful\",\r\n        \"tradename\": \"Nombre Sede O comercial\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"655709768197f57fe38ae973\",\r\n        \"nomColla\": \"collaborator\",\r\n        \"document\": 80139077,\r\n        \"apeColla\": \"User\",\r\n        \"emailColla\": \"colla@email.com\",\r\n        \"movilColla\": 3142540353\r\n    },\r\n    \"BusinessCommissionValue\": 160200,\r\n    \"payLoans\": [\r\n        {\r\n            \"loanAmount\": 5000,\r\n            \"paymentDeadline\": 1,\r\n            \"loanDetail\": \"Cafeteria\",\r\n            \"applicationDate\": \"05/03/2024, 16:52:39\",\r\n            \"loanStatus\": \"Proceso de Pagado\",\r\n            \"prePay\": true,\r\n            \"newLoanBalance\": 5000,\r\n            \"paymentFees\": 0,\r\n            \"loansID\": \"65e79582e995ae31ae561073\"\r\n        }\r\n        // {\r\n        //     \"loanAmount\": 50000,\r\n        //     \"paymentDeadline\": 2,\r\n        //     \"loanDetail\": \"personal\",\r\n        //     \"applicationDate\": \"10/03/2024, 18:24:25\",\r\n        //     \"loanStatus\": \"Proceso de Pagado\",\r\n        //     \"prePay\": true,\r\n        //     \"newLoanBalance\": 25000,\r\n        //     \"paymentFees\": 1,\r\n        //     \"loansID\": \"65ee5cb40df46f073be0a2cb\"\r\n        // }\r\n    ],\r\n    \"sumOfAdvances\": -30000,\r\n    \"commissionPayment\": 130200,\r\n    \"commissionDateRange\": {\r\n        \"datastart\": \"01/3/2024\",\r\n        \"dateEnd\": \"05/3/2024\"\r\n    }\r\n}",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"6614ca4e939d2ce747ef0ca1\",\r\n        \"nomColla\": \"Johan\",\r\n        \"document\": 1028782329,\r\n        \"apeColla\": \"Varon\",\r\n        \"emailColla\": \"varonjohan51@gmail.com\",\r\n        \"movilColla\": 3115264498\r\n    },\r\n    \"BusinessCommissionValue\": 160200,\r\n    \"payLoans\": [\r\n        {\r\n            \"loanAmount\": 5000,\r\n            \"paymentDeadline\": 1,\r\n            \"loanDetail\": \"Cafeteria\",\r\n            \"applicationDate\": \"05/03/2024, 16:52:39\",\r\n            \"loanStatus\": \"Proceso de Pagado\",\r\n            \"prePay\": true,\r\n            \"newLoanBalance\": 5000,\r\n            \"paymentFees\": 0,\r\n            \"loansID\": \"65e79582e995ae31ae561073\"\r\n        },\r\n        {\r\n            \"loanAmount\": 50000,\r\n            \"paymentDeadline\": 2,\r\n            \"loanDetail\": \"personal\",\r\n            \"applicationDate\": \"10/03/2024, 18:24:25\",\r\n            \"loanStatus\": \"Proceso de Pagado\",\r\n            \"prePay\": true,\r\n            \"newLoanBalance\": 25000,\r\n            \"paymentFees\": 1,\r\n            \"loansID\": \"65ee5cb40df46f073be0a2cb\"\r\n        }\r\n    ],\r\n    \"sumOfAdvances\": -30000,\r\n    \"commissionPayment\": 130200,\r\n    \"commissionDateRange\": {\r\n        \"datestart\": \"14/04/2024\",\r\n        \"dateEnd\": \"30/04/2024\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6561,8 +6440,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
@@ -6601,8 +6479,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
@@ -6647,8 +6524,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
@@ -6687,8 +6563,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
@@ -6727,8 +6602,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
@@ -6773,8 +6647,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}",
-										"type": "text"
+										"value": "{{tk_colla}}"
 									}
 								],
 								"body": {
@@ -6822,8 +6695,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
-										"type": "text"
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww"
 									}
 								],
 								"body": {
@@ -6858,8 +6730,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
-										"type": "text"
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww"
 									}
 								],
 								"body": {
@@ -6895,8 +6766,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww",
-										"type": "text"
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww"
 									}
 								],
 								"body": {
@@ -6937,8 +6807,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzE0MjhhMGQxNGM1OTM2OGRiYmUyNDMiLCJyb2xlIjoiNjJkOWE5NThjYzdjMDAxZDRhZjRiZGVlIiwiYnVzIjoxMjM0NTY3ODkyLCJpYXQiOjE2Nzc1NTczMTksImV4cCI6MTY4MDE0OTMxOX0.hlqaMRxRC7_A9a1Q77Z7-Vtje6TKSjO8gHZi151NXIA",
-										"type": "text"
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzE0MjhhMGQxNGM1OTM2OGRiYmUyNDMiLCJyb2xlIjoiNjJkOWE5NThjYzdjMDAxZDRhZjRiZGVlIiwiYnVzIjoxMjM0NTY3ODkyLCJpYXQiOjE2Nzc1NTczMTksImV4cCI6MTY4MDE0OTMxOX0.hlqaMRxRC7_A9a1Q77Z7-Vtje6TKSjO8gHZi151NXIA"
 									}
 								],
 								"url": {
@@ -6965,8 +6834,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME",
-										"type": "text"
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ3MjljOTNlYTRjMjU0OTdmYjg3NzgiLCJpYXQiOjE2NzE5OTU0NTYsImV4cCI6MTY3NDU4NzQ1Nn0.C6voG41h0JKFein296OwFG-Rjhaq1LxuHIxDWvXRSME"
 									}
 								],
 								"body": {

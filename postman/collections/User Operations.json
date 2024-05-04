@@ -23,8 +23,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -49,7 +48,6 @@
 										{
 											"key": "x-token",
 											"value": null,
-											"type": "text",
 											"disabled": true
 										}
 									]
@@ -74,8 +72,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -110,8 +107,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -147,8 +143,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -183,8 +178,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -220,8 +214,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -257,8 +250,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -300,13 +292,12 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"6614c35209b0934f2b0470ef\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab9383063c636a40004159\",\r\n    \"dateService\": \"30/04/2024\",\r\n    \"timeService\": \"09:30:00\"\r\n}\r\n",
+									"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab9383063c636a40004159\",\r\n    \"dateService\": \"04/05/2024\",\r\n    \"timeService\": \"16:00:00\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -336,8 +327,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -379,8 +369,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -424,8 +413,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -464,8 +452,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -506,8 +493,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -549,8 +535,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -586,8 +571,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -622,8 +606,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -672,7 +655,6 @@
 									{
 										"key": "x-token",
 										"value": "{{user_dev}}",
-										"type": "text",
 										"disabled": true
 									}
 								],
@@ -714,8 +696,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -751,8 +732,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -788,8 +768,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -825,8 +804,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -869,8 +847,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -906,8 +883,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_user}}",
-										"type": "text"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -986,7 +962,6 @@
 									{
 										"key": "",
 										"value": "",
-										"type": "text",
 										"disabled": true
 									}
 								],
@@ -1013,7 +988,6 @@
 										{
 											"key": "x-token",
 											"value": null,
-											"type": "text",
 											"disabled": true
 										}
 									]
@@ -1033,7 +1007,6 @@
 									{
 										"key": "x-token",
 										"value": "{{user_dev}}",
-										"type": "text",
 										"disabled": true
 									}
 								],
@@ -1059,7 +1032,6 @@
 										{
 											"key": "x-token",
 											"value": null,
-											"type": "text",
 											"disabled": true
 										}
 									]
@@ -1079,7 +1051,6 @@
 									{
 										"key": "x-token",
 										"value": "{{user_dev}}",
-										"type": "text",
 										"disabled": true
 									}
 								],
@@ -1110,7 +1081,6 @@
 										{
 											"key": "x-token",
 											"value": null,
-											"type": "text",
 											"disabled": true
 										}
 									]
@@ -1141,8 +1111,7 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{tk_user}}",
-								"type": "text"
+								"value": "{{tk_user}}"
 							}
 						],
 						"body": {

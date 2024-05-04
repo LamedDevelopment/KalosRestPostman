@@ -17,7 +17,18 @@
 							"script": {
 								"id": "68a44a29-577c-4d3d-809a-b5d3cc303089",
 								"exec": [
-									"postman.setEnvironmentVariable(\"tk_user\",  JSON.parse(responseBody).login);"
+									"pm.environment.set(\"tk_user\", JSON.parse(responseBody).login);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "9806eaef-9cac-4d04-bd91-affff7476b6e",
+								"exec": [
+									""
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -41,9 +52,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/login",
+							"raw": "{{kalos_back}}{{api}}/login",
 							"host": [
-								"{{kalos_local}}{{api}}"
+								"{{kalos_back}}{{api}}"
 							],
 							"path": [
 								"login"
@@ -75,8 +86,7 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{tk_user}}",
-								"type": "text"
+								"value": "{{tk_user}}"
 							}
 						],
 						"body": {
@@ -96,6 +106,54 @@
 							"path": [
 								"login",
 								"close"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Log Out User Copy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "a0bc78e3-1596-430a-867b-dfb743480719",
+								"exec": [
+									"postman.setEnvironmentVariable(\"tk_user\",  JSON.parse(responseBody).login);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"id": "fa60bd1c-29e2-4c65-b774-1bd35c0699b3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_user}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_back}}{{api}}/",
+							"host": [
+								"{{kalos_back}}{{api}}"
+							],
+							"path": [
+								""
 							]
 						}
 					},
@@ -131,7 +189,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"colla@email.com\",\r\n    \"pass\": \"12345\"\r\n}",
+							"raw": "{\r\n    \"email\": \"viviana.caicedo@hotmail.com\",\r\n    \"pass\": \"Viviana12345**\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -162,8 +220,7 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{token_cll}}",
-								"type": "text"
+								"value": "{{token_cll}}"
 							}
 						],
 						"body": {
@@ -202,8 +259,7 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "{{tk_user}}",
-						"type": "text"
+						"value": "{{tk_user}}"
 					}
 				],
 				"body": {
@@ -228,7 +284,6 @@
 						{
 							"key": "x-token",
 							"value": "{{to",
-							"type": "text",
 							"disabled": true
 						}
 					]
@@ -247,8 +302,7 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "{{tk_colla}}",
-						"type": "text"
+						"value": "{{tk_colla}}"
 					}
 				],
 				"body": {
