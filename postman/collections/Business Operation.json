@@ -6445,7 +6445,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"6614c35209b0934f2b0470ef\",\r\n        \"nomColla\": \"Jaime Edilson\",\r\n        \"document\": 80212758,\r\n        \"apeColla\": \"Raigozo Marquez \",\r\n        \"emailColla\": \"edisonra_@hotmail.com\",\r\n        \"movilColla\": 3106196928\r\n    },\r\n    \"BusinessCommissionValue\": 37500,\r\n    \"payLoans\": [],\r\n    \"sumOfAdvances\": 0,\r\n    \"commissionPayment\": 37500,\r\n    \"observation\": \"\",\r\n    \"commissionDateRange\": {\r\n        \"dateStart\": \"01/05/2024\",\r\n        \"dateEnd\": \"15/05/2024\"\r\n    }\r\n}",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"6614ca4e939d2ce747ef0ca1\",\r\n        \"nomColla\": \"Johan\",\r\n        \"document\": 1028782329,\r\n        \"apeColla\": \"Varon\",\r\n        \"emailColla\": \"varonjohan51@gmail.com\",\r\n        \"movilColla\": 3115264498\r\n    },\r\n    \"BusinessCommissionValue\": 10000,\r\n    \"payLoans\": [\r\n        // {\r\n        //     \"loanAmount\": 180000,\r\n        //     \"paymentDeadline\": 2,\r\n        //     \"loanDetail\": \"Pago Arriendo\",\r\n        //     \"applicationDate\": \"04/05/2024, 17:19:52\",\r\n        //     \"loanStatus\": \"Proceso de Pagado\",\r\n        //     \"prePay\": true,\r\n        //     \"newLoanBalance\": 90000,\r\n        //     \"paymentFees\": 1,\r\n        //     \"loansID\": \"6636b6862af9bc8ac51e7937\"\r\n        // }\r\n    ],\r\n    \"sumOfAdvances\": 0,\r\n    \"commissionPayment\": 10000,\r\n    \"observation\": \"\",\r\n    \"commissionDateRange\": {\r\n        \"dateStart\": \"01/05/2024\",\r\n        \"dateEnd\": \"15/05/2024\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6453,9 +6453,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/payroll/paynoloans",
+									"raw": "{{kalos_dev}}{{api}}/payroll/paynoloans",
 									"host": [
-										"{{kalos_local}}{{api}}"
+										"{{kalos_dev}}{{api}}"
 									],
 									"path": [
 										"payroll",
@@ -6484,7 +6484,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"nameBusiness\": \"Centro Pruebas Beautiful\",\r\n        \"tradename\": \"Nombre Sede O comercial\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"6614c35209b0934f2b0470ef\",\r\n        \"nomColla\": \"Jaime Edilson\",\r\n        \"document\": 80212758,\r\n        \"apeColla\": \"Raigozo Marquez \",\r\n        \"emailColla\": \"edisonra_@hotmail.com\",\r\n        \"movilColla\": 3106196928\r\n    },\r\n    \"BusinessCommissionValue\": 37500,\r\n    \"payLoans\": []\r\n}",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"Collaborator\": {\r\n        \"collaID\": \"6614c35209b0934f2b0470ef\",\r\n        \"nomColla\": \"Jaime Edilson\",\r\n        \"document\": 80212758,\r\n        \"apeColla\": \"Raigozo Marquez \",\r\n        \"emailColla\": \"edisonra_@hotmail.com\",\r\n        \"movilColla\": 3106196928\r\n    },\r\n    \"BusinessCommissionValue\": 10000,\r\n    \"payLoans\": [\r\n        // {\r\n        //     \"loanAmount\": 180000,\r\n        //     \"paymentDeadline\": 2,\r\n        //     \"loanDetail\": \"Pago Arriendo\",\r\n        //     \"applicationDate\": \"04/05/2024, 17:19:52\",\r\n        //     \"loanStatus\": \"Proceso de Pagado\",\r\n        //     \"prePay\": true,\r\n        //     \"newLoanBalance\": 90000,\r\n        //     \"paymentFees\": 1,\r\n        //     \"loansID\": \"6636b6862af9bc8ac51e7937\"\r\n        // }\r\n    ],\r\n    \"sumOfAdvances\": 0,\r\n    \"commissionPayment\": 10000\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
