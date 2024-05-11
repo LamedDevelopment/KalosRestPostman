@@ -3664,6 +3664,82 @@
 									"response": []
 								},
 								{
+									"name": "Cargue Certificado VIH",
+									"id": "cb6fdf8d-aa2b-4f43-9dc6-e5b999e726bd",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													],
+													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+												},
+												{
+													"key": "businessID",
+													"value": "655456e56eb1b0c5c3523c8a",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro Pruebas Beautiful",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "911111111",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Nombre Sede O comercial",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "CertificadoVIH",
+													"type": "text"
+												},
+												{
+													"key": "collaDocu",
+													"value": "80139076",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/mm",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"mm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
 									"name": "Cargue Certificado Bioseguridad",
 									"id": "693e977c-e1f2-413f-9dbc-6442fcee879a",
 									"protocolProfileBehavior": {
@@ -6009,6 +6085,47 @@
 					"id": "62080dfb-0fd9-4626-a34f-1c3dfff30298"
 				},
 				{
+					"name": "Business Document",
+					"item": [
+						{
+							"name": "View Type Services",
+							"id": "e63fe991-6519-482f-b67f-b8b8ab3b1713",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/tsv",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"tsv"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "6210d897-297f-414b-882c-8ac27e588e33"
+				},
+				{
 					"name": "Business",
 					"item": [
 						{
@@ -6506,6 +6623,84 @@
 						}
 					],
 					"id": "b7ecc4cf-d899-4d69-9faa-581477e1678f"
+				},
+				{
+					"name": "Personal Control",
+					"item": [
+						{
+							"name": "View All Collaborator",
+							"id": "0ffd664c-d7f3-4c7e-a6e1-7c633ea86193",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/sf/manaall",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"sf",
+										"manaall"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "View All Collaborator Copy",
+							"id": "ef649833-d93f-485b-bd94-f739810c1887",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"businessUser\": \"6614c35209b0934f2b0470be\",\r\n    \"business\": [\r\n        {\r\n            \"business\": \"661204ff9c1faeecf2f552f2\",\r\n            \"nit\": 802127585,\r\n            \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n            \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n            \"_id\": \"6614c35209b0934f2b0470bf\"\r\n        }\r\n    ],\r\n    \"collaborator\": {\r\n        \"email\": \"edisonra_@hotmail.com\",\r\n        \"name\": \"Jaime Edilson\",\r\n        \"lastName\": \"Raigozo Marquez \",\r\n        \"document\": 80212758\r\n    },\r\n    \"workPermit\": {\r\n        \"permitType\": \"Descanso Semanal\", // Permiso, Enfermedad, Calamidad,  //si va\r\n        \"controlDate\": \"11/05/2024\", // si va\r\n        \"allDay\": false, // si va\r\n        \"repeatEvent\": 1, // aun NO va se envia el parametro con numero 1\r\n        \"repeatEventWeekly\": false, //Aun NO va, enviarlo en false\r\n        \"dayWeek\": \"Sabado\", // Aun No Va\r\n        \"rangeOfDays\": 1, //Aun No Va\r\n        \"startTime\": \"09:00\", //Si va Hora inicio del permiso\r\n        \"endTime\": \"21:00\", //Si va Hora fin del permiso\r\n        \"note\": \"\" // Observacion del permiso\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/sf/manaall",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"sf",
+										"manaall"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "f7c611c3-14cb-484e-939c-bd1d9cd1fe9e"
 				},
 				{
 					"name": "Cash Register",
