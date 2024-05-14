@@ -4629,6 +4629,42 @@
 										}
 									},
 									"response": []
+								},
+								{
+									"name": "View Client data",
+									"id": "038e6b36-6f12-451d-8a79-02976f9f3377",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"appointmentID\": \"6642e5121a166ecf187cd1d6\",\r\n    \"business\": \"661204ff9c1faeecf2f552f2\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/datacustom",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"datacustom"
+											]
+										}
+									},
+									"response": []
 								}
 							],
 							"id": "32fc81e8-cb76-474a-8721-bdaf522d46e5"
