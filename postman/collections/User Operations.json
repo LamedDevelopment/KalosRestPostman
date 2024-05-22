@@ -297,7 +297,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n    \"services\": \"64ab9aced82418177a7237e2\",\r\n    \"typeServices\": \"64ab9b17d82418177a7237ee\",\r\n    \"dateService\": \"12/05/2024\",\r\n    \"timeService\": \"13:30:00\"\r\n}\r\n",
+									"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n    \"services\": \"64ab9aced82418177a7237e2\",\r\n    \"typeServices\": \"64ab9b17d82418177a7237ee\",\r\n    \"dateService\": \"20/05/2024\",\r\n    \"timeService\": \"10:00:00\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -305,9 +305,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_dev}}{{api}}/apu",
+									"raw": "{{kalos_local}}{{api}}/apu",
 									"host": [
-										"{{kalos_dev}}{{api}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"apu"

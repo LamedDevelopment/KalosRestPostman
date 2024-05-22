@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "d3b84179-cea5-4cbe-b582-d7a20da86b99",
+		"name": "Facturacion Electronica Alegra",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "30190062-d3b84179-cea5-4cbe-b582-d7a20da86b99"
+	},
+	"item": [
+		{
+			"name": "Invoices Services",
+			"id": "9970c082-9535-4b91-a94f-13587acbaf25",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic bGFtZWRkZXZAZ21haWwuY29tOjBlZWMzZjQwZDRjMTgzMWU4Yjk0"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"date\":\"2015-11-19\",\r\n    \"dueDate\":\"2015-12-19\",\r\n    \"observations\": \"Observaciones de la factura.\",\r\n    \"anotation\": \"Nota : Favor consignar a la cuenta XXXXXX\",\r\n    \"termsConditions\": \"Términos y condiciones de mi empresa\",\r\n    \"status\": \"draft\",\r\n    \"numberTemplate\": \r\n        {\r\n            \"id\": 1,\r\n            \"prefix\": \"A-\",\r\n            \"number\": 525\r\n        },\r\n    \"client\": \r\n        {\r\n            \"id\": 1\r\n        },\r\n    \"currency\": {\"code\": \"COP\", \"exchangeRate\": 0},\r\n    \"items\": [\r\n      {\r\n        \"id\": 1,\r\n        \"description\": \"Peluqueria - Corte\", //Tenemos que integrar todos los servicios del establecimiento?\r\n        \"reference\": \"PE01\",\r\n        \"discount\": 0,\r\n        // \"tax\": [{\"id\": 6}],\r\n        \"price\": 25000,\r\n        \"quantity\": 1\r\n      }\r\n    //   {\r\n    //     \"id\": 2,\r\n    //     \"description\": \"Pelo - Color\",\r\n    //     \"reference\": \"CO01\",\r\n    //     \"price\": 90000,\r\n    //     \"discount\": 0,\r\n    //     \"tax\": [{\"id\": 6}],\r\n    //     \"quantity\": 1\r\n    //   }\r\n    ],\r\n    \"tax\": [\r\n        {\r\n            \"id\": 6,\r\n            \"name\": \"IVA\",\r\n            \"percentage\": 19,\r\n            \"description\": \"Impuesto de valor agregado\"\r\n        }\r\n    ],\r\n    \"category\": {\r\n        \"id\": 54,\r\n        \"name\": \"Ventas\"\r\n    }\r\n    // \"price\": [\r\n    //     {\r\n    //         \"idPriceList\": 1,\r\n    //         \"name\": \"General\",\r\n    //         \"price\": 1200\r\n    //     },\r\n    //     {\r\n    //         \"idPriceList\": 2,\r\n    //         \"name\": \"Distribuidor\",\r\n    //         \"price\": 1050\r\n    //     }\r\n    // ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.alegra.com/api/v1/invoices",
+					"protocol": "https",
+					"host": [
+						"api",
+						"alegra",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"invoices"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

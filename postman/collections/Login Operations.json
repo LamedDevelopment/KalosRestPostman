@@ -259,7 +259,7 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "{{tk_user}}"
+						"value": "{{tk_colla}}"
 					}
 				],
 				"body": {

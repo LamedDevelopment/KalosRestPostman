@@ -3175,7 +3175,11 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Downloads/DiplomadeGrado.pdf"
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/C:/Users/LAMUX/Downloads/PAgo_Acueducto_Home.pdf"
+													],
+													"src": "/C:/Users/LAMUX/Downloads/PAgo_Acueducto_Home.pdf"
 												},
 												{
 													"key": "businessID",
@@ -4538,6 +4542,42 @@
 										}
 									},
 									"response": []
+								},
+								{
+									"name": "View Type Documents",
+									"id": "7f92b916-7d80-4251-8a5d-11ca24abc016",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/viewalldoc",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"viewalldoc"
+											]
+										}
+									},
+									"response": []
 								}
 							],
 							"id": "375c8b78-722b-4db0-ae18-1f85cf81a0bf",
@@ -4631,7 +4671,7 @@
 									"response": []
 								},
 								{
-									"name": "View Client data",
+									"name": "View Historical Client data",
 									"id": "038e6b36-6f12-451d-8a79-02976f9f3377",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -6058,7 +6098,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"6628fd4b86e910e78eb7d9a1\",\r\n    \"staffReceivingPayment\": {\r\n        \"creatorStaffBusiness\": \"661204ff9c1faeecf2f552f6\",\r\n        \"name\": \"Viviana Andrea\",\r\n        \"lastName\": \"Caicedo\"\r\n    },\r\n    \"user\": {\r\n        \"userID\": \"6612e3dabf47139ed112431d\",\r\n        \"docu\": 1112223330,\r\n        \"nomUser\": \"Karen julieth\",\r\n        \"apeUser\": \"Sánchez Garzón \",\r\n        \"emailUser\": \"karensann98@gmail.com\",\r\n        \"movilUser\": 3226095746\r\n    },\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"branchOffice\": {\r\n            \"phone\": {\r\n                \"description\": \"Recepcion\"\r\n            },\r\n            \"cellphone\": {\r\n                \"description\": \"Recepcion\"\r\n            },\r\n            \"location\": {\r\n                \"type\": \"Point\",\r\n                \"coordinates\": [\r\n                    4.602993671064257,\r\n                    -74.21185042633\r\n                ]\r\n            },\r\n            \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n            \"address\": \"Diag 73 B Sur # 79 c - 09 Piso 1\",\r\n            \"email\": \"viviana.caicedo@hotmail.com\",\r\n            \"city\": \"Bogota\",\r\n            \"country\": \"Colombia\",\r\n            \"countryCode\": \"CO\",\r\n            \"state\": \"DC\",\r\n            \"services\": [\r\n                {\r\n                    \"services\": \"64ab9174923ff67b725791b7\",\r\n                    \"name\": \"Peluqueria\",\r\n                    \"servicesUnique\": \"20965636_802127585_Peluqueria\",\r\n                    \"_id\": \"661204ff9c1faeecf2f552fd\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9448063c636a40004160\",\r\n                    \"name\": \"Peinados\",\r\n                    \"servicesUnique\": \"20965636_802127585_Peinados\",\r\n                    \"_id\": \"661204ff9c1faeecf2f552fe\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9537063c636a4000417b\",\r\n                    \"name\": \"Tinturas\",\r\n                    \"servicesUnique\": \"20965636_802127585_Tinturas\",\r\n                    \"_id\": \"661204ff9c1faeecf2f552ff\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab95f1063c636a40004196\",\r\n                    \"name\": \"Cuidado Capilar\",\r\n                    \"servicesUnique\": \"20965636_802127585_Cuidado Capilar\",\r\n                    \"_id\": \"661204ff9c1faeecf2f55300\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9aced82418177a7237e2\",\r\n                    \"name\": \"Barberia\",\r\n                    \"servicesUnique\": \"20965636_802127585_Barberia\",\r\n                    \"_id\": \"661204ff9c1faeecf2f55301\"\r\n                },\r\n                {\r\n                    \"services\": \"64ab9b60d82418177a7237fd\",\r\n                    \"name\": \"Cuidado Facial\",\r\n                    \"servicesUnique\": \"20965636_802127585_Cuidado Facial\",\r\n                    \"_id\": \"661204ff9c1faeecf2f55302\"\r\n                }\r\n            ]\r\n        }\r\n    },\r\n    \"serviceDescription\": [\r\n        {\r\n            \"_id\": \"6627df5162cacfa524980cb8\",\r\n            \"ServicesID\": \"66120618f831ade9d90b5485\",\r\n            \"ServicesParameter\": \"66120618f831ade9d90b5485\",\r\n            \"nameService\": \"Peluqueria\",\r\n            \"nameTypeService\": \"Corte\",\r\n            \"servicePrice\": 15500,\r\n            \"discount\": null,\r\n            \"staffServices\": [\r\n                {\r\n                    \"staff\": \"6614c35209b0934f2b0470ef\",\r\n                    \"nameCollaborator\": \"Jaime Edilson Raigozo Marquez \",\r\n                    \"status\": true,\r\n                    \"_id\": \"6627df5162cacfa524980cb9\"\r\n                }\r\n            ],\r\n            \"AddServiceDescription\": [\r\n                {\r\n                    \"serviceName\": \"Color\",\r\n                    \"CostService\": \"85000\",\r\n                    \"_id\": \"66288c519ce1ef31d694636e\"\r\n                }\r\n            ],\r\n            \"supplies\": [\r\n                {\r\n                    \"staff\": \"6614c35209b0934f2b0470ef\",\r\n                    \"product\": \"Color Pelo\",\r\n                    \"brand\": \"Kuul\",\r\n                    \"reference\": \"6.1\",\r\n                    \"description\": \"Cenizo\",\r\n                    \"suppliesPrice\": 20000,\r\n                    \"dateCreate\": \"1713933393359\",\r\n                    \"_id\": \"66288c519ce1ef31d694636d\"\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"appointmentDate\": [\r\n        {\r\n            \"appointmentDateID\": \"6627df5162cacfa524980cba\",\r\n            \"dateService\": \"23/04/2024\",\r\n            \"timeService\": \"11:30:00\"\r\n        }\r\n    ],\r\n    \"subTotal\": 100500,\r\n    \"discount\": {\r\n        \"PercentegeDiscount\": 0,\r\n        \"discount\": 0\r\n    },\r\n    \"taxes\": {\r\n        \"taxes\": \"IVA\",\r\n        \"taxValue\": 0,\r\n        \"tax\": 0\r\n    },\r\n    \"grandTotal\": 100500,\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"invoiceRequired\": true,\r\n    \"observation\": \"Cancela Sin Impuestos y Descuentos\",\r\n    \"customerLoyaltyService\": {\r\n        \"user\": {\r\n            \"userID\": \"6612e3dabf47139ed112431d\",\r\n            \"docu\": 1112223330,\r\n            \"emailUser\": \"karensann98@gmail.com\"\r\n        },\r\n        \"business\": {\r\n            \"nit\": 802127585,\r\n            \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n        },\r\n        \"LoyaltyService\": 11\r\n    }\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"664b69b3c299d304064c3df4\",\r\n    \"staffReceivingPayment\": {\r\n        \"creatorStaffBusiness\": \"661204ff9c1faeecf2f552f6\",\r\n        \"name\": \"Viviana Andrea\",\r\n        \"lastName\": \"Caicedo\"\r\n    },\r\n    \"user\": {\r\n        \"userID\": \"64b2ee2ce9f144ef52a96853\",\r\n        \"docu\": 1111222233,\r\n        \"nomUser\": \"Elizabeth\",\r\n        \"apeUser\": \"Sáenz\",\r\n        \"emailUser\": \"elizabethvoxlot@gmail.com\",\r\n        \"movilUser\": 3142540351\r\n    },\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"branchOffice\": [\r\n            {\r\n                \"businessname\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n                \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n                \"address\": \"Diag 73 B Sur # 79 c - 09 Piso 1\",\r\n                \"phone\": {\r\n                    \"description\": \"Recepcion\"\r\n                },\r\n                \"cellphone\": {\r\n                    \"description\": \"Recepcion\"\r\n                },\r\n                \"email\": \"viviana.caicedo@hotmail.com\",\r\n                \"location\": {\r\n                    \"type\": \"Point\",\r\n                    \"coordinates\": [\r\n                        4.602993671064257,\r\n                        -74.21185042633\r\n                    ]\r\n                },\r\n                \"city\": \"Bogota\",\r\n                \"country\": \"Colombia\",\r\n                \"countryCode\": \"CO\",\r\n                \"state\": \"DC\",\r\n                \"services\": [\r\n                    {\r\n                        \"services\": \"64ab9174923ff67b725791b7\",\r\n                        \"name\": \"Peluqueria\",\r\n                        \"servicesUnique\": \"20965636_802127585_Peluqueria\",\r\n                        \"_id\": \"661204ff9c1faeecf2f552fd\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9448063c636a40004160\",\r\n                        \"name\": \"Peinados\",\r\n                        \"servicesUnique\": \"20965636_802127585_Peinados\",\r\n                        \"_id\": \"661204ff9c1faeecf2f552fe\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9537063c636a4000417b\",\r\n                        \"name\": \"Tinturas\",\r\n                        \"servicesUnique\": \"20965636_802127585_Tinturas\",\r\n                        \"_id\": \"661204ff9c1faeecf2f552ff\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab95f1063c636a40004196\",\r\n                        \"name\": \"Cuidado Capilar\",\r\n                        \"servicesUnique\": \"20965636_802127585_Cuidado Capilar\",\r\n                        \"_id\": \"661204ff9c1faeecf2f55300\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9aced82418177a7237e2\",\r\n                        \"name\": \"Barberia\",\r\n                        \"servicesUnique\": \"20965636_802127585_Barberia\",\r\n                        \"_id\": \"661204ff9c1faeecf2f55301\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9b60d82418177a7237fd\",\r\n                        \"name\": \"Cuidado Facial\",\r\n                        \"servicesUnique\": \"20965636_802127585_Cuidado Facial\",\r\n                        \"_id\": \"661204ff9c1faeecf2f55302\"\r\n                    }\r\n                ]\r\n            }\r\n        ]\r\n    },\r\n    \"serviceDescription\": [\r\n        {\r\n            \"_id\": \"664b69b3c299d304064c3df5\",\r\n            \"ServicesID\": \"66120618f831ade9d90b548d\",\r\n            \"ServicesParameter\": \"66120618f831ade9d90b548d\",\r\n            \"nameService\": \"Peluqueria\",\r\n            \"nameTypeService\": \"Grafilado\",\r\n            \"servicePrice\": 15000,\r\n            \"discount\": null,\r\n            \"staffServices\": [\r\n                {\r\n                    \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n                    \"nameCollaborator\": \"Johan Varon\",\r\n                    \"status\": true,\r\n                    \"_id\": \"664b69b3c299d304064c3df6\"\r\n                }\r\n            ],\r\n            \"AddServiceDescription\": [\r\n                {\r\n                    \"serviceName\": \"color\",\r\n                    \"CostService\": \"250000\",\r\n                    \"_id\": \"664b6a56c299d304064c3e1b\"\r\n                }\r\n            ],\r\n            \"supplies\": [\r\n                {\r\n                    \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n                    \"product\": \"Color Pelo\",\r\n                    \"brand\": \"Kuul\",\r\n                    \"reference\": \"6.1\",\r\n                    \"description\": \"cenizo 15ggms\",\r\n                    \"suppliesPrice\": 25000,\r\n                    \"dateCreate\": \"1716218454730\",\r\n                    \"_id\": \"664b6a56c299d304064c3e1a\"\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"appointmentDate\": [\r\n        {\r\n            \"appointmentDateID\": \"664b69b3c299d304064c3df7\",\r\n            \"dateService\": \"20/05/2024\",\r\n            \"timeService\": \"11:00:00\"\r\n        }\r\n    ],\r\n    \"subTotal\": 265000,\r\n    \"discount\": {\r\n        \"PercentegeDiscount\": 0,\r\n        \"discount\": 0\r\n    },\r\n    \"taxes\": {\r\n        \"taxes\": \"IVA\",\r\n        \"taxValue\": 0,\r\n        \"tax\": 0\r\n    },\r\n    \"grandTotal\": 265000,\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Nequi\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"Nequi\",\r\n                \"codRefPay\": \"M123456\"\r\n            }\r\n        }\r\n    ],\r\n    \"invoiceRequired\": true,\r\n    \"observation\": \"\",\r\n    \"customerLoyaltyService\": {\r\n        \"user\": {\r\n            \"userID\": \"64b2ee2ce9f144ef52a96853\",\r\n            \"docu\": 1111222233,\r\n            \"emailUser\": \"elizabethvoxlot@gmail.com\"\r\n        },\r\n        \"business\": {\r\n            \"nit\": 802127585,\r\n            \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n        },\r\n        \"LoyaltyService\": 26\r\n    }\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6799,7 +6839,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{ //Formulario de Egresos\r\n    \"businessID\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"paymentMethod\": \"Nequi\",//Opciones Nequi, DaviPlata, Efectivo, Transferencia Bancaria\r\n    \"amountPaid\": \"50000\",\r\n    \"payees\": \"Nombre del Beneficiario 1\",\r\n    \"descriptionExpenditure\": \"Prestamo al colaborador\",\r\n    \"expenditureDate\": \"05/03/2024\", //Fecha en que genera el Egreso, en el front un campo tipo fecha\r\n    \"categorizationExpenditures\": \"Anticipo\",//la categoría del egreso, como gastos operativos, suministros, salario, Anticipo o Prestamo etc\r\n    \"approvalOfExpenditures\": \"\" //Aqui podremos poner un objeto con los datos del que autoriza el pago\r\n}",
+									"raw": "{ //Formulario de Egresos\r\n    \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"paymentMethod\": \"Efectivo\",\r\n    \"amountPaid\": \"213123\",\r\n    \"payees\": \"kevin\",\r\n    \"descriptionExpenditure\": \"prueba\",\r\n    \"expenditureDate\": \"19-05-2024\",\r\n    \"categorizationExpenditures\": \"asdads\",\r\n    \"approvalOfExpenditures\": \"\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
