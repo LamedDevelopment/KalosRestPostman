@@ -4692,6 +4692,42 @@
 										}
 									},
 									"response": []
+								},
+								{
+									"name": "View Documents",
+									"id": "5a78efc3-cc17-40c3-874d-719214a25e84",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"nit\": 802127585,\r\n    \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"documentType\": \"Curriculum\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/viewdoc",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"viewdoc"
+											]
+										}
+									},
+									"response": []
 								}
 							],
 							"id": "375c8b78-722b-4db0-ae18-1f85cf81a0bf",
