@@ -3175,30 +3175,26 @@
 												{
 													"key": "file",
 													"type": "file",
-													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
-													"filesNotInWorkingDirectory": [
-														"/C:/Users/LAMUX/Downloads/PAgo_Acueducto_Home.pdf"
-													],
-													"src": "/C:/Users/LAMUX/Downloads/PAgo_Acueducto_Home.pdf"
+													"src": "postman-cloud:///1ef1a174-2cbd-47c0-8206-58c04bea1368"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "661204ff9c1faeecf2f552f2",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "802127585",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
 													"type": "text"
 												},
 												{
@@ -3208,8 +3204,19 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "",
+													"value": "321",
 													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
+													"type": "text"
+												},
+												{
+													"key": "",
+													"value": "",
+													"type": "text",
+													"disabled": true
 												}
 											],
 											"options": {
@@ -3251,26 +3258,30 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/J:/Mi unidad/Documentos de Prueba PDF/RUT.pdf"
+													],
+													"src": "postman-cloud:///1ef1a1cf-e14d-47c0-ae8b-daeea6d176eb"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "661204ff9c1faeecf2f552f2",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "802127585",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
 													"type": "text"
 												},
 												{
@@ -3281,6 +3292,11 @@
 												{
 													"key": "collaDocu",
 													"value": "",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -3323,26 +3339,30 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/J:/Mi unidad/Documentos de Prueba PDF/SaycoAcinpro.pdf"
+													],
+													"src": "postman-cloud:///1ef1a1d4-e05c-4730-a337-cfcc68b3c7c3"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "661204ff9c1faeecf2f552f2",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "802127585",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
 													"type": "text"
 												},
 												{
@@ -3353,6 +3373,11 @@
 												{
 													"key": "collaDocu",
 													"value": "",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -3395,30 +3420,26 @@
 												{
 													"key": "file",
 													"type": "file",
-													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
-													"filesNotInWorkingDirectory": [
-														"/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
-													],
-													"src": "postman-cloud:///1eee2f5c-2131-4740-ae9f-6e227fbf5c60"
+													"src": "postman-cloud:///1ef1a1d7-75f1-4af0-b922-9800a8052aab"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "661204ff9c1faeecf2f552f2",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "802127585",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
 													"type": "text"
 												},
 												{
@@ -3429,6 +3450,11 @@
 												{
 													"key": "collaDocu",
 													"value": "",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -3471,26 +3497,26 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"src": "postman-cloud:///1ef1a1dc-8a14-4280-8ff6-29d9b008c358"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "661204ff9c1faeecf2f552f2",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "802127585",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
 													"type": "text"
 												},
 												{
@@ -3500,7 +3526,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "80139076",
+													"value": "80212758",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -3543,26 +3574,26 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"src": "/J:/Mi unidad/Documentos de Prueba PDF/Documento de Identidad Colaborador.pdf"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "661204ff9c1faeecf2f552f2",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "802127585",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
 													"type": "text"
 												},
 												{
@@ -3572,7 +3603,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "80139076",
+													"value": "80212758",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -3615,26 +3651,26 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"src": "postman-cloud:///1ef1a1ec-b063-4f20-ac46-8be8f31835a6"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "{{businessID}}",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "{{nameBusiness}}",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "{{businessNit}}",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "{{tradename}}",
 													"type": "text"
 												},
 												{
@@ -3644,7 +3680,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "80139076",
+													"value": "{{collaDocu}}",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -3687,30 +3728,26 @@
 												{
 													"key": "file",
 													"type": "file",
-													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
-													"filesNotInWorkingDirectory": [
-														"/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
-													],
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"src": "postman-cloud:///1ef1a1f0-8927-48e0-beec-05db90ab1c2f"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "{{businessID}}",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "{{nameBusiness}}",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "{{businessNit}}",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "{{tradename}}",
 													"type": "text"
 												},
 												{
@@ -3720,7 +3757,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "80139076",
+													"value": "{{collaDocu}}",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -3763,26 +3805,30 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/J:/Mi unidad/Documentos de Prueba PDF/Certificado de Bioseguridad.pdf"
+													],
+													"src": "postman-cloud:///1ef1a200-dfcc-4640-8a59-dfb4b8f6353a"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "{{businessID}}",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "{{nameBusiness}}",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "{{businessNit}}",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "{{tradename}}",
 													"type": "text"
 												},
 												{
@@ -3792,7 +3838,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "80139076",
+													"value": "{{collaDocu}}",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -3835,26 +3886,26 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"src": "/J:/Mi unidad/Documentos de Prueba PDF/Concepto Sanitario.pdf"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "{{businessID}}",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "{{nameBusiness}}",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "{{businessNit}}",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "{{tradename}}",
 													"type": "text"
 												},
 												{
@@ -3864,7 +3915,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "",
+													"value": "{{collaDocu}}",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -3907,26 +3963,31 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/C:/Users/LAMUX/Downloads/ActadeGrado.pdf",
+														"/J:/Mi unidad/Documentos de Prueba PDF/Control de Vectores.pdf"
+													],
+													"src": "/J:/Mi unidad/Documentos de Prueba PDF/Control de Vectores.pdf"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "{{businessID}}",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "{{nameBusiness}}",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "{{businessNit}}",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "{{tradename}}",
 													"type": "text"
 												},
 												{
@@ -3936,7 +3997,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "",
+													"value": "{{collaDocu}}",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -3979,26 +4045,30 @@
 												{
 													"key": "file",
 													"type": "file",
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													],
 													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "{{businessID}}",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "{{nameBusiness}}",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "{{businessNit}}",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "{{tradename}}",
 													"type": "text"
 												},
 												{
@@ -4008,7 +4078,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "",
+													"value": "{{collaDocu}}",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -4051,30 +4126,26 @@
 												{
 													"key": "file",
 													"type": "file",
-													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
-													"filesNotInWorkingDirectory": [
-														"/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
-													],
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"src": "/J:/Mi unidad/Documentos de Prueba PDF/Control de EPP.pdf"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "{{businessID}}",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "{{nameBusiness}}",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "{{businessNit}}",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "{{tradename}}",
 													"type": "text"
 												},
 												{
@@ -4084,7 +4155,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "",
+													"value": "{{collaDocu}}",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -4127,26 +4203,26 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"src": "/J:/Mi unidad/Documentos de Prueba PDF/Protocolo de Higiene de Manos.pdf"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "{{businessID}}",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "{{nameBusiness}}",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "{{businessNit}}",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "{{tradename}}",
 													"type": "text"
 												},
 												{
@@ -4156,7 +4232,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "",
+													"value": "{{collaDocu}}",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -4199,26 +4280,26 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"src": "/J:/Mi unidad/Documentos de Prueba PDF/Relacion de Equipos Y Registro INVIMA.pdf"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "{{businessID}}",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "{{nameBusiness}}",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "{{businessNit}}",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "{{tradename}}",
 													"type": "text"
 												},
 												{
@@ -4228,7 +4309,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "",
+													"value": "{{collaDocu}}",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -4271,30 +4357,26 @@
 												{
 													"key": "file",
 													"type": "file",
-													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
-													"filesNotInWorkingDirectory": [
-														"/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
-													],
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"src": "/J:/Mi unidad/Documentos de Prueba PDF/Gestion Integral de Residuos.pdf"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "{{businessID}}",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "{{nameBusiness}}",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "{{businessNit}}",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "{{tradename}}",
 													"type": "text"
 												},
 												{
@@ -4304,7 +4386,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "",
+													"value": "{{collaDocu}}",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -4347,26 +4434,30 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/J:/Mi unidad/Documentos de Prueba PDF/Certificado de Uso de Suelos.pdf"
+													],
+													"src": "postman-cloud:///1ef1a27b-a451-4130-b1e0-0a1a4eef4763"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "{{businessID}}",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "{{nameBusiness}}",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "{{businessNit}}",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "{{tradename}}",
 													"type": "text"
 												},
 												{
@@ -4376,7 +4467,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "",
+													"value": "{{collaDocu}}",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -4419,26 +4515,30 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/J:/Mi unidad/Documentos de Prueba PDF/Planos de Establecimiento.pdf"
+													],
+													"src": "postman-cloud:///1ef1a27f-25d9-4240-93c9-a3b8e05f56f5"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "{{businessID}}",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "{{nameBusiness}}",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "{{businessNit}}",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "{{tradename}}",
 													"type": "text"
 												},
 												{
@@ -4448,7 +4548,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "",
+													"value": "{{collaDocu}}",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
 													"type": "text"
 												}
 											],
@@ -4491,26 +4596,30 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Downloads/ActadeGrado.pdf"
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/J:/Mi unidad/Documentos de Prueba PDF/Relacion de Servicios del Establecimiento.pdf"
+													],
+													"src": "postman-cloud:///1ef1a282-72d9-4f10-9595-480f8b9afa58"
 												},
 												{
 													"key": "businessID",
-													"value": "655456e56eb1b0c5c3523c8a",
+													"value": "{{businessID}}",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro Pruebas Beautiful",
+													"value": "{{nameBusiness}}",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "911111111",
+													"value": "{{businessNit}}",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Nombre Sede O comercial",
+													"value": "{{tradename}}",
 													"type": "text"
 												},
 												{
@@ -4520,7 +4629,12 @@
 												},
 												{
 													"key": "collaDocu",
-													"value": "",
+													"value": "{{collaDocu}}",
+													"type": "text"
+												},
+												{
+													"key": "validity",
+													"value": "Anaul",
 													"type": "text"
 												}
 											],
@@ -4558,8 +4672,8 @@
 											}
 										],
 										"body": {
-											"mode": "raw",
-											"raw": "",
+											"mode": "formdata",
+											"formdata": [],
 											"options": {
 												"raw": {
 													"language": "json"
