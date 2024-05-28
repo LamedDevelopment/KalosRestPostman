@@ -5876,6 +5876,42 @@
 									"response": []
 								},
 								{
+									"name": "User History",
+									"id": "c9605e19-cc49-44fa-b090-e17012650708",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/uapdma",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"uapdma"
+											]
+										}
+									},
+									"response": []
+								},
+								{
 									"name": "Consulta de Citas Semana",
 									"id": "5ea0bbc5-c99c-48d9-b762-7df51ef556c1",
 									"protocolProfileBehavior": {
@@ -6989,7 +7025,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{ //Formulario de Egresos\r\n    \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"paymentMethod\": \"Efectivo\",\r\n    \"amountPaid\": \"213123\",\r\n    \"payees\": \"kevin\",\r\n    \"descriptionExpenditure\": \"prueba\",\r\n    \"expenditureDate\": \"19-05-2024\",\r\n    \"categorizationExpenditures\": \"asdads\",\r\n    \"approvalOfExpenditures\": \"\"\r\n}",
+									"raw": "{ //Formulario de Egresos\r\n    \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"paymentMethod\": \"Efectivo\",\r\n    \"amountPaid\": \"102000\",\r\n    \"payees\": \"kevin\",\r\n    \"descriptionExpenditure\": \"Pago de Servicio de Internet\",\r\n    \"expenditureDate\": \"20-05-2024\",\r\n    \"categorizationExpenditures\": \"asdads\",\r\n    \"approvalOfExpenditures\": \"\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -7028,7 +7064,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"TotalVentas\": {\r\n        \"_id\": 911111111,\r\n        \"totalSales\": 237000\r\n    },\r\n    \"DetallesVentas\": [\r\n        {\r\n            \"totalServicesFacturados\": 1,\r\n            \"services\": {\r\n                \"name\": \"Peluqueria\",\r\n                \"type\": \"Corte\",\r\n                \"client\": \"Simona Sáenz\",\r\n                \"price\": 160000,\r\n                \"collaborator\": [\r\n                    \"collaborator User\"\r\n                ],\r\n                \"appointmentID\": \"65e78dc9841d51165ceaf951\"\r\n            }\r\n        },\r\n        {\r\n            \"totalServicesFacturados\": 1,\r\n            \"services\": {\r\n                \"name\": \"Peluqueria\",\r\n                \"type\": \"Corte\",\r\n                \"client\": \"Elizabeth Saenz\",\r\n                \"price\": 77000,\r\n                \"collaborator\": [\r\n                    \"collaborator User\"\r\n                ],\r\n                \"appointmentID\": \"65eb8926f2b2208121beb8fb\"\r\n            }\r\n        }\r\n    ],\r\n    \"StatusAppoinment\": [\r\n        {\r\n            \"status\": \"Activos\",\r\n            \"count\": 5\r\n        },\r\n        {\r\n            \"status\": \"En Proceso\",\r\n            \"count\": 1\r\n        },\r\n        {\r\n            \"status\": \"Completados\",\r\n            \"count\": 3\r\n        },\r\n        {\r\n            \"status\": \"Cancelados\",\r\n            \"count\": 1\r\n        }\r\n    ],\r\n    \"methodOfCashReconciliation\": \"Cierre Final\",//enum: ['Cierre Parcial', 'Cierre Final']\r\n    \"Business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"name\": \"Centro Pruebas Beautiful\",\r\n        \"tradename\": \"Nombre Sede O comercial\"\r\n    }\r\n}",
+									"raw": "{\r\n    \"TotalVentas\": {\r\n        \"_id\": 802127585,\r\n        \"totalSales\": 525500\r\n    },\r\n    \"DetallesVentas\": [\r\n        {\r\n            \"totalServicesFacturados\": 1,\r\n            \"services\": {\r\n                \"name\": \"Peluqueria\",\r\n                \"type\": \"Grafilado\",\r\n                \"client\": \"Elizabeth Sáenz\",\r\n                \"price\": 105000,\r\n                \"collaborator\": [\r\n                    \"Johan Varon\"\r\n                ],\r\n                \"appointmentID\": \"665255bf467a10cd22d1e6d8\"\r\n            }\r\n        },\r\n        {\r\n            \"totalServicesFacturados\": 1,\r\n            \"services\": {\r\n                \"name\": \"Peluqueria\",\r\n                \"type\": \"Corte\",\r\n                \"client\": \"Elizabeth Sáenz\",\r\n                \"price\": 105500,\r\n                \"collaborator\": [\r\n                    \"Johan Varon\"\r\n                ],\r\n                \"appointmentID\": \"665264f50926585a1778ddda\"\r\n            }\r\n        },\r\n        {\r\n            \"totalServicesFacturados\": 1,\r\n            \"services\": {\r\n                \"name\": \"Peluqueria\",\r\n                \"type\": \"Grafilado\",\r\n                \"client\": \"Elizabeth Sáenz\",\r\n                \"price\": 105000,\r\n                \"collaborator\": [\r\n                    \"Johan Varon\"\r\n                ],\r\n                \"appointmentID\": \"665269a00926585a1778e08d\"\r\n            }\r\n        },\r\n        {\r\n            \"totalServicesFacturados\": 1,\r\n            \"services\": {\r\n                \"name\": \"Peluqueria\",\r\n                \"type\": \"Grafilado\",\r\n                \"client\": \"Elizabeth Sáenz\",\r\n                \"price\": 105000,\r\n                \"collaborator\": [\r\n                    \"Johan Varon\"\r\n                ],\r\n                \"appointmentID\": \"665270ae0926585a1778e2ef\"\r\n            }\r\n        },\r\n        {\r\n            \"totalServicesFacturados\": 1,\r\n            \"services\": {\r\n                \"name\": \"Peluqueria\",\r\n                \"type\": \"Grafilado\",\r\n                \"client\": \"Elizabeth Sáenz\",\r\n                \"price\": 105000,\r\n                \"collaborator\": [\r\n                    \"Johan Varon\"\r\n                ],\r\n                \"appointmentID\": \"66527869c5bb9457804ce8db\"\r\n            }\r\n        }\r\n    ],\r\n    \"StatusAppoinment\": [],\r\n    \"Billing\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 911111111,\r\n        \"name\": \"Centro Pruebas Beautiful\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
