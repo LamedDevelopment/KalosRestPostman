@@ -4717,9 +4717,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/doc/viewdoc",
+											"raw": "{{kalos_dev}}{{api}}/doc/viewdoc",
 											"host": [
-												"{{kalos_local}}{{api}}"
+												"{{kalos_dev}}{{api}}"
 											],
 											"path": [
 												"doc",
@@ -5804,7 +5804,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"loanAmount\": 999,\r\n    \"paymentDeadline\": 1,\r\n    \"meansOfLoan\": \"Nequi\", //Opciones de Medio de Pago: Nequi, Daviplata, Efectivo, Productos, \r\n    \"loanDetail\": \"Prueba de flujo de Proceso de Solicitud, para Desarrollo en la division de 1 cuotas\"\r\n}",
+									"raw": "{\r\n    \"loanAmount\": 50000,\r\n    \"paymentDeadline\": 1,\r\n    \"meansOfLoan\": \"Nequi\", //Opciones de Medio de Pago: Nequi, Daviplata, Efectivo, Productos, \r\n    \"loanDetail\": \"Prueba de flujo de Proceso de Solicitud, para Desarrollo en la division de 1 cuotas\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -5882,7 +5882,7 @@
 										"disableBodyPruning": true
 									},
 									"request": {
-										"method": "GET",
+										"method": "POST",
 										"header": [
 											{
 												"key": "x-token",
@@ -5891,7 +5891,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{}",
+											"raw": "{\r\n    \"userID\": \"64b2ee2ce9f144ef52a96853\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -5899,13 +5899,13 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/apu/uapdma",
+											"raw": "{{kalos_local}}{{api}}/apu/usehisappo",
 											"host": [
 												"{{kalos_local}}{{api}}"
 											],
 											"path": [
 												"apu",
-												"uapdma"
+												"usehisappo"
 											]
 										}
 									},
@@ -7131,6 +7131,120 @@
 						}
 					],
 					"id": "18ef07e0-d6cb-4fca-ad76-1d5c492259d6"
+				},
+				{
+					"name": "Reports And Dashboard",
+					"item": [
+						{
+							"name": "Total Sales",
+							"id": "23bb9149-50c5-4119-bdbd-636a7709eb25",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"month\": 5,\r\n    \"year\": 2024\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/dash/ttlsls",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"dash",
+										"ttlsls"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Total Expenses",
+							"id": "7153e9c2-97e2-477f-b1d3-89b159eeb12b",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"month\": 5,\r\n    \"year\": 2024\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/dash/ttlegrs",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"dash",
+										"ttlegrs"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Total Clients",
+							"id": "398a42e8-d255-4cb9-b1f9-1616a89797f5",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"month\": 5,\r\n    \"year\": 2024\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/dash/ttlclts",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"dash",
+										"ttlclts"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "6575a994-ce74-46bf-8bc0-931e1e068adc"
 				}
 			],
 			"id": "94c1402e-8f8e-4f3c-9499-8f246769c477"
