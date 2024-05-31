@@ -7007,6 +7007,45 @@
 							"response": []
 						},
 						{
+							"name": "Types Of Income Payment In Cash (MedioDePago)",
+							"id": "d11ce95d-becc-4b3f-af27-398d095f53c7",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/bill/tppaycas",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"bill",
+										"tppaycas"
+									]
+								}
+							},
+							"response": []
+						},
+						{
 							"name": "Outflows (Egresos)",
 							"id": "73faa2cd-43d4-4067-b922-8f3d475b9b63",
 							"protocolProfileBehavior": {
@@ -7238,6 +7277,42 @@
 									"path": [
 										"dash",
 										"ttlclts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Total Scheduled Appointments",
+							"id": "4d96ea07-8fa3-465f-85d2-b45666b2a7ec",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"month\": 5,\r\n    \"year\": 2024\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/dash/ttlscapp",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"dash",
+										"ttlscapp"
 									]
 								}
 							},
