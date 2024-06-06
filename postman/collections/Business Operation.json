@@ -6941,7 +6941,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"user\": {\r\n        \"staffID\": \"6614c35209b0934f2b0470be\", // Id de Staff\r\n        \"email\": \"edisonra_@hotmail.com\",\r\n        \"name\": \"Jaime Edilson\",\r\n        \"lastName\": \"Raigozo Marquez \",\r\n        \"document\": 80212758\r\n    },\r\n    \"workPermit\": {\r\n        \"permitType\": \"Enfermedad\", // Permiso, Enfermedad, Calamidad,  //si va\r\n        \"allDay\": false, // identificamos si el permiso ocupar toda la Jornada\r\n        \"dateService\": \"12/05/2024\", // Selecciona de un calendario\r\n        \"permissionInitHour\": \"15:00:00\", // La hora de inicio del permiso en este formato Si allDay = true No enviar esta hora\r\n        \"permissionInMinutes\": 180, // numero de horas del permiso Si allDay = true No enviar esta hora\r\n        \"startTime\": \"\", //Hora fin del permiso la Calcula el Backend\r\n        \"endTime\": \"\", //Hora fin del permiso la Calcula el Backend\r\n        \"note\": \"Nota de Prueba Para la creacion de un permiso\" // Observacion del permiso\r\n    }\r\n}",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"user\": {\r\n        \"staffID\": \"6614c35209b0934f2b0470be\", // Id de Staff\r\n        \"email\": \"edisonra_@hotmail.com\",\r\n        \"name\": \"Jaime Edilson\",\r\n        \"lastName\": \"Raigozo Marquez \",\r\n        \"document\": 80212758\r\n    },\r\n    \"workPermit\": {\r\n        \"permitType\": \"Dia de Descanso\", // Permiso, Enfermedad, Calamidad,  //si va\r\n        \"allDay\": true, // identificamos si el permiso ocupar toda la Jornada\r\n        \"dateService\": \"13/05/2024\", // Selecciona de un calendario\r\n        \"permissionInitHour\": \"15:00:00\", // La hora de inicio del permiso en este formato Si allDay = true No enviar esta hora\r\n        \"permissionInMinutes\": 180, // numero de horas del permiso Si allDay = true No enviar esta hora\r\n        \"startTime\": \"\", //Hora fin del permiso la Calcula el Backend\r\n        \"endTime\": \"\", //Hora fin del permiso la Calcula el Backend\r\n        \"note\": \"Nota de Prueba Para la creacion de un permiso\" // Observacion del permiso\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6956,6 +6956,114 @@
 									"path": [
 										"perag",
 										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show Working Time",
+							"id": "559b344e-3174-4ae0-aa76-33422ea50bd0",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/sf/vieworktime",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"sf",
+										"vieworktime"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Work Hours (Turnos)",
+							"id": "3d924f59-4c78-478d-935f-8f5af97c078f",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"TypeOfWorkingHours\": [\r\n        {\r\n            \"nameHours\": \"horario1\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"19:00\"\r\n        },\r\n        {\r\n            \"nameHours\": \"horario2\",\r\n            \"startTime\": \"08:00\",\r\n            \"endTime\": \"20:00\"\r\n        },\r\n        {\r\n            \"nameHours\": \"horario3\",\r\n            \"startTime\": \"10:00\",\r\n            \"endTime\": \"21:00\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/sf/creahours",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"sf",
+										"creahours"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Assign Work Hours (Asignar Turnos)",
+							"id": "ba97241b-fb99-4406-8516-3c80bdad76e5",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"user\": {\r\n        \"staffID\": \"6614c35209b0934f2b0470be\", // Id de Staff\r\n        \"email\": \"edisonra_@hotmail.com\",\r\n        \"name\": \"Jaime Edilson\",\r\n        \"lastName\": \"Raigozo Marquez \",\r\n        \"document\": 80212758\r\n    },\r\n    \"TypeOfWorkingHours\": {\r\n        \"nameHours\": \"horario1\",\r\n        \"startTime\": \"09:00\",\r\n        \"endTime\": \"19:00\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/sf/changehours",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"sf",
+										"changehours"
 									]
 								}
 							},
