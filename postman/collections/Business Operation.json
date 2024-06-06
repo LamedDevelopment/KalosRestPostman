@@ -1745,7 +1745,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"email\": \"kevinazul999@gmail.com\"\r\n}",
+											"raw": "{\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"email\": \"cjholbeiker@gmail.com\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1824,7 +1824,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"serviceID\": \"64ab9174923ff67b725791b7\"\r\n}",
+											"raw": "{\r\n    \"business\": \"665f2f56506d687b89232efc\",\r\n    \"serviceID\": \"64ab9448063c636a40004160\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6926,13 +6926,13 @@
 							"response": []
 						},
 						{
-							"name": "View All Collaborator Copy",
+							"name": "Create Permit Agenda",
 							"id": "ef649833-d93f-485b-bd94-f739810c1887",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "GET",
+								"method": "POST",
 								"header": [
 									{
 										"key": "x-token",
@@ -6941,7 +6941,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"businessUser\": \"6614c35209b0934f2b0470be\",\r\n    \"business\": [\r\n        {\r\n            \"business\": \"661204ff9c1faeecf2f552f2\",\r\n            \"nit\": 802127585,\r\n            \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n            \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n            \"_id\": \"6614c35209b0934f2b0470bf\"\r\n        }\r\n    ],\r\n    \"collaborator\": {\r\n        \"email\": \"edisonra_@hotmail.com\",\r\n        \"name\": \"Jaime Edilson\",\r\n        \"lastName\": \"Raigozo Marquez \",\r\n        \"document\": 80212758\r\n    },\r\n    \"workPermit\": {\r\n        \"permitType\": \"Descanso Semanal\", // Permiso, Enfermedad, Calamidad,  //si va\r\n        \"controlDate\": \"11/05/2024\", // si va\r\n        \"allDay\": false, // si va\r\n        \"repeatEvent\": 1, // aun NO va se envia el parametro con numero 1\r\n        \"repeatEventWeekly\": false, //Aun NO va, enviarlo en false\r\n        \"dayWeek\": \"Sabado\", // Aun No Va\r\n        \"rangeOfDays\": 1, //Aun No Va\r\n        \"startTime\": \"09:00\", //Si va Hora inicio del permiso\r\n        \"endTime\": \"21:00\", //Si va Hora fin del permiso\r\n        \"note\": \"\" // Observacion del permiso\r\n    }\r\n}",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"user\": {\r\n        \"staffID\": \"6614c35209b0934f2b0470be\", // Id de Staff\r\n        \"email\": \"edisonra_@hotmail.com\",\r\n        \"name\": \"Jaime Edilson\",\r\n        \"lastName\": \"Raigozo Marquez \",\r\n        \"document\": 80212758\r\n    },\r\n    \"workPermit\": {\r\n        \"permitType\": \"Enfermedad\", // Permiso, Enfermedad, Calamidad,  //si va\r\n        \"allDay\": false, // identificamos si el permiso ocupar toda la Jornada\r\n        \"dateService\": \"12/05/2024\", // Selecciona de un calendario\r\n        \"permissionInitHour\": \"15:00:00\", // La hora de inicio del permiso en este formato Si allDay = true No enviar esta hora\r\n        \"permissionInMinutes\": 180, // numero de horas del permiso Si allDay = true No enviar esta hora\r\n        \"startTime\": \"\", //Hora fin del permiso la Calcula el Backend\r\n        \"endTime\": \"\", //Hora fin del permiso la Calcula el Backend\r\n        \"note\": \"Nota de Prueba Para la creacion de un permiso\" // Observacion del permiso\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -6949,13 +6949,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/sf/manaall",
+									"raw": "{{kalos_local}}{{api}}/perag/",
 									"host": [
 										"{{kalos_local}}{{api}}"
 									],
 									"path": [
-										"sf",
-										"manaall"
+										"perag",
+										""
 									]
 								}
 							},

@@ -660,7 +660,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"Usuario Name\",\r\n    \"lastName\": \"Lastname Usuario\",\r\n    \"movil\": \"1234567890\",\r\n    \"email\": \"lamed.saenz@gmail.com\",\r\n    \"pass\": \"123456\",\r\n    \"terms\": \"true\"\r\n}",
+									"raw": "{\r\n    \"name\":\"Mónica Sandra\",\r\n    \"lastName\":\"Maldonado Gordillo\",\r\n    \"movil\":\"3102531704\",\r\n    \"email\":\"chiki202009@hotmail.com\",\r\n    \"pass\":\"12345\",\r\n    \"terms\":\"true\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -938,6 +938,42 @@
 									}
 								},
 								"url": {
+									"raw": "{{kalos_local}}{{api}}/verification-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Impob25zZWJhc3RpYW5tdW5venZpbGxhZGE0MjJAZ21haWwuY29tIiwidGltZSI6MTcxNzEyNDg1NzcxOSwiaWF0IjoxNzE3MTI0ODU3LCJleHAiOjE3MTcyOTc2NTd9.xxKRUO_W8sLgYbShA3WJemrXN1Hmb75sWhjzEFkIj8Y",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"verification-email"
+									],
+									"query": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Impob25zZWJhc3RpYW5tdW5venZpbGxhZGE0MjJAZ21haWwuY29tIiwidGltZSI6MTcxNzEyNDg1NzcxOSwiaWF0IjoxNzE3MTI0ODU3LCJleHAiOjE3MTcyOTc2NTd9.xxKRUO_W8sLgYbShA3WJemrXN1Hmb75sWhjzEFkIj8Y"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Validate Email User Copy",
+							"id": "23f6a3c0-349b-4f20-bee3-853a63e543ed",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
 									"raw": "{{kalos_local}}{{api}}/emailverification/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsaXphYmV0aHZveGxvdEBnbWFpbC5jb20iLCJ0aW1lIjoxNjg5NDQ3NDgwLCJpYXQiOjE2ODk0NDc5ODAsImV4cCI6MTY4OTUzNDM4MH0.xHLaCumaAhdxEwc8aYSieIKzxFxpCKa_9JJFFRlPmHE",
 									"host": [
 										"{{kalos_local}}{{api}}"
@@ -975,14 +1011,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/forpass/vatkusr/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxhbWVkZGV2QGdtYWlsLmNvbSIsInRpbWUiOjE3MTM3NDc5MDQ0NDAsImNvZFZhbGlkYXRlVXNlciI6MTcxMzc2NTkwNDQ0MCwiaWF0IjoxNzEzNzQ3OTA0LCJleHAiOjE3MTM3NjU5MDR9.TDEvqMTyCV0dKdsqdwxu5O8ZiAAetSpjhJDAqDxMrRQ",
+									"raw": "{{kalos_local}}{{api}}/forpass/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Impob25zZWJhc3RpYW5tdW5venZpbGxhZGE0MjJAZ21haWwuY29tIiwidGltZSI6MTcxNzEyNDg1NzcxOSwiaWF0IjoxNzE3MTI0ODU3LCJleHAiOjE3MTcyOTc2NTd9.xxKRUO_W8sLgYbShA3WJemrXN1Hmb75sWhjzEFkIj8Y",
 									"host": [
 										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"forpass",
-										"vatkusr",
-										"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxhbWVkZGV2QGdtYWlsLmNvbSIsInRpbWUiOjE3MTM3NDc5MDQ0NDAsImNvZFZhbGlkYXRlVXNlciI6MTcxMzc2NTkwNDQ0MCwiaWF0IjoxNzEzNzQ3OTA0LCJleHAiOjE3MTM3NjU5MDR9.TDEvqMTyCV0dKdsqdwxu5O8ZiAAetSpjhJDAqDxMrRQ"
+										"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Impob25zZWJhc3RpYW5tdW5venZpbGxhZGE0MjJAZ21haWwuY29tIiwidGltZSI6MTcxNzEyNDg1NzcxOSwiaWF0IjoxNzE3MTI0ODU3LCJleHAiOjE3MTcyOTc2NTd9.xxKRUO_W8sLgYbShA3WJemrXN1Hmb75sWhjzEFkIj8Y"
 									],
 									"query": [
 										{
