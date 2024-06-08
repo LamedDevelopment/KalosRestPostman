@@ -557,7 +557,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"serviceName\": \"64ab9debd82418177a723847\",\r\n    \"typeService\": \"Retiro Sistemas\"\r\n}",
+							"raw": "{\r\n    \"serviceName\": \"665fd12e3a9d1e5376a0ee20\",\r\n    \"typeService\": \"Ritual Botanico\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1175,7 +1175,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92f3063c636a4000414d\",\r\n    \"staffType\": \"64b2ddb51bcd863da11fa144\",\r\n    \"serviceTime\": \"28\",\r\n    \"biocleaning\": \"2\",\r\n    \"servicePrice\": \"15000\"\r\n}",
+							"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"typeList\": \"Lista 1\",\r\n    \"services\": \"665fd12e3a9d1e5376a0ee20\",\r\n    \"typeServices\": \"6663d82ea925a38e7d22cf0e\",\r\n    \"staffType\": \"64b2ddb51bcd863da11fa144\",\r\n    \"serviceTime\": \"58\",\r\n    \"biocleaning\": \"2\",\r\n    \"servicePrice\": \"300000\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1183,9 +1183,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_dev}}{{api}}/sp",
+							"raw": "{{kalos_local}}{{api}}/sp",
 							"host": [
-								"{{kalos_dev}}{{api}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"sp"
@@ -1286,16 +1286,16 @@
 								{
 									"key": "file",
 									"type": "file",
-									"src": "/J:/Mi unidad/Procesos LamedDev/CargueCostosTypeServicesBarbaros.csv"
+									"src": "/J:/Mi unidad/Procesos LamedDev/CargueCostosTypeServicesCasaCavalier.csv"
 								},
 								{
 									"key": "businessID",
-									"value": "661204ff9c1faeecf2f552f2",
+									"value": "66610e140d96d92379cb7062",
 									"type": "text"
 								},
 								{
 									"key": "tradename",
-									"value": "Centro de Belleza y Barberia Barbaros EYV",
+									"value": "Casa Cavalier",
 									"type": "text"
 								}
 							],
@@ -1364,7 +1364,7 @@
 							"response": []
 						},
 						{
-							"name": "Staff Type",
+							"name": "Create Staff Type",
 							"id": "91212bea-35d1-4597-9318-1c10999fb4ea",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1379,7 +1379,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\" : \"Administrador/a\"\r\n}",
+									"raw": "{\r\n    \"name\" : \"Auxiliar Back\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1561,7 +1561,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"nit\": \"802127585\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"email\": \"yfersonalvarado2022@gmail.com\",\r\n    \"document\": \"28503590\",\r\n    \"profile\": \"64abbc985190388112342e84\",//Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\",//Colaborador(a)\r\n    \"staffType\" : [\"64b2ddc31bcd863da11fa147\", \"64b2dde51bcd863da11fa14a\"],//Peluquero/a , Barbero/a\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\",//Peluqueria\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\",//Barberia\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\",\"64ab92f3063c636a4000414d\",\"64ab9383063c636a40004159\",\"64ab934c063c636a40004151\",\"64ab9370063c636a40004155\",\"64ab93a4063c636a4000415d\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"660a073f1a72c4a6093c4cb0\",\"64ab9b17d82418177a7237ee\",\"64ab9b23d82418177a7237f2\",\"64ab9b2dd82418177a7237f6\",\"64ab9be0d82418177a723805\"\r\n],//Corte,Lavado,Despuntado,Shampoo,Grafilado,Corte Desvanecido,Afeitada,Barba de Lujo,free Style,Barba con Vapor y Cuchilla,Color Barba,Retoque Barba\r\n\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
+									"raw": "{\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\":\"21jnsergiio@gmail.com\",\"document\":\"1027400852\",\r\n    \"profile\": \"64abbc985190388112342e84\",//Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\",//Colaborador(a)\r\n    \"staffType\" : [\"64b2ddc31bcd863da11fa147\", \"64b2dde51bcd863da11fa14a\"],//Peluquero/a , Barbero/a\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\",//Peluqueria\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\",//Barberia\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\",\"64ab9383063c636a40004159\",\"64ab934c063c636a40004151\",\"64ab9370063c636a40004155\",\"665fee0091993d68814e8e24\",\"665fde633a9d1e5376a0ee2b\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"660a073f1a72c4a6093c4cb0\",\"64ab9b17d82418177a7237ee\",\"64ab9b23d82418177a7237f2\",\"64ab9b2dd82418177a7237f6\",\"665ff1d591993d68814e8e59\",\"665ff1e291993d68814e8e5b\",\"665ff1ef91993d68814e8e5d\",\"665ff1ff91993d68814e8e5f\",\"665ff20b91993d68814e8e61\",\"665ff21991993d68814e8e63\",\"665ff22691993d68814e8e65\",\"665ff23491993d68814e8e67\",\"665ff23d91993d68814e8e69\"],//Corte,Lavado,Despuntado,Shampoo,Grafilado,Corte Desvanecido,Afeitada,Barba de Lujo,free Style,Barba con Vapor y Cuchilla,Color Barba,Retoque Barba\r\n\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
