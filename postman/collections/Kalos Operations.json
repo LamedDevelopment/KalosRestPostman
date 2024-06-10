@@ -437,7 +437,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"Depilacion Corporal\"\r\n}",
+							"raw": "{\r\n    \"name\": \"Administrador\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -458,6 +458,156 @@
 				}
 			],
 			"id": "9953837a-a6a7-4985-b08b-c52f1610fc4e"
+		},
+		{
+			"name": "Bank Fees Management (Franquicias)",
+			"item": [
+				{
+					"name": "View Bank Fees",
+					"id": "3d20a9a0-f8bc-453d-8b9c-c518c6367737",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": \"1002649708\",\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"bank_info\": [\r\n        {\r\n            \"increases_fee\": false,\r\n            \"bank_name\": \"Bancolombia\",\r\n            \"bank_account_number\": \"123456789\",\r\n            \"bank_fee_percentage_credit_card\": 2.3,\r\n            \"bank_fee_percentage_debit_card\": 1.8,\r\n            \"bank_fee_percentage_transaction\": 1.2,\r\n            \"note\": \"Proceso de Prueba para Porcentajes\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/bafe",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"bafe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "View All Services",
+					"id": "0c0db225-7642-40e8-8d1e-9bba9eb026f6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/sv/allse",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"sv",
+								"allse"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "View All Services Copy",
+					"id": "87075f40-8e0c-4dd0-9fd7-23be295de7f8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/sv/allse",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"sv",
+								"allse"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Services",
+					"id": "c34848e2-95b3-42a7-b5d4-519bb1162bf9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Depilacion Corporal\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/sv",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"sv"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "fe4d1336-70f7-4c8e-9c7b-4dba7c9c5896"
 		},
 		{
 			"name": "Loan Payment Methods",
@@ -557,7 +707,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"serviceName\": \"665fd12e3a9d1e5376a0ee20\",\r\n    \"typeService\": \"Ritual Botanico\"\r\n}",
+							"raw": "{\r\n    \"serviceName\": \"6664d68283c41255fd0df3fa\",\r\n    \"typeService\": \"Administrador/a\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1491,7 +1641,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"nit\": \"802127585\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"email\": \"viviana.caicedo@hotmail.com\",\r\n    \"document\": \"20965636\",\r\n    \"profile\": [\"64abbcc15190388112342e8a\"],//Gerente\r\n    \"typeCollaborator\": [\"64afa0596e8b9ff0f19a6dde\", \"64afa1cce8969589ddc17e07\"], //Propietario(a), Administrador(a)\r\n    \"staffType\": [\r\n        \"65546601edc9aad90120fbb7\",//Administrador/a\r\n        \"64b2ddb51bcd863da11fa144\"//Estilista\r\n    ],\r\n    \"service\": [\r\n        {\r\n            \"services\": \"64ab9174923ff67b725791b7\",\r\n            \"percentage\": \"1\"\r\n        },\r\n        {\r\n            \"services\": \"64ab9448063c636a40004160\",\r\n            \"percentage\": \"1\"\r\n        },\r\n        {\r\n            \"services\": \"64ab9537063c636a4000417b\",\r\n            \"percentage\": \"1\"\r\n        },\r\n        {\r\n            \"services\": \"64ab95f1063c636a40004196\",\r\n            \"percentage\": \"1\"\r\n        },\r\n        {\r\n            \"services\": \"64ab9aced82418177a7237e2\",\r\n            \"percentage\": \"1\"\r\n        },\r\n        {\r\n            \"services\": \"64ab9b60d82418177a7237fd\",\r\n            \"percentage\": \"1\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\r\n        \"64ab92e0063c636a40004149\",\r\n        \"64ab92f3063c636a4000414d\",\r\n        \"64ab9383063c636a40004159\",\r\n        \"64ab934c063c636a40004151\",\r\n        \"64ab9370063c636a40004155\",\r\n        \"64ab93a4063c636a4000415d\",\r\n        \"64ab948e063c636a40004168\",\r\n        \"64ab949d063c636a4000416c\",\r\n        \"64ab94a7063c636a40004170\",\r\n        \"64ab94b4063c636a40004174\",\r\n        \"64ab9473063c636a40004164\",\r\n        \"6611e989726393abf109a5a3\",\r\n        \"64ab954d063c636a4000417f\",\r\n        \"64ab9579063c636a40004183\",\r\n        \"64ab958a063c636a40004187\",\r\n        \"64ab9598063c636a4000418b\",\r\n        \"64ab95a7063c636a4000418f\",\r\n        \"64ab95bc063c636a40004193\",\r\n        \"64ab9635063c636a4000419a\",\r\n        \"64ab9a61d82418177a7237d7\",\r\n        \"64ab9a70d82418177a7237db\",\r\n        \"64ab9ab9d82418177a7237df\",\r\n        \"64ab9af1d82418177a7237e6\",\r\n        \"64ab9b00d82418177a7237ea\",\r\n        \"660a073f1a72c4a6093c4cb0\",\r\n        \"64ab9b17d82418177a7237ee\",\r\n        \"64ab9b23d82418177a7237f2\",\r\n        \"64ab9b2dd82418177a7237f6\",\r\n        \"64ab9be0d82418177a723805\"\r\n    ],\r\n    \"businessDays\": [\r\n        \"Lunes\",\r\n        \"Martes\",\r\n        \"Miercoles\",\r\n        \"Jueves\",\r\n        \"Viernes\",\r\n        \"Sabado\",\r\n        \"Domingo\"\r\n    ],\r\n    \"daysServices\": [\r\n        {\r\n            \"dayWeek\": \"Lunes\",\r\n            \"dayNumber\": \"1\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Martes\",\r\n            \"dayNumber\": \"2\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Miercoles\",\r\n            \"dayNumber\": \"3\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Jueves\",\r\n            \"dayNumber\": \"4\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Viernes\",\r\n            \"dayNumber\": \"5\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Sabado\",\r\n            \"dayNumber\": \"6\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Domingo\",\r\n            \"dayNumber\": \"7\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        }\r\n    ],\r\n    \"level\": \"1\"\r\n}",
+									"raw": "{\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\": \"fabiosegura554@gmail.com\",\r\n    \"document\": \"79055351\",\r\n    \"profile\": [\"64abbcc15190388112342e8a\"],//Gerente\r\n    \"typeCollaborator\": [\"64afa1cce8969589ddc17e07\"], //Propietario(a), Administrador(a)\r\n    \"staffType\": [\r\n        \"65546601edc9aad90120fbb7\"//,//Administrador/a\r\n        //\"64b2ddb51bcd863da11fa144\"//Estilista\r\n    ],\r\n    \"service\": [\r\n        {\r\n            \"services\": \"6664d68283c41255fd0df3fa\",\r\n            \"percentage\": \"1\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\r\n        \"6664d6c583c41255fd0df3fc\"\r\n    ],\r\n    \"businessDays\": [\r\n        \"Lunes\",\r\n        \"Martes\",\r\n        \"Miercoles\",\r\n        \"Jueves\",\r\n        \"Viernes\",\r\n        \"Sabado\",\r\n        \"Domingo\"\r\n    ],\r\n    \"daysServices\": [\r\n        {\r\n            \"dayWeek\": \"Lunes\",\r\n            \"dayNumber\": \"1\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Martes\",\r\n            \"dayNumber\": \"2\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Miercoles\",\r\n            \"dayNumber\": \"3\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Jueves\",\r\n            \"dayNumber\": \"4\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Viernes\",\r\n            \"dayNumber\": \"5\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Sabado\",\r\n            \"dayNumber\": \"6\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Domingo\",\r\n            \"dayNumber\": \"7\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        }\r\n    ],\r\n    \"level\": \"1\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1561,7 +1711,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\":\"21jnsergiio@gmail.com\",\"document\":\"1027400852\",\r\n    \"profile\": \"64abbc985190388112342e84\",//Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\",//Colaborador(a)\r\n    \"staffType\" : [\"64b2ddc31bcd863da11fa147\", \"64b2dde51bcd863da11fa14a\"],//Peluquero/a , Barbero/a\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\",//Peluqueria\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\",//Barberia\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\",\"64ab9383063c636a40004159\",\"64ab934c063c636a40004151\",\"64ab9370063c636a40004155\",\"665fee0091993d68814e8e24\",\"665fde633a9d1e5376a0ee2b\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"660a073f1a72c4a6093c4cb0\",\"64ab9b17d82418177a7237ee\",\"64ab9b23d82418177a7237f2\",\"64ab9b2dd82418177a7237f6\",\"665ff1d591993d68814e8e59\",\"665ff1e291993d68814e8e5b\",\"665ff1ef91993d68814e8e5d\",\"665ff1ff91993d68814e8e5f\",\"665ff20b91993d68814e8e61\",\"665ff21991993d68814e8e63\",\"665ff22691993d68814e8e65\",\"665ff23491993d68814e8e67\",\"665ff23d91993d68814e8e69\"],//Corte,Lavado,Despuntado,Shampoo,Grafilado,Corte Desvanecido,Afeitada,Barba de Lujo,free Style,Barba con Vapor y Cuchilla,Color Barba,Retoque Barba\r\n\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
+									"raw": "{\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\":\"gcrapstayle1998@gmail.com\",\"document\":\"1053615456\",\r\n    \"profile\": \"64abbc985190388112342e84\",//Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\",//Colaborador(a)\r\n    \"staffType\" : [\"64b2ddc31bcd863da11fa147\", \"64b2dde51bcd863da11fa14a\"],//Peluquero/a , Barbero/a\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\",//Peluqueria\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\",//Barberia\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\",\"64ab9383063c636a40004159\",\"64ab934c063c636a40004151\",\"64ab9370063c636a40004155\",\"665fee0091993d68814e8e24\",\"665fde633a9d1e5376a0ee2b\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"660a073f1a72c4a6093c4cb0\",\"64ab9b17d82418177a7237ee\",\"64ab9b23d82418177a7237f2\",\"64ab9b2dd82418177a7237f6\",\"665ff1d591993d68814e8e59\",\"665ff1e291993d68814e8e5b\",\"665ff1ef91993d68814e8e5d\",\"665ff1ff91993d68814e8e5f\",\"665ff20b91993d68814e8e61\",\"665ff21991993d68814e8e63\",\"665ff22691993d68814e8e65\",\"665ff23491993d68814e8e67\",\"665ff23d91993d68814e8e69\"],//Corte,Lavado,Despuntado,Shampoo,Grafilado,Corte Desvanecido,Afeitada,Barba de Lujo,free Style,Barba con Vapor y Cuchilla,Color Barba,Retoque Barba\r\n\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"

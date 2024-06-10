@@ -4732,6 +4732,251 @@
 							],
 							"id": "375c8b78-722b-4db0-ae18-1f85cf81a0bf",
 							"description": "Control de la Documentacion que un Establecimiento debe Cargar a My Driver Establecimiento"
+						},
+						{
+							"name": "Business Inventories",
+							"item": [
+								{
+									"name": "Create Sales Warehouse",
+									"id": "a8c8e7c7-c6b4-4cd3-8d70-62a88968e002",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "postman-cloud:///1ef1a174-2cbd-47c0-8206-58c04bea1368"
+												},
+												{
+													"key": "businessID",
+													"value": "66610e140d96d92379cb7062",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Casa Cavalier",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "1002649708",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Casa Cavalier",
+													"type": "text"
+												},
+												{
+													"key": "nameDocument",
+													"value": "MatriculaMercantil",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "collaDocu",
+													"value": "321",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "",
+													"value": "",
+													"type": "text",
+													"disabled": true
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/inven/invloadsal",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"inven",
+												"invloadsal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Create Internal Warehouse",
+									"id": "40c0385b-ab2c-4eaf-8b3e-afbaa3b15108",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "postman-cloud:///1ef1a1cf-e14d-47c0-ae8b-daeea6d176eb"
+												},
+												{
+													"key": "businessID",
+													"value": "66610e140d96d92379cb7062",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Casa Cavalier",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "1002649708",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Casa Cavalier",
+													"type": "text"
+												},
+												{
+													"key": "file",
+													"type": "file",
+													"src": "postman-cloud:///1ef1a1cf-e14d-47c0-ae8b-daeea6d176eb",
+													"disabled": true
+												},
+												{
+													"key": "collaDocu",
+													"value": "",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "validity",
+													"value": "Anual",
+													"type": "text",
+													"disabled": true
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/inven/invloadinter",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"inven",
+												"invloadinter"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "View Type Documents",
+									"id": "a81bc313-655f-4111-8420-ec68cbaa5e4f",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/viewalldoc",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"viewalldoc"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "View Documents",
+									"id": "dc6dd017-b011-462e-98de-dcaef3e43d81",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"nit\": 802127585,\r\n    \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"documentType\": \"Curriculum\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_dev}}{{api}}/doc/viewdoc",
+											"host": [
+												"{{kalos_dev}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"viewdoc"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "e1386126-e921-44da-9917-6c0ed200f480",
+							"description": "Control de la Documentacion que un Establecimiento debe Cargar a My Driver Establecimiento"
 						}
 					],
 					"id": "be6513da-7ed3-487a-8d6f-eaebd8c020fc"
@@ -5969,7 +6214,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"user\": \"6554480313419cfc8e55bf83\", \r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\", \r\n        \"apeUser\": \"\", \r\n        \"emailUser\": \"\", \r\n        \"movilUser\": \"\", \r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"manager\": \"661204ff9c1faeecf2f552f6\",\r\n    \"observationManager\": \"Creando un Agenda desde el Manager\",\r\n    \"staff\": \"6614c35209b0934f2b0470ef\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"17/04/2024\",\r\n    \"timeService\": \"10:30:00\"\r\n}",
+											"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\", \r\n        \"apeUser\": \"\", \r\n        \"emailUser\": \"\", \r\n        \"movilUser\": \"\", \r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"66610e140d96d92379cb7062\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"manager\": \"66610e140d96d92379cb7066\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"6664e00983c41255fd0df923\",\r\n    \"services\": \"64ab9174923ff67b725791b7\", \r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"09/06/2024\",\r\n    \"timeService\": \"14:30:00\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
