@@ -297,7 +297,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n    \"services\": \"64ab9aced82418177a7237e2\",\r\n    \"typeServices\": \"64ab9b17d82418177a7237ee\",\r\n    \"dateService\": \"20/05/2024\",\r\n    \"timeService\": \"10:00:00\"\r\n}\r\n",
+									"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"665f2f56506d687b89232efc\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"6614c35209b0934f2b0470ef\",\r\n    \"services\": \"64ab9aced82418177a7237e2\",\r\n    \"typeServices\": \"64ab9b17d82418177a7237ee\",\r\n    \"dateService\": \"11/06/2024\",\r\n    \"timeService\": \"18:00:00\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -660,7 +660,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"Liliana\",\r\n    \"lastName\": \"Gomez\",\r\n    \"movil\": \"3203053691\",\r\n    \"email\": \"lili_go28@hotmail.com\",\r\n    \"pass\": \"12345\",\r\n    \"terms\": \"true\"\r\n}",
+									"raw": "{\r\n    \"name\": \"Laura\",\r\n    \"lastName\": \"Garcia\",\r\n    \"movil\": \"3003800628\",\r\n    \"email\": \"vanesa1031648@gmail.com\",\r\n    \"pass\": \"12345\",\r\n    \"terms\": \"true\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
