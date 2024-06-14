@@ -7366,7 +7366,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"user\": {\r\n        \"staffID\": \"6614c35209b0934f2b0470be\", // Id de Staff\r\n        \"email\": \"edisonra_@hotmail.com\",\r\n        \"name\": \"Jaime Edilson\",\r\n        \"lastName\": \"Raigozo Marquez \",\r\n        \"document\": 80212758\r\n    },\r\n    \"TypeOfWorkingHours\": {\r\n        \"nameHours\": \"horario1\",\r\n        \"startTime\": \"09:00\",\r\n        \"endTime\": \"19:00\"\r\n    }\r\n}",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"user\": {\r\n        \"staffID\": \"6614ca4e939d2ce747ef0c85\", // Id de Staff\r\n        \"email\": \"varonjohan51@gmail.com\",\r\n        \"name\": \"Johan\",\r\n        \"lastName\": \"Varon\",\r\n        \"document\": 1028782329\r\n    },\r\n    \"TypeOfWorkingHours\": {\r\n        \"nameHours\": \"horario1\",\r\n        \"startTime\": \"09:00\",\r\n        \"endTime\": \"19:00\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
