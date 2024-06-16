@@ -478,7 +478,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"bank_info\": [\r\n        {\r\n            \"increases_fee\": false,\r\n            \"bank_name\": \"Bancolombia\",\r\n            \"bank_account_number\": \"123456789\",\r\n            \"bank_fee_percentage_credit_card\": 2.3,\r\n            \"bank_fee_percentage_debit_card\": 1.8,\r\n            \"bank_fee_percentage_transaction\": 1.2,\r\n            \"note\": \"Proceso de Prueba para Porcentajes\"\r\n        }\r\n    ]\r\n}",
+							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"bank_info\": [\r\n        {\r\n            \"increases_fee\": false,\r\n            \"bank_name\": \"Bold\",\r\n            \"bank_account_number\": \"123456789\",\r\n            \"bank_fee_percentage_credit_card\": 2.59,\r\n            \"bank_fee_percentage_debit_card\": 2.59,\r\n            \"bank_fee_percentage_transaction\": 2.59,\r\n            \"bank_fee_cash\": 300,\r\n            \"note\": \"Proceso de Prueba para Porcentajes\"\r\n        }\r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -529,78 +529,6 @@
 							"path": [
 								"sv",
 								"allse"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "View All Services Copy",
-					"id": "87075f40-8e0c-4dd0-9fd7-23be295de7f8",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "x-token",
-								"value": "{{tk_colla}}",
-								"disabled": true
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "{{kalos_local}}{{api}}/sv/allse",
-							"host": [
-								"{{kalos_local}}{{api}}"
-							],
-							"path": [
-								"sv",
-								"allse"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Create Services",
-					"id": "c34848e2-95b3-42a7-b5d4-519bb1162bf9",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "x-token",
-								"value": "{{tk_colla}}"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"Depilacion Corporal\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "{{kalos_local}}{{api}}/sv",
-							"host": [
-								"{{kalos_local}}{{api}}"
-							],
-							"path": [
-								"sv"
 							]
 						}
 					},
