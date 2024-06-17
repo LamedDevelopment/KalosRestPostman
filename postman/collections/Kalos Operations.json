@@ -2568,6 +2568,82 @@
 			"id": "f4f1107b-c1c4-4008-bdf8-3da61d6417d6"
 		},
 		{
+			"name": "Warehouse",
+			"item": [
+				{
+					"name": "Create",
+					"id": "987c7315-a1d7-4f5c-ae78-5b548e64a724",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"cod_warehouse\": \"BODVEN\",\r\n    \"name\": \"bodega_ventas\",\r\n    \"observation\":\"Venta de Productos al Publico\",\r\n    \"location\": \"Sede Principal\",\r\n    \"costCenter\":\"151620\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/wh",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"wh"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "View Questions Staff",
+					"id": "438f42d4-1b29-4db5-a8e9-e64aa7393bfe",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/qs",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"qs"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "b041a302-6cee-4825-a6cd-b4cc49f4768d"
+		},
+		{
 			"name": "Hours",
 			"item": [
 				{
