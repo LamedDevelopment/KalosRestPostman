@@ -2586,7 +2586,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"cod_warehouse\": \"BODVEN\",\r\n    \"name\": \"bodega_ventas\",\r\n    \"observation\":\"Venta de Productos al Publico\",\r\n    \"location\": \"Sede Principal\",\r\n    \"costCenter\":\"151620\"\r\n}",
+							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"cod_warehouse\": \"BODSUM\",\r\n    \"name\": \"bodega_suministros\",\r\n    \"observation\":\"Suministros, Uso Interno\",\r\n    \"location\": \"Sede Principal\",\r\n    \"costCenter\":\"151625\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
