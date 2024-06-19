@@ -5286,7 +5286,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"662068c4b3e5a78e238ef59a\",\r\n    \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n    \"serviceID\": \"64ab9174923ff67b725791b7\",\r\n    \"staffID\": \"6614ca4e939d2ce747ef0ca1\",\r\n    \"appointmentDateID\": \"662068c4b3e5a78e238ef59d\",\r\n    \"observationAppointment\": \"Datos que el Collaborador ingresa para iniciar el Servicio.\",\r\n    \"startAddDescriptionService\": [\r\n        {\r\n            \"serviceName\": \"Servicio Adicional Solicitado Ante de iniciar Servicio 5 Min mas de tiempo\",\r\n            \"CostService\": 80000\r\n        },\r\n        {\r\n            \"serviceName\": \"Servicio Adicional Solicitado Ante de iniciar Servicio 5 Min mas de tiempo\",\r\n            \"CostService\": 10000\r\n        }\r\n    ],\r\n    \"supplies\": [\r\n        {\r\n            \"product\": \"Belleza Capilar\",\r\n            \"brand\": \"L'Oréal\",\r\n            \"reference\": \"L'Oréal 6G\",\r\n            \"description\": \"cabello castaño dorado claro\",\r\n            \"suppliesPrice\": \"50000\"\r\n        },\r\n        {\r\n            \"product\": \"Belleza Capilar\",\r\n            \"brand\": \"L'Oréal\",\r\n            \"reference\": \"L'Oréal 6G\",\r\n            \"description\": \"cabello castaño dorado claro\",\r\n            \"suppliesPrice\": \"50000\"\r\n        },\r\n        {\r\n            \"product\": \"Belleza Capilar\",\r\n            \"brand\": \"L'Oréal\",\r\n            \"reference\": \"L'Oréal 6G\",\r\n            \"description\": \"cabello castaño dorado claro\",\r\n            \"suppliesPrice\": \"50000\"\r\n        }\r\n    ]\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"667195438815680aa868a399\",\r\n    \"businessID\": \"665f2f56506d687b89232efc\",\r\n    \"serviceID\": \"667195438815680aa868a39a\",\r\n    \"staffID\": \"6614ca4e939d2ce747ef0ca1\",\r\n    \"appointmentDateID\": \"667195438815680aa868a39c\",\r\n    \"observationAppointment\": \"\",\r\n    \"startAddDescriptionService\": [\r\n        {\r\n            \"serviceName\": \"Color\",\r\n            \"CostService\": 90000\r\n        }\r\n    ],\r\n    \"supplies\": [\r\n        {\r\n            \"product\": \"Color Pelo\",\r\n            \"brand\": \"Kuul\",\r\n            \"reference\": \"6.1\",\r\n            \"description\": \"25\",\r\n            \"suppliesPrice\": 15400\r\n        },\r\n        {\r\n            \"product\": \"Color Pelo\",\r\n            \"brand\": \"Kuul\",\r\n            \"reference\": \"6.22\",\r\n            \"description\": \"15\",\r\n            \"suppliesPrice\": 5400\r\n        },\r\n        {\r\n            \"product\": \"Color Pelo\",\r\n            \"brand\": \"Kuul\",\r\n            \"reference\": \"5.23\",\r\n            \"description\": \"5\",\r\n            \"suppliesPrice\": 1400\r\n        }\r\n    ]\r\n}\r\n\r\n// {\r\n//     \"appointmentID\": \"662068c4b3e5a78e238ef59a\",\r\n//     \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n//     \"serviceID\": \"64ab9174923ff67b725791b7\",\r\n//     \"staffID\": \"6614ca4e939d2ce747ef0ca1\",\r\n//     \"appointmentDateID\": \"662068c4b3e5a78e238ef59d\",\r\n//     \"observationAppointment\": \"Datos que el Collaborador ingresa para iniciar el Servicio.\",\r\n//     \"startAddDescriptionService\": [\r\n//         {\r\n//             \"serviceName\": \"Servicio Adicional Solicitado Ante de iniciar Servicio 5 Min mas de tiempo\",\r\n//             \"CostService\": 80000\r\n//         },\r\n//         {\r\n//             \"serviceName\": \"Servicio Adicional Solicitado Ante de iniciar Servicio 5 Min mas de tiempo\",\r\n//             \"CostService\": 10000\r\n//         }\r\n//     ],\r\n//     \"supplies\": [\r\n//         {\r\n//             \"product\": \"Belleza Capilar\",\r\n//             \"brand\": \"L'Oréal\",\r\n//             \"reference\": \"L'Oréal 6G\",\r\n//             \"description\": \"cabello castaño dorado claro\",\r\n//             \"suppliesPrice\": \"50000\"\r\n//         },\r\n//         {\r\n//             \"product\": \"Belleza Capilar\",\r\n//             \"brand\": \"L'Oréal\",\r\n//             \"reference\": \"L'Oréal 6G\",\r\n//             \"description\": \"cabello castaño dorado claro\",\r\n//             \"suppliesPrice\": \"50000\"\r\n//         },\r\n//         {\r\n//             \"product\": \"Belleza Capilar\",\r\n//             \"brand\": \"L'Oréal\",\r\n//             \"reference\": \"L'Oréal 6G\",\r\n//             \"description\": \"cabello castaño dorado claro\",\r\n//             \"suppliesPrice\": \"50000\"\r\n//         }\r\n//     ]\r\n// }",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6462,6 +6462,121 @@
 								}
 							],
 							"id": "cb90b4a2-9da0-47f0-b8b9-d0009510eda6"
+						},
+						{
+							"name": "Put",
+							"item": [
+								{
+									"name": "Update Appoinment",
+									"id": "d02e2bea-7f28-4fd3-9311-5f3f4306a155",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ2M2FlNjUyZDgwNWJmZWRmMTIwYjUiLCJyb2xlIjoiVVNFUl9ST0xFIiwiaWF0IjoxNjg3MDU0Mzk4LCJleHAiOjE2ODk2NDYzOTh9.j4APEKBKrX7x03LY9XjOUTsXIYDENJ3t2YrEwQ1FZww"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"business\": \"6301b4f0006c848620d63933\",\r\n    \"dateini\": \"06/01/2022\",\r\n    \"datefin\": \"31/12/2022\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{user_dev}}/api/epa",
+											"host": [
+												"{{kalos_local}}{{user_dev}}"
+											],
+											"path": [
+												"api",
+												"epa"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Service Start",
+									"id": "cad32bd3-623f-4ba3-8631-d18ab856edea",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"appointmentID\": \"667195438815680aa868a399\",\r\n    \"businessID\": \"665f2f56506d687b89232efc\",\r\n    \"serviceID\": \"667195438815680aa868a39a\",\r\n    \"staffID\": \"6614ca4e939d2ce747ef0ca1\",\r\n    \"appointmentDateID\": \"667195438815680aa868a39c\",\r\n    \"observationAppointment\": \"\",\r\n    \"startAddDescriptionService\": [\r\n        {\r\n            \"serviceName\": \"Color\",\r\n            \"CostService\": 90000\r\n        }\r\n    ],\r\n    \"supplies\": [\r\n        // {\r\n        //     \"product\": \"Color Pelo\",\r\n        //     \"brand\": \"Kuul\",\r\n        //     \"reference\": \"6.1\",\r\n        //     \"description\": \"25\",\r\n        //     \"suppliesPrice\": 15400\r\n        // },\r\n        // {\r\n        //     \"product\": \"Color Pelo\",\r\n        //     \"brand\": \"Kuul\",\r\n        //     \"reference\": \"6.22\",\r\n        //     \"description\": \"15\",\r\n        //     \"suppliesPrice\": 5400\r\n        // },\r\n        // {\r\n        //     \"product\": \"Color Pelo\",\r\n        //     \"brand\": \"Kuul\",\r\n        //     \"reference\": \"5.23\",\r\n        //     \"description\": \"5\",\r\n        //     \"suppliesPrice\": 1400\r\n        // }\r\n    ]\r\n}\r\n\r\n// {\r\n//     \"appointmentID\": \"662068c4b3e5a78e238ef59a\",\r\n//     \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n//     \"serviceID\": \"64ab9174923ff67b725791b7\",\r\n//     \"staffID\": \"6614ca4e939d2ce747ef0ca1\",\r\n//     \"appointmentDateID\": \"662068c4b3e5a78e238ef59d\",\r\n//     \"observationAppointment\": \"Datos que el Collaborador ingresa para iniciar el Servicio.\",\r\n//     \"startAddDescriptionService\": [\r\n//         {\r\n//             \"serviceName\": \"Servicio Adicional Solicitado Ante de iniciar Servicio 5 Min mas de tiempo\",\r\n//             \"CostService\": 80000\r\n//         },\r\n//         {\r\n//             \"serviceName\": \"Servicio Adicional Solicitado Ante de iniciar Servicio 5 Min mas de tiempo\",\r\n//             \"CostService\": 10000\r\n//         }\r\n//     ],\r\n//     \"supplies\": [\r\n//         {\r\n//             \"product\": \"Belleza Capilar\",\r\n//             \"brand\": \"L'Oréal\",\r\n//             \"reference\": \"L'Oréal 6G\",\r\n//             \"description\": \"cabello castaño dorado claro\",\r\n//             \"suppliesPrice\": \"50000\"\r\n//         },\r\n//         {\r\n//             \"product\": \"Belleza Capilar\",\r\n//             \"brand\": \"L'Oréal\",\r\n//             \"reference\": \"L'Oréal 6G\",\r\n//             \"description\": \"cabello castaño dorado claro\",\r\n//             \"suppliesPrice\": \"50000\"\r\n//         },\r\n//         {\r\n//             \"product\": \"Belleza Capilar\",\r\n//             \"brand\": \"L'Oréal\",\r\n//             \"reference\": \"L'Oréal 6G\",\r\n//             \"description\": \"cabello castaño dorado claro\",\r\n//             \"suppliesPrice\": \"50000\"\r\n//         }\r\n//     ]\r\n// }",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/iniser",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"iniser"
+											]
+										},
+										"description": "Se agrega el campo supplier para cargar alli los datos de suministros usados por el colaborador, para el servicio del cliente, esto se usara mayormente para el manejo de tintes. con el objeto completo:  \nStartFragment\"supplies\": \\[        {            \"product\": \"\",            \"reference\": \"\",            \"description\": \"\",            \"suppliesPrice\": \"\"        }    \\]EndFragment"
+									},
+									"response": []
+								},
+								{
+									"name": "Service End",
+									"id": "ae02e57f-8502-4fe2-bb35-48b1be7dd820",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"appointmentID\": \"66206903b3e5a78e238f083c\",\r\n    \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n    \"serviceID\": \"64ab9174923ff67b725791b7\",\r\n    \"staffID\": \"6614ca4e939d2ce747ef0ca1\",\r\n    \"appointmentDateID\": \"66206903b3e5a78e238f083f\",\r\n    \"observationAppointment\": \"Observacion de cierre de servicio por parte del Colaborador.\",\r\n    \"endAddDescriptionService\": [\r\n        // {\r\n            // \"serviceName\": \"Servicio Adicional Solicitado Ante de iniciar Servicio 5 Min mas de tiempo\",\r\n            // \"CostService\": 100000\r\n        // }\r\n    ],\r\n    \"supplies\": [\r\n        // {\r\n        //     \"product\": \"Belleza Capilar\",\r\n        //     \"brand\": \"L'Oréal\",\r\n        //     \"reference\": \"L'Oréal 6G\",\r\n        //     \"description\": \"cabello castaño dorado claro\",\r\n        //     \"suppliesPrice\": \"50000\"\r\n        // },\r\n        // {\r\n        //     \"product\": \"Belleza Capilar\",\r\n        //     \"brand\": \"L'Oréal\",\r\n        //     \"reference\": \"L'Oréal 6G\",\r\n        //     \"description\": \"cabello castaño dorado claro\",\r\n        //     \"suppliesPrice\": \"50000\"\r\n        // }\r\n    ]\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/finser",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"finser"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "31d71146-6cc5-4f2f-8c2c-0bf3e435f5ff"
 						}
 					],
 					"id": "d46eb140-1d79-4fd9-8d08-c3a31d353407"
@@ -6877,6 +6992,90 @@
 						}
 					],
 					"id": "7457a81f-aa2e-4d6e-baf9-31a2e949ba5e"
+				},
+				{
+					"name": "Deliver Supplies",
+					"item": [
+						{
+							"name": "View Deliver Supplies",
+							"id": "809d81d6-b80c-4e03-83d1-cb1b705f249e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/apu/viewsup",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"apu",
+										"viewsup"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Deliver Supplies",
+							"id": "62175c5f-9963-4d52-8666-4a39b67c2d0d",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"businessUser\": {\r\n        \"businessUserID\": \"6614ca4e939d2ce747ef0ca1\",\r\n        \"fullName\": \"Johan Varon\",\r\n        \"email\": \"varonjohan51@gmail.com\",\r\n        \"document\": \"1028782329\"\r\n    },\r\n    \"_id\": \"66724c7ce51bfda4bd76f6ca\",\r\n    \"appointmentID\": \"667195438815680aa868a399\",\r\n    \"orderSupplies\": \"Inicio del Servicio\",\r\n    \"supplies\": [\r\n        {\r\n            \"staff\": \"661204ff9c1faeecf2f552f6\",\r\n            \"product\": \"Color Pelo\",\r\n            \"brand\": \"Kuul\",\r\n            \"reference\": \"6.1\",\r\n            \"description\": \"25\",\r\n            \"suppliesPrice\": 15400,\r\n            \"dateCreate\": \"18/06/2024, 22:11:48\",\r\n            \"deliverSupplies\": true,\r\n            \"cancelDelivery\": false,\r\n            \"note\": \"Se Entrega a Conformidad al Colaborador\",\r\n            \"updateStaff\": [],\r\n            \"_id\": \"66724c7ce51bfda4bd76f6cb\"\r\n        },\r\n        {\r\n            \"staff\": \"661204ff9c1faeecf2f552f6\",\r\n            \"product\": \"Color Pelo\",\r\n            \"brand\": \"Kuul\",\r\n            \"reference\": \"6.22\",\r\n            \"description\": \"15\",\r\n            \"suppliesPrice\": 5400,\r\n            \"dateCreate\": \"18/06/2024, 22:11:48\",\r\n            \"deliverSupplies\": true,\r\n            \"cancelDelivery\": false,\r\n            \"note\": \"Se Entrega a Conformidad al Colaborador\",\r\n            \"updateStaff\": [],\r\n            \"_id\": \"66724c7ce51bfda4bd76f6cc\"\r\n        },\r\n        {\r\n            \"staff\": \"661204ff9c1faeecf2f552f6\",\r\n            \"product\": \"Color Pelo\",\r\n            \"brand\": \"Kuul\",\r\n            \"reference\": \"5.23\",\r\n            \"description\": \"5\",\r\n            \"suppliesPrice\": 1400,\r\n            \"dateCreate\": \"18/06/2024, 22:11:48\",\r\n            \"deliverSupplies\": false,\r\n            \"cancelDelivery\": true,\r\n            \"note\": \"No hay Existencias para este Servicio\",\r\n            \"updateStaff\": [],\r\n            \"_id\": \"66724c7ce51bfda4bd76f6cd\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/apu/upsup",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"apu",
+										"upsup"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "87eb1887-231b-48c5-b40b-675f71c48b7d"
 				},
 				{
 					"name": "Load Service",
