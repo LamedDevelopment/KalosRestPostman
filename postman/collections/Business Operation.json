@@ -6820,6 +6820,83 @@
 					"id": "6210d897-297f-414b-882c-8ac27e588e33"
 				},
 				{
+					"name": "Card VIP",
+					"item": [
+						{
+							"name": "View Type Services",
+							"id": "1c014459-07ca-4104-bc3d-f07d2efb412f",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/tsv",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"tsv"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Card VIP (Abonado)",
+							"id": "7fab014e-2c4a-4a6d-8c2d-649bdbf06eae",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{ //Formulario de Egresos\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"user\": {\r\n        \"userID\": \"64a8d9b6f12d3126f6a50b5c\",\r\n        \"nomUser\": \"Lamed\",\r\n        \"apeUser\": \"Saenz\",\r\n        \"userDocu\": \"80139076\",\r\n        \"emailUser\": \"lameddev@gmail.com\",\r\n        \"movilUser\": 3142540356\r\n    },\r\n    \"cardVIP\": {\r\n        \"paymentAmount\": 100000,\r\n        \"services\": [\r\n            {\r\n                \"discount\": 25,\r\n                \"serviceID\": \"64ab9174923ff67b725791b7\",\r\n                \"nameService\": \"Peluqueria\",\r\n                \"TypeServiceID\": \"64ab92e0063c636a40004149\",\r\n                \"nameTypeService\": \"Corte\",\r\n                \"ServicesParameter\": \"6663b859a925a38e7d22cc5d\",\r\n                \"staff\": \"66674bdf92a856aa6f5e1d6b\",\r\n                \"nameCollaborator\": \"Rafael Flores\"\r\n            }, // podra agregar varios servicios para el Abonado\r\n            {\r\n                \"discount\": 25,\r\n                \"serviceID\": \"64ab9174923ff67b725791b7\",\r\n                \"nameService\": \"Peluqueria\",\r\n                \"TypeServiceID\": \"64ab92e0063c636a40004149\",\r\n                \"nameTypeService\": \"Corte\",\r\n                \"ServicesParameter\": \"6663b859a925a38e7d22cc5d\",\r\n                \"staff\": \"66674bdf92a856aa6f5e1d6b\",\r\n                \"nameCollaborator\": \"Rafael Flores\"\r\n            } // podra agregar varios servicios para el Abonado\r\n        ]\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/cvip/crevip",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"cvip",
+										"crevip"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "4c031df9-c574-4e9f-baba-15bbe7c54a3e"
+				},
+				{
 					"name": "Business",
 					"item": [
 						{
