@@ -6897,6 +6897,83 @@
 					"id": "4c031df9-c574-4e9f-baba-15bbe7c54a3e"
 				},
 				{
+					"name": "Service Quote (Cotizacion)",
+					"item": [
+						{
+							"name": "View Type Services",
+							"id": "46bb8b5f-2ef1-43aa-9832-d6228f917c4e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/tsv",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"tsv"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Service Quote (Cotizacion)",
+							"id": "894dc98c-4ab0-406a-9f48-567eb1a2bf12",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{ //Formulario de Egresos\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"user\": {\r\n        \"userID\": \"64a8d9b6f12d3126f6a50b5c\",\r\n        \"nomUser\": \"Lamed\",\r\n        \"apeUser\": \"Saenz\",\r\n        \"userDocu\": \"80139076\",\r\n        \"emailUser\": \"lameddev@gmail.com\",\r\n        \"movilUser\": 3142540356\r\n    },\r\n    \"serviceQuote\": {\r\n        \"note\": \"Cotizacion de 15 Años con varios servicios\", //Aclaramos el tipo de cotizacion ej. Matrimonio, 15 Años, Evento especial, Tinte o Uñas.\r\n        \"totalQuote\": \"250000\", // Total de la Cotizacion\r\n        \"payQuote\": \"100000\", // Si el cliente abona para separar la Cotizacion y desde ahi generar el agendamiento\r\n        \"dateService\": \"15/06/2024\", // Aqui selecciona para cuando se planea la Cotizacion\r\n        \"timeService\": \"10:30:00\",\r\n        \"sendEmail\": false,\r\n        \"scheduleAppointment\": false,\r\n        \"services\": [\r\n            {\r\n                //Tiene la estructura para poder generar desde aqui el agendamiento.\r\n                \"discount\": 1,\r\n                \"note\": \"Nota para temas puntuales del servicio\",\r\n                \"serviceID\": \"64ab9174923ff67b725791b7\",\r\n                \"nameService\": \"Peluqueria\",\r\n                \"TypeServiceID\": \"64ab92e0063c636a40004149\",\r\n                \"nameTypeService\": \"Corte\",\r\n                \"ServicesParameter\": \"6663b859a925a38e7d22cc5d\",\r\n                \"staff\": \"66674bdf92a856aa6f5e1d6b\",\r\n                \"nameCollaborator\": \"Rafael Flores\",\r\n                \"dateService\": \"15/06/2024\", // Esta linea se llena de la fecha arriba\r\n                \"timeService\": \"10:30:00\" // puede que algun servicio inicie no a la misma hora, esto para que se pueda generar la agenda al momento que se requiere\r\n            }\r\n        ]\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/cotiz/crecot",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"cotiz",
+										"crecot"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "7d029d28-4b63-419c-b48a-9e93b5c6e3b0"
+				},
+				{
 					"name": "Business",
 					"item": [
 						{
