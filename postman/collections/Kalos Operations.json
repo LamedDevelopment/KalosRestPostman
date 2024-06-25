@@ -1004,6 +1004,83 @@
 			"id": "585c5bae-b7f5-44c8-b85a-148d3ccf2785"
 		},
 		{
+			"name": "Inventory Control",
+			"item": [
+				{
+					"name": "View Inventory",
+					"id": "644aeec8-2bfb-47b1-8f8c-00dc59b7fe31",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"product\": \"7702029580190\",\r\n    // \"product\": \"crema\",\r\n    \"warehouse\": \"bodega_ventas\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/inven/viewprod",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"inven",
+								"viewprod"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Profile",
+					"id": "c9ccba8d-ce3f-4c7a-8e0d-7ba58c074e0a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{token_lamed}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"LamedDev\",\r\n    \"code\": \"LAMED_ROLE\",\r\n    \"category\": \"5\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/pfs",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"pfs"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "cbf58079-515e-4031-a729-fa360aed7f7e"
+		},
+		{
 			"name": "Create Beauty Products",
 			"item": [
 				{
