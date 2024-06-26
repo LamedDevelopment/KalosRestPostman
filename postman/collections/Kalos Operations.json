@@ -1022,7 +1022,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"product\": \"7702029580190\",\r\n    // \"product\": \"crema\",\r\n    \"warehouse\": \"bodega_ventas\"\r\n}",
+							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"product\": \"igor\",\r\n    // \"product\": \"crema\",\r\n    \"warehouse\": \"bodega_ventas\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
