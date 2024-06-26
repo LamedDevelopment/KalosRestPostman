@@ -460,6 +460,82 @@
 			"id": "9953837a-a6a7-4985-b08b-c52f1610fc4e"
 		},
 		{
+			"name": "Create General Config",
+			"item": [
+				{
+					"name": "View General Config Business",
+					"id": "fcecb9e3-3ff7-4cb3-8caf-acf7ea9af498",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_dev}}{{api}}/vwconfgen",
+							"host": [
+								"{{kalos_dev}}{{api}}"
+							],
+							"path": [
+								"vwconfgen"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Config General Business (configuracion General)",
+					"id": "87e50472-904b-4ff4-b088-b4aa102676ca",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "{{tk_colla}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"generalConfig\": [\r\n        {\r\n            \"nameItem\": \"Bancos\",\r\n            \"description\": \"Configuracion inicial de Bancos y Factura Electronica\",\r\n            \"note\": \"Configuracion de Comisiones de Datafono y Facturacion Electronica\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Turnos\",\r\n            \"description\": \"Configuracion de Turnos del Establecimiento\",\r\n            \"note\": \"Configuracion de Hora de Inicio y Fin de los Turnos.\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Colaboradores\",\r\n            \"description\": \"Creacion y Edicion de Colaboradores del Establecimiento\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Almacen\",\r\n            \"description\": \"Creacion y Edicion de Almacenes del Establecimiento\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Cargue de Inventarios\",\r\n            \"description\": \"Cargue de Inventarios de Ventas y Suministros\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Promociones\",\r\n            \"description\": \"Creacion y Edicion de Promosiones del Establecimiento\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Tipos de Descuentos\",\r\n            \"description\": \"Cargue de Tipos de Descuentos del Establecimiento\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Card VIP\",\r\n            \"description\": \"Creacion de Servicios de Abonado al Establecimiento.\",\r\n            \"note\": \"\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{kalos_local}}{{api}}/vwconfgen",
+							"host": [
+								"{{kalos_local}}{{api}}"
+							],
+							"path": [
+								"vwconfgen"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "f50b54cc-5ca4-4816-918a-cb4717262f0a"
+		},
+		{
 			"name": "Bank Fees Management (Franquicias)",
 			"item": [
 				{
