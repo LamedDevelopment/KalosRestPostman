@@ -513,7 +513,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"generalConfig\": [\r\n        {\r\n            \"nameItem\": \"Bancos\",\r\n            \"description\": \"Configuracion inicial de Bancos y Factura Electronica\",\r\n            \"note\": \"Configuracion de Comisiones de Datafono y Facturacion Electronica\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Turnos\",\r\n            \"description\": \"Configuracion de Turnos del Establecimiento\",\r\n            \"note\": \"Configuracion de Hora de Inicio y Fin de los Turnos.\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Colaboradores\",\r\n            \"description\": \"Creacion y Edicion de Colaboradores del Establecimiento\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Almacen\",\r\n            \"description\": \"Creacion y Edicion de Almacenes del Establecimiento\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Cargue de Inventarios\",\r\n            \"description\": \"Cargue de Inventarios de Ventas y Suministros\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Promociones\",\r\n            \"description\": \"Creacion y Edicion de Promosiones del Establecimiento\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Tipos de Descuentos\",\r\n            \"description\": \"Cargue de Tipos de Descuentos del Establecimiento\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Card VIP\",\r\n            \"description\": \"Creacion de Servicios de Abonado al Establecimiento.\",\r\n            \"note\": \"\"\r\n        }\r\n    ]\r\n}",
+							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"generalConfig\": [\r\n        { //Aqui debemos cargar los Email donde copiaremos las facturas emitidas al cliente.\r\n            \"nameItem\": \"Bancos\",\r\n            \"description\": \"Configuracion inicial de Bancos y Factura Electronica\",\r\n            \"iconItem\": \"flaticon-credit-cards\",\r\n            \"note\": \"Configuracion de Comisiones de Datafono y Facturacion Electronica\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Turnos\",\r\n            \"description\": \"Configuracion de Turnos del Establecimiento\",\r\n            \"iconItem\": \"flaticon-users-group\",\r\n            \"note\": \"Configuracion de Hora de Inicio y Fin de los Turnos.\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Colaboradores\",\r\n            \"description\": \"Creacion y Edicion de Colaboradores del Establecimiento\",\r\n            \"iconItem\": \"flaticon-people\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Almacen\",\r\n            \"description\": \"Creacion y Edicion de Almacenes del Establecimiento\",\r\n            \"iconItem\": \"flaticon-cube-3d\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Cargue de Inventarios\",\r\n            \"description\": \"Cargue de Inventarios de Ventas y Suministros\",\r\n            \"iconItem\": \"flaticon-edit\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Cargue de Servicios\",\r\n            \"description\": \"Cargue de Inventarios de Ventas y Suministros\",\r\n            \"iconItem\": \"flaticon-add-1\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Promociones\",\r\n            \"description\": \"Creacion y Edicion de Promosiones del Establecimiento\",\r\n            \"iconItem\": \"flaticon-shopping-cart\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Tipos de Descuentos\",\r\n            \"description\": \"Cargue de Tipos de Descuentos del Establecimiento\",\r\n            \"iconItem\": \"flaticon-price-tag-1\",\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"nameItem\": \"Card VIP\",\r\n            \"description\": \"Creacion de Servicios de Abonado al Establecimiento.\",\r\n            \"iconItem\": \"flaticon-award-1\",\r\n            \"note\": \"\"\r\n        }\r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -539,7 +539,7 @@
 			"name": "Bank Fees Management (Franquicias)",
 			"item": [
 				{
-					"name": "View Bank Fees",
+					"name": "Create Bank Fees",
 					"id": "3d20a9a0-f8bc-453d-8b9c-c518c6367737",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -554,7 +554,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"bank_info\": [\r\n        {\r\n            \"increases_fee\": false,\r\n            \"bank_name\": \"Bold\",\r\n            \"bank_account_number\": \"123456789\",\r\n            \"bank_fee_percentage_credit_card\": 2.59,\r\n            \"bank_fee_percentage_debit_card\": 2.59,\r\n            \"bank_fee_percentage_transaction\": 2.59,\r\n            \"bank_fee_cash\": 300,\r\n            \"note\": \"Proceso de Prueba para Porcentajes\"\r\n        }\r\n    ]\r\n}",
+							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"bank_info\": [\r\n        {\r\n            \"increases_fee\": false,\r\n            \"bank_name\": \"Bold\",\r\n            \"bank_account_number\": \"123456789\",\r\n            \"bank_fee_percentage_credit_card\": 2.89,\r\n            \"bank_fee_percentage_debit_card\": 2.89,\r\n            \"bank_fee_percentage_transaction\": 2.89,\r\n            \"bank_fee_cash\": 300,\r\n            \"note\": \"\"\r\n        }\r\n    ],\r\n    \"electronicBill\": {\r\n        \"emailAuth\": \"\",\r\n        \"datoAuth\": \"\",\r\n        \"authorization\": \"\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -574,7 +574,7 @@
 					"response": []
 				},
 				{
-					"name": "View All Services",
+					"name": "View Bank Fees",
 					"id": "0c0db225-7642-40e8-8d1e-9bba9eb026f6",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -584,8 +584,7 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "{{tk_colla}}",
-								"disabled": true
+								"value": "{{tk_colla}}"
 							}
 						],
 						"body": {
@@ -598,13 +597,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/sv/allse",
+							"raw": "{{kalos_local}}{{api}}/bafe/viewall",
 							"host": [
 								"{{kalos_local}}{{api}}"
 							],
 							"path": [
-								"sv",
-								"allse"
+								"bafe",
+								"viewall"
 							]
 						}
 					},
@@ -1098,7 +1097,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"product\": \"igor\",\r\n    // \"product\": \"crema\",\r\n    \"warehouse\": \"bodega_ventas\"\r\n}",
+							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"product\": \"7702029580190\",\r\n    // \"product\": \"crema\",\r\n    \"warehouse\": \"bodega_ventas\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2739,7 +2738,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"cod_warehouse\": \"BODSUM\",\r\n    \"name\": \"bodega_suministros\",\r\n    \"observation\":\"Suministros, Uso Interno\",\r\n    \"location\": \"Sede Principal\",\r\n    \"costCenter\":\"151625\"\r\n}",
+							"raw": "{\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 1002649708,\r\n        \"businessName\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"cod_warehouse\": \"BODVEN\",\r\n    \"name\": \"bodega_ventas\",\r\n    \"observation\":\"Venta de Productos de Belleza\",\r\n    \"location\": \"Sede Principal\",\r\n    \"costCenter\":\"151625\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2815,7 +2814,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"user\": \"\",\r\n    \"business\": \"665f2f56506d687b89232efc\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n    \"dateService\": \"14/06/2024\"\r\n}\r\n// {\r\n//     \"user\": \"\",\r\n//     \"business\": \"665f2f56506d687b89232efc\",\r\n//     \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n//     \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n//     \"dateService\": \"13/06/2024\"\r\n// }",
+							"raw": "{\r\n    \"user\": \"\",\r\n    \"business\": \"665f2f56506d687b89232efc\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"staff\": \"661204ff9c1faeecf2f552f6\",\r\n    \"dateService\": \"01/07/2024\"\r\n}\r\n// {\r\n//     \"user\": \"\",\r\n//     \"business\": \"665f2f56506d687b89232efc\",\r\n//     \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n//     \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n//     \"dateService\": \"01/08/2024\"\r\n// }",
 							"options": {
 								"raw": {
 									"language": "json"
