@@ -1497,7 +1497,7 @@
 					"response": []
 				},
 				{
-					"name": "Bulk Upload Of Service Parameters",
+					"name": "Bulk Upload Of Service Parameters WhatsApp",
 					"id": "3fcbc6e3-1455-4a53-bd7a-c6eed80ed00f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -1516,11 +1516,21 @@
 								{
 									"key": "file",
 									"type": "file",
-									"src": "/J:/Mi unidad/Procesos LamedDev/CargueCostosTypeServicesCasaCavalier.csv"
+									"src": "/J:/Mi unidad/Inventarios/Servicios Casa Cavalier.csv"
 								},
 								{
 									"key": "businessID",
 									"value": "66610e140d96d92379cb7062",
+									"type": "text"
+								},
+								{
+									"key": "nit",
+									"value": "1002649708",
+									"type": "text"
+								},
+								{
+									"key": "nameBusiness",
+									"value": "Casa Cavalier",
 									"type": "text"
 								},
 								{
@@ -1536,13 +1546,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/sp/bulktyser",
+							"raw": "{{kalos_local}}{{api}}/sp/wsbulktyser",
 							"host": [
 								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"sp",
-								"bulktyser"
+								"wsbulktyser"
 							]
 						}
 					},

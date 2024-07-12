@@ -7007,7 +7007,7 @@
 							"response": []
 						},
 						{
-							"name": "View Food Order User",
+							"name": "View All User Food Order",
 							"id": "fb971212-19b1-468e-a54c-c01442c7d255",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -7017,7 +7017,7 @@
 								"header": [
 									{
 										"key": "x-token",
-										"value": "{{tk_colla}}"
+										"value": "{{tk_user}}"
 									}
 								],
 								"body": {
@@ -7030,12 +7030,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/tsv",
+									"raw": "{{kalos_local}}{{api}}/bistro/userview",
 									"host": [
 										"{{kalos_local}}{{api}}"
 									],
 									"path": [
-										"tsv"
+										"bistro",
+										"userview"
 									]
 								}
 							},
@@ -7093,7 +7094,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{ // TODO: Cargue de Alimentos desde Bistro al Cliente.\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"user\": {\r\n        \"userID\": \"64a8d9b6f12d3126f6a50b5c\",\r\n        \"nomUser\": \"Lamed\",\r\n        \"apeUser\": \"Saenz\",\r\n        \"userDocu\": \"80139076\",\r\n        \"emailUser\": \"lameddev@gmail.com\",\r\n        \"movilUser\": 3142540356\r\n    },\r\n    \"bistro\": [\r\n        // {\r\n        //     \"foodOrder\": \"Coca Cola 350 ml\",\r\n        //     \"amount\": 1,\r\n        //     \"cost\": 3000,\r\n        //     \"totalCost\": 3000,\r\n        //     \"note\": \"\"\r\n        // },\r\n        // {\r\n        //     \"foodOrder\": \"Papas Super Ricas de Pollo\",\r\n        //     \"amount\": 2,\r\n        //     \"cost\": 2300,\r\n        //     \"totalCost\": 4600,\r\n        //     \"note\": \"\"\r\n        // }\r\n        {\r\n            \"foodOrder\": \"Almuerzo Especial\",\r\n            \"amount\": 1,\r\n            \"cost\": 35000,\r\n            \"totalCost\": 35000,\r\n            \"note\": \"\"\r\n        }\r\n    ],\r\n    \"costOfFood\": 35000\r\n}",
+									"raw": "{ // TODO: Cargue de Alimentos desde Bistro al Cliente.\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"user\": {\r\n        \"userID\": \"64b2ee2ce9f144ef52a96853\",\r\n        \"nomUser\": \"Elizabeth\",\r\n        \"apeUser\": \"Sáenz\",\r\n        \"userDocu\": \"52757055\",\r\n        \"emailUser\": \"elizabethvoxlot@gmail.com\",\r\n        \"movilUser\": 3142540351\r\n    },\r\n    \"bistro\": [\r\n        // {\r\n        //     \"foodOrder\": \"Coca Cola 350 ml\",\r\n        //     \"amount\": 1,\r\n        //     \"cost\": 3000,\r\n        //     \"totalCost\": 3000,\r\n        //     \"note\": \"\"\r\n        // },\r\n        // {\r\n        //     \"foodOrder\": \"Papas Super Ricas de Pollo\",\r\n        //     \"amount\": 2,\r\n        //     \"cost\": 2300,\r\n        //     \"totalCost\": 4600,\r\n        //     \"note\": \"\"\r\n        // }\r\n        // {\r\n        //     \"foodOrder\": \"Almuerzo Especial\",\r\n        //     \"amount\": 1,\r\n        //     \"cost\": 35000,\r\n        //     \"totalCost\": 35000,\r\n        //     \"note\": \"\"\r\n        // }\r\n        {\r\n            \"foodOrder\": \"Aromatica Frutos Silvestres\",\r\n            \"amount\": 1,\r\n            \"cost\": 0,\r\n            \"totalCost\": 0,\r\n            \"note\": \"\"\r\n        }\r\n    ],\r\n    \"costOfFood\": 0\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -7108,6 +7109,42 @@
 									"path": [
 										"bistro",
 										"foodorder"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create User Food Order (Pedidos Alimentos Usuario)",
+							"id": "735286cf-de3e-4268-b28e-b4c5aa1e98fd",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_user}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{ // TODO: Cargue de Alimentos desde Bistro al Cliente.\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"user\": {\r\n        \"userID\": \"64b2ee2ce9f144ef52a96853\",\r\n        \"nomUser\": \"Elizabeth\",\r\n        \"apeUser\": \"Sáenz\",\r\n        \"userDocu\": \"52757055\",\r\n        \"emailUser\": \"elizabethvoxlot@gmail.com\",\r\n        \"movilUser\": 3142540351\r\n    },\r\n    \"bistro\": [\r\n        // {\r\n        //     \"foodOrder\": \"CocaCola 350 ml\",\r\n        //     \"amount\": 1,\r\n        //     \"cost\": 3000,\r\n        //     \"totalCost\": 3000,\r\n        //     \"note\": \"\"\r\n        // }\r\n        // {\r\n        //     \"foodOrder\": \"Papas Super Ricas de Pollo\",\r\n        //     \"amount\": 2,\r\n        //     \"cost\": 2300,\r\n        //     \"totalCost\": 4600,\r\n        //     \"note\": \"\"\r\n        // }\r\n        {\r\n            \"foodOrder\": \"Almuerzo Especial\",\r\n            \"amount\": 1,\r\n            \"cost\": 35000,\r\n            \"totalCost\": 35000,\r\n            \"note\": \"\"\r\n        }\r\n        // {\r\n        //     \"foodOrder\": \"Aromatica Frutos Silvestres\",\r\n        //     \"amount\": 1,\r\n        //     \"cost\": 0,\r\n        //     \"totalCost\": 0,\r\n        //     \"note\": \"\"\r\n        // }\r\n    ],\r\n    \"costOfFood\": 35000\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/bistro/foodorderuser",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"bistro",
+										"foodorderuser"
 									]
 								}
 							},
