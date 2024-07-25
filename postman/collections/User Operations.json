@@ -297,7 +297,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"665f2f56506d687b89232efc\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"6614ca4e939d2ce747ef0ca1\", //Este ID es el businessUsers\r\n    \"services\": \"64ab9aced82418177a7237e2\",\r\n    \"typeServices\": \"64ab9b17d82418177a7237ee\",\r\n    \"dateService\": \"01/07/2024\",\r\n    \"timeService\": \"19:30:00\"\r\n}\r\n",
+									"raw": "{\r\n  \"user\": \"64a8d9b6f12d3126f6a50b5c\",\r\n  \"discount\": \"\",\r\n  \"userForeing\": {\r\n    \"nomUser\": \"\",\r\n    \"apeUser\": \"\",\r\n    \"emailUser\": \"\",\r\n    \"movilUser\": \"\",\r\n    \"userDocu\": \"\"\r\n  },\r\n  \"business\": \"66610e140d96d92379cb7062\",\r\n  \"tradename\": \"Casa Cavalier\",\r\n  \"manager\": \"\",\r\n  \"observationManager\": \"WhatsApp\",\r\n  \"staff\": \"66674e2b92a856aa6f5e2068\",\r\n  \"services\": \"64ab9174923ff67b725791b7\",\r\n  \"typeServices\": \"64ab92e0063c636a40004149\",\r\n  \"dateService\": \"19/07/2024\",\r\n  \"timeService\": \"13:00:00\"\r\n}\r\n\r\n// {\r\n//     \"user\": \"64b2ee2ce9f144ef52a96853\",\r\n//     \"discount\": \"\",\r\n//     \"userForeing\": {\r\n//         \"nomUser\": \"\",\r\n//         \"apeUser\": \"\",\r\n//         \"emailUser\": \"\",\r\n//         \"movilUser\": \"\",\r\n//         \"userDocu\": \"\"\r\n//     },\r\n//     \"business\": \"665f2f56506d687b89232efc\",\r\n//     \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n//     \"manager\": \"\",\r\n//     \"observationManager\": \"\",\r\n//     \"staff\": \"6614ca4e939d2ce747ef0ca1\", //Este ID es el businessUsers\r\n//     \"services\": \"64ab9aced82418177a7237e2\",\r\n//     \"typeServices\": \"64ab9b17d82418177a7237ee\",\r\n//     \"dateService\": \"01/07/2024\",\r\n//     \"timeService\": \"19:30:00\"\r\n// }\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -644,8 +644,44 @@
 					"name": "User Create",
 					"item": [
 						{
-							"name": "Create User",
+							"name": "Create User Sistema",
 							"id": "5cb7a7cd-9d54-4b61-ac19-1213a78acb34",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{user_dev}}",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Manager\",\r\n    \"lastName\": \"WhatsApp\",\r\n    \"movil\": \"5000000000\",\r\n    \"email\": \"manager@whatsapp.com\",\r\n    \"pass\": \"wh4ts4pp-K@l0s*\",\r\n    \"terms\": \"true\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_dev}}{{api}}/usr",
+									"host": [
+										"{{kalos_dev}}{{api}}"
+									],
+									"path": [
+										"usr"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create User",
+							"id": "67a7cfae-2b61-4af5-b1e4-7b20c1312a74",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},

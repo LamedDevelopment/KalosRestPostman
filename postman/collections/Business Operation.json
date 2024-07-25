@@ -1866,7 +1866,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"tradename\": \"Nombre Sede O comercial\"\r\n    //\"name\": \"Peluqueria\"\r\n}",
+											"raw": "{\r\n    \"business\": \"665f2f56506d687b89232efc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    //\"name\": \"Peluqueria\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -3093,7 +3093,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"dateService\": \"25/02/2024\"\r\n}",
+											"raw": "{\r\n    \"business\": \"66610e140d96d92379cb7062\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"staff\": \"66674e0892a856aa6f5e1e99\",\r\n    \"dateService\": \"16/07/2024\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -5480,7 +5480,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"dateService\": \"27/11/2023\"\r\n}\r\n",
+											"raw": "{\r\n    \"business\": \"66610e140d96d92379cb7062\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"dateService\": \"27/11/2023\"\r\n}\r\n",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6285,7 +6285,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"user\": \"\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"Nombre Prueba\",\r\n        \"apeUser\": \"Apellido Prueba\",\r\n        \"emailUser\": \"email@email.com\",\r\n        \"movilUser\": \"3216549870\",\r\n        \"userDocu\": \"80111111\"\r\n    },\r\n    \"business\": \"665f2f56506d687b89232efc\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"manager\": \"655707806c6b23062ab9c76b\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"655709768197f57fe38ae973\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"15/06/2024\",\r\n    \"timeService\": \"09:30:00\"\r\n}",
+											"raw": "{\r\n  \"user\": \"\",\r\n  \"discount\": \"\",\r\n  \"userForeing\": {\r\n    \"nomUser\": \"Lamed\",\r\n    \"apeUser\": \"Saenz\",\r\n    \"emailUser\": \"lameddev@gmail.com\",\r\n    \"movilUser\": \"3142540356\",\r\n    \"userDocu\": \"80139076\"\r\n  },\r\n  \"business\": \"66610e140d96d92379cb7062\",\r\n  \"tradename\": \"Casa Cavalier\",\r\n  \"manager\": \"6667433392a856aa6f5e1bb1\",\r\n  \"observationManager\": \"WhatsApp\",\r\n  \"staff\": \"66674e2b92a856aa6f5e2068\",\r\n  \"services\": \"64ab9174923ff67b725791b7\",\r\n  \"typeServices\": \"64ab92e0063c636a40004149\",\r\n  \"dateService\": \"18/07/2024\",\r\n  \"timeService\": \"12:00:00\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6680,7 +6680,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"\",\r\n    \"docuUser\": 1321321,\r\n    \"managerDiscount\": 0,\r\n    \"tax\": [\r\n        {\r\n            \"description\": \"IVA\",\r\n            \"value\": 0\r\n        }\r\n    ],\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"Efectivo\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"code\": \"\",\r\n    \"electronicBilling\": true,\r\n    \"observationBilling\": \"\",\r\n    \"document\": 2131321,\r\n    \"fullName\": \"kevin\",\r\n    \"email\": \"kevin@gmail.com\",\r\n    \"movil\": 3213213210,\r\n    \"checked\": false,\r\n    \"product_sales\": [\r\n        {\r\n            \"producto\": {\r\n                \"warehouse\": \"bodega_ventas\",\r\n                \"category\": \"Cosmetologia\",\r\n                \"product_name\": \"Crema Hidratante (Moisturizing Cream)\",\r\n                \"product_description\": \"Crema hidratante para piel seca de 200ml. (Moisturizing cream for dry skin 200ml)\",\r\n                \"product_brand\": \"Proveedor Y\",\r\n                \"selling_price_public\": 23800,\r\n                \"barcode\": \"7702029004160\",\r\n                \"quantity_in_stock\": 50,\r\n                \"usage_notes\": \"Aplicar despues de la ducha. (Apply after showering)\",\r\n                \"_id\": \"6673d94519f9903d4c07f9f4\",\r\n                \"amount\": 1\r\n            }\r\n        }\r\n    ],\r\n    \"electronicInvoiceUser\": {\r\n        \"document\": 1115559999,\r\n        \"fullName\": \"Francisco Sierra\",\r\n        \"email\": \"sierra@sierra.com\",\r\n        \"movil\": 3213213210\r\n    }\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"669dc5733c7a128520810e7b\",\r\n    \"docuUser\": 1321321,\r\n    \"managerDiscount\": 0,\r\n    \"tax\": [\r\n        {\r\n            \"description\": \"IVA\",\r\n            \"value\": 0\r\n        }\r\n    ],\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"Efectivo\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"code\": \"\",\r\n    \"electronicBilling\": true,\r\n    \"observationBilling\": \"\",\r\n    \"document\": 2131321,\r\n    \"fullName\": \"kevin\",\r\n    \"email\": \"kevin@gmail.com\",\r\n    \"movil\": 3213213210,\r\n    \"checked\": false,\r\n    \"product_sales\": [\r\n        {\r\n            \"producto\": {\r\n                \"warehouse\": \"bodega_ventas\",\r\n                \"category\": \"Cosmetologia\",\r\n                \"product_name\": \"Crema Hidratante (Moisturizing Cream)\",\r\n                \"product_description\": \"Crema hidratante para piel seca de 200ml. (Moisturizing cream for dry skin 200ml)\",\r\n                \"product_brand\": \"Proveedor Y\",\r\n                \"selling_price_public\": 23800,\r\n                \"barcode\": \"7702029004160\",\r\n                \"quantity_in_stock\": 50,\r\n                \"usage_notes\": \"Aplicar despues de la ducha. (Apply after showering)\",\r\n                \"_id\": \"6673d94519f9903d4c07f9f4\",\r\n                \"amount\": 1\r\n            }\r\n        },\r\n        {\r\n            \"producto\": {\r\n                \"warehouse\": \"bodega_ventas\",\r\n                \"category\": \"Cosmetologia\",\r\n                \"product_name\": \"Crema Hidratante (Moisturizing Cream)\",\r\n                \"product_description\": \"Crema hidratante para piel seca de 200ml. (Moisturizing cream for dry skin 200ml)\",\r\n                \"product_brand\": \"Proveedor Y\",\r\n                \"selling_price_public\": 23800,\r\n                \"barcode\": \"7702029004160\",\r\n                \"quantity_in_stock\": 50,\r\n                \"usage_notes\": \"Aplicar despues de la ducha. (Apply after showering)\",\r\n                \"_id\": \"6673d94519f9903d4c07f9f4\",\r\n                \"amount\": 1\r\n            }\r\n        }\r\n    ],\r\n    \"electronicInvoiceUser\": {\r\n        \"document\": 1115559999,\r\n        \"fullName\": \"Francisco Sierra\",\r\n        \"email\": \"sierra@sierra.com\",\r\n        \"movil\": 3213213210\r\n    }\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -7466,7 +7466,46 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"businessUser\": {\r\n        \"businessUserID\": \"6614ca4e939d2ce747ef0ca1\",\r\n        \"fullName\": \"Johan Varon\",\r\n        \"email\": \"varonjohan51@gmail.com\",\r\n        \"document\": \"1028782329\"\r\n    },\r\n    \"_id\": \"66724c7ce51bfda4bd76f6ca\",\r\n    \"appointmentID\": \"667195438815680aa868a399\",\r\n    \"orderSupplies\": \"Inicio del Servicio\",\r\n    \"supplies\": [\r\n        {\r\n            \"staff\": \"661204ff9c1faeecf2f552f6\",\r\n            \"product\": \"Color Pelo\",\r\n            \"brand\": \"Kuul\",\r\n            \"reference\": \"6.1\",\r\n            \"description\": \"25\",\r\n            \"suppliesPrice\": 15400,\r\n            \"dateCreate\": \"18/06/2024, 22:11:48\",\r\n            \"deliverSupplies\": true,\r\n            \"cancelDelivery\": false,\r\n            \"note\": \"Se Entrega a Conformidad al Colaborador\",\r\n            \"updateStaff\": [],\r\n            \"_id\": \"66724c7ce51bfda4bd76f6cb\"\r\n        },\r\n        {\r\n            \"staff\": \"661204ff9c1faeecf2f552f6\",\r\n            \"product\": \"Color Pelo\",\r\n            \"brand\": \"Kuul\",\r\n            \"reference\": \"6.22\",\r\n            \"description\": \"15\",\r\n            \"suppliesPrice\": 5400,\r\n            \"dateCreate\": \"18/06/2024, 22:11:48\",\r\n            \"deliverSupplies\": true,\r\n            \"cancelDelivery\": false,\r\n            \"note\": \"Se Entrega a Conformidad al Colaborador\",\r\n            \"updateStaff\": [],\r\n            \"_id\": \"66724c7ce51bfda4bd76f6cc\"\r\n        },\r\n        {\r\n            \"staff\": \"661204ff9c1faeecf2f552f6\",\r\n            \"product\": \"Color Pelo\",\r\n            \"brand\": \"Kuul\",\r\n            \"reference\": \"5.23\",\r\n            \"description\": \"5\",\r\n            \"suppliesPrice\": 1400,\r\n            \"dateCreate\": \"18/06/2024, 22:11:48\",\r\n            \"deliverSupplies\": false,\r\n            \"cancelDelivery\": true,\r\n            \"note\": \"No hay Existencias para este Servicio\",\r\n            \"updateStaff\": [],\r\n            \"_id\": \"66724c7ce51bfda4bd76f6cd\"\r\n        }\r\n    ]\r\n}",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"businessUser\": {\r\n        \"businessUserID\": \"6614ca4e939d2ce747ef0ca1\",\r\n        \"fullName\": \"Johan Varon\",\r\n        \"email\": \"varonjohan51@gmail.com\",\r\n        \"document\": \"1028782329\"\r\n    },\r\n    \"_id\": \"66724c7ce51bfda4bd76f6ca\",\r\n    \"appointmentID\": \"667195438815680aa868a399\",\r\n    \"orderSupplies\": \"Inicio del Servicio\",\r\n    \"supplies\": [\r\n        {\r\n            \"staff\": \"661204ff9c1faeecf2f552f6\",\r\n            \"product\": \"Color Pelo\",\r\n            \"brand\": \"Kuul\",\r\n            \"reference\": \"6.1\",\r\n            \"description\": \"25\",\r\n            \"suppliesPrice\": 15400,\r\n            \"dateCreate\": \"18/06/2024, 22:11:48\",\r\n            \"deliverSupplies\": false, // No entrego este Suministro\r\n            \"cancelDelivery\": true, // Cancelo la entrega\r\n            \"note\": \"Se Entrega a Conformidad al Colaborador\",\r\n            \"updateStaff\": [],\r\n            \"_id\": \"66724c7ce51bfda4bd76f6cb\"\r\n        },\r\n        {\r\n            \"staff\": \"661204ff9c1faeecf2f552f6\",\r\n            \"product\": \"Color Pelo\",\r\n            \"brand\": \"Kuul\",\r\n            \"reference\": \"6.22\",\r\n            \"description\": \"15\",\r\n            \"suppliesPrice\": 5400,\r\n            \"dateCreate\": \"18/06/2024, 22:11:48\",\r\n            \"deliverSupplies\": true,\r\n            \"cancelDelivery\": false,\r\n            \"note\": \"Se Entrega a Conformidad al Colaborador\",\r\n            \"updateStaff\": [],\r\n            \"_id\": \"66724c7ce51bfda4bd76f6cc\"\r\n        },\r\n        {\r\n            \"staff\": \"661204ff9c1faeecf2f552f6\",\r\n            \"product\": \"Color Pelo\",\r\n            \"brand\": \"Kuul\",\r\n            \"reference\": \"5.23\",\r\n            \"description\": \"5\",\r\n            \"suppliesPrice\": 1400,\r\n            \"dateCreate\": \"18/06/2024, 22:11:48\",\r\n            \"deliverSupplies\": false,\r\n            \"cancelDelivery\": true,\r\n            \"note\": \"No hay Existencias para este Servicio\",\r\n            \"updateStaff\": [],\r\n            \"_id\": \"66724c7ce51bfda4bd76f6cd\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/apu/upsup",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"apu",
+										"upsup"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Deliver Supplies For Item",
+							"id": "c7303827-84cb-4b7f-a55c-5f5f5f5d1d24",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"businessUser\": {\r\n        \"businessUserID\": \"66674e0892a856aa6f5e1e99\",\r\n        \"fullName\": \"Sergio Jiménez\",\r\n        \"email\": \"21jnsergiio@gmail.com\",\r\n        \"document\": \"1027400852\"\r\n    },\r\n    \"_id\": \"66885d51fdb7e40832e3eff5\",\r\n    \"appointmentID\": \"66885cd4fdb7e40832e3efd9\",\r\n    \"orderSupplies\": \"Inicio del Servicio\",\r\n    \"supplies\": [\r\n        {\r\n            \"staff\": \"6667433392a856aa6f5e1bb1\",\r\n            \"product\": \"Color Pelo\",\r\n            \"brand\": \"Kuul\",\r\n            \"reference\": \"6.1\",\r\n            \"description\": \"15\",\r\n            \"suppliesPrice\": 20000,\r\n            \"dateCreate\": \"05/07/2024, 15:53:37\",\r\n            \"deliverSupplies\": true,\r\n            \"cancelDelivery\": false,\r\n            \"note\": null,\r\n            \"updateStaff\": [],\r\n            \"_id\": \"66885d51fdb7e40832e3eff6\"\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -7856,6 +7895,48 @@
 				{
 					"name": "Personal Control",
 					"item": [
+						{
+							"name": "Unlink Collaborator (Desvincular)",
+							"item": [
+								{
+									"name": "Collaborator Retirement (Retiro Colaborador)",
+									"id": "48d99eb9-7801-4fb3-823b-73502c01486c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"user\": {\r\n        \"email\": \"edisonra_@hotmail.com\",\r\n        \"name\": \"Jaime Edilson\",\r\n        \"lastName\": \"Raigozo Marquez \",\r\n        \"document\": 80212758\r\n    },\r\n    \"newStatus\": false\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/bus/reticolla",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bus",
+												"reticolla"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "b89fd64c-fd1d-464d-86b2-52411a29cae2"
+						},
 						{
 							"name": "View All Collaborator",
 							"id": "0ffd664c-d7f3-4c7e-a6e1-7c633ea86193",
