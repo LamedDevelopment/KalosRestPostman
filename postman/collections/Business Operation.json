@@ -7914,7 +7914,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"user\": {\r\n        \"email\": \"edisonra_@hotmail.com\",\r\n        \"name\": \"Jaime Edilson\",\r\n        \"lastName\": \"Raigozo Marquez \",\r\n        \"document\": 80212758\r\n    },\r\n    \"newStatus\": false\r\n}",
+											"raw": "{\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"user\": {\r\n        \"email\": \"edisonra_@hotmail.com\",\r\n        \"name\": \"Jaime Edilson\",\r\n        \"lastName\": \"Raigozo Marquez \",\r\n        \"document\": 80212758\r\n    },\r\n    \"newStatus\": true\r\n}\r\n\r\n{\r\n    \"business\": {\r\n        \"business\": \"661204ff9c1faeecf2f552f2\",\r\n        \"nit\": 802127585,\r\n        \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"user\": {\r\n        \"email\": \"varonjohan51@gmail.com\",\r\n        \"name\": \"Johan\",\r\n        \"lastName\": \"Varon\",\r\n        \"document\": 1028782329\r\n    },\r\n    \"newStatus\": false\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
