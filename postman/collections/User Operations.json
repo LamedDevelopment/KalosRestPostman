@@ -696,7 +696,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"Alejandro\",\r\n    \"lastName\": \"Guerrero\",\r\n    \"movil\": \"3013098222\",\r\n    \"email\": \"jago1125@hotmail.com\",\r\n    \"pass\": \"12345\",\r\n    \"terms\": \"true\"\r\n}",
+									"raw": "{\r\n    \"name\": \"Consumidor\",\r\n    \"lastName\": \"Final\",\r\n    \"movil\": \"2222222222\",\r\n    \"email\": \"consumidor@final.com\",\r\n    \"pass\": \"@o37(IL^Ix3&\",\r\n    \"terms\": \"true\"\r\n}\r\n// {\r\n//     \"name\": \"Consumidor\",\r\n//     \"lastName\": \"Final\",\r\n//     \"movil\": \"2222222222\",\r\n//     \"email\": \"consumidor@final.com\",\r\n//     \"pass\": \"@o37(IL^Ix3&\",\r\n//     \"terms\": \"true\"\r\n// }",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -704,9 +704,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/usr",
+									"raw": "{{kalos_back}}{{api}}/usr",
 									"host": [
-										"{{kalos_local}}{{api}}"
+										"{{kalos_back}}{{api}}"
 									],
 									"path": [
 										"usr"

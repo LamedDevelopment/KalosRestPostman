@@ -1667,7 +1667,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": \"655456e56eb1b0c5c3523c8a\",\r\n    \"tradename\": \"Nombre Sede O comercial\"\r\n}",
+											"raw": "{\r\n    \"business\": \"66a80fad00c308a530fc6175\",\r\n    \"tradename\": \"Studio 99 Barberia & Peluqueria\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1703,7 +1703,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"name\": \"Johan\",\r\n    \"lastName\": \"Varon\",\r\n    \"movil\": \"3115264498\",\r\n    \"email\": \"varonjohan51@gmail.com\",\r\n    \"pass\": \"12345\",\r\n    \"terms\": \"true\"\r\n}",
+											"raw": "{\r\n    \"name\": \"Johan\",\r\n    \"lastName\": \"Varon\",\r\n    \"movil\": \"3115264495\",\r\n    \"email\": \"varonjohan51987654@gmail.com\",\r\n    \"pass\": \"12345\",\r\n    \"terms\": \"true\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1711,18 +1711,18 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/usr/register?d=U2FsdGVkX1/29V2OoHygwjeLlPHI+EJzw286IPxo1lxMIwriNHjh6GBBHYYJXeDCnz+NyBV7Cf8depdYlPXolyt3qSlA/SmKzPD53w++INx8h8VMBR/zYZVDeJHq3AiJpT4C/B9D68dEhSjNHxym1xmQA6A1VulasvCzAVFMZLtvCqfChGAot177NkCpqnIUwmpkF/5NLkmpaED1j4pbtkqDDpcYbNqzGiwY5PSij5I=",
+											"raw": "{{kalos_local}}{{api}}/usr/qr?d=U2FsdGVkX18ebQgHweaPOLF1%2FgMVxwPQEPyKE6IfDhzG8E4359Ro6MABTOyuKRqhPylibEmSILdwgkeoXG0DK3ShepKYA5pQMQuc847C6gAmG0zFHrA9Folh1ISgiXB452cuuZ9iiR3k8IkDrYYzBRquPjmuI%2FxkZealJzo5zlljP0zasvk%2F4kTydEarv1lqsvByVVcM6HP88mJQC1FjFUJRroqZhvdtEmapilGcCSc%2FwBYHWn4Jt0oYW6lSlzYR",
 											"host": [
 												"{{kalos_local}}{{api}}"
 											],
 											"path": [
 												"usr",
-												"register"
+												"qr"
 											],
 											"query": [
 												{
 													"key": "d",
-													"value": "U2FsdGVkX1/29V2OoHygwjeLlPHI+EJzw286IPxo1lxMIwriNHjh6GBBHYYJXeDCnz+NyBV7Cf8depdYlPXolyt3qSlA/SmKzPD53w++INx8h8VMBR/zYZVDeJHq3AiJpT4C/B9D68dEhSjNHxym1xmQA6A1VulasvCzAVFMZLtvCqfChGAot177NkCpqnIUwmpkF/5NLkmpaED1j4pbtkqDDpcYbNqzGiwY5PSij5I="
+													"value": "U2FsdGVkX18ebQgHweaPOLF1%2FgMVxwPQEPyKE6IfDhzG8E4359Ro6MABTOyuKRqhPylibEmSILdwgkeoXG0DK3ShepKYA5pQMQuc847C6gAmG0zFHrA9Folh1ISgiXB452cuuZ9iiR3k8IkDrYYzBRquPjmuI%2FxkZealJzo5zlljP0zasvk%2F4kTydEarv1lqsvByVVcM6HP88mJQC1FjFUJRroqZhvdtEmapilGcCSc%2FwBYHWn4Jt0oYW6lSlzYR"
 												}
 											]
 										}
@@ -5634,16 +5634,16 @@
 										"disableBodyPruning": true
 									},
 									"request": {
-										"method": "PUT",
+										"method": "POST",
 										"header": [
 											{
 												"key": "x-token",
-												"value": "{{colla_local}}"
+												"value": "{{tk_colla}}"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"name\":\"Elizabeth\",\r\n    \"lastName\":\"Sáenz\",\r\n    \"celusu\":\"3142540351\",\r\n    \"email\":\"elizabethvoxlot@gmail.com\",\r\n    \"country\":\"Colombia\",\r\n    \"city\":\"Bogotá\",\r\n    \"address\":\"cll 72 c sur\",\r\n    \"birthdate\":\"1988-04-30T05:00:00.000Z\",\r\n    \"gender\":\"female\"\r\n}",
+											"raw": "{\r\n    \"name\": \"Viviana Andrea\",\r\n    \"lastName\": \"Caicedo\",\r\n    \"celusu\": 3213955155,\r\n    \"email\": \"viviana.caicedo@hotmail.com\",\r\n    \"city\": \"Bogotá\",\r\n    \"address\": \"cll 72\",\r\n    \"birthdate\": \"2024-07-17\",\r\n    \"gender\": \"female\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -5651,13 +5651,13 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/bususu/64b4dd0fbd21c7b449d52ece",
+											"raw": "{{kalos_local}}{{api}}/bususu/upcolla",
 											"host": [
 												"{{kalos_local}}{{api}}"
 											],
 											"path": [
 												"bususu",
-												"64b4dd0fbd21c7b449d52ece"
+												"upcolla"
 											]
 										}
 									},
@@ -6250,7 +6250,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"user\": \"\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"Gerson\",\r\n        \"apeUser\": \"Saenz\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"66a80fad00c308a530fc6175\",\r\n    \"tradename\": \"Studio 99 Barberia & Peluqueria\",\r\n    \"manager\": \"66a80fad00c308a530fc6179\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"66a8166100c308a530fc6228\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"30/07/2024\",\r\n    \"timeService\": \"09:00:00\"\r\n}\r\n// {\r\n//     \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n//     \"discount\": \"\",\r\n//     \"userForeing\": {\r\n//         \"nomUser\": \"\", \r\n//         \"apeUser\": \"\", \r\n//         \"emailUser\": \"\", \r\n//         \"movilUser\": \"\", \r\n//         \"userDocu\": \"\"\r\n//     },\r\n//     \"business\": \"66610e140d96d92379cb7062\",\r\n//     \"tradename\": \"Casa Cavalier\",\r\n//     \"manager\": \"66610e140d96d92379cb7066\",\r\n//     \"observationManager\": \"\",\r\n//     \"staff\": \"6664e00983c41255fd0df923\",\r\n//     \"services\": \"64ab9174923ff67b725791b7\", \r\n//     \"typeServices\": \"64ab92e0063c636a40004149\",\r\n//     \"dateService\": \"09/06/2024\",\r\n//     \"timeService\": \"14:30:00\"\r\n// }",
+											"raw": "{\r\n    \"user\": \"\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"Alfredo\",\r\n        \"apeUser\": \"Vanegaz\",\r\n        \"emailUser\": \"alfredo@gmail.com\",\r\n        \"movilUser\": \"3216549870\",\r\n        \"userDocu\": \"81202020\"\r\n    },\r\n    \"business\": \"66a80fad00c308a530fc6175\",\r\n    \"tradename\": \"Studio 99 Barberia & Peluqueria\",\r\n    \"manager\": \"66a80fad00c308a530fc6179\",\r\n    \"observationManager\": \"usuario prueba creación Foraneo\",\r\n    \"staff\": \"66a80fad00c308a530fc6179\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"05/08/2024\",\r\n    \"timeService\": \"11:30:00\"\r\n}\r\n// {\r\n//     \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n//     \"discount\": \"\",\r\n//     \"userForeing\": {\r\n//         \"nomUser\": \"\", \r\n//         \"apeUser\": \"\", \r\n//         \"emailUser\": \"\", \r\n//         \"movilUser\": \"\", \r\n//         \"userDocu\": \"\"\r\n//     },\r\n//     \"business\": \"66610e140d96d92379cb7062\",\r\n//     \"tradename\": \"Casa Cavalier\",\r\n//     \"manager\": \"66610e140d96d92379cb7066\",\r\n//     \"observationManager\": \"\",\r\n//     \"staff\": \"6664e00983c41255fd0df923\",\r\n//     \"services\": \"64ab9174923ff67b725791b7\", \r\n//     \"typeServices\": \"64ab92e0063c636a40004149\",\r\n//     \"dateService\": \"09/06/2024\",\r\n//     \"timeService\": \"14:30:00\"\r\n// }",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6645,7 +6645,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"66a5c47ecbc430aaca8e65c9\",\r\n    \"staffReceivingPayment\": {\r\n        \"creatorStaffBusiness\": \"661204ff9c1faeecf2f552f6\",\r\n        \"name\": \"Viviana Andrea\",\r\n        \"lastName\": \"Caicedo\"\r\n    },\r\n    \"user\": {\r\n        \"userID\": \"661961d96e9ce8c7a0783c57\",\r\n        \"docu\": 1112223330,\r\n        \"nomUser\": \"Gerson\",\r\n        \"apeUser\": \"Sáenz \",\r\n        \"emailUser\": \"lamed.saenz@gmail.com\",\r\n        \"movilUser\": 3142540356\r\n    },\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"branchOffice\": [\r\n            {\r\n                \"businessname\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n                \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n                \"address\": \"Diag 73 B Sur # 79 c - 09 Piso 1\",\r\n                \"phone\": {\r\n                    \"description\": \"Recepcion\"\r\n                },\r\n                \"cellphone\": {\r\n                    \"description\": \"Recepcion\"\r\n                },\r\n                \"email\": \"viviana.caicedo@hotmail.com\",\r\n                \"location\": {\r\n                    \"type\": \"Point\",\r\n                    \"coordinates\": [\r\n                        4.602993671064257,\r\n                        -74.21185042633\r\n                    ]\r\n                },\r\n                \"city\": \"Bogota\",\r\n                \"country\": \"Colombia\",\r\n                \"countryCode\": \"CO\",\r\n                \"state\": \"DC\",\r\n                \"services\": [\r\n                    {\r\n                        \"services\": \"64ab9174923ff67b725791b7\",\r\n                        \"name\": \"Peluqueria\",\r\n                        \"servicesUnique\": \"20965636_802127585_Peluqueria\",\r\n                        \"_id\": \"661204ff9c1faeecf2f552fd\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9448063c636a40004160\",\r\n                        \"name\": \"Peinados\",\r\n                        \"servicesUnique\": \"20965636_802127585_Peinados\",\r\n                        \"_id\": \"661204ff9c1faeecf2f552fe\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9537063c636a4000417b\",\r\n                        \"name\": \"Tinturas\",\r\n                        \"servicesUnique\": \"20965636_802127585_Tinturas\",\r\n                        \"_id\": \"661204ff9c1faeecf2f552ff\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab95f1063c636a40004196\",\r\n                        \"name\": \"Cuidado Capilar\",\r\n                        \"servicesUnique\": \"20965636_802127585_Cuidado Capilar\",\r\n                        \"_id\": \"661204ff9c1faeecf2f55300\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9aced82418177a7237e2\",\r\n                        \"name\": \"Barberia\",\r\n                        \"servicesUnique\": \"20965636_802127585_Barberia\",\r\n                        \"_id\": \"661204ff9c1faeecf2f55301\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9b60d82418177a7237fd\",\r\n                        \"name\": \"Cuidado Facial\",\r\n                        \"servicesUnique\": \"20965636_802127585_Cuidado Facial\",\r\n                        \"_id\": \"661204ff9c1faeecf2f55302\"\r\n                    }\r\n                ]\r\n            }\r\n        ]\r\n    },\r\n    \"serviceDescription\": [\r\n        {\r\n            \"_id\": \"66a5c47ecbc430aaca8e65ca\",\r\n            \"ServicesID\": \"66120618f831ade9d90b5485\",\r\n            \"ServicesParameter\": \"66120618f831ade9d90b5485\",\r\n            \"nameService\": \"Peluqueria\",\r\n            \"nameTypeService\": \"Corte\",\r\n            \"servicePrice\": 15500,\r\n            \"discount\": null,\r\n            \"staffServices\": [\r\n                {\r\n                    \"staff\": \"665fb0b80d27936c322a595d\",\r\n                    \"nameCollaborator\": \"jholbeiker Colina\",\r\n                    \"status\": true,\r\n                    \"_id\": \"66a5c47ecbc430aaca8e65cb\"\r\n                }\r\n            ],\r\n            \"AddServiceDescription\": [\r\n                {\r\n                    \"serviceName\": \"\",\r\n                    \"CostService\": \"\",\r\n                    \"_id\": \"66a5c492cbc430aaca8e65f7\"\r\n                }\r\n            ],\r\n            \"supplies\": [\r\n                {\r\n                    \"staff\": \"665fb0b80d27936c322a595d\",\r\n                    \"product\": null,\r\n                    \"brand\": null,\r\n                    \"reference\": null,\r\n                    \"description\": null,\r\n                    \"suppliesPrice\": null,\r\n                    \"dateCreate\": \"1722139794745\",\r\n                    \"_id\": \"66a5c492cbc430aaca8e65f6\"\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"appointmentDate\": [\r\n        {\r\n            \"appointmentDateID\": \"66a5c47ecbc430aaca8e65cc\",\r\n            \"dateService\": \"28/07/2024\",\r\n            \"timeService\": \"11:30:00\"\r\n        }\r\n    ],\r\n    \"sumaTotalProductosBillingDao\": {\r\n        \"product_sales\": [],\r\n        \"tax_Items\": [],\r\n        \"sumTotalProduct\": 0,\r\n        \"tax_value_produt\": 0,\r\n        \"sumtotal_product_tax\": 0\r\n    },\r\n    \"subTotal\": 15500,\r\n    \"discount\": {\r\n        \"PercentegeDiscount\": 0,\r\n        \"discount\": 0\r\n    },\r\n    \"taxes\": {\r\n        \"taxes\": \"IVA\",\r\n        \"taxValue\": 19,\r\n        \"tax\": 0\r\n    },\r\n    \"grandTotal\": 15500,\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"Efectivo\",\r\n                \"codRefPay\": \"\"\r\n            },\r\n            \"bank_fee_percentage_credit_card\": 0,\r\n            \"bank_fee_percentage_debit_card\": 0,\r\n            \"bank_fee_percentage_transaction\": 0,\r\n            \"bank_fee_cash\": 0,\r\n            \"commissionDetails\": {\r\n                \"increases_fee\": false,\r\n                \"commissionPercentage\": 0,\r\n                \"sumaSubTotalServices\": 15500,\r\n                \"sumaSubTotalProduct\": 0,\r\n                \"discount\": 0,\r\n                \"commissionBaseService\": 15500,\r\n                \"commissionBaseProduct\": 0,\r\n                \"commissionValueService\": 0,\r\n                \"commissionValueProduct\": 0,\r\n                \"totalAfterCommission\": 15500\r\n            }\r\n        }\r\n    ],\r\n    \"electronicInvoiceUser\": {\r\n        \"document\": 1112223330,\r\n        \"fullName\": \"Gerson Saenz\",\r\n        \"email\": \"lamed.saenz@gmail.com\",\r\n        \"movil\": 3142540356\r\n    },\r\n    \"invoiceRequired\": true,\r\n    \"observation\": \"\",\r\n    \"customerLoyaltyService\": {\r\n        \"user\": {\r\n            \"userID\": \"661961d96e9ce8c7a0783c57\",\r\n            \"docu\": 1112223330,\r\n            \"emailUser\": \"lamed.saenz@gmail.com\"\r\n        },\r\n        \"business\": {\r\n            \"nit\": 802127585,\r\n            \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n        },\r\n        \"LoyaltyService\": 1\r\n    }\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"66adb4285a7ada838f6841e0\",\r\n    \"docuUser\": \"222222222222\",\r\n    \"managerDiscount\": 0,\r\n    \"tax\": [\r\n        {\r\n            \"description\": \"IVA\",\r\n            \"value\": 0\r\n        }\r\n    ],\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"Efectivo\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"code\": \"\",\r\n    \"electronicBilling\": true,\r\n    \"observationBilling\": \"\",\r\n    \"document\": \"222222222222\",\r\n    \"fullName\": \"Consumidor Final\",\r\n    \"email\": \"consumidor@final.com\",\r\n    \"movil\": \"\",\r\n    \"checked\": false,\r\n    \"checkedNombrepropio\": true,\r\n    \"product_sales\": [],\r\n    \"electronicInvoiceUser\": {\r\n        \"document\": \"222222222222\",\r\n        \"fullName\": \"Consumidor Final\",\r\n        \"email\": \"consumidor@final.com\",\r\n        \"movil\": \"\"\r\n    }\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
