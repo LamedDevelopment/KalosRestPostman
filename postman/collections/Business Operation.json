@@ -3239,6 +3239,74 @@
 									"response": []
 								},
 								{
+									"name": "Cargue Images Business",
+									"id": "b11c4bec-ff91-44b2-b6b9-e8a3cb16d214",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Pictures/img Temas GDLKNG/barber-shop-5212059.jpg"
+												},
+												{
+													"key": "businessID",
+													"value": "661204ff9c1faeecf2f552f2",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "802127585",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
+													"type": "text"
+												},
+												{
+													"key": "",
+													"value": "",
+													"type": "text",
+													"disabled": true
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/upimagebus",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"upimagebus"
+											]
+										}
+									},
+									"response": []
+								},
+								{
 									"name": "Cargue RUT",
 									"id": "c2f46880-8b04-44a8-af46-fe76de551fb5",
 									"protocolProfileBehavior": {

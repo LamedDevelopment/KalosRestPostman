@@ -189,7 +189,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "// {\r\n//     \"email\": \"chiki202009@hotmail.com\",\r\n//     \"pass\": \"12345\"\r\n// }\r\n// {\r\n//     \"email\": \"manager@whatsapp.com\",\r\n//     \"pass\": \"12345\"\r\n// }\r\n// {\r\n//     \"email\": \"viviana.caicedo@hotmail.com\",\r\n//     \"pass\": \"Viviana12345**\"\r\n// }\r\n{\r\n    \"email\": \"jago1125@hotmail.com\",\r\n    \"pass\": \"12345\"\r\n}",
+							"raw": "// {\r\n//     \"email\": \"chiki202009@hotmail.com\",\r\n//     \"pass\": \"12345\"\r\n// }\r\n// {\r\n//     \"email\": \"manager@whatsapp.com\",\r\n//     \"pass\": \"12345\"\r\n// }\r\n{\r\n    \"email\": \"viviana.caicedo@hotmail.com\",\r\n    \"pass\": \"*Viviana12345*\"\r\n}\r\n// {\r\n//     \"email\": \"jago1125@hotmail.com\",\r\n//     \"pass\": \"12345\"\r\n// }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -197,9 +197,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_back}}{{api}}/login/bx",
+							"raw": "{{kalos_local}}{{api}}/login/bx",
 							"host": [
-								"{{kalos_back}}{{api}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"login",
