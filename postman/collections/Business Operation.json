@@ -3307,6 +3307,73 @@
 									"response": []
 								},
 								{
+									"name": "Cargue Images Collaborators",
+									"id": "ac9cc28b-3425-4051-be97-33366c6b3525",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "file",
+													"type": "file",
+													"src": "/C:/Users/LAMUX/Pictures/Eli.png"
+												},
+												{
+													"key": "businessID",
+													"value": "661204ff9c1faeecf2f552f2",
+													"type": "text"
+												},
+												{
+													"key": "nameBusiness",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
+													"type": "text"
+												},
+												{
+													"key": "businessNit",
+													"value": "802127585",
+													"type": "text"
+												},
+												{
+													"key": "tradename",
+													"value": "Centro de Belleza y Barberia Barbaros EYV",
+													"type": "text"
+												},
+												{
+													"key": "document",
+													"value": "20965636",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/doc/upimgcolla",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"doc",
+												"upimgcolla"
+											]
+										}
+									},
+									"response": []
+								},
+								{
 									"name": "Cargue RUT",
 									"id": "c2f46880-8b04-44a8-af46-fe76de551fb5",
 									"protocolProfileBehavior": {
