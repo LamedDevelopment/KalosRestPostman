@@ -1788,7 +1788,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"nit\": 911111111,\r\n    \"tradename\": \"Nombre Sede O comercial\"\r\n}",
+											"raw": "{\r\n    \"nit\": 1002649708,\r\n    \"tradename\": \"Casa Cavalier\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1824,7 +1824,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": \"665f2f56506d687b89232efc\",\r\n    \"serviceID\": \"64ab9448063c636a40004160\"\r\n}",
+											"raw": "{\r\n    \"business\": \"66610e140d96d92379cb7062\",\r\n    \"serviceID\": \"64ab9174923ff67b725791b7\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
