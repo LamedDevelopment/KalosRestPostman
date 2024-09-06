@@ -183,7 +183,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": \"661204ff9c1faeecf2f552f2\",\r\n    \"serviceID\": \"64ab9b60d82418177a7237fd\"\r\n}",
+											"raw": "{\r\n    \"business\": \"66a80fad00c308a530fc6175\",\r\n    \"serviceID\": \"66a808a65922e0b02714423c\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1788,7 +1788,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"nit\": 1002649708,\r\n    \"tradename\": \"Casa Cavalier\"\r\n}",
+											"raw": "{\r\n    \"nit\": 798323801,\r\n    \"tradename\": \"Studio 99 Barberia & Peluqueria\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1796,9 +1796,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_dev}}{{api}}/bus/viewsebu",
+											"raw": "{{kalos_local}}{{api}}/bus/viewsebu",
 											"host": [
-												"{{kalos_dev}}{{api}}"
+												"{{kalos_local}}{{api}}"
 											],
 											"path": [
 												"bus",
@@ -1824,7 +1824,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": \"66610e140d96d92379cb7062\",\r\n    \"serviceID\": \"64ab9174923ff67b725791b7\"\r\n}",
+											"raw": "{\r\n    \"business\": \"66a80fad00c308a530fc6175\",\r\n    \"serviceID\": \"66a808a65922e0b02714423c\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1866,7 +1866,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": \"665f2f56506d687b89232efc\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    //\"name\": \"Peluqueria\"\r\n}",
+											"raw": "{\r\n    \"business\": \"66a80fad00c308a530fc6175\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"tradename\": \"Studio 99 Barberia & Peluqueria\",\r\n    \"typeService\": \"66c2ef04eb03a1a9b2936da0\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -3175,26 +3175,30 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "postman-cloud:///1ef1a174-2cbd-47c0-8206-58c04bea1368"
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/H:/Mi unidad/Documentos de Prueba PDF/Matricula Mercantil.pdf"
+													],
+													"src": "/H:/Mi unidad/Documentos de Prueba PDF/Matricula Mercantil.pdf"
 												},
 												{
 													"key": "businessID",
-													"value": "661204ff9c1faeecf2f552f2",
+													"value": "66a80fad00c308a530fc6175",
 													"type": "text"
 												},
 												{
 													"key": "nameBusiness",
-													"value": "Centro de Belleza y Barberia Barbaros EYV",
+													"value": "Studio 99 Barberia & Peluqueria",
 													"type": "text"
 												},
 												{
 													"key": "businessNit",
-													"value": "802127585",
+													"value": "798323801",
 													"type": "text"
 												},
 												{
 													"key": "tradename",
-													"value": "Centro de Belleza y Barberia Barbaros EYV",
+													"value": "Studio 99 Barberia & Peluqueria",
 													"type": "text"
 												},
 												{
@@ -3326,11 +3330,15 @@
 												{
 													"key": "file",
 													"type": "file",
-													"src": "/C:/Users/LAMUX/Pictures/Eli.png"
+													"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+													"filesNotInWorkingDirectory": [
+														"/C:/Users/LAMUX/Pictures/Eli.png"
+													],
+													"value": null
 												},
 												{
 													"key": "businessID",
-													"value": "661204ff9c1faeecf2f552f2",
+													"value": "665f2f56506d687b89232efc",
 													"type": "text"
 												},
 												{
@@ -6780,7 +6788,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"66adb4285a7ada838f6841e0\",\r\n    \"docuUser\": \"222222222222\",\r\n    \"managerDiscount\": 0,\r\n    \"tax\": [\r\n        {\r\n            \"description\": \"IVA\",\r\n            \"value\": 0\r\n        }\r\n    ],\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"Efectivo\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"code\": \"\",\r\n    \"electronicBilling\": true,\r\n    \"observationBilling\": \"\",\r\n    \"document\": \"222222222222\",\r\n    \"fullName\": \"Consumidor Final\",\r\n    \"email\": \"consumidor@final.com\",\r\n    \"movil\": \"\",\r\n    \"checked\": false,\r\n    \"checkedNombrepropio\": true,\r\n    \"product_sales\": [],\r\n    \"electronicInvoiceUser\": {\r\n        \"document\": \"222222222222\",\r\n        \"fullName\": \"Consumidor Final\",\r\n        \"email\": \"consumidor@final.com\",\r\n        \"movil\": \"\"\r\n    }\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"66d0836506e0e5fb1c2e795f\",\r\n    \"docuUser\": \"222222222222\",\r\n    \"managerDiscount\": 0,\r\n    \"tax\": [\r\n        {\r\n            \"description\": \"IVA\",\r\n            \"value\": 0\r\n        }\r\n    ],\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"Efectivo\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"code\": \"\",\r\n    \"electronicBilling\": true,\r\n    \"observationBilling\": \"\",\r\n    \"document\": \"222222222222\",\r\n    \"fullName\": \"Consumidor Final\",\r\n    \"email\": \"consumidor@final.com\",\r\n    \"movil\": \"\",\r\n    \"checked\": false,\r\n    \"checkedNombrepropio\": true,\r\n    \"product_sales\": [],\r\n    \"electronicInvoiceUser\": {\r\n        \"document\": \"222222222222\",\r\n        \"fullName\": \"Consumidor Final\",\r\n        \"email\": \"consumidor@final.com\",\r\n        \"movil\": \"\"\r\n    }\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
