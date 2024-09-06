@@ -5243,6 +5243,42 @@
 										}
 									},
 									"response": []
+								},
+								{
+									"name": "Edit Appointment Collaborator",
+									"id": "b83f7ab4-3b58-4b4e-99e4-0269fc531303",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"appointmentID\": \"66da10a7c3eb853d57e25115\",\r\n    \"newColla\": \"6614c35209b0934f2b0470ef\",\r\n    \"fullNameNewColla\": \"Jaime Edilson Raigozo Marquez\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/editnewcolla",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"editnewcolla"
+											]
+										}
+									},
+									"response": []
 								}
 							],
 							"id": "32fc81e8-cb76-474a-8721-bdaf522d46e5"
