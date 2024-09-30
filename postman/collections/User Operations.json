@@ -297,7 +297,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "// {\r\n//   \"user\": \"64a8d9b6f12d3126f6a50b5c\",\r\n//   \"discount\": \"\",\r\n//   \"userForeing\": {\r\n//     \"nomUser\": \"\",\r\n//     \"apeUser\": \"\",\r\n//     \"emailUser\": \"\",\r\n//     \"movilUser\": \"\",\r\n//     \"userDocu\": \"\"\r\n//   },\r\n//   \"business\": \"66610e140d96d92379cb7062\",\r\n//   \"tradename\": \"Casa Cavalier\",\r\n//   \"manager\": \"\",\r\n//   \"observationManager\": \"WhatsApp\",\r\n//   \"staff\": \"66674e2b92a856aa6f5e2068\",\r\n//   \"services\": \"64ab9174923ff67b725791b7\",\r\n//   \"typeServices\": \"64ab92e0063c636a40004149\",\r\n//   \"dateService\": \"22/08/2024\",\r\n//   \"timeService\": \"15:00:00\"\r\n// }\r\n\r\n{\r\n    \"user\": \"64a8d9b6f12d3126f6a50b5c\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"66a80fad00c308a530fc6175\",\r\n    \"tradename\": \"Studio 99 Barberia & Peluqueria\",\r\n    \"manager\": \"\",\r\n    \"observationManager\": \"WhatsApp\",\r\n    \"staff\": \"66d398692cd29179e0229697\", //Este ID es el businessUsers\r\n    \"services\": \"64ab9aced82418177a7237e2\",\r\n    \"typeServices\": \"66abbe4c301c68c95da236b0\",\r\n    \"dateService\": \"05/09/2024\",\r\n    \"timeService\": \"15:45:00\"\r\n}\r\n",
+									"raw": "{\r\n  \"user\": \"66623d93c375e1950246f50b\",\r\n  \"discount\": \"\",\r\n  \"userForeing\": {\r\n    \"nomUser\": \"\",\r\n    \"apeUser\": \"\",\r\n    \"emailUser\": \"\",\r\n    \"movilUser\": \"\",\r\n    \"userDocu\": \"\"\r\n  },\r\n  \"business\": \"66bfca9967a8e0575bade56a\",\r\n  \"tradename\": \"Casa Cavalier\",\r\n  \"manager\": \"\",\r\n  \"observationManager\": \"WhatsApp\",\r\n  \"staff\": \"66e3625737e99675bbf75cff\",\r\n  \"services\": \"64ab9debd82418177a723847\",\r\n  \"typeServices\": \"665ff8ae91993d68814e8ee5\",\r\n  \"dateService\": \"17/09/2024\",\r\n  \"timeService\": \"09:00:00\"\r\n}\r\n\r\n// {\r\n//     \"user\": \"64a8d9b6f12d3126f6a50b5c\",\r\n//     \"discount\": \"\",\r\n//     \"userForeing\": {\r\n//         \"nomUser\": \"\",\r\n//         \"apeUser\": \"\",\r\n//         \"emailUser\": \"\",\r\n//         \"movilUser\": \"\",\r\n//         \"userDocu\": \"\"\r\n//     },\r\n//     \"business\": \"665f2f56506d687b89232efc\",\r\n//     \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n//     \"manager\": \"\",\r\n//     \"observationManager\": \"WhatsApp\",\r\n//     \"staff\": \"6614c35209b0934f2b0470ef\", //Este ID es el businessUsers\r\n//     \"services\": \"64ab9174923ff67b725791b7\",\r\n//     \"typeServices\": \"64ab92e0063c636a40004149\",\r\n//     \"dateService\": \"11/09/2024\",\r\n//     \"timeService\": \"13:15:00\"\r\n// }\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -696,7 +696,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"AMANDA VANESA\",\r\n    \"lastName\": \"FONTALBO\",\r\n    \"movil\": \"3216549880\",\r\n    \"email\": \"AMANDAVANESA@GMAIL.COM\",\r\n    \"pass\": \"12345\",\r\n    \"terms\": \"true\"\r\n}\r\n// {\r\n//     \"name\": \"Consumidor\",\r\n//     \"lastName\": \"Final\",\r\n//     \"movil\": \"2222222222\",\r\n//     \"email\": \"consumidor@final.com\",\r\n//     \"pass\": \"@o37(IL^Ix3&\",\r\n//     \"terms\": \"true\"\r\n// }",
+									"raw": "{\r\n    \"name\": \"Andres\",\r\n    \"lastName\": \"Peraza\",\r\n    \"movil\": \"3185454097\",\r\n    \"email\": \"rasanbike4@gmail.com\",\r\n    \"pass\": \"12345\",\r\n    \"terms\": \"true\"\r\n}\r\n// {\r\n//     \"name\": \"Consumidor\",\r\n//     \"lastName\": \"Final\",\r\n//     \"movil\": \"2222222222\",\r\n//     \"email\": \"consumidor@final.com\",\r\n//     \"pass\": \"@o37(IL^Ix3&\",\r\n//     \"terms\": \"true\"\r\n// }",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -704,9 +704,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_local}}{{api}}/usr",
+									"raw": "{{kalos_back}}{{api}}/usr",
 									"host": [
-										"{{kalos_local}}{{api}}"
+										"{{kalos_back}}{{api}}"
 									],
 									"path": [
 										"usr"
@@ -773,7 +773,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"userID\": \"64a8d9b6f12d3126f6a50b5c\",\r\n    \"passOld\": \"123456\",\r\n    \"pass\": \"12345\",\r\n    \"validationPass\": \"12345\"\r\n}",
+									"raw": "{\r\n    \"userID\": \"66f03b10ecfd0a360b7b2b6f\",\r\n    \"passOld\": \"12345\",\r\n    \"pass\": \"uñas123\",\r\n    \"validationPass\": \"uñas123\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -781,9 +781,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{kalos_back}}{{api}}/usr/chuspass",
+									"raw": "{{kalos_local}}{{api}}/usr/chuspass",
 									"host": [
-										"{{kalos_back}}{{api}}"
+										"{{kalos_local}}{{api}}"
 									],
 									"path": [
 										"usr",
@@ -924,7 +924,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"emailUser\": \"simona@email.com\"\r\n}",
+									"raw": "{\r\n    \"emailUser\": \"3142540356\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"

@@ -183,7 +183,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": \"66a80fad00c308a530fc6175\",\r\n    \"serviceID\": \"66a808a65922e0b02714423c\"\r\n}",
+											"raw": "{\r\n    \"business\": \"665f2f56506d687b89232efc\",\r\n    \"serviceID\": \"64ab9aced82418177a7237e2\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -5245,7 +5245,7 @@
 									"response": []
 								},
 								{
-									"name": "Edit Appointment Collaborator",
+									"name": "View Collaborators To Reassign",
 									"id": "b83f7ab4-3b58-4b4e-99e4-0269fc531303",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -5260,7 +5260,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"appointmentID\": \"66da10a7c3eb853d57e25115\",\r\n    \"newColla\": \"6614c35209b0934f2b0470ef\",\r\n    \"fullNameNewColla\": \"Jaime Edilson Raigozo Marquez\"\r\n}",
+											"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"appointmentID\": \"66df2312466395d3db8a8b25\",\r\n    \"newColla\": \"6614c35209b0934f2b0470ef\",\r\n    \"fullNameNewColla\": \"Jaime Edilson Raigozo Marquez\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -5275,6 +5275,42 @@
 											"path": [
 												"apu",
 												"editnewcolla"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Edit Appointment Collaborator",
+									"id": "d2195b30-f03b-48f8-b1f6-16d7790cfbde",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"business\": {\r\n        \"business\": \"665f2f56506d687b89232efc\",\r\n        \"nit\": 802127585,\r\n        \"nameBusiness\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n        \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n    },\r\n    \"appointmentID\": \"66da1640deae8deb5b098a95\",\r\n    \"serviceID\": \"64ab9aced82418177a7237e2\",\r\n    \"TypeServiceID\": \"64ab9af1d82418177a7237e6\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/bus/viewnewcolla",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"bus",
+												"viewnewcolla"
 											]
 										}
 									},
@@ -6429,7 +6465,42 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"user\": \"\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"Alfredo\",\r\n        \"apeUser\": \"Vanegaz\",\r\n        \"emailUser\": \"alfredo@gmail.com\",\r\n        \"movilUser\": \"3216549870\",\r\n        \"userDocu\": \"81202020\"\r\n    },\r\n    \"business\": \"66a80fad00c308a530fc6175\",\r\n    \"tradename\": \"Studio 99 Barberia & Peluqueria\",\r\n    \"manager\": \"66a80fad00c308a530fc6179\",\r\n    \"observationManager\": \"usuario prueba creación Foraneo\",\r\n    \"staff\": \"66a80fad00c308a530fc6179\",\r\n    \"services\": \"64ab9174923ff67b725791b7\",\r\n    \"typeServices\": \"64ab92e0063c636a40004149\",\r\n    \"dateService\": \"05/08/2024\",\r\n    \"timeService\": \"11:30:00\"\r\n}\r\n// {\r\n//     \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n//     \"discount\": \"\",\r\n//     \"userForeing\": {\r\n//         \"nomUser\": \"\", \r\n//         \"apeUser\": \"\", \r\n//         \"emailUser\": \"\", \r\n//         \"movilUser\": \"\", \r\n//         \"userDocu\": \"\"\r\n//     },\r\n//     \"business\": \"66610e140d96d92379cb7062\",\r\n//     \"tradename\": \"Casa Cavalier\",\r\n//     \"manager\": \"66610e140d96d92379cb7066\",\r\n//     \"observationManager\": \"\",\r\n//     \"staff\": \"6664e00983c41255fd0df923\",\r\n//     \"services\": \"64ab9174923ff67b725791b7\", \r\n//     \"typeServices\": \"64ab92e0063c636a40004149\",\r\n//     \"dateService\": \"09/06/2024\",\r\n//     \"timeService\": \"14:30:00\"\r\n// }",
+											"raw": "{\r\n    \"user\": \"\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"Alfredo\",\r\n        \"apeUser\": \"Vanegaz\",\r\n        \"emailUser\": \"alfredo@gmail.com\",\r\n        \"movilUser\": \"3216549870\",\r\n        \"userDocu\": \"81202020\"\r\n    },\r\n    \"business\": \"66bfca9967a8e0575bade56a\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"manager\": \"66c035d8c17fcd0f06fdab93\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"66c03a282e446336ca652f18\",\r\n    \"services\": \"64ab9aced82418177a7237e2\", \r\n    \"typeServices\": \"665ff1ff91993d68814e8e5f\",\r\n    \"dateService\": \"16/09/2024\",\r\n    \"timeService\": \"13:30:00\",\r\n    \"advancePayment\": 0,\r\n    \"AdvancePaymentType\": \"\"\r\n}\r\n// {\r\n//     \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n//     \"discount\": \"\",\r\n//     \"userForeing\": {\r\n//         \"nomUser\": \"\", \r\n//         \"apeUser\": \"\", \r\n//         \"emailUser\": \"\", \r\n//         \"movilUser\": \"\", \r\n//         \"userDocu\": \"\"\r\n//     },\r\n//     \"business\": \"66610e140d96d92379cb7062\",\r\n//     \"tradename\": \"Casa Cavalier\",\r\n//     \"manager\": \"66610e140d96d92379cb7066\",\r\n//     \"observationManager\": \"\",\r\n//     \"staff\": \"6664e00983c41255fd0df923\",\r\n//     \"services\": \"64ab9174923ff67b725791b7\", \r\n//     \"typeServices\": \"64ab92e0063c636a40004149\",\r\n//     \"dateService\": \"09/06/2024\",\r\n//     \"timeService\": \"14:30:00\"\r\n// }",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Create Appointment Advance (Agenda con Anticipo)",
+									"id": "3c09c3fa-8f25-4ebd-a16b-ae14671bd9bf",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"user\": \"64a8d9b6f12d3126f6a50b5c\",\r\n    \"discount\": \"\",\r\n    \"userForeing\": {\r\n        \"nomUser\": \"\",\r\n        \"apeUser\": \"\",\r\n        \"emailUser\": \"\",\r\n        \"movilUser\": \"\",\r\n        \"userDocu\": \"\"\r\n    },\r\n    \"business\": \"66bfca9967a8e0575bade56a\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"manager\": \"66c035d8c17fcd0f06fdab93\",\r\n    \"observationManager\": \"\",\r\n    \"staff\": \"66c03a282e446336ca652f18\",\r\n    \"services\": \"64ab9aced82418177a7237e2\", \r\n    \"typeServices\": \"665ff1ff91993d68814e8e5f\",\r\n    \"dateService\": \"17/09/2024\",\r\n    \"timeService\": \"10:00:00\",\r\n    \"advancePayment\": 15000,\r\n    \"AdvancePaymentType\": \"\"\r\n}\r\n// {\r\n//     \"user\": \"64b2ee2ce9f144ef52a96853\", \r\n//     \"discount\": \"\",\r\n//     \"userForeing\": {\r\n//         \"nomUser\": \"\", \r\n//         \"apeUser\": \"\", \r\n//         \"emailUser\": \"\", \r\n//         \"movilUser\": \"\", \r\n//         \"userDocu\": \"\"\r\n//     },\r\n//     \"business\": \"66610e140d96d92379cb7062\",\r\n//     \"tradename\": \"Casa Cavalier\",\r\n//     \"manager\": \"66610e140d96d92379cb7066\",\r\n//     \"observationManager\": \"\",\r\n//     \"staff\": \"6664e00983c41255fd0df923\",\r\n//     \"services\": \"64ab9174923ff67b725791b7\", \r\n//     \"typeServices\": \"64ab92e0063c636a40004149\",\r\n//     \"dateService\": \"09/06/2024\",\r\n//     \"timeService\": \"14:30:00\"\r\n// }",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6801,6 +6872,42 @@
 										}
 									},
 									"response": []
+								},
+								{
+									"name": "All Advance Payments (Pagos Anticipos)",
+									"id": "53490b42-8de2-4ac3-8dd6-6d93668fed60",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"business\": {\r\n        \"business\": \"66bfca9967a8e0575bade56a\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    }\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/apu/advpay",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"apu",
+												"advpay"
+											]
+										}
+									},
+									"response": []
 								}
 							],
 							"id": "6738d87c-74bd-4529-9bf1-d13b683ba39e"
@@ -6824,7 +6931,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"66d0836506e0e5fb1c2e795f\",\r\n    \"docuUser\": \"222222222222\",\r\n    \"managerDiscount\": 0,\r\n    \"tax\": [\r\n        {\r\n            \"description\": \"IVA\",\r\n            \"value\": 0\r\n        }\r\n    ],\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"Efectivo\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"code\": \"\",\r\n    \"electronicBilling\": true,\r\n    \"observationBilling\": \"\",\r\n    \"document\": \"222222222222\",\r\n    \"fullName\": \"Consumidor Final\",\r\n    \"email\": \"consumidor@final.com\",\r\n    \"movil\": \"\",\r\n    \"checked\": false,\r\n    \"checkedNombrepropio\": true,\r\n    \"product_sales\": [],\r\n    \"electronicInvoiceUser\": {\r\n        \"document\": \"222222222222\",\r\n        \"fullName\": \"Consumidor Final\",\r\n        \"email\": \"consumidor@final.com\",\r\n        \"movil\": \"\"\r\n    }\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"66e27e11fc4460925c5c8f2c\",\r\n    \"docuUser\": \"222222222222\",\r\n    \"managerDiscount\": 0,\r\n    \"tax\": [\r\n        {\r\n            \"description\": \"IVA\",\r\n            \"value\": 0\r\n        }\r\n    ],\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Efectivo\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"Efectivo\",\r\n                \"codRefPay\": \"\"\r\n            }\r\n        }\r\n    ],\r\n    \"code\": \"\",\r\n    \"electronicBilling\": true,\r\n    \"observationBilling\": \"\",\r\n    \"document\": \"222222222222\",\r\n    \"fullName\": \"Consumidor Final\",\r\n    \"email\": \"consumidor@final.com\",\r\n    \"movil\": \"\",\r\n    \"checked\": false,\r\n    \"checkedNombrepropio\": true,\r\n    \"product_sales\": [],\r\n    \"electronicInvoiceUser\": {\r\n        \"document\": \"222222222222\",\r\n        \"fullName\": \"Consumidor Final\",\r\n        \"email\": \"consumidor@final.com\",\r\n        \"movil\": \"\"\r\n    }\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6894,7 +7001,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"appointmentID\": \"66791d8bd21ef8c2487f7409\",\r\n    \"staffReceivingPayment\": {\r\n        \"creatorStaffBusiness\": \"6667433392a856aa6f5e1bb1\",\r\n        \"name\": \"Mónica\",\r\n        \"lastName\": \"Maldonado\"\r\n    },\r\n    \"user\": {\r\n        \"userID\": \"661961d96e9ce8c7a0783c57\",\r\n        \"docu\": 1115559999,\r\n        \"nomUser\": \"Francisco\",\r\n        \"apeUser\": \"Sierra\",\r\n        \"emailUser\": \"sierra@sierra.com\",\r\n        \"movilUser\": 3213213210\r\n    },\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"branchOffice\": [\r\n            {\r\n                \"businessname\": \"Casa Cavalier\",\r\n                \"tradename\": \"Casa Cavalier\",\r\n                \"address\": \"Calle 68 A 80 F 70 Esquina\",\r\n                \"phone\": {\r\n                    \"description\": \"Recepcion\"\r\n                },\r\n                \"cellphone\": {\r\n                    \"description\": \"Recepcion\"\r\n                },\r\n                \"email\": \"casa_cavalier@gmail.com\",\r\n                \"location\": {\r\n                    \"type\": \"Point\",\r\n                    \"coordinates\": [\r\n                        4.602993671064257,\r\n                        -74.21185042633\r\n                    ]\r\n                },\r\n                \"city\": \"Bogota\",\r\n                \"country\": \"Colombia\",\r\n                \"countryCode\": \"CO\",\r\n                \"state\": \"DC\",\r\n                \"services\": [\r\n                    {\r\n                        \"services\": \"64ab9174923ff67b725791b7\",\r\n                        \"name\": \"Peluqueria\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Peluqueria\",\r\n                        \"_id\": \"66610e140d96d92379cb706d\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9448063c636a40004160\",\r\n                        \"name\": \"Peinados\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Peinados\",\r\n                        \"_id\": \"66610e140d96d92379cb706e\"\r\n                    },\r\n                    {\r\n                        \"services\": \"665fd12e3a9d1e5376a0ee20\",\r\n                        \"name\": \"Desestructuracion Quimica\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Desestructuracion Quimica\",\r\n                        \"_id\": \"66610e140d96d92379cb706f\"\r\n                    },\r\n                    {\r\n                        \"services\": \"665fd15d3a9d1e5376a0ee22\",\r\n                        \"name\": \"Procesos Quimicos Color\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Procesos Quimicos Color\",\r\n                        \"_id\": \"66610e140d96d92379cb7070\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab95f1063c636a40004196\",\r\n                        \"name\": \"Cuidado Capilar\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Cuidado Capilar\",\r\n                        \"_id\": \"66610e140d96d92379cb7071\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9aced82418177a7237e2\",\r\n                        \"name\": \"Barberia\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Barberia\",\r\n                        \"_id\": \"66610e140d96d92379cb7072\"\r\n                    },\r\n                    {\r\n                        \"services\": \"665fd1a33a9d1e5376a0ee24\",\r\n                        \"name\": \"Cuidado Corporal\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Cuidado Corporal\",\r\n                        \"_id\": \"66610e140d96d92379cb7073\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9b60d82418177a7237fd\",\r\n                        \"name\": \"Cuidado Facial\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Cuidado Facial\",\r\n                        \"_id\": \"66610e140d96d92379cb7074\"\r\n                    },\r\n                    {\r\n                        \"services\": \"665fd1c93a9d1e5376a0ee26\",\r\n                        \"name\": \"Cejas y Pestañas\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Cejas y Pestañas\",\r\n                        \"_id\": \"66610e140d96d92379cb7075\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9cbad82418177a723820\",\r\n                        \"name\": \"Maquillaje\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Maquillaje\",\r\n                        \"_id\": \"66610e140d96d92379cb7076\"\r\n                    },\r\n                    {\r\n                        \"services\": \"665fd3e63a9d1e5376a0ee28\",\r\n                        \"name\": \"Depilacion Corporal\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Depilacion Corporal\",\r\n                        \"_id\": \"66610e140d96d92379cb7077\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9debd82418177a723847\",\r\n                        \"name\": \"Spa de Uñas\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Spa de Uñas\",\r\n                        \"_id\": \"66610e140d96d92379cb7078\"\r\n                    }\r\n                ]\r\n            }\r\n        ]\r\n    },\r\n    \"serviceDescription\": [\r\n        {\r\n            \"_id\": \"66791d8bd21ef8c2487f740a\",\r\n            \"ServicesID\": \"6663b859a925a38e7d22cc7d\",\r\n            \"ServicesParameter\": \"6663b859a925a38e7d22cc7d\",\r\n            \"nameService\": \"Procesos Quimicos Color\",\r\n            \"nameTypeService\": \"Balayaje\",\r\n            \"servicePrice\": 600000,\r\n            \"discount\": null,\r\n            \"staffServices\": [\r\n                {\r\n                    \"staff\": \"666cd132d35151a5dfde23c5\",\r\n                    \"nameCollaborator\": \"Nubia Rodriguez\",\r\n                    \"status\": true,\r\n                    \"_id\": \"66791d8bd21ef8c2487f740b\"\r\n                }\r\n            ],\r\n            \"AddServiceDescription\": [],\r\n            \"supplies\": [\r\n                {\r\n                    \"staff\": \"666cd132d35151a5dfde23c5\",\r\n                    \"product\": \"Color Pelo\",\r\n                    \"brand\": \"Kuul\",\r\n                    \"reference\": \"6.1\",\r\n                    \"description\": \"45\",\r\n                    \"suppliesPrice\": 17550,\r\n                    \"dateCreate\": \"1719213522532\",\r\n                    \"_id\": \"66791dd2ed3fda7dc37d0c61\"\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"appointmentDate\": [\r\n        {\r\n            \"appointmentDateID\": \"66791d8bd21ef8c2487f740c\",\r\n            \"dateService\": \"24/06/2024\",\r\n            \"timeService\": \"11:00:00\"\r\n        }\r\n    ],\r\n    \"subTotal\": 600000,\r\n    \"discount\": {\r\n        \"PercentegeDiscount\": 45,\r\n        \"discount\": 270000\r\n    },\r\n    \"taxes\": {\r\n        \"taxes\": \"IVA\",\r\n        \"taxValue\": 0,\r\n        \"tax\": 0\r\n    },\r\n    \"grandTotal\": 330000,\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Pago Bold\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"Pago Bold\",\r\n                \"codRefPay\": \"\"\r\n            },\r\n            \"bank_fee_percentage_credit_card\": 2.89,\r\n            \"bank_fee_percentage_debit_card\": 2.89,\r\n            \"bank_fee_percentage_transaction\": 2.89,\r\n            \"bank_fee_cash\": 300,\r\n            \"commissionDetails\": {\r\n                \"increases_fee\": false,\r\n                \"commissionPercentage\": 2.89,\r\n                \"sumaSubTotal\": 600000,\r\n                \"discount\": \"270000(45%)\",\r\n                \"commissionBase\": 330000,\r\n                \"commissionValue\": 9837,\r\n                \"totalAfterCommission\": 330000\r\n            }\r\n        }\r\n    ],\r\n    \"electronicInvoiceUser\": {\r\n        \"document\": 1115559999,\r\n        \"fullName\": \"Francisco Sierra\",\r\n        \"email\": \"sierra@sierra.com\",\r\n        \"movil\": 3213213210\r\n    },\r\n    \"invoiceRequired\": true,\r\n    \"observation\": \"\",\r\n    \"customerLoyaltyService\": {\r\n        \"user\": {\r\n            \"userID\": \"661961d96e9ce8c7a0783c57\",\r\n            \"docu\": 1115559999,\r\n            \"emailUser\": \"sierra@sierra.com\"\r\n        },\r\n        \"business\": {\r\n            \"nit\": 1002649708,\r\n            \"nameBusiness\": \"Casa Cavalier\"\r\n        },\r\n        \"LoyaltyService\": 33\r\n    }\r\n}",
+											"raw": "{\r\n    \"appointmentID\": \"66e27e11fc4460925c5c8f2c\",\r\n    \"staffReceivingPayment\": {\r\n        \"creatorStaffBusiness\": \"6667433392a856aa6f5e1bb1\",\r\n        \"name\": \"Mónica\",\r\n        \"lastName\": \"Maldonado\"\r\n    },\r\n    \"user\": {\r\n        \"userID\": \"661961d96e9ce8c7a0783c57\",\r\n        \"docu\": 1115559999,\r\n        \"nomUser\": \"Francisco\",\r\n        \"apeUser\": \"Sierra\",\r\n        \"emailUser\": \"sierra@sierra.com\",\r\n        \"movilUser\": 3213213210\r\n    },\r\n    \"business\": {\r\n        \"business\": \"66610e140d96d92379cb7062\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"branchOffice\": [\r\n            {\r\n                \"businessname\": \"Casa Cavalier\",\r\n                \"tradename\": \"Casa Cavalier\",\r\n                \"address\": \"Calle 68 A 80 F 70 Esquina\",\r\n                \"phone\": {\r\n                    \"description\": \"Recepcion\"\r\n                },\r\n                \"cellphone\": {\r\n                    \"description\": \"Recepcion\"\r\n                },\r\n                \"email\": \"casa_cavalier@gmail.com\",\r\n                \"location\": {\r\n                    \"type\": \"Point\",\r\n                    \"coordinates\": [\r\n                        4.602993671064257,\r\n                        -74.21185042633\r\n                    ]\r\n                },\r\n                \"city\": \"Bogota\",\r\n                \"country\": \"Colombia\",\r\n                \"countryCode\": \"CO\",\r\n                \"state\": \"DC\",\r\n                \"services\": [\r\n                    {\r\n                        \"services\": \"64ab9174923ff67b725791b7\",\r\n                        \"name\": \"Peluqueria\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Peluqueria\",\r\n                        \"_id\": \"66610e140d96d92379cb706d\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9448063c636a40004160\",\r\n                        \"name\": \"Peinados\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Peinados\",\r\n                        \"_id\": \"66610e140d96d92379cb706e\"\r\n                    },\r\n                    {\r\n                        \"services\": \"665fd12e3a9d1e5376a0ee20\",\r\n                        \"name\": \"Desestructuracion Quimica\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Desestructuracion Quimica\",\r\n                        \"_id\": \"66610e140d96d92379cb706f\"\r\n                    },\r\n                    {\r\n                        \"services\": \"665fd15d3a9d1e5376a0ee22\",\r\n                        \"name\": \"Procesos Quimicos Color\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Procesos Quimicos Color\",\r\n                        \"_id\": \"66610e140d96d92379cb7070\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab95f1063c636a40004196\",\r\n                        \"name\": \"Cuidado Capilar\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Cuidado Capilar\",\r\n                        \"_id\": \"66610e140d96d92379cb7071\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9aced82418177a7237e2\",\r\n                        \"name\": \"Barberia\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Barberia\",\r\n                        \"_id\": \"66610e140d96d92379cb7072\"\r\n                    },\r\n                    {\r\n                        \"services\": \"665fd1a33a9d1e5376a0ee24\",\r\n                        \"name\": \"Cuidado Corporal\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Cuidado Corporal\",\r\n                        \"_id\": \"66610e140d96d92379cb7073\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9b60d82418177a7237fd\",\r\n                        \"name\": \"Cuidado Facial\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Cuidado Facial\",\r\n                        \"_id\": \"66610e140d96d92379cb7074\"\r\n                    },\r\n                    {\r\n                        \"services\": \"665fd1c93a9d1e5376a0ee26\",\r\n                        \"name\": \"Cejas y Pestañas\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Cejas y Pestañas\",\r\n                        \"_id\": \"66610e140d96d92379cb7075\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9cbad82418177a723820\",\r\n                        \"name\": \"Maquillaje\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Maquillaje\",\r\n                        \"_id\": \"66610e140d96d92379cb7076\"\r\n                    },\r\n                    {\r\n                        \"services\": \"665fd3e63a9d1e5376a0ee28\",\r\n                        \"name\": \"Depilacion Corporal\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Depilacion Corporal\",\r\n                        \"_id\": \"66610e140d96d92379cb7077\"\r\n                    },\r\n                    {\r\n                        \"services\": \"64ab9debd82418177a723847\",\r\n                        \"name\": \"Spa de Uñas\",\r\n                        \"servicesUnique\": \"3102531704_1002649708_Spa de Uñas\",\r\n                        \"_id\": \"66610e140d96d92379cb7078\"\r\n                    }\r\n                ]\r\n            }\r\n        ]\r\n    },\r\n    \"serviceDescription\": [\r\n        {\r\n            \"_id\": \"66791d8bd21ef8c2487f740a\",\r\n            \"ServicesID\": \"6663b859a925a38e7d22cc7d\",\r\n            \"ServicesParameter\": \"6663b859a925a38e7d22cc7d\",\r\n            \"nameService\": \"Procesos Quimicos Color\",\r\n            \"nameTypeService\": \"Balayaje\",\r\n            \"servicePrice\": 600000,\r\n            \"discount\": null,\r\n            \"staffServices\": [\r\n                {\r\n                    \"staff\": \"666cd132d35151a5dfde23c5\",\r\n                    \"nameCollaborator\": \"Nubia Rodriguez\",\r\n                    \"status\": true,\r\n                    \"_id\": \"66791d8bd21ef8c2487f740b\"\r\n                }\r\n            ],\r\n            \"AddServiceDescription\": [],\r\n            \"supplies\": [\r\n                {\r\n                    \"staff\": \"666cd132d35151a5dfde23c5\",\r\n                    \"product\": \"Color Pelo\",\r\n                    \"brand\": \"Kuul\",\r\n                    \"reference\": \"6.1\",\r\n                    \"description\": \"45\",\r\n                    \"suppliesPrice\": 17550,\r\n                    \"dateCreate\": \"1719213522532\",\r\n                    \"_id\": \"66791dd2ed3fda7dc37d0c61\"\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"appointmentDate\": [\r\n        {\r\n            \"appointmentDateID\": \"66791d8bd21ef8c2487f740c\",\r\n            \"dateService\": \"24/06/2024\",\r\n            \"timeService\": \"11:00:00\"\r\n        }\r\n    ],\r\n    \"subTotal\": 600000,\r\n    \"discount\": {\r\n        \"PercentegeDiscount\": 45,\r\n        \"discount\": 270000\r\n    },\r\n    \"taxes\": {\r\n        \"taxes\": \"IVA\",\r\n        \"taxValue\": 0,\r\n        \"tax\": 0\r\n    },\r\n    \"grandTotal\": 330000,\r\n    \"paymentMethod\": [\r\n        {\r\n            \"PaymentType\": \"Pago Bold\",\r\n            \"walletPayment\": {\r\n                \"nameWallet\": \"Pago Bold\",\r\n                \"codRefPay\": \"\"\r\n            },\r\n            \"bank_fee_percentage_credit_card\": 2.89,\r\n            \"bank_fee_percentage_debit_card\": 2.89,\r\n            \"bank_fee_percentage_transaction\": 2.89,\r\n            \"bank_fee_cash\": 300,\r\n            \"commissionDetails\": {\r\n                \"increases_fee\": false,\r\n                \"commissionPercentage\": 2.89,\r\n                \"sumaSubTotal\": 600000,\r\n                \"discount\": \"270000(45%)\",\r\n                \"commissionBase\": 330000,\r\n                \"commissionValue\": 9837,\r\n                \"totalAfterCommission\": 330000\r\n            }\r\n        }\r\n    ],\r\n    \"electronicInvoiceUser\": {\r\n        \"document\": 1115559999,\r\n        \"fullName\": \"Francisco Sierra\",\r\n        \"email\": \"sierra@sierra.com\",\r\n        \"movil\": 3213213210\r\n    },\r\n    \"invoiceRequired\": true,\r\n    \"observation\": \"\",\r\n    \"customerLoyaltyService\": {\r\n        \"user\": {\r\n            \"userID\": \"661961d96e9ce8c7a0783c57\",\r\n            \"docu\": 1115559999,\r\n            \"emailUser\": \"sierra@sierra.com\"\r\n        },\r\n        \"business\": {\r\n            \"nit\": 1002649708,\r\n            \"nameBusiness\": \"Casa Cavalier\"\r\n        },\r\n        \"LoyaltyService\": 33\r\n    }\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -7024,6 +7131,47 @@
 								}
 							],
 							"id": "8ca17d25-d89b-41fd-808c-0b30caa1a5cb"
+						},
+						{
+							"name": "Advances",
+							"item": [
+								{
+									"name": "Customer Advancer Payment (Pago Anticipo)",
+									"id": "b7326daf-9c4e-4b42-a1f7-b0faf25fb09d",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-token",
+												"value": "{{tk_colla}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"id\": \"66e9058d3e97c4ccbe9f27e0\",\r\n    \"user\": {\r\n        \"nomUser\": \"Lamed\",\r\n        \"apeUser\": \"Saenz\",\r\n        \"userDocu\": 80139076,\r\n        \"emailUser\": \"lameddev@gmail.com\",\r\n        \"movilUser\": 3142540356,\r\n        \"discountUser\": \"\"\r\n    },\r\n    \"business\": {\r\n        \"business\": \"66bfca9967a8e0575bade56a\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\"\r\n    },\r\n    \"appointmentStatus\": \"true\",\r\n    \"globalStatus\": {\r\n        \"statusCod\": 1,\r\n        \"statusDescription\": \"Activo\"\r\n    },\r\n    \"appointmentPayment\": {\r\n        \"appointmentPayment\": false\r\n    },\r\n    \"services\": [\r\n        {\r\n            \"appointmentRefUUID\": \"a4f2969e-b5f5-43df-a985-97683ff01c1d\",\r\n            \"ServicesParameter\": \"66bff66485afb013b592ca4b\",\r\n            \"serviceID\": \"64ab9aced82418177a7237e2\",\r\n            \"nameService\": \"Barberia\",\r\n            \"TypeServiceID\": \"665ff1ff91993d68814e8e5f\",\r\n            \"nameTypeService\": \"Corte + Barba\",\r\n            \"servicePrice\": 25000,\r\n            \"serviceTime\": 28,\r\n            \"biocleaning\": 2,\r\n            \"discount\": null,\r\n            \"advancePayment\": 15000,\r\n            \"AdvancePaymentType\": \"\",\r\n            \"AdvancePaymentCheckout\": false,\r\n            \"AddServiceDescription\": [],\r\n            \"_id\": \"66e9058d3e97c4ccbe9f27e1\"\r\n        }\r\n    ],\r\n    \"appointmentDate\": [\r\n        {\r\n            \"appointmentRefUUID\": \"a4f2969e-b5f5-43df-a985-97683ff01c1d\",\r\n            \"dateService\": \"17/09/2024\",\r\n            \"timeService\": \"09:00:00\",\r\n            \"endTimeService\": \"09:30:00\",\r\n            \"status\": true,\r\n            \"collaboratorAppointment\": {\r\n                \"staff\": \"66c03a282e446336ca652f18\",\r\n                \"nameCollaborator\": \"Jeison Parraa\",\r\n                \"startTimeService\": \"\",\r\n                \"endTimeService\": \"09:30:00\",\r\n                \"observation\": [\r\n                    \"\"\r\n                ],\r\n                \"serviceClosure\": false\r\n            },\r\n            \"_id\": \"66e9058d3e97c4ccbe9f27e3\"\r\n        }\r\n    ],\r\n    \"advancePayType\": [\r\n        {\r\n            \"payMethod\": \"Efectivo\",\r\n            \"valuePaid\": 10000\r\n        },\r\n        {\r\n            \"payMethod\": \"Nequi\",\r\n            \"valuePaid\": 5000\r\n        }\r\n    ]\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{kalos_local}}{{api}}/adv",
+											"host": [
+												"{{kalos_local}}{{api}}"
+											],
+											"path": [
+												"adv"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "371ae6dc-ec53-4ab5-8c5d-f54bf60ba12b"
 						}
 					],
 					"id": "62080dfb-0fd9-4626-a34f-1c3dfff30298"
@@ -8507,7 +8655,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{ //Formulario de Egresos\r\n    \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"paymentMethod\": \"Efectivo\",\r\n    \"amountPaid\": \"102000\",\r\n    \"payees\": \"kevin\",\r\n    \"descriptionExpenditure\": \"Pago de Servicio de Internet\",\r\n    \"expenditureDate\": \"20-05-2024\",\r\n    \"categorizationExpenditures\": \"asdads\",\r\n    \"approvalOfExpenditures\": \"\"\r\n}",
+									"raw": "{\r\n    \"businessID\": \"661204ff9c1faeecf2f552fc\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"paymentMethod\": \"Efectivo\",\r\n    \"amountPaid\": 55000,\r\n    \"payees\": \"Prueba de Egreso\",\r\n    \"descriptionExpenditure\": \"Prueba\",\r\n    \"expenditureDate\": \"09-09-2024\",\r\n    \"categorizationExpenditures\": \"Proveedor\",\r\n    \"approvalOfExpenditures\": \"\"\r\n}\r\n\r\n\r\n\r\n// { //Formulario de Egresos\r\n//     \"businessID\": \"661204ff9c1faeecf2f552f2\",\r\n//     \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n//     \"paymentMethod\": \"Efectivo\",\r\n//     \"amountPaid\": \"102000\",\r\n//     \"payees\": \"kevin\",\r\n//     \"descriptionExpenditure\": \"Pago de Servicio de Internet\",\r\n//     \"expenditureDate\": \"20-05-2024\",\r\n//     \"categorizationExpenditures\": \"asdads\",\r\n//     \"approvalOfExpenditures\": \"\"\r\n// }",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -8522,6 +8670,45 @@
 									"path": [
 										"outf",
 										"outflow"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "View Outflows (Ver Egresos)",
+							"id": "977bd5d2-3f3f-41ec-b4ee-0fe6665ea108",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"66bfca9967a8e0575bade56a\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    },\r\n    \"dateOutflow\": \"13-09-2024\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/outf/viewoutflow",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"outf",
+										"viewoutflow"
 									]
 								}
 							},

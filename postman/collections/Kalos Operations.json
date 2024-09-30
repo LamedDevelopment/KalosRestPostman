@@ -198,7 +198,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"businessID\": \"66a80fad00c308a530fc6175\",\r\n    \"businessName\": \"Studio 99 Barberia & Peluqueria\",\r\n    \"tradename\": \"Studio 99 Barberia & Peluqueria\",\r\n    \"nit\": 798323801,\r\n    \"document\": \"79832380\",\r\n    \"typeServices\": [\"66c2ef04eb03a1a9b2936da0\",\"64ab934c063c636a40004151\",\"64ab9383063c636a40004159\",\"665fee0091993d68814e8e24\",\"665fee9291993d68814e8e28\",\"64ab948e063c636a40004168\",\r\n\"64ab949d063c636a4000416c\",\"64ab9a56d82418177a7237d3\",\"665ff14591993d68814e8e53\",\"64ab9a61d82418177a7237d7\",\"665ff11591993d68814e8e50\",\"66a8db2825f24fbfe5be362f\",\r\n\"66a8d8ff25f24fbfe5be362a\",\"66a8db1b25f24fbfe5be362d\",\"665ff1ff91993d68814e8e5f\",\"64ab9b17d82418177a7237ee\",\"64ab9b23d82418177a7237f2\",\"660a073f1a72c4a6093c4cb0\",\r\n\"64ab9af1d82418177a7237e6\",\"64ab9b2dd82418177a7237f6\",\"64ab9b00d82418177a7237ea\",\"66bd290d097e04cc0b4fc157\",\"66abbe4c301c68c95da236b0\"]\r\n}",
+							"raw": "{\r\n    \"businessID\": \"665f2f56506d687b89232efc\",\r\n    \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"nit\": 802127585,\r\n    \"document\": \"80212758\",\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\",\"66abbe4c301c68c95da236b0\",\"64ab92f3063c636a4000414d\",\"64ab9383063c636a40004159\",\"64ab934c063c636a40004151\",\r\n        \"64ab9370063c636a40004155\",\"64ab93a4063c636a4000415d\",\"64ab948e063c636a40004168\",\"64ab949d063c636a4000416c\",\"64ab94a7063c636a40004170\",\r\n        \"64ab9473063c636a40004164\",\"6611e989726393abf109a5a3\",\"64ab954d063c636a4000417f\",\"64ab9579063c636a40004183\",\"64ab958a063c636a40004187\",\r\n        \"64ab9598063c636a4000418b\",\"64ab95a7063c636a4000418f\",\"64ab95bc063c636a40004193\",\"64ab9635063c636a4000419a\",\"64ab9a39d82418177a7237cb\",\r\n        \"64ab9a45d82418177a7237cf\",\"64ab9a61d82418177a7237d7\",\"64ab9a70d82418177a7237db\",\"64ab9a56d82418177a7237d3\",\"64ab9ab9d82418177a7237df\"]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1588,26 +1588,26 @@
 								{
 									"key": "file",
 									"type": "file",
-									"src": "/C:/Users/LAMUX/Documents/Servicios BarbarosWS.csv"
+									"src": "/C:/Users/LAMUX/Documents/Servicios Casa CavalierWSV3.csv"
 								},
 								{
 									"key": "businessID",
-									"value": "665f2f56506d687b89232efc",
+									"value": "66bfca9967a8e0575bade56a",
 									"type": "text"
 								},
 								{
 									"key": "nit",
-									"value": "802127585",
+									"value": "1002649708",
 									"type": "text"
 								},
 								{
 									"key": "nameBusiness",
-									"value": "Centro de Belleza y Barberia Barbaros EYV",
+									"value": "Casa Cavalier",
 									"type": "text"
 								},
 								{
 									"key": "tradename",
-									"value": "Centro de Belleza y Barberia Barbaros EYV",
+									"value": "Casa Cavalier",
 									"type": "text"
 								}
 							],
@@ -1650,7 +1650,7 @@
 								{
 									"key": "file",
 									"type": "file",
-									"src": "/C:/Users/LAMUX/Documents/Servicios Barbaros.csv"
+									"src": "/C:/Users/LAMUX/Documents/Servicios Barbaros_uñas.csv"
 								},
 								{
 									"key": "businessID",
@@ -1868,7 +1868,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{ //TODO: Este Administrador No tiene Funciones dentro de la operacion\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\": \"adrianaleon246@gmail.com\",\r\n    \"document\": \"1002649708\",\r\n    \"profile\": [\"64abbcc15190388112342e8a\"],//Gerente\r\n    \"typeCollaborator\": [\"64afa1cce8969589ddc17e07\"], //Propietario(a), Administrador(a)\r\n    \"staffType\": [\r\n        \"65546601edc9aad90120fbb7\"//Administrador/a\r\n    ],\r\n    \"service\": [\r\n        {\r\n            \"services\": \"6664d68283c41255fd0df3fa\", //Administrador\r\n            \"percentage\": \"0.5\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"6664d6c583c41255fd0df3fc\"],\r\n    \"businessDays\": [\r\n        \"Lunes\",\r\n        \"Martes\",\r\n        \"Miercoles\",\r\n        \"Jueves\",\r\n        \"Viernes\",\r\n        \"Sabado\",\r\n        \"Domingo\"\r\n    ],\r\n    \"daysServices\": [\r\n        {\r\n            \"dayWeek\": \"Lunes\",\r\n            \"dayNumber\": \"1\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Martes\",\r\n            \"dayNumber\": \"2\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Miercoles\",\r\n            \"dayNumber\": \"3\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Jueves\",\r\n            \"dayNumber\": \"4\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Viernes\",\r\n            \"dayNumber\": \"5\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Sabado\",\r\n            \"dayNumber\": \"6\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Domingo\",\r\n            \"dayNumber\": \"7\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        }\r\n    ],\r\n    \"level\": \"1\"\r\n}",
+											"raw": "{ //TODO: Este Administrador No tiene Funciones dentro de la operacion\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\": \"tif24@hotmail.com\",\r\n    \"document\": \"1024530356\",\r\n    \"profile\": [\"64abbcc15190388112342e8a\"],//Gerente\r\n    \"typeCollaborator\": [\"64afa1cce8969589ddc17e07\"], //Propietario(a), Administrador(a)\r\n    \"staffType\": [\r\n        \"65546601edc9aad90120fbb7\"//Administrador/a\r\n    ],\r\n    \"service\": [\r\n        {\r\n            \"services\": \"6664d68283c41255fd0df3fa\", //Administrador\r\n            \"percentage\": \"0.5\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"6664d6c583c41255fd0df3fc\"],\r\n    \"businessDays\": [\r\n        \"Lunes\",\r\n        \"Martes\",\r\n        \"Miercoles\",\r\n        \"Jueves\",\r\n        \"Viernes\",\r\n        \"Sabado\",\r\n        \"Domingo\"\r\n    ],\r\n    \"daysServices\": [\r\n        {\r\n            \"dayWeek\": \"Lunes\",\r\n            \"dayNumber\": \"1\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Martes\",\r\n            \"dayNumber\": \"2\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Miercoles\",\r\n            \"dayNumber\": \"3\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Jueves\",\r\n            \"dayNumber\": \"4\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Viernes\",\r\n            \"dayNumber\": \"5\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Sabado\",\r\n            \"dayNumber\": \"6\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        },\r\n        {\r\n            \"dayWeek\": \"Domingo\",\r\n            \"dayNumber\": \"7\",\r\n            \"startTime\": \"09:00\",\r\n            \"endTime\": \"21:00\"\r\n        }\r\n    ],\r\n    \"level\": \"1\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1876,9 +1876,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/sf",
+											"raw": "{{kalos_back}}{{api}}/sf",
 											"host": [
-												"{{kalos_local}}{{api}}"
+												"{{kalos_back}}{{api}}"
 											],
 											"path": [
 												"sf"
@@ -1938,7 +1938,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\":\"alejandrorodriguez1209@gmail.com\",\"document\":\"17600440\",\r\n    \"profile\": \"64abbc985190388112342e84\", // Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\", //Colaborador\r\n    \"staffType\" : [\"64b2ddb51bcd863da11fa144\"], //Estilista\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\", //Peluqueria\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9448063c636a40004160\", //Peinados\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"665fd12e3a9d1e5376a0ee20\", //Desestructuracion Quimica\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"665fd15d3a9d1e5376a0ee22\", //Procesos Quimicos Color\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"64ab95f1063c636a40004196\", //Cuidado Capilar\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\",\"64ab9383063c636a40004159\",\"64ab934c063c636a40004151\",\"64ab9370063c636a40004155\",\"665fee0091993d68814e8e24\",\"665fde633a9d1e5376a0ee2b\",\"64ab948e063c636a40004168\",\"665fee9291993d68814e8e28\",\"64ab949d063c636a4000416c\",\"66bc1e278b6284819314db1b\",\"64ab94a7063c636a40004170\",\"665feece91993d68814e8e2b\",\"665feee291993d68814e8e2d\",\"665fef1691993d68814e8e30\",\"665fef3e91993d68814e8e33\",\"665fef8591993d68814e8e37\",\"6663d82ea925a38e7d22cf0e\",\"66bd27f237100a2622119452\",\"66bd280837100a2622119454\",\"66bd282537100a2622119456\",\"665fef9c91993d68814e8e39\",\"665fefa791993d68814e8e3b\",\"665ff01591993d68814e8e3f\",\"665ff01d91993d68814e8e41\",\"665ff02691993d68814e8e43\",\"665ff09a91993d68814e8e4c\",\"665ff03d91993d68814e8e45\",\"665ff04b91993d68814e8e47\",\"665ff06291993d68814e8e49\",\"64ab9635063c636a4000419a\",\"64ab9a39d82418177a7237cb\",\"665ff11591993d68814e8e50\",\"665ff14591993d68814e8e53\",\"64ab9a56d82418177a7237d3\",\"64ab9ab9d82418177a7237df\",\"66bd29f2097e04cc0b4fc15f\",\"66bd29fa097e04cc0b4fc161\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
+											"raw": "{\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\":\"sebasvelasjhon@gmail.com\",\"document\":\"1116809177\",\r\n    \"profile\": \"64abbc985190388112342e84\", // Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\", //Colaborador\r\n    \"staffType\" : [\"64b2ddb51bcd863da11fa144\"], //Estilista\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\", //Peluqueria\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9448063c636a40004160\", //Peinados\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"665fd12e3a9d1e5376a0ee20\", //Desestructuracion Quimica\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"665fd15d3a9d1e5376a0ee22\", //Procesos Quimicos Color\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"64ab95f1063c636a40004196\", //Cuidado Capilar\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\",\"64ab9383063c636a40004159\",\"64ab934c063c636a40004151\",\"64ab9370063c636a40004155\",\"665fee0091993d68814e8e24\",\"665fde633a9d1e5376a0ee2b\",\"64ab948e063c636a40004168\",\"665fee9291993d68814e8e28\",\"64ab949d063c636a4000416c\",\"66bc1e278b6284819314db1b\",\"64ab94a7063c636a40004170\",\"665feece91993d68814e8e2b\",\"665feee291993d68814e8e2d\",\"665fef1691993d68814e8e30\",\"665fef3e91993d68814e8e33\",\"665fef8591993d68814e8e37\",\"6663d82ea925a38e7d22cf0e\",\"66bd27f237100a2622119452\",\"66bd280837100a2622119454\",\"66bd282537100a2622119456\",\"665fef9c91993d68814e8e39\",\"665fefa791993d68814e8e3b\",\"665ff01591993d68814e8e3f\",\"665ff01d91993d68814e8e41\",\"665ff02691993d68814e8e43\",\"665ff09a91993d68814e8e4c\",\"665ff03d91993d68814e8e45\",\"665ff04b91993d68814e8e47\",\"665ff06291993d68814e8e49\",\"64ab9635063c636a4000419a\",\"64ab9a39d82418177a7237cb\",\"665ff11591993d68814e8e50\",\"665ff14591993d68814e8e53\",\"64ab9a56d82418177a7237d3\",\"64ab9ab9d82418177a7237df\",\"66bd29f2097e04cc0b4fc15f\",\"66bd29fa097e04cc0b4fc161\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -2078,7 +2078,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\": \"saavedrarafael915@gmail.com\",\"document\":\"27092223\",\r\n    \"profile\": \"64abbc985190388112342e84\", // Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\", //Colaborador\r\n    \"staffType\" : [\"64b2dde51bcd863da11fa14a\"], // Barbero/a\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\", //Baberos\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab9af1d82418177a7237e6\",\"66bd290d097e04cc0b4fc157\",\"66abbe4c301c68c95da236b0\",\"66bd2979097e04cc0b4fc159\",\"66bd298f097e04cc0b4fc15b\",\"64ab9b00d82418177a7237ea\",\"660a073f1a72c4a6093c4cb0\",\"64ab9b17d82418177a7237ee\",\"64ab9b23d82418177a7237f2\",\"64ab9b2dd82418177a7237f6\",\"665ff1ef91993d68814e8e5d\",\"66bd29ea097e04cc0b4fc15d\",\"665ff1ff91993d68814e8e5f\",\"665ff20b91993d68814e8e61\",\"665ff21991993d68814e8e63\",\"665ff22691993d68814e8e65\",\"665ff23491993d68814e8e67\",\"665ff23d91993d68814e8e69\",\"66bf42386b5343a91e766c67\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
+											"raw": "{\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\": \"emily260516@hotmail.com\",\"document\":\"1106332313\",\r\n    \"profile\": \"64abbc985190388112342e84\", // Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\", //Colaborador\r\n    \"staffType\" : [\"64b2dde51bcd863da11fa14a\"], // Barbero/a\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\", //Baberos\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab9af1d82418177a7237e6\",\"66bd290d097e04cc0b4fc157\",\"66abbe4c301c68c95da236b0\",\"66bd2979097e04cc0b4fc159\",\"66bd298f097e04cc0b4fc15b\",\"64ab9b00d82418177a7237ea\",\"660a073f1a72c4a6093c4cb0\",\"64ab9b17d82418177a7237ee\",\"64ab9b23d82418177a7237f2\",\"64ab9b2dd82418177a7237f6\",\"665ff1ef91993d68814e8e5d\",\"66bd29ea097e04cc0b4fc15d\",\"665ff1ff91993d68814e8e5f\",\"665ff20b91993d68814e8e61\",\"665ff21991993d68814e8e63\",\"665ff22691993d68814e8e65\",\"665ff23491993d68814e8e67\",\"665ff23d91993d68814e8e69\",\"66bf42386b5343a91e766c67\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -2086,9 +2086,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_back}}{{api}}/sf",
+											"raw": "{{kalos_local}}{{api}}/sf",
 											"host": [
-												"{{kalos_back}}{{api}}"
+												"{{kalos_local}}{{api}}"
 											],
 											"path": [
 												"sf"
@@ -2148,7 +2148,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\":\"lisethcasta50@gmail.com\",\"document\":\"6926151\",\r\n    \"profile\": \"64abbc985190388112342e84\", // Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\", //Colaborador\r\n    \"staffType\" : [\"64b2de031bcd863da11fa150\"], //Manicurista\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9debd82418177a723847\", //Spa de Uñas\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab9e5bd82418177a72384b\",\"64ab9eb6d82418177a723863\",\"665ff8ae91993d68814e8ee5\",\"64ab9e86d82418177a723853\",\"64ab9eb6d82418177a723863\",\"665ff8ae91993d68814e8ee5\",\r\n        \"64ab9ea6d82418177a72385f\",\"665ff99491993d68814e8efc\",\"665ff8cb91993d68814e8ee9\",\"665ff8d491993d68814e8eeb\",\"665ff8de91993d68814e8eed\",\"665ff8e791993d68814e8eef\",\r\n        \"665ff8f391993d68814e8ef1\",\"665ff90491993d68814e8ef3\",\"665ff91891993d68814e8ef7\",\"665ff92591993d68814e8ef9\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
+											"raw": "{\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\":\"lisethcasta50@gmail.com\",\"document\":\"6926151\",\r\n    \"profile\": \"64abbc985190388112342e84\", // Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\", //Colaborador\r\n    \"staffType\" : [\"64b2de031bcd863da11fa150\"], //Manicurista\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9debd82418177a723847\", //Spa de Uñas\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab9e5bd82418177a72384b\",\"64ab9eb6d82418177a723863\",\"665ff8ae91993d68814e8ee5\",\"64ab9e86d82418177a723853\",\"66bfc20f42691d0521511d8a\",\"665ff8bc91993d68814e8ee7\",\"64ab9ea6d82418177a72385f\",\"665ff99491993d68814e8efc\",\"665ff8cb91993d68814e8ee9\",\"665ff8d491993d68814e8eeb\",\"665ff8de91993d68814e8eed\",\"665ff8e791993d68814e8eef\",\"665ff8f391993d68814e8ef1\",\"665ff90491993d68814e8ef3\",\"665ff91891993d68814e8ef7\",\"665ff92591993d68814e8ef9\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -2183,7 +2183,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\": \"emily260516@hotmail.com\", \"document\": \"1000620323\",\r\n    \"profile\": \"64abbc985190388112342e84\", // Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\", //Colaborador\r\n    \"staffType\" : [\"66be1cfccbf0ed973cc53689\"], //Manicurista Intermedio\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9debd82418177a723847\", //Spa de Uñas\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab9e5bd82418177a72384b\",\"64ab9eb6d82418177a723863\",\"665ff8ae91993d68814e8ee5\",\"64ab9e86d82418177a723853\",\"64ab9eb6d82418177a723863\",\"665ff8ae91993d68814e8ee5\",\r\n        \"64ab9ea6d82418177a72385f\",\"665ff99491993d68814e8efc\",\"665ff8cb91993d68814e8ee9\",\"665ff8e791993d68814e8eef\",\"665ff8f391993d68814e8ef1\",\"665ff90491993d68814e8ef3\",\r\n        \"665ff91891993d68814e8ef7\",\"665ff92591993d68814e8ef9\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
+											"raw": "{\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\": \"emior.16.2003@gmail.com\", \"document\": \"1000620326\",\r\n    \"profile\": \"64abbc985190388112342e84\", // Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\", //Colaborador\r\n    \"staffType\" : [\"66be1cfccbf0ed973cc53689\"], //Manicurista Intermedio\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9debd82418177a723847\", //Spa de Uñas\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"665fd1c93a9d1e5376a0ee26\", //Cejas y Pestañas 5 Servicios, Depilalcion de Bozo con Cera, Pestañas Volumen 2D,Pestañas Volumen 3D,Pestañas Volumen 4D,Combo Cejas y Bigote Con Cera\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab9e5bd82418177a72384b\",\"64ab9eb6d82418177a723863\",\"665ff8ae91993d68814e8ee5\",\"64ab9e86d82418177a723853\",\r\n        \"66bfc20f42691d0521511d8a\",\"665ff8bc91993d68814e8ee7\",\"64ab9ea6d82418177a72385f\",\"665ff99491993d68814e8efc\",\r\n        \"665ff8cb91993d68814e8ee9\",\"665ff8d491993d68814e8eeb\",\"665ff8de91993d68814e8eed\",\"665ff8e791993d68814e8eef\",\r\n        \"665ff92591993d68814e8ef9\",\"665ff56c91993d68814e8ea5\",\"665ff5b491993d68814e8eb3\",\"665ff5be91993d68814e8eb5\",\r\n        \"665ff5c591993d68814e8eb7\",\"665ff5f891993d68814e8ec1\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -2191,9 +2191,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_back}}{{api}}/sf",
+											"raw": "{{kalos_local}}{{api}}/sf",
 											"host": [
-												"{{kalos_back}}{{api}}"
+												"{{kalos_local}}{{api}}"
 											],
 											"path": [
 												"sf"
@@ -2218,7 +2218,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\": \"likael29@gmail.com\", \"document\": \"52624368\",\r\n    \"profile\": \"64abbc985190388112342e84\", // Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\", //Colaborador\r\n    \"staffType\" : [\"66be1cefcbf0ed973cc53687\", \"66be1f1f463339606ca9bbc6\"], //Manicurista Basico, Estilista Basico\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9debd82418177a723847\", //Spa de Uñas solo para Manicure Tradicaional,Pedicure Tradicional,Combo Manos y Pies Tradicional\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9448063c636a40004160\", //Peinado solo para Peinado Niña\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],              // Manicure Tradicaional      Pedicure Tradicional,  Combo Manos y Pies Tradicional  --Peinado de Niñas\r\n    \"typeServices\": [\"64ab9e5bd82418177a72384b\",\"64ab9eb6d82418177a723863\",\"665ff8ae91993d68814e8ee5\",\"66bc1e278b6284819314db1b\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
+											"raw": "{\r\n    \"nit\": \"1002649708\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\": \"vanesa1031648@gmail.com\", \"document\": \"1031648160\",\r\n    \"profile\": \"64abbc985190388112342e84\", // Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\", //Colaborador\r\n    \"staffType\" : [\"66be1cefcbf0ed973cc53687\"], //Manicurista Basico, Estilista Basico\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9debd82418177a723847\", //Spa de Uñas solo para Manicure Tradicaional,Pedicure Tradicional,Combo Manos y Pies Tradicional\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab9e5bd82418177a72384b\",\"64ab9eb6d82418177a723863\",\"665ff8ae91993d68814e8ee5\",\"64ab9e86d82418177a723853\",\"66bfc20f42691d0521511d8a\",\"665ff8bc91993d68814e8ee7\",\"64ab9ea6d82418177a72385f\",\"665ff99491993d68814e8efc\",\"665ff8cb91993d68814e8ee9\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -2491,41 +2491,6 @@
 								},
 								{
 									"name": "Create Staff Barbero",
-									"id": "e176f330-71af-4e73-9b38-93397fbaa4fd",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-token",
-												"value": "{{tk_colla}}"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n    \"nit\": \"802127585\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"email\": \"manager@email.com\",\r\n    \"document\": \"1049659471\",\r\n    \"profile\": \"6554482a13419cfc8e55bf88\",\r\n    \"typeCollaborator\": \"64afa1cce8969589ddc17e07\",\r\n    \"staffType\" : [\"65546601edc9aad90120fbb7\", \"64b2ddb51bcd863da11fa144\"],\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\",\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\",\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9537063c636a4000417b\",\r\n            \"percentage\": \"0.60\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\", \"64ab94a7063c636a40004170\",\"64ab9b23d82418177a7237f2\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"64ab9b17d82418177a7237ee\",\"64ab9b2dd82418177a7237f6\",\"64ab92f3063c636a4000414d\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": "{{kalos_local}}{{api}}/sf",
-											"host": [
-												"{{kalos_local}}{{api}}"
-											],
-											"path": [
-												"sf"
-											]
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "Create Staff Pelu&Barbero",
 									"id": "73776a60-e224-470b-a3b2-8def3b5526eb",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -2540,7 +2505,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"nit\": \"802127585\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"email\":\"antoniobarriojosue@gmail.com\",\"document\":\"30035315\",\r\n    \"profile\": \"64abbc985190388112342e84\", // Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\", //Colaborador\r\n    \"staffType\" : [\"64b2ddc31bcd863da11fa147\", \"64b2dde51bcd863da11fa14a\"], //Peluquero/a, Barbero/a\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9174923ff67b725791b7\", //Peluqueria\r\n            \"percentage\": \"0.50\"\r\n        },\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\", //Baberos\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab92e0063c636a40004149\",\"64ab92f3063c636a4000414d\",\"64ab9383063c636a40004159\",\"64ab934c063c636a40004151\",\"64ab9370063c636a40004155\",\"64ab93a4063c636a4000415d\",\"64ab9af1d82418177a7237e6\",\"64ab9b00d82418177a7237ea\",\"660a073f1a72c4a6093c4cb0\",\"64ab9b17d82418177a7237ee\",\"64ab9b23d82418177a7237f2\",\"64ab9b2dd82418177a7237f6\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
+											"raw": "{\r\n    \"nit\": \"802127585\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"email\":\"alejandro152040@gmail.com\",\"document\":\"1000127463\",\r\n    \"profile\": \"64abbc985190388112342e84\", // Colaborador\r\n    \"typeCollaborator\": \"64afa1d8e8969589ddc17e0a\", //Colaborador\r\n    \"staffType\" : [\"64b2ddc31bcd863da11fa147\", \"64b2dde51bcd863da11fa14a\"], //Peluquero/a, Barbero/a\r\n    \"service\":[\r\n        { \r\n            \"services\": \"64ab9aced82418177a7237e2\", //Baberos\r\n            \"percentage\": \"0.50\"\r\n        }\r\n    ],\r\n    \"typeServices\": [\"64ab9af1d82418177a7237e6\",\"66bd290d097e04cc0b4fc157\",\"66abbe4c301c68c95da236b0\",\"64ab9b00d82418177a7237ea\",\"660a073f1a72c4a6093c4cb0\",\r\n\"64ab9b17d82418177a7237ee\",\"64ab9b23d82418177a7237f2\",\"64ab9b2dd82418177a7237f6\"],\r\n    \"businessDays\": [\"Lunes\", \"Martes\", \"Miercoles\", \"Jueves\", \"Viernes\", \"Sabado\", \"Domingo\"],\r\n    \"daysServices\":[{\r\n        \"dayWeek\": \"Lunes\" ,\r\n        \"dayNumber\": \"1\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Martes\" ,\r\n        \"dayNumber\": \"2\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Miercoles\" ,\r\n        \"dayNumber\": \"3\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Jueves\" ,\r\n        \"dayNumber\": \"4\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Viernes\" ,\r\n        \"dayNumber\": \"5\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Sabado\" ,\r\n        \"dayNumber\": \"6\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    },{\r\n        \"dayWeek\": \"Domingo\" ,\r\n        \"dayNumber\": \"7\" ,\r\n        \"startTime\": \"09:00\" ,\r\n        \"endTime\": \"21:00\" \r\n    }],\r\n    \"level\":\"1\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -2548,9 +2513,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{kalos_local}}{{api}}/sf",
+											"raw": "{{kalos_back}}{{api}}/sf",
 											"host": [
-												"{{kalos_local}}{{api}}"
+												"{{kalos_back}}{{api}}"
 											],
 											"path": [
 												"sf"
@@ -3643,7 +3608,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"user\": \"\",\r\n    \"business\": \"66a80fad00c308a530fc6175\",\r\n    \"tradename\": \"Studio 99 Barberia & Peluqueria\",\r\n    \"staff\": \"66d398692cd29179e0229697\",\r\n    \"dateService\": \"06/09/2024\"\r\n}\r\n// {\r\n//     \"user\": \"\",\r\n//     \"business\": \"665f2f56506d687b89232efc\",\r\n//     \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n//     \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n//     \"dateService\": \"01/08/2024\"\r\n// }",
+							"raw": "{\r\n    \"user\": \"\",\r\n    \"business\": \"66bfca9967a8e0575bade56a\",\r\n    \"tradename\": \"Casa Cavalier\",\r\n    \"staff\": \"66bfe88367a8e0575badf826\",\r\n    \"dateService\": \"12/09/2024\"\r\n}\r\n// {\r\n//     \"user\": \"\",\r\n//     \"business\": \"665f2f56506d687b89232efc\",\r\n//     \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n//     \"staff\": \"6614ca4e939d2ce747ef0ca1\",\r\n//     \"dateService\": \"01/08/2024\"\r\n// }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3720,7 +3685,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"businessID\": \"66a80fad00c308a530fc6175\",\r\n    \"nit\": 798323801,\r\n    \"businessName\": \"Studio 99 Barberia & Peluqueria\",\r\n    \"tradename\": \"Studio 99 Barberia & Peluqueria\"\r\n}",
+							"raw": "{\r\n    \"businessID\": \"665f2f56506d687b89232efc\",\r\n    \"nit\": 802127585,\r\n    \"businessName\": \"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"tradename\": \"Centro de Belleza y Barberia Barbaros EYV\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3756,7 +3721,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"businessID\":\"665f2f56506d687b89232efc\",\r\n    \"nit\": 802127585,\r\n    \"businessName\":\"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"tradename\":\"Centro de Belleza y Barberia Barbaros EYV\",\r\n    \"service\": \"Peluqueria\"\r\n}\r\n// {\r\n//     \"businessID\":\"66610e140d96d92379cb7062\",\r\n//     \"nit\": 1002649708,\r\n//     \"businessName\":\"Casa Cavalier\",\r\n//     \"tradename\":\"Casa Cavalier\",\r\n//     \"service\": \"Peluqueria\"\r\n// }",
+							"raw": "{\r\n    \"businessID\":\"66bfca9967a8e0575bade56a\",\r\n    \"nit\": 1002649708,\r\n    \"businessName\":\"Casa Cavalier\",\r\n    \"tradename\":\"Casa Cavalier\",\r\n    \"service\": \"Barberia\"\r\n}\r\n// {\r\n//     \"businessID\":\"66610e140d96d92379cb7062\",\r\n//     \"nit\": 1002649708,\r\n//     \"businessName\":\"Casa Cavalier\",\r\n//     \"tradename\":\"Casa Cavalier\",\r\n//     \"service\": \"Peluqueria\"\r\n// }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3764,9 +3729,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_local}}{{api}}/bus/wsviewcolla",
+							"raw": "{{kalos_back}}{{api}}/bus/wsviewcolla",
 							"host": [
-								"{{kalos_local}}{{api}}"
+								"{{kalos_back}}{{api}}"
 							],
 							"path": [
 								"bus",

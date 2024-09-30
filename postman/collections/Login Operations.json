@@ -189,7 +189,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "// {\r\n//     \"email\": \"luissguerrero11@gmail.com\",\r\n//     \"pass\": \"12345\"\r\n// }\r\n// {\r\n//     \"email\": \"manager@whatsapp.com\",\r\n//     \"pass\": \"12345\"\r\n// }\r\n{\r\n    \"email\": \"viviana.caicedo@hotmail.com\",\r\n    \"pass\": \"Vivianita2608*\"\r\n}\r\n// {\r\n//     \"email\": \"jago1125@hotmail.com\",\r\n//     \"pass\": \"12345\"\r\n// }",
+							"raw": "// {\r\n//     \"email\": \"emior.16.2003@gmail.com\",\r\n//     \"pass\": \"Emi1307*\"\r\n// }\r\n{\r\n    \"email\": \"fabiosegura554@gmail.com\",\r\n    \"pass\": \"12345\"\r\n}\r\n// {\r\n//     \"email\": \"luissguerrero11@gmail.com\",\r\n//     \"pass\": \"12345\"\r\n// }\r\n// {\r\n//     \"email\": \"manager@whatsapp.com\",\r\n//     \"pass\": \"12345\"\r\n// }\r\n// {\r\n//     \"email\": \"viviana.caicedo@hotmail.com\",\r\n//     \"pass\": \"Vivianita2608*\"\r\n// }\r\n// {\r\n//     \"email\": \"jago1125@hotmail.com\",\r\n//     \"pass\": \"12345\"\r\n// }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -279,6 +279,49 @@
 					"path": [
 						"login",
 						"token"
+					],
+					"query": [
+						{
+							"key": "x-token",
+							"value": "{{to",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Validar Token Hack (Validar Pass)",
+			"id": "5c83bc4f-f79f-4812-8834-57a84f8c5587",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "{{tk_user}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pass\": \"$2a$10$2g6XmdOtAe5DX6qNR3ByAO057UewG/e.iVcfjhgTlSc1CQ9pQfqKa\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{kalos_local}}{{api}}/login/hkps",
+					"host": [
+						"{{kalos_local}}{{api}}"
+					],
+					"path": [
+						"login",
+						"hkps"
 					],
 					"query": [
 						{
