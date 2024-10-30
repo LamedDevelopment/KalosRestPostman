@@ -2886,6 +2886,49 @@
 						}
 					],
 					"id": "47f4a639-979f-4a52-ad4c-f57c34de56c1"
+				},
+				{
+					"name": "See Staff Use The Application",
+					"item": [
+						{
+							"name": "View Staff Usage",
+							"id": "ce8e61fa-e3db-4346-a707-6c012eabd4cf",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "{{tk_colla}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"business\": {\r\n        \"business\": \"66bfca9967a8e0575bade56a\",\r\n        \"nit\": 1002649708,\r\n        \"nameBusiness\": \"Casa Cavalier\",\r\n        \"tradename\": \"Casa Cavalier\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{kalos_local}}{{api}}/bususu/vstaff",
+									"host": [
+										"{{kalos_local}}{{api}}"
+									],
+									"path": [
+										"bususu",
+										"vstaff"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "02bea3d1-70d9-437a-b7cd-59b2ac4ef8ca"
 				}
 			],
 			"id": "874028bc-98a6-4f70-9341-41e94c451408"

@@ -44,7 +44,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "// {\r\n//     \"email\": \"jago1125@hotmail.com\",\r\n//     \"pass\": \"12345\"\r\n// }\r\n{\r\n    \"email\": \"lameddev@gmail.com\",\r\n    \"pass\": \"123456\"\r\n}\r\n// {\r\n//     \"email\": \"manager@whatsapp.com\",\r\n//     \"pass\": \"12345\"\r\n// }\r\n// {\r\n//     \"email\": \"lameddev@gmail.com\",\r\n//     \"pass\": \"123456\"\r\n// }\r\n// {\r\n//     \"email\": \"elizabethvoxlot@gmail.com\",\r\n//     \"pass\": \"123456\"\r\n// }\r\n\r\n// {\r\n//     \"email\": \"viviana.caicedo@hotmail.com\",\r\n//     \"pass\": \"*Viviana12345*\"\r\n// }",
+							"raw": "// {\r\n//     \"email\": \"jago1125@hotmail.com\",\r\n//     \"pass\": \"12345\"\r\n// }\r\n// {\r\n//     \"email\": \"lameddev@gmail.com\",\r\n//     \"pass\": \"123456\"\r\n// }\r\n{\r\n    \"email\": \"lamed.saenz@gmail.com\", // Email también puede ser enviado, pero está incluido en el token\r\n    \"pass\": \"\", // Email también puede ser enviado, pero está incluido en el token\r\n    \"googleToken\": \"\",\r\n    \"fbId\": \"0160873812327705\"\r\n    //\"googleToken\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6ImE1MGY2ZTcwZWY0YjU0OGE1ZmQ5MTQyZWVjZDFmYjhmNTRkY2U5ZWUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxNzE1NzI4NTM4MjMtOWlpcTR0cjFmZmU0MDgxNGJnYmhmcG90aGF1N3FibGkuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIxNzE1NzI4NTM4MjMtOWlpcTR0cjFmZmU0MDgxNGJnYmhmcG90aGF1N3FibGkuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTE1NTA1NDY2MDI5Nzk1NDY5NjgiLCJlbWFpbCI6ImthbGVic2FtcGFjb0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6Iks0enhUR3Zld2M1dHNzTGI2MFNWUFEiLCJub25jZSI6IlVIb3lRV3hrZW1sNE1YaDFVbDlmU25oTFZWVjBiWEpqYkRSVVdpNHhiVUZ1ZVRBNVZuSXlNVzVhYTJSdyIsIm5iZiI6MTcyODU5NzEwMiwibmFtZSI6IldpbGxpYW0gU2FlbnoiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTHpsTENHcE1rUGhTU2lYalFRTUIwNG5SeXpqQ0pTWEkxcTVKX3lBdl8xVVNFbm13UXA9czk2LWMiLCJnaXZlbl9uYW1lIjoiV2lsbGlhbSIsImZhbWlseV9uYW1lIjoiU2FlbnoiLCJpYXQiOjE3Mjg1OTc0MDIsImV4cCI6MTcyODYwMTAwMiwianRpIjoiMjI1Yjg5NzExMzliZDAxYzQ4MDE4MWYxYmNlNzlmZDUzYjUwZDZmYiJ9.UcLjS8P79UAsI4faUeV0C0PmxTDPab_L7H79XG6rNLdIWE5ielB4vUnomQz7SbEXePma5r_hxFP2F467ysBkUlzrcTsDeLPxSQogI2wxSbtlRCtYW5W7y77WuM29s3dvU3eKo3n828l2nSl-vD4x6vS7qT3GFRWQMRDXO6wjc2OG_GWi2ZB5Lwl3afjk8rQ8Jr6F4b5SvV532Cl-ZCPc18jiei1oCmJlg7a1BCDxOK9VGUdjtln2pINtwEtnKXCCxI9mIkVHAAfhNtucgNBCJLdwZjQMmGOJeJWRuHGuyB638dhA1m6b31stfuBuozJvPXzy0BqjW9KCofiREUM1zw\"  // Session Storage id_token\r\n}\r\n// {\r\n//     \"email\": \"manager@whatsapp.com\",\r\n//     \"pass\": \"12345\"\r\n// }\r\n// {\r\n//     \"email\": \"lameddev@gmail.com\",\r\n//     \"pass\": \"123456\"\r\n// }\r\n// {\r\n//     \"email\": \"elizabethvoxlot@gmail.com\",\r\n//     \"pass\": \"123456\"\r\n// }\r\n// {\r\n//     \"email\": \"viviana.caicedo@hotmail.com\",\r\n//     \"pass\": \"*Viviana12345*\"\r\n// }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -52,9 +52,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{kalos_back}}{{api}}/login",
+							"raw": "{{kalos_local}}{{api}}/login",
 							"host": [
-								"{{kalos_back}}{{api}}"
+								"{{kalos_local}}{{api}}"
 							],
 							"path": [
 								"login"
@@ -341,7 +341,7 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "POST",
+				"method": "GET",
 				"header": [
 					{
 						"key": "x-token",
